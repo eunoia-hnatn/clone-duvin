@@ -1,0 +1,7 @@
+/*increase animation speed order*/
+[data-animate] {
+    transition: filter 0.5s,transform 1s,opacity 0.65s ease-in;
+    }
+    [data-animate]+[data-animate], [data-animate]+[data-animate]+[data-animate], [data-animate]+[data-animate]+[data-animate]+[data-animate], [data-animate]+[data-animate]+[data-animate]+[data-animate]+[data-animate], [data-animate]+[data-animate]+[data-animate]+[data-animate]+[data-animate]+[data-animate] {
+        transition-delay: .3s !important;
+    }
