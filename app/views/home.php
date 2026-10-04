@@ -2201,7 +2201,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 </style>
 	</div>
 	
-<a href="/khac-chai-ca-nhan-hoa/" class="button white is-outline"  >
+<a href="/khac-chai-ca-nhan-hoa" class="button white is-outline"  >
 		<span>Khám phá ngay</span>
 	</a>
 

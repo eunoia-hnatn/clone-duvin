@@ -2582,10 +2582,10 @@ label.font-option {
 </li>
 <li id="menu-item-3340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3340 menu-item-design-default has-dropdown"><a href="/kien-thuc-whisky" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Kiến thức Whisky<i class="icon-angle-down" ></i></a>
 <ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li id="menu-item-3341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3341"><a href="/danh-muc/distilleries">Distilleries</a></li>
-	<li id="menu-item-3342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3342"><a href="/danh-muc/spirits">Spirits</a></li>
-	<li id="menu-item-3343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3343"><a href="/danh-muc/whisky-basics">Whisky Basics</a></li>
-	<li id="menu-item-3344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3344"><a href="/danh-muc/whisky-review">Whisky Review</a></li>
+	<li id="menu-item-3341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3341"><a href="/kien-thuc-whisky">Distilleries</a></li>
+	<li id="menu-item-3342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3342"><a href="/kien-thuc-whisky">Spirits</a></li>
+	<li id="menu-item-3343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3343"><a href="/kien-thuc-whisky">Whisky Basics</a></li>
+	<li id="menu-item-3344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3344"><a href="/kien-thuc-whisky">Whisky Review</a></li>
 </ul>
 </li>
             </ul>
