@@ -14,7 +14,3 @@ class HomeController
         require VIEW_PATH . '/home.php';
     }
 }
-
-// Khởi chạy ngay (Front Controller gọi file này trực tiếp)
-$controller = new HomeController();
-$controller->index();
