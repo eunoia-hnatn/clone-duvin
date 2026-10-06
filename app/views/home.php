@@ -1,4 +1,4 @@
-<?php include 'layouts/header.php'; ?>
+<?php require VIEW_PATH . '/layouts/header.php'; ?>
 
 	<main id="main" class="">
 
@@ -96,7 +96,7 @@
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="https://www.youtube.com/@dangtauwhisky" rel="nofollow noopener" target="_blank"><div class="fill banner-link"></div></a>            
+            <a  class="fill"  rel="nofollow noopener"  href="#demo-contact" data-demo-contact><div class="fill banner-link"></div></a>            
    <div id="text-box-1100581749" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -173,7 +173,7 @@
 	</div>
 	
 <p>Dangtau Whisky tự hào mang đến lô hàng mới gần 20 siêu phẩm từ Signatory Vintage &#8211; những chai whisky độc bản, chất lượng cao cấp nhất dành cho những tín đồ yêu thích whisky Scotland</p>
-<a href="/product-category/signatory-vintage/" class="button white is-outline">
+<a href="/danh-muc/signatory-vintage" class="button white is-outline">
 		<span>XEM THÊM</span>
 	</a>
 
@@ -199,7 +199,7 @@
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/bo-qua-tang/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/danh-muc/bo-qua-tang" ><div class="fill banner-link"></div></a>            
    <div id="text-box-1087970436" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -273,7 +273,7 @@
 	
 <p>Khám phá Armagnac, loại rượu brandy hay còn gọi là Eau-De-Vie lâu đời nhất của Pháp, với lịch sử hơn 700 năm &#8211; có trước cả Cognac hơn 150 năm từ năm 1310. Armagnac là đặc trưng của vùng Gascony, nằm ở phía Tây Nam Bordeaux, nơi nổi tiếng với kỷ lục người dân sống thọ nhất nước Pháp.</p>
 <p>Sở hữu ngay chai Armagnac hảo hạng, kết tinh của lịch sử và văn hóa Pháp, với giá khởi điểm từ 5 triệu đồng.</p>
-<a href="/product-category/armagnac" class="button white is-outline"  >
+<a href="/danh-muc/armagnac" class="button white is-outline"  >
 		<span>Tìm hiểu thêm</span>
 	</a>
 
@@ -299,7 +299,7 @@
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/kien-thuc-whisky/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/kien-thuc-whisky" ><div class="fill banner-link"></div></a>            
    <div id="text-box-2112587687" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -372,7 +372,7 @@
 	</div>
 	
 <p>Chúng tôi không dừng lại ở rượu mạnh mà còn đưa cuộc phiêu lưu của mình sang &#8220;vùng đất&#8221; tuyển chọn những chai vang thượng hạng từ khắp thế giới. Mỗi chai vang là một tác phẩm nghệ thuật, kể câu chuyện về vùng đất và con người. Khám phá thế giới vang đa sắc màu, cùng chuyên gia tìm kiếm chai vang hoàn hảo cho riêng bạn.</p>
-<a href="/wine/" class="button white is-outline"  >
+<a href="/danh-muc/wine" class="button white is-outline"  >
 		<span>TÌM HIỂU NGAY</span>
 	</a>
 
@@ -398,7 +398,7 @@
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/ve-nha-sang-lap/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/ve-nha-sang-lap" ><div class="fill banner-link"></div></a>            
    <div id="text-box-790187112" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -474,7 +474,7 @@ THẾ HỆ MỚI CỦA WHISKY NHẬT</h2>
 <p>Whisky Nhật không chỉ có Yamazaki.Một thế hệ mới đang tạo nên dấu ấn riêng — Kanosuke, với phong cách whisky mềm mại, sâu sắc<br />
 nhưng vẫn đầy cá tính và hiện đại.
 </p>
-<a href="/product-category/world-whisky/whisky-nhat/" class="button white is-outline">
+<a href="/danh-muc/world-whisky/whisky-nhat" class="button white is-outline">
 		<span>KHÁM PHÁ NGAY</span>
 	</a>
 
@@ -500,7 +500,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/ve-nha-sang-lap/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/ve-nha-sang-lap" ><div class="fill banner-link"></div></a>            
    <div id="text-box-1891507640" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -621,7 +621,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_13.webp" class="home-brandlogo-slider" alt="dt brand logo 13 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_13.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_13-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 13 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_13.webp" class="home-brandlogo-slider" alt="dt brand logo 13 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_13.webp 549w, /public/assets/images/dt_brand_logo_13-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 13 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -634,7 +634,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_9.webp" class="home-brandlogo-slider" alt="dt brand logo 9 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_9.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_9-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 9 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_9.webp" class="home-brandlogo-slider" alt="dt brand logo 9 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_9.webp 549w, /public/assets/images/dt_brand_logo_9-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 9 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -647,7 +647,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_14.webp" class="home-brandlogo-slider" alt="dt brand logo 14 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_14.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_14-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 14 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_14.webp" class="home-brandlogo-slider" alt="dt brand logo 14 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_14.webp 549w, /public/assets/images/dt_brand_logo_14-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 14 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -660,7 +660,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_5.webp" class="home-brandlogo-slider" alt="dt brand logo 5 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_5.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_5-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 5 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_5.webp" class="home-brandlogo-slider" alt="dt brand logo 5 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_5.webp 549w, /public/assets/images/dt_brand_logo_5-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 5 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -673,7 +673,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_17.webp" class="home-brandlogo-slider" alt="dt brand logo 17 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_17.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_17-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 17 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_17.webp" class="home-brandlogo-slider" alt="dt brand logo 17 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_17.webp 549w, /public/assets/images/dt_brand_logo_17-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 17 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -686,7 +686,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_3.webp" class="home-brandlogo-slider" alt="dt brand logo 3 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_3.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_3-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 3 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_3.webp" class="home-brandlogo-slider" alt="dt brand logo 3 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_3.webp 549w, /public/assets/images/dt_brand_logo_3-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 3 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -699,7 +699,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_10.webp" class="home-brandlogo-slider" alt="dt brand logo 10 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_10.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_10-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 10 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_10.webp" class="home-brandlogo-slider" alt="dt brand logo 10 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_10.webp 549w, /public/assets/images/dt_brand_logo_10-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 10 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -712,7 +712,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_12.webp" class="home-brandlogo-slider" alt="dt brand logo 12 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_12.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_12-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 12 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_12.webp" class="home-brandlogo-slider" alt="dt brand logo 12 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_12.webp 549w, /public/assets/images/dt_brand_logo_12-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 12 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -725,7 +725,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_7.webp" class="home-brandlogo-slider" alt="dt brand logo 7 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_7.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_7-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 7 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_7.webp" class="home-brandlogo-slider" alt="dt brand logo 7 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_7.webp 549w, /public/assets/images/dt_brand_logo_7-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 7 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -738,7 +738,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_8.webp" class="home-brandlogo-slider" alt="dt brand logo 8 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_8.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_8-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 8 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_8.webp" class="home-brandlogo-slider" alt="dt brand logo 8 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_8.webp 549w, /public/assets/images/dt_brand_logo_8-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 8 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -751,7 +751,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_11.webp" class="home-brandlogo-slider" alt="dt brand logo 11 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_11.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_11-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 11 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_11.webp" class="home-brandlogo-slider" alt="dt brand logo 11 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_11.webp 549w, /public/assets/images/dt_brand_logo_11-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 11 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -764,7 +764,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_15.webp" class="home-brandlogo-slider" alt="dt brand logo 15 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_15.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_15-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 15 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_15.webp" class="home-brandlogo-slider" alt="dt brand logo 15 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_15.webp 549w, /public/assets/images/dt_brand_logo_15-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 15 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -777,7 +777,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_16.webp" class="home-brandlogo-slider" alt="dt brand logo 16 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_16.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_16-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 16 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_16.webp" class="home-brandlogo-slider" alt="dt brand logo 16 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_16.webp 549w, /public/assets/images/dt_brand_logo_16-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 16 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -790,7 +790,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_18.webp" class="home-brandlogo-slider" alt="dt brand logo 18 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_18.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_18-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 18 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_18.webp" class="home-brandlogo-slider" alt="dt brand logo 18 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_18.webp 549w, /public/assets/images/dt_brand_logo_18-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 18 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -803,7 +803,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_4.webp" class="home-brandlogo-slider" alt="dt brand logo 4 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_4.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_4-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 4 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_4.webp" class="home-brandlogo-slider" alt="dt brand logo 4 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_4.webp 549w, /public/assets/images/dt_brand_logo_4-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 4 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -816,7 +816,7 @@ nhưng vẫn đầy cá tính và hiện đại.
           <div class="col-inner">
                         <div class="box has-hover gallery-box box-none">
               <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_6.webp" class="home-brandlogo-slider" alt="dt brand logo 6 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_6.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_6-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 6 | DangTau Whisky">                                  <div class="overlay fill"
+                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_6.webp" class="home-brandlogo-slider" alt="dt brand logo 6 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="/public/assets/images/dt_brand_logo_6.webp 549w, /public/assets/images/dt_brand_logo_6-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 6 | DangTau Whisky">                                  <div class="overlay fill"
                       style="background-color: rgba(255, 255, 255, 0)">
                   </div>
                                                               </div>
@@ -1063,7 +1063,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 		
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1927864184">
-		<a class="" href="https://facebook.com/dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+		<a  class=""   rel="noopener nofollow" href="#demo-contact" data-demo-contact>						<div class="img-inner dark" >
 			<img decoding="async" src="/public/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | DangTau Whisky">						
 					</div>
 						</a>		
@@ -1076,7 +1076,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
-		<a class="" href="https://instagram.com/dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+		<a  class=""   rel="noopener nofollow" href="#demo-contact" data-demo-contact>						<div class="img-inner dark" >
 			<img decoding="async" src="/public/assets/images/insta-icon.svg" class="attachment-large size-large" alt="insta icon | DangTau Whisky" title="insta icon | DangTau Whisky">						
 					</div>
 						</a>		
@@ -1089,7 +1089,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_29952405">
-		<a class="" href="https://tiktok.com/@dangtauwhisky.com" target="_blank" rel="noopener">						<div class="img-inner dark" >
+		<a  class=""   rel="noopener" href="#demo-contact" data-demo-contact>						<div class="img-inner dark" >
 			<img decoding="async" src="/public/assets/images/tiktok-icon.svg" class="attachment-large size-large" alt="tiktok icon | DangTau Whisky" title="tiktok icon | DangTau Whisky">						
 					</div>
 						</a>		
@@ -1102,7 +1102,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1139780356">
-		<a class="" href="https://youtube.com/@dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+		<a  class=""   rel="noopener nofollow" href="#demo-contact" data-demo-contact>						<div class="img-inner dark" >
 			<img decoding="async" src="/public/assets/images/ytb-icon.svg" class="attachment-large size-large" alt="ytb icon | DangTau Whisky" title="ytb icon | DangTau Whisky">						
 					</div>
 						</a>		
@@ -1287,9 +1287,9 @@ nhưng vẫn đầy cá tính và hiện đại.
 
 		<div class="tabbed-content home-tab-choosewhisky">
 			
-			<ul class="nav nav-simple nav-uppercase nav-size-normal nav-left" role="tablist"><li id="tab-scotch-whisky" class="tab active has-icon" role="presentation"><a href="index.html#tab_scotch-whisky" role="tab" aria-selected="true" aria-controls="tab_scotch-whisky"><span>Scotch Whisky</span></a></li>
-<li id="tab-japanese-whisky" class="tab has-icon" role="presentation"><a href="index.html#tab_japanese-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_japanese-whisky"><span>Japanese Whisky</span></a></li>
-<li id="tab-world-whisky" class="tab has-icon" role="presentation"><a href="index.html#tab_world-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_world-whisky"><span>World Whisky</span></a></li></ul><div class="tab-panels"><div id="tab_scotch-whisky" class="panel active entry-content" role="tabpanel" aria-labelledby="tab-scotch-whisky">
+			<ul class="nav nav-simple nav-uppercase nav-size-normal nav-left" role="tablist"><li id="tab-scotch-whisky" class="tab active has-icon" role="presentation"><a href="#tab_scotch-whisky" role="tab" aria-selected="true" aria-controls="tab_scotch-whisky"><span>Scotch Whisky</span></a></li>
+<li id="tab-japanese-whisky" class="tab has-icon" role="presentation"><a href="#tab_japanese-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_japanese-whisky"><span>Japanese Whisky</span></a></li>
+<li id="tab-world-whisky" class="tab has-icon" role="presentation"><a href="#tab_world-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_world-whisky"><span>World Whisky</span></a></li></ul><div class="tab-panels"><div id="tab_scotch-whisky" class="panel active entry-content" role="tabpanel" aria-labelledby="tab-scotch-whisky">
 
   <div class="banner has-hover" id="banner-434062862">
           <div class="banner-inner fill">
@@ -1298,7 +1298,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/scotch-whisky/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/danh-muc/scotch-whisky" ><div class="fill banner-link"></div></a>            
    <div id="text-box-869028469" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1348,7 +1348,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/world-whisky/whisky-nhat/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/danh-muc/world-whisky/whisky-nhat" ><div class="fill banner-link"></div></a>            
    <div id="text-box-321183929" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1398,7 +1398,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/world-whisky/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/danh-muc/world-whisky" ><div class="fill banner-link"></div></a>            
    <div id="text-box-1562739921" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1444,7 +1444,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 <p>lựa chọn vùng whisky</p>
 			</div>
 	
-<a class="button white is-outline choosetype-seemore"  >
+<a href="/danh-muc/scotch-whisky" class="button white is-outline choosetype-seemore"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1514,7 +1514,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/san-pham/page/2/?min_price=20000000&amp;max_price=50000000" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/san-pham?min_price=20000000&amp;max_price=50000000" ><div class="fill banner-link"></div></a>            
    <div id="text-box-921517434" class="text-box banner-layer slider-whisky-pricerange-title x5 md-x5 lg-x5 y10 md-y10 lg-y10 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1549,7 +1549,7 @@ nhưng vẫn đầy cá tính và hiện đại.
               
               <div class="text-inner text-left">
                   
-<a href="/san-pham/page/2/?min_price=20000000&amp;max_price=50000000" class="button white is-outline"  >
+<a href="/san-pham?min_price=20000000&amp;max_price=50000000" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1587,7 +1587,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/san-pham/page/2/?min_price=10000000&amp;max_price=20000000" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/san-pham?min_price=10000000&amp;max_price=20000000" ><div class="fill banner-link"></div></a>            
    <div id="text-box-540172700" class="text-box banner-layer slider-whisky-pricerange-title x5 md-x5 lg-x5 y10 md-y10 lg-y10 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1622,7 +1622,7 @@ nhưng vẫn đầy cá tính và hiện đại.
               
               <div class="text-inner text-left">
                   
-<a href="/san-pham/page/2/?min_price=10000000&amp;max_price=20000000" class="button white is-outline"  >
+<a href="/san-pham?min_price=10000000&amp;max_price=20000000" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1660,7 +1660,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/san-pham/page/2/?min_price=5000000&amp;max_price=10000000" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/san-pham?min_price=5000000&amp;max_price=10000000" ><div class="fill banner-link"></div></a>            
    <div id="text-box-1518456505" class="text-box banner-layer slider-whisky-pricerange-title x5 md-x5 lg-x5 y10 md-y10 lg-y10 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1695,7 +1695,7 @@ nhưng vẫn đầy cá tính và hiện đại.
               
               <div class="text-inner text-left">
                   
-<a href="/san-pham/page/2/?min_price=5000000&amp;max_price=10000000" class="button white is-outline"  >
+<a href="/san-pham?min_price=5000000&amp;max_price=10000000" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1768,7 +1768,7 @@ nhưng vẫn đầy cá tính và hiện đại.
               
               <div class="text-inner text-left">
                   
-<a href="/san-pham/page/2/?min_price=0&amp;max_price=5000000" class="button white is-outline"  >
+<a href="/san-pham?min_price=0&amp;max_price=5000000" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1869,7 +1869,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	
 	<div id="text-143498331" class="text dtile">
 		
-<h2>Những set thử &amp; quà tặng ý nghĩa</h2>
+<h2>Những bộ quà tặng ý nghĩa</h2>
 		
 <style>
 #text-143498331 {
@@ -1900,122 +1900,11 @@ nhưng vẫn đầy cá tính và hiện đại.
 			
 <div class="row banner-linear-bottom"  id="row-251649603">
 
-	<div id="col-20533896" class="col medium-6 small-12 large-6"  >
-				<div class="col-inner"  >
-			
-			
-
-  <div class="banner has-hover" id="banner-1158509399">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1202" height="1536" src="/public/assets/images/tasting_set_banner.webp" class="bg attachment-original size-original" alt="tasting set banner | DangTau Whisky" title="tasting set banner | DangTau Whisky">                        <div class="overlay"></div>            
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/product-category/set-thu-ruou/" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-310536909" class="text-box banner-layer x50 md-x50 lg-x50 y95 md-y95 lg-y95 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-	<div id="text-7382685" class="text dtsubtitle2">
-		
-<p>Tasting sets</p>
-		
-<style>
-#text-7382685 {
-  font-size: 1.2rem;
-  text-align: left;
-}
-@media (min-width:550px) {
-  #text-7382685 {
-    font-size: 1.3rem;
-  }
-}
-</style>
-	</div>
 	
-	<div id="text-2312571193" class="text dtsubtitle2">
-		
-<p>Tìm ra hương vị Lakes phù hợp</p>
-		
-<style>
-#text-2312571193 {
-  font-size: 1.65rem;
-  line-height: 1.25;
-  text-align: left;
-}
-@media (min-width:550px) {
-  #text-2312571193 {
-    font-size: 2rem;
-  }
-}
-</style>
-	</div>
-	
-	<div id="gap-399557335" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style>
-#gap-399557335 {
-  padding-top: 15px;
-}
-</style>
-	</div>
-	
-<a href="/product-category/set-thu-ruou/" class="button white is-outline"  >
-		<span>Khám phá sản phẩm</span>
-	</a>
-
-              </div>
-           </div>
-                            
-<style>
-#text-box-310536909 .text-inner {
-  padding: 0px 15px 10px 15px;
-}
-#text-box-310536909 {
-  width: 100%;
-}
-#text-box-310536909 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-310536909 .text-inner {
-    padding: 0px 0px 0px 0px;
-  }
-  #text-box-310536909 {
-    width: 85%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-1158509399 {
-  padding-top: 400px;
-}
-#banner-1158509399 .overlay {
-  background-color: rgba(255, 255, 255, 0);
-}
-@media (min-width:550px) {
-  #banner-1158509399 {
-    padding-top: 650px;
-  }
-}
-</style>
-  </div>
-
-
-		</div>
-					</div>
 
 	
 
-	<div id="col-732776585" class="col medium-6 small-12 large-6"  >
+	<div id="col-732776585" class="col medium-12 small-12 large-12"  >
 				<div class="col-inner"  >
 			
 			
@@ -2027,7 +1916,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/bo-qua-tang/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/danh-muc/bo-qua-tang" ><div class="fill banner-link"></div></a>            
    <div id="text-box-1841096281" class="text-box banner-layer x50 md-x50 lg-x50 y95 md-y95 lg-y95 res-text">
                                 <div class="text-box-content text dark">
               
@@ -2077,7 +1966,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 </style>
 	</div>
 	
-<a href="/product/the-lakes-gift-set" class="button white is-outline"  >
+<a href="/danh-muc/bo-qua-tang" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -2159,85 +2048,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	</section>
 	
 
-	<section class="section dark" id="section_1570635014">
-		<div class="section-bg fill" >
-			<img loading="lazy" decoding="async" width="736" height="736" src="/public/assets/images/engraving.webp" class="bg attachment-original size-original" alt="engraving | DangTau Whisky" title="engraving | DangTau Whisky">						<div class="section-bg-overlay absolute fill"></div>
-			
-
-		</div>
-
-		
-
-		<div class="section-content relative">
-			
-<div class="row"  id="row-1501334230">
-
-	<div id="col-459689737" class="col small-12 large-12"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-			
-			
-	<div id="text-3877091505" class="text dtsubtitle">
-		
-<p>Personalised Engraving</p>
-			</div>
 	
-	<div id="text-1649073720" class="text dtile">
-		
-<h2>khắc chai<br />cá nhân hóa</h2>
-		
-<style>
-#text-1649073720 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-	<div id="gap-41734416" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style>
-#gap-41734416 {
-  padding-top: 20px;
-}
-</style>
-	</div>
-	
-<a href="/khac-chai-ca-nhan-hoa" class="button white is-outline"  >
-		<span>Khám phá ngay</span>
-	</a>
-
-		</div>
-				
-<style>
-#col-459689737 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-</style>
-	</div>
-
-	
-</div>
-		</div>
-
-		
-<style>
-#section_1570635014 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-#section_1570635014 .section-bg-overlay {
-  background-color: rgba(0, 0, 0, 0.122);
-}
-#section_1570635014 .section-bg img {
-  object-position: 30% 47%;
-}
-@media (min-width:550px) {
-  #section_1570635014 {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-}
-</style>
-	</section>
 	
 
 			
@@ -2248,4 +2059,4 @@ nhưng vẫn đầy cá tính và hiện đại.
 
 </main>
 
-<?php include 'layouts/footer.php'; ?>
+<?php require VIEW_PATH . '/layouts/footer.php'; ?>

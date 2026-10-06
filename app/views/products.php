@@ -1,8 +1,5 @@
-<?php
-// Page title cho header.php dùng
-$pageTitle = 'Sản Phẩm | DangTau Whisky';
-?>
-<?php include 'layouts/header.php'; ?>
+<?php require VIEW_PATH . '/layouts/header.php'; ?>
+<div class="container demo-notice">Giao diện minh họa — dữ liệu danh mục, bộ lọc và sắp xếp đang chờ chặng 2. Thông tin bên dưới chưa phải dữ liệu được xác nhận.</div>
 
 
     <!-- Page Title -->
@@ -10,7 +7,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
         <div class="container">
             <h1>Sản Phẩm</h1>
             <p class="breadcrumb">
-                <a href="index.html">Trang Chủ</a> / Sản Phẩm
+                <a href="/">Trang Chủ</a> / Sản Phẩm
             </p>
         </div>
     </section>
@@ -96,7 +93,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
   <div class="banner has-hover" id="banner-1863274727">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img width="2048" height="1366" src="https://dangtauwhisky.com/wp-content/uploads/2024/12/344807997_1857761617938356_570250174661369295_n.webp" class="bg attachment-original size-original" alt="" decoding="async" fetchpriority="high">                                    
+            <img width="2048" height="1366" src="/public/assets/images/344807997_1857761617938356_570250174661369295_n.webp" class="bg attachment-original size-original" alt="" decoding="async" fetchpriority="high">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -198,47 +195,47 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 			
 			
 
-<ul class="sidebar-wrapper ul-reset post-cat-widget"><div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories"><div class="widget-title-holder"><h3 class="widget-title">Danh mục</h3></div><ul class="product-categories"><li class="cat-item cat-item-176"><a href="https://dangtauwhisky.com/product-category/calvados/">Calvados</a> <span class="count">(0)</span></li>
-<li class="cat-item cat-item-177"><a href="https://dangtauwhisky.com/product-category/rum/">Rum</a> <span class="count">(0)</span></li>
-<li class="cat-item cat-item-178"><a href="https://dangtauwhisky.com/product-category/gin/">Gin</a> <span class="count">(0)</span></li>
-<li class="cat-item cat-item-179"><a href="https://dangtauwhisky.com/product-category/ruou-trung-quoc/">Rượu Trung Quốc</a> <span class="count">(0)</span></li>
-<li class="cat-item cat-item-157"><a href="https://dangtauwhisky.com/product-category/spirits/">Spirits</a> <span class="count">(1)</span></li>
-<li class="cat-item cat-item-158"><a href="https://dangtauwhisky.com/product-category/signatory-vintage/">Signatory Vintage</a> <span class="count">(49)</span></li>
-<li class="cat-item cat-item-159"><a href="https://dangtauwhisky.com/product-category/whisky-single-malt/">Whisky single malt</a> <span class="count">(0)</span></li>
-<li class="cat-item cat-item-160"><a href="https://dangtauwhisky.com/product-category/ruou-vang/">Ruou vang</a> <span class="count">(0)</span></li>
-<li class="cat-item cat-item-166"><a href="https://dangtauwhisky.com/product-category/cognac/">Cognac</a> <span class="count">(7)</span></li>
-<li class="cat-item cat-item-33 cat-parent has-child" aria-expanded="false"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/">Scotch Whisky</a> <span class="count">(324)</span><button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><ul class="children">
-<li class="cat-item cat-item-135"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/balvenie/">Balvenie</a> <span class="count">(9)</span></li>
-<li class="cat-item cat-item-136"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/glengoyne/">Glengoyne</a> <span class="count">(12)</span></li>
-<li class="cat-item cat-item-137"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/glenfiddich/">Glenfiddich</a> <span class="count">(5)</span></li>
-<li class="cat-item cat-item-126"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/whisky-islands/">Whisky Islands</a> <span class="count">(12)</span></li>
-<li class="cat-item cat-item-132"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/blended-whisky/">Blended Whisky</a> <span class="count">(3)</span></li>
-<li class="cat-item cat-item-133"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/macallan/">Macallan</a> <span class="count">(52)</span></li>
-<li class="cat-item cat-item-134"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/single-malt-whisky/">Single Malt Whisky</a> <span class="count">(124)</span></li>
-<li class="cat-item cat-item-58"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/whisky-campbeltown/">Whisky Campbeltown</a> <span class="count">(20)</span></li>
-<li class="cat-item cat-item-55"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/whisky-highland/">Whisky Highland</a> <span class="count">(54)</span></li>
-<li class="cat-item cat-item-59"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/whisky-islay/">Whisky Islay</a> <span class="count">(26)</span></li>
-<li class="cat-item cat-item-56"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/whisky-lowland/">Whisky Lowland</a> <span class="count">(20)</span></li>
-<li class="cat-item cat-item-57"><a href="https://dangtauwhisky.com/product-category/scotch-whisky/whisky-speyside/">Whisky Speyside</a> <span class="count">(190)</span></li>
+<ul class="sidebar-wrapper ul-reset post-cat-widget"><div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories"><div class="widget-title-holder"><h3 class="widget-title">Danh mục</h3></div><ul class="product-categories"><li class="cat-item cat-item-176"><a href="/danh-muc/world-whisky/calvados">Calvados</a> <span class="count">(0)</span></li>
+<li class="cat-item cat-item-177"><a href="/danh-muc/world-whisky/rum">Rum</a> <span class="count">(0)</span></li>
+<li class="cat-item cat-item-178"><a href="/danh-muc/world-whisky/gin">Gin</a> <span class="count">(0)</span></li>
+<li class="cat-item cat-item-179"><a href="/danh-muc/world-whisky/ruou-trung-quoc">Rượu Trung Quốc</a> <span class="count">(0)</span></li>
+<li class="cat-item cat-item-157"><a href="/danh-muc/spirits">Spirits</a> <span class="count">(1)</span></li>
+<li class="cat-item cat-item-158"><a href="/danh-muc/signatory-vintage">Signatory Vintage</a> <span class="count">(49)</span></li>
+<li class="cat-item cat-item-159"><a href="/danh-muc/whisky-single-malt">Whisky single malt</a> <span class="count">(0)</span></li>
+<li class="cat-item cat-item-160"><a href="/danh-muc/ruou-vang">Ruou vang</a> <span class="count">(0)</span></li>
+<li class="cat-item cat-item-166"><a href="/danh-muc/world-whisky/cognac">Cognac</a> <span class="count">(7)</span></li>
+<li class="cat-item cat-item-33 cat-parent has-child" aria-expanded="false"><a href="/danh-muc/scotch-whisky">Scotch Whisky</a> <span class="count">(324)</span><button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><ul class="children">
+<li class="cat-item cat-item-135"><a href="/danh-muc/scotch-whisky/balvenie">Balvenie</a> <span class="count">(9)</span></li>
+<li class="cat-item cat-item-136"><a href="/danh-muc/scotch-whisky/glengoyne">Glengoyne</a> <span class="count">(12)</span></li>
+<li class="cat-item cat-item-137"><a href="/danh-muc/scotch-whisky/glenfiddich">Glenfiddich</a> <span class="count">(5)</span></li>
+<li class="cat-item cat-item-126"><a href="/danh-muc/scotch-whisky/whisky-islands">Whisky Islands</a> <span class="count">(12)</span></li>
+<li class="cat-item cat-item-132"><a href="/danh-muc/scotch-whisky/blended-whisky">Blended Whisky</a> <span class="count">(3)</span></li>
+<li class="cat-item cat-item-133"><a href="/danh-muc/scotch-whisky/macallan">Macallan</a> <span class="count">(52)</span></li>
+<li class="cat-item cat-item-134"><a href="/danh-muc/scotch-whisky/single-malt-whisky">Single Malt Whisky</a> <span class="count">(124)</span></li>
+<li class="cat-item cat-item-58"><a href="/danh-muc/scotch-whisky/whisky-campbeltown">Whisky Campbeltown</a> <span class="count">(20)</span></li>
+<li class="cat-item cat-item-55"><a href="/danh-muc/scotch-whisky/whisky-highland">Whisky Highland</a> <span class="count">(54)</span></li>
+<li class="cat-item cat-item-59"><a href="/danh-muc/scotch-whisky/whisky-islay">Whisky Islay</a> <span class="count">(26)</span></li>
+<li class="cat-item cat-item-56"><a href="/danh-muc/scotch-whisky/whisky-lowland">Whisky Lowland</a> <span class="count">(20)</span></li>
+<li class="cat-item cat-item-57"><a href="/danh-muc/scotch-whisky/whisky-speyside">Whisky Speyside</a> <span class="count">(190)</span></li>
 </ul>
 </li>
-<li class="cat-item cat-item-49 cat-parent has-child" aria-expanded="false"><a href="https://dangtauwhisky.com/product-category/world-whisky/">World Whisky</a> <span class="count">(98)</span><button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><ul class="children">
-<li class="cat-item cat-item-25"><a href="https://dangtauwhisky.com/product-category/world-whisky/whisky-ireland/">Whisky Ireland</a> <span class="count">(8)</span></li>
-<li class="cat-item cat-item-51"><a href="https://dangtauwhisky.com/product-category/world-whisky/whisky-khac/">Bourbon Whiskey</a> <span class="count">(1)</span></li>
-<li class="cat-item cat-item-26 cat-parent has-child" aria-expanded="false"><a href="https://dangtauwhisky.com/product-category/world-whisky/whisky-nhat/">Whisky Nhật</a> <span class="count">(39)</span>	<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><ul class="children">
-<li class="cat-item cat-item-138"><a href="https://dangtauwhisky.com/product-category/world-whisky/whisky-nhat/hibiki/">Hibiki</a> <span class="count">(12)</span></li>
-<li class="cat-item cat-item-139"><a href="https://dangtauwhisky.com/product-category/world-whisky/whisky-nhat/yamazaki/">Yamazaki</a> <span class="count">(3)</span></li>
+<li class="cat-item cat-item-49 cat-parent has-child" aria-expanded="false"><a href="/danh-muc/world-whisky">World Whisky</a> <span class="count">(98)</span><button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><ul class="children">
+<li class="cat-item cat-item-25"><a href="/danh-muc/world-whisky/whisky-ireland">Whisky Ireland</a> <span class="count">(8)</span></li>
+<li class="cat-item cat-item-51"><a href="/danh-muc/world-whisky/bourbon-whiskey">Bourbon Whiskey</a> <span class="count">(1)</span></li>
+<li class="cat-item cat-item-26 cat-parent has-child" aria-expanded="false"><a href="/danh-muc/world-whisky/whisky-nhat">Whisky Nhật</a> <span class="count">(39)</span>	<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><ul class="children">
+<li class="cat-item cat-item-138"><a href="/danh-muc/world-whisky/whisky-nhat/hibiki">Hibiki</a> <span class="count">(12)</span></li>
+<li class="cat-item cat-item-139"><a href="/danh-muc/world-whisky/whisky-nhat/yamazaki">Yamazaki</a> <span class="count">(3)</span></li>
 	</ul>
 </li>
-<li class="cat-item cat-item-50"><a href="https://dangtauwhisky.com/product-category/world-whisky/whisky-the-lakes/">Whisky The Lakes</a> <span class="count">(42)</span></li>
+<li class="cat-item cat-item-50"><a href="/danh-muc/world-whisky/whisky-the-lakes">Whisky The Lakes</a> <span class="count">(42)</span></li>
 </ul>
 </li>
-<li class="cat-item cat-item-54 current-cat active"><a href="https://dangtauwhisky.com/product-category/old-rare/">Old &amp; Rare</a> <span class="count">(138)</span></li>
-<li class="cat-item cat-item-23"><a href="https://dangtauwhisky.com/product-category/armagnac/">Armagnac</a> <span class="count">(27)</span></li>
-<li class="cat-item cat-item-15"><a href="https://dangtauwhisky.com/product-category/wine/">Wine</a> <span class="count">(52)</span></li>
-<li class="cat-item cat-item-24"><a href="https://dangtauwhisky.com/product-category/bo-qua-tang/">Bộ Quà Tặng</a> <span class="count">(2)</span></li>
-<li class="cat-item cat-item-52"><a href="https://dangtauwhisky.com/product-category/set-thu-ruou/">Set thử rượu</a> <span class="count">(6)</span></li>
-<li class="cat-item cat-item-53"><a href="https://dangtauwhisky.com/product-category/xi-ga/">Xì gà</a> <span class="count">(0)</span></li>
+<li class="cat-item cat-item-54 current-cat active"><a href="/danh-muc/old-rare">Old &amp; Rare</a> <span class="count">(138)</span></li>
+<li class="cat-item cat-item-23"><a href="/danh-muc/armagnac">Armagnac</a> <span class="count">(27)</span></li>
+<li class="cat-item cat-item-15"><a href="/danh-muc/wine">Wine</a> <span class="count">(52)</span></li>
+<li class="cat-item cat-item-24"><a href="/danh-muc/bo-qua-tang">Bộ Quà Tặng</a> <span class="count">(2)</span></li>
+<li class="cat-item cat-item-52"><a href="#demo-pending" data-demo-pending>Set thử rượu</a> <span class="count">(6)</span></li>
+<li class="cat-item cat-item-53"><a href="/danh-muc/xi-ga">Xì gà</a> <span class="count">(0)</span></li>
 </ul></div></ul>
 
 
@@ -300,7 +297,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
   <div class="col large-3"></div>
   <div class="col large-9" data-animate="fadeInRight" data-animate-transform="true" data-animate-transition="true" data-animated="true"> 
 	  <div class="category-filtering category-filter-row show-for-medium">
-		<a href="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" class="filter-button uppercase plain">
+		<a href="/" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" class="filter-button uppercase plain">
 			<i class="icon-equalizer"></i>
 			<strong>Lọc sản phẩm</strong>
 		</a>
@@ -321,7 +318,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
   	<div class="woo-order-custom">
       <span>Sắp xếp theo</span>
       <form class="woocommerce-ordering-box" method="get">
-        <div id="order-options"><a href="?orderby=date" style="margin-right: 10px;">Mới nhất</a><a href="?orderby=price" style="margin-right: 10px;">Giá tăng dần</a><a href="?orderby=price-desc" style="margin-right: 10px;">Giá giảm dần</a></div>
+        <div id="order-options"><a href="#demo-pending" data-demo-pending style="margin-right: 10px;">Mới nhất</a><a href="#demo-pending" data-demo-pending style="margin-right: 10px;">Giá tăng dần</a><a href="#demo-pending" data-demo-pending style="margin-right: 10px;">Giá giảm dần</a></div>
         <input type="hidden" name="paged" value="1">
       </form>
     </div>
@@ -333,8 +330,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="col large-3 hide-for-medium " data-animate="fadeInUp" data-animate-transform="true" data-animate-transition="true" data-animated="true">
 						<div id="shop-sidebar" class="sidebar-inner col-inner">
 				<aside id="text-3" class="widget widget_text"><span class="widget-title shop-sidebar">Lọc sản phẩm</span><div class="is-divider small"></div>			<div class="textwidget"></div>
-		</aside><aside id="woocommerce_layered_nav-3" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav"><span class="widget-title shop-sidebar">Thương hiệu</span><div class="is-divider small"></div><ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=ardmore&amp;query_type_brands=or">Ardmore</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=balvenie&amp;query_type_brands=or">Balvenie</a> <span class="count">(3)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=benrinnes&amp;query_type_brands=or">Benrinnes</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=benromach&amp;query_type_brands=or">Benromach</a> <span class="count">(2)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=brora&amp;query_type_brands=or">Brora</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=bunnahabhain&amp;query_type_brands=or">Bunnahabhain</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=chateau-garreau&amp;query_type_brands=or">Château Garreau</a> <span class="count">(6)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=chichibu&amp;query_type_brands=or">Chichibu</a> <span class="count">(3)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=clynelish&amp;query_type_brands=or">Clynelish</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=convalmore&amp;query_type_brands=or">Convalmore</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=cragganmore&amp;query_type_brands=or">Cragganmore</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=dalmore&amp;query_type_brands=or">Dalmore</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=glen-garioch&amp;query_type_brands=or">Glen Garioch</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=glen-scotia&amp;query_type_brands=or">Glen Scotia</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=glenallachie&amp;query_type_brands=or">GlenAllachie</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=glenfarclas&amp;query_type_brands=or">Glenfarclas</a> <span class="count">(2)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=glenfiddich&amp;query_type_brands=or">Glenfiddich</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=glengoyne&amp;query_type_brands=or">Glengoyne</a> <span class="count">(7)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=glenrothes&amp;query_type_brands=or">Glenrothes</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=hakushu&amp;query_type_brands=or">Hakushu</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=hibiki&amp;query_type_brands=or">Hibiki</a> <span class="count">(5)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=highland-park&amp;query_type_brands=or">Highland Park</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=imperial&amp;query_type_brands=or">Imperial</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=invergordon&amp;query_type_brands=or">Invergordon</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=linkwood&amp;query_type_brands=or">Linkwood</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=littlemill&amp;query_type_brands=or">Littlemill</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=macallan&amp;query_type_brands=or">Macallan</a> <span class="count">(31)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=nikka&amp;query_type_brands=or">Nikka</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=remy-martin&amp;query_type_brands=or">Remy Martin</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=rosebank&amp;query_type_brands=or">RoseBank</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=springbank&amp;query_type_brands=or">Springbank</a> <span class="count">(6)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=the-lakes-distillery&amp;query_type_brands=or">The Lakes Distillery</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=tomatin&amp;query_type_brands=or">Tomatin</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=tomintoul&amp;query_type_brands=or">Tomintoul</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=tullibardine&amp;query_type_brands=or">Tullibardine</a> <span class="count">(3)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_brands=yamazaki&amp;query_type_brands=or">Yamazaki</a> <span class="count">(1)</span></li></ul></aside><aside id="woocommerce_layered_nav-4" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav"><span class="widget-title shop-sidebar">Độ tuổi</span><div class="is-divider small"></div><ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_do-tuoi=12-18-nam&amp;query_type_do-tuoi=or">12-18 năm</a> <span class="count">(13)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_do-tuoi=18-30-nam&amp;query_type_do-tuoi=or">18-30 năm</a> <span class="count">(28)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_do-tuoi=duoi-12-nam&amp;query_type_do-tuoi=or">Dưới 12 năm</a> <span class="count">(11)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_do-tuoi=nas-none-age-statement&amp;query_type_do-tuoi=or">NAS - None Age Statement</a> <span class="count">(2)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_do-tuoi=tren-30-nam&amp;query_type_do-tuoi=or">Trên 30 năm</a> <span class="count">(39)</span></li></ul></aside><aside id="woocommerce_layered_nav-5" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav"><span class="widget-title shop-sidebar">Loại thùng</span><div class="is-divider small"></div><ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loai-thung=american-oak&amp;query_type_loai-thung=or">American Oak</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loai-thung=bourbon&amp;query_type_loai-thung=or">Bourbon</a> <span class="count">(19)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loai-thung=european-oak&amp;query_type_loai-thung=or">European Oak</a> <span class="count">(6)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loai-thung=go-soi-phap&amp;query_type_loai-thung=or">Gỗ sồi Pháp</a> <span class="count">(6)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loai-thung=hogshead&amp;query_type_loai-thung=or">Hogshead</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loai-thung=rum&amp;query_type_loai-thung=or">Rum</a> <span class="count">(2)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loai-thung=sherry&amp;query_type_loai-thung=or">Sherry</a> <span class="count">(54)</span></li></ul></aside><aside id="woocommerce_layered_nav-6" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav"><span class="widget-title shop-sidebar">Lọc lạnh</span><div class="is-divider small"></div><ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loc-lanh=co-loc-lanh&amp;query_type_loc-lanh=or">Có lọc lạnh</a> <span class="count">(16)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="https://dangtauwhisky.com/product-category/old-rare/?filter_loc-lanh=khong-co-loc-lanh&amp;query_type_loc-lanh=or">Không có lọc lạnh</a> <span class="count">(78)</span></li></ul></aside><aside id="woocommerce_price_filter-3" class="widget woocommerce widget_price_filter"><span class="widget-title shop-sidebar">Khoảng giá</span><div class="is-divider small"></div>
-<ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="https://dangtauwhisky.com/product-category/old-rare/?min_price=0&amp;max_price=5000000" rel="nofollow">Dưới 5 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="https://dangtauwhisky.com/product-category/old-rare/?min_price=5000000&amp;max_price=10000000" rel="nofollow">5-10 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="https://dangtauwhisky.com/product-category/old-rare/?min_price=10000000&amp;max_price=20000000" rel="nofollow">10-20 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="https://dangtauwhisky.com/product-category/old-rare/?min_price=20000000&amp;max_price=50000000" rel="nofollow">20-50 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="https://dangtauwhisky.com/product-category/old-rare/?min_price=50000000&amp;max_price=100000000" rel="nofollow">50-100 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="https://dangtauwhisky.com/product-category/old-rare/?min_price=100000000" rel="nofollow">Trên 100 triệu</a></li></ul>
+		</aside><aside id="woocommerce_layered_nav-3" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav"><span class="widget-title shop-sidebar">Thương hiệu</span><div class="is-divider small"></div><ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Ardmore</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Balvenie</a> <span class="count">(3)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Benrinnes</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Benromach</a> <span class="count">(2)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Brora</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Bunnahabhain</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Château Garreau</a> <span class="count">(6)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Chichibu</a> <span class="count">(3)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Clynelish</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Convalmore</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Cragganmore</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Dalmore</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Glen Garioch</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Glen Scotia</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>GlenAllachie</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Glenfarclas</a> <span class="count">(2)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Glenfiddich</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Glengoyne</a> <span class="count">(7)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Glenrothes</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Hakushu</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Hibiki</a> <span class="count">(5)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Highland Park</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Imperial</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Invergordon</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Linkwood</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Littlemill</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Macallan</a> <span class="count">(31)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Nikka</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Remy Martin</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>RoseBank</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Springbank</a> <span class="count">(6)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>The Lakes Distillery</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Tomatin</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Tomintoul</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Tullibardine</a> <span class="count">(3)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Yamazaki</a> <span class="count">(1)</span></li></ul></aside><aside id="woocommerce_layered_nav-4" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav"><span class="widget-title shop-sidebar">Độ tuổi</span><div class="is-divider small"></div><ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>12-18 năm</a> <span class="count">(13)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>18-30 năm</a> <span class="count">(28)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Dưới 12 năm</a> <span class="count">(11)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>NAS - None Age Statement</a> <span class="count">(2)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Trên 30 năm</a> <span class="count">(39)</span></li></ul></aside><aside id="woocommerce_layered_nav-5" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav"><span class="widget-title shop-sidebar">Loại thùng</span><div class="is-divider small"></div><ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>American Oak</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Bourbon</a> <span class="count">(19)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>European Oak</a> <span class="count">(6)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Gỗ sồi Pháp</a> <span class="count">(6)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Hogshead</a> <span class="count">(1)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Rum</a> <span class="count">(2)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Sherry</a> <span class="count">(54)</span></li></ul></aside><aside id="woocommerce_layered_nav-6" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav"><span class="widget-title shop-sidebar">Lọc lạnh</span><div class="is-divider small"></div><ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Có lọc lạnh</a> <span class="count">(16)</span></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term "><a rel="nofollow" href="#demo-pending" data-demo-pending>Không có lọc lạnh</a> <span class="count">(78)</span></li></ul></aside><aside id="woocommerce_price_filter-3" class="widget woocommerce widget_price_filter"><span class="widget-title shop-sidebar">Khoảng giá</span><div class="is-divider small"></div>
+<ul class="woocommerce-widget-layered-nav-list"><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="#demo-pending" data-demo-pending rel="nofollow">Dưới 5 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="#demo-pending" data-demo-pending rel="nofollow">5-10 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="#demo-pending" data-demo-pending rel="nofollow">10-20 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="#demo-pending" data-demo-pending rel="nofollow">20-50 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="#demo-pending" data-demo-pending rel="nofollow">50-100 triệu</a></li><li class="woocommerce-widget-layered-nav-list__item wc-layered-nav-term"><a href="#demo-pending" data-demo-pending rel="nofollow">Trên 100 triệu</a></li></ul>
 
 </aside>			</div>
 					</div>
@@ -352,8 +349,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-the-archival-series-folio-1/" aria-label="The Macallan The Archival Series Folio 1">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-The-Archival-Series-Folio-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async">				</a>
+				<a href="/san-pham/the-macallan-the-archival-series-folio-1" aria-label="The Macallan The Archival Series Folio 1">
+					<img width="1920" height="1920" src="/public/assets/images/The-Macallan-The-Archival-Series-Folio-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -369,7 +366,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-the-archival-series-folio-1/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan The Archival Series Folio 1</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-the-archival-series-folio-1" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan The Archival Series Folio 1</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>520,000,001<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -385,8 +382,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-72-years-old-in-lalique-the-genesis-decanter/" aria-label="The Macallan 72 Years Old in Lalique - The Genesis Decanter">
-					<img width="2560" height="2560" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-72-Years-Old-in-Lalique-The-Genesis-Decanter.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async">				</a>
+				<a href="/san-pham/the-macallan-72-years-old-in-lalique-the-genesis-decanter" aria-label="The Macallan 72 Years Old in Lalique - The Genesis Decanter">
+					<img width="2560" height="2560" src="/public/assets/images/The-Macallan-72-Years-Old-in-Lalique-The-Genesis-Decanter.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -402,7 +399,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-72-years-old-in-lalique-the-genesis-decanter/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan 72 Years Old in Lalique – The Genesis Decanter</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-72-years-old-in-lalique-the-genesis-decanter" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan 72 Years Old in Lalique – The Genesis Decanter</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2,500,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -418,8 +415,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-peerless-spirit-65-years-old/" aria-label="The Macallan in Lalique – Peerless Spirit, 65 Years Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-in-Lalique-–-Peerless-Spirit-65-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-in-lalique-peerless-spirit-65-years-old" aria-label="The Macallan in Lalique – Peerless Spirit, 65 Years Old">
+					<img width="1920" height="1920" src="/public/assets/images/The-Macallan-in-Lalique-–-Peerless-Spirit-65-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -435,7 +432,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-peerless-spirit-65-years-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Peerless Spirit, 65 Years Old</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-in-lalique-peerless-spirit-65-years-old" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Peerless Spirit, 65 Years Old</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2,900,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -451,8 +448,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-spiritual-home-62-years-old/" aria-label="The Macallan in Lalique – Spiritual Home, 62 Years Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-in-Lalique-–-Spiritual-Home-62-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-in-lalique-spiritual-home-62-years-old" aria-label="The Macallan in Lalique – Spiritual Home, 62 Years Old">
+					<img width="1920" height="1920" src="/public/assets/images/The-Macallan-in-Lalique-–-Spiritual-Home-62-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -468,7 +465,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-spiritual-home-62-years-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Spiritual Home, 62 Years Old</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-in-lalique-spiritual-home-62-years-old" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Spiritual Home, 62 Years Old</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3,500,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -484,8 +481,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-curiously-small-stills-60-years-old/" aria-label="The Macallan in Lalique – Curiously Small Stills, 60 Years Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-in-Lalique-–-Curiously-Small-Stills-60-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-in-lalique-curiously-small-stills-60-years-old" aria-label="The Macallan in Lalique – Curiously Small Stills, 60 Years Old">
+					<img width="1920" height="1920" src="/public/assets/images/The-Macallan-in-Lalique-–-Curiously-Small-Stills-60-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -501,7 +498,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-curiously-small-stills-60-years-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Curiously Small Stills, 60 Years Old</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-in-lalique-curiously-small-stills-60-years-old" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Curiously Small Stills, 60 Years Old</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3,200,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -517,8 +514,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-finest-cut-57-years-old/" aria-label="The Macallan in Lalique – Finest Cut, 57 Years Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-in-Lalique-–-Finest-Cut-57-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-in-lalique-finest-cut-57-years-old" aria-label="The Macallan in Lalique – Finest Cut, 57 Years Old">
+					<img width="1920" height="1920" src="/public/assets/images/The-Macallan-in-Lalique-–-Finest-Cut-57-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -534,7 +531,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-finest-cut-57-years-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Finest Cut, 57 Years Old</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-in-lalique-finest-cut-57-years-old" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Finest Cut, 57 Years Old</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3,800,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -550,8 +547,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-natural-colour-55-years-old/" aria-label="The Macallan in Lalique – Natural Colour, 55 Years Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-in-Lalique-–-Natural-Colour-55-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-in-lalique-natural-colour-55-years-old" aria-label="The Macallan in Lalique – Natural Colour, 55 Years Old">
+					<img width="1920" height="1920" src="/public/assets/images/The-Macallan-in-Lalique-–-Natural-Colour-55-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -567,7 +564,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-natural-colour-55-years-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Natural Colour, 55 Years Old</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-in-lalique-natural-colour-55-years-old" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Natural Colour, 55 Years Old</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3,200,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -583,8 +580,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-exceptional-oak-cask-50-years-old/" aria-label="The Macallan in Lalique – Exceptional Oak Cask, 50 Years Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-in-Lalique-–-Exceptional-Oak-Cask-50-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-in-lalique-exceptional-oak-cask-50-years-old" aria-label="The Macallan in Lalique – Exceptional Oak Cask, 50 Years Old">
+					<img width="1920" height="1920" src="/public/assets/images/The-Macallan-in-Lalique-–-Exceptional-Oak-Cask-50-Years-Old.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -600,7 +597,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-in-lalique-exceptional-oak-cask-50-years-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Exceptional Oak Cask, 50 Years Old</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-in-lalique-exceptional-oak-cask-50-years-old" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">The Macallan in Lalique – Exceptional Oak Cask, 50 Years Old</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3,500,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -616,8 +613,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-fine-and-rare-1954/" aria-label="THE MACALLAN Fine and Rare 1954">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/THE-MACALLAN-Fine-and-Rare-1954.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-fine-and-rare-1954" aria-label="THE MACALLAN Fine and Rare 1954">
+					<img width="1920" height="1920" src="/public/assets/images/THE-MACALLAN-Fine-and-Rare-1954.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -633,7 +630,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-fine-and-rare-1954/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN Fine and Rare 1954</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-fine-and-rare-1954" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN Fine and Rare 1954</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>1,400,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -649,8 +646,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-fine-and-rare-1951/" aria-label="THE MACALLAN Fine and Rare 1951">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/THE-MACALLAN-Fine-and-Rare-1951.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-fine-and-rare-1951" aria-label="THE MACALLAN Fine and Rare 1951">
+					<img width="1920" height="1920" src="/public/assets/images/THE-MACALLAN-Fine-and-Rare-1951.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -666,7 +663,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-fine-and-rare-1951/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN Fine and Rare 1951</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-fine-and-rare-1951" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN Fine and Rare 1951</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>1,150,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -682,8 +679,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-fine-and-rare-1949/" aria-label="THE MACALLAN Fine and Rare 1949">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/THE-MACALLAN-Fine-and-Rare-1949.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-fine-and-rare-1949" aria-label="THE MACALLAN Fine and Rare 1949">
+					<img width="1920" height="1920" src="/public/assets/images/THE-MACALLAN-Fine-and-Rare-1949.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -699,7 +696,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-fine-and-rare-1949/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN Fine and Rare 1949</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-fine-and-rare-1949" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN Fine and Rare 1949</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>1,400,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -715,8 +712,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-78yo-red-collection/" aria-label="THE MACALLAN 78YO RED Collection">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/THE-MACALLAN-78YO-RED-Collection.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-78yo-red-collection" aria-label="THE MACALLAN 78YO RED Collection">
+					<img width="1920" height="1920" src="/public/assets/images/THE-MACALLAN-78YO-RED-Collection.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -732,7 +729,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-78yo-red-collection/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN 78YO RED Collection</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-78yo-red-collection" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN 78YO RED Collection</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2,600,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -748,8 +745,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-77yo-red-collection/" aria-label="THE MACALLAN 77YO RED Collection">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/THE-MACALLAN-77YO-RED-Collection.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-77yo-red-collection" aria-label="THE MACALLAN 77YO RED Collection">
+					<img width="1920" height="1920" src="/public/assets/images/THE-MACALLAN-77YO-RED-Collection.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -765,7 +762,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-77yo-red-collection/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN 77YO RED Collection</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-77yo-red-collection" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN 77YO RED Collection</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2,600,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -781,8 +778,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-71yo-red-collection/" aria-label="THE MACALLAN 71YO RED Collection">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/THE-MACALLAN-71YO-RED-Collection.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-71yo-red-collection" aria-label="THE MACALLAN 71YO RED Collection">
+					<img width="1920" height="1920" src="/public/assets/images/THE-MACALLAN-71YO-RED-Collection.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -798,7 +795,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-71yo-red-collection/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN 71YO RED Collection</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-71yo-red-collection" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN 71YO RED Collection</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2,250,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -814,8 +811,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/the-macallan-40yo-red-collection/" aria-label="THE MACALLAN 40YO RED Collection">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/THE-MACALLAN-40YO-RED-Collection.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/the-macallan-40yo-red-collection" aria-label="THE MACALLAN 40YO RED Collection">
+					<img width="1920" height="1920" src="/public/assets/images/THE-MACALLAN-40YO-RED-Collection.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -831,7 +828,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/the-macallan-40yo-red-collection/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN 40YO RED Collection</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/the-macallan-40yo-red-collection" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">THE MACALLAN 40YO RED Collection</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>600,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -847,8 +844,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/macallan-horizon/" aria-label="Macallan Horizon">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/Macallan-Horizon.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/macallan-horizon" aria-label="Macallan Horizon">
+					<img width="1920" height="1920" src="/public/assets/images/Macallan-Horizon.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -864,7 +861,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/macallan-horizon/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Macallan Horizon</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-horizon" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Macallan Horizon</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>1,800,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -880,8 +877,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/1943-tales-of-the-macallan-volume-ii/" aria-label="1943 Tales of The Macallan Volume II">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/1943-Tales-of-The-Macallan-Volume-II.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/1943-tales-of-the-macallan-volume-ii" aria-label="1943 Tales of The Macallan Volume II">
+					<img width="1920" height="1920" src="/public/assets/images/1943-Tales-of-The-Macallan-Volume-II.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -897,7 +894,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/1943-tales-of-the-macallan-volume-ii/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">1943 Tales of The Macallan Volume II</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/1943-tales-of-the-macallan-volume-ii" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">1943 Tales of The Macallan Volume II</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3,000,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -913,8 +910,8 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-zoom">
-				<a href="https://dangtauwhisky.com/san-pham/1950-tales-of-the-macallan-volume-i/" aria-label="1950 Tales of The Macallan Volume I">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/1950-Tales-of-The-Macallan-Volume-I.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
+				<a href="/san-pham/1950-tales-of-the-macallan-volume-i" aria-label="1950 Tales of The Macallan Volume I">
+					<img width="1920" height="1920" src="/public/assets/images/1950-Tales-of-The-Macallan-Volume-I.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy">				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
@@ -930,7 +927,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
 			Old &amp; Rare		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="https://dangtauwhisky.com/san-pham/1950-tales-of-the-macallan-volume-i/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">1950 Tales of The Macallan Volume I</a></p></div><div class="price-wrapper">
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/1950-tales-of-the-macallan-volume-i" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">1950 Tales of The Macallan Volume I</a></p></div><div class="price-wrapper">
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3,000,000,000<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
@@ -940,7 +937,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 </div></div><!-- row -->
 <div class="container">
 	<nav class="woocommerce-pagination" aria-label="Phân trang sản phẩm">
-		<ul class="page-numbers nav-pagination links text-center"><li><span aria-current="page" class="page-number current">1</span></li><li><a class="page-number" href="https://dangtauwhisky.com/product-category/old-rare/page/2/">2</a></li><li><a class="page-number" href="https://dangtauwhisky.com/product-category/old-rare/page/3/">3</a></li><li><a class="page-number" href="https://dangtauwhisky.com/product-category/old-rare/page/4/">4</a></li><li><span class="page-number dots">…</span></li><li><a class="page-number" href="https://dangtauwhisky.com/product-category/old-rare/page/6/">6</a></li><li><a class="page-number" href="https://dangtauwhisky.com/product-category/old-rare/page/7/">7</a></li><li><a class="page-number" href="https://dangtauwhisky.com/product-category/old-rare/page/8/">8</a></li><li><a aria-label="Tiếp theo" class="next page-number" href="https://dangtauwhisky.com/product-category/old-rare/page/2/"><i class="icon-angle-right"></i></a></li></ul>	</nav>
+		<ul class="page-numbers nav-pagination links text-center"><li><span aria-current="page" class="page-number current">1</span></li><li><a class="page-number" href="#demo-pending" data-demo-pending>2</a></li><li><a class="page-number" href="#demo-pending" data-demo-pending>3</a></li><li><a class="page-number" href="#demo-pending" data-demo-pending>4</a></li><li><span class="page-number dots">…</span></li><li><a class="page-number" href="#demo-pending" data-demo-pending>6</a></li><li><a class="page-number" href="#demo-pending" data-demo-pending>7</a></li><li><a class="page-number" href="#demo-pending" data-demo-pending>8</a></li><li><a aria-label="Tiếp theo" class="next page-number" href="#demo-pending" data-demo-pending><i class="icon-angle-right"></i></a></li></ul>	</nav>
 </div>
 
 		</div><!-- shop container -->
@@ -957,4 +954,4 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 </div>
 
 
-<?php include 'layouts/footer.php'; ?>
+<?php require VIEW_PATH . '/layouts/footer.php'; ?>

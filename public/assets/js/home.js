@@ -1,318 +1,98 @@
-/* ============================================================================
-   DangTau Whisky - Homepage JavaScript
-   Interactive features: slider, tabs, mobile menu, etc.
-   ============================================================================ */
-
-document.addEventListener('DOMContentLoaded', function() {
-	// Initialize all components
-	initSlider();
-	initTabs();
-	initMobileMenu();
-	initSmoothScroll();
-});
-
-/* ============================================================================
-   Hero Slider
-   ============================================================================ */
-function initSlider() {
-	const slider = document.querySelector('.hero-slider');
-	const slides = document.querySelectorAll('.slide');
-	const dots = document.querySelectorAll('.dot');
-	let currentSlide = 0;
-	let autoplayInterval;
-
-	function goToSlide(n) {
-		// Remove active class from all slides and dots
-		slides.forEach(slide => slide.classList.remove('slide-active'));
-		dots.forEach(dot => dot.classList.remove('active'));
-
-		// Add active class to current slide and dot
-		slides[n].classList.add('slide-active');
-		dots[n].classList.add('active');
-
-		currentSlide = n;
-	}
-
-	function nextSlide() {
-		currentSlide = (currentSlide + 1) % slides.length;
-		goToSlide(currentSlide);
-	}
-
-	function prevSlide() {
-		currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-		goToSlide(currentSlide);
-	}
-
-	// Autoplay
-	function startAutoplay() {
-		autoplayInterval = setInterval(nextSlide, 3000);
-	}
-
-	function stopAutoplay() {
-		clearInterval(autoplayInterval);
-	}
-
-	// Dot click handlers
-	dots.forEach((dot, index) => {
-		dot.addEventListener('click', () => {
-			goToSlide(index);
-			stopAutoplay();
-			startAutoplay();
-		});
-	});
-
-	// Pause on hover, resume on leave
-	if (slider) {
-		slider.addEventListener('mouseenter', stopAutoplay);
-		slider.addEventListener('mouseleave', startAutoplay);
-	}
-
-	// Keyboard navigation
-	document.addEventListener('keydown', (e) => {
-		if (e.key === 'ArrowLeft') prevSlide();
-		if (e.key === 'ArrowRight') nextSlide();
-	});
-
-	// Start autoplay
-	startAutoplay();
+/* Local Phase 1 components. No WordPress, commerce or remote API calls. */
+'use strict';
+function initSlider(root) {
+    if (!root || root.dataset.sliderReady) return;
+    const slides = Array.from(root.children).filter(node => node.matches('.row, .col, .banner'));
+    if (!slides.length) return;
+    root.dataset.sliderReady = 'true';
+    const brands = root.classList.contains('home-brandlogo-slider');
+    const controls = document.createElement('div');
+    controls.className = 'demo-slider-controls';
+    controls.setAttribute('aria-label', brands ? 'Thương hiệu' : 'Điều khiển trình chiếu');
+    const labels = root.closest('.home-mainslider') ? ['Macallan 84', 'New Arrival', 'Armagnac', 'Wine', 'Japanese Whisky'] : [];
+    let current = 0, timer = null, paused = false;
+    const perPage = () => brands ? (window.innerWidth >= 850 ? 5 : window.innerWidth >= 550 ? 3 : 1) : 1;
+    const pageCount = () => Math.ceil(slides.length / perPage());
+    const dots = slides.map((slide, i) => {
+        const button = document.createElement('button');
+        button.type = 'button'; button.textContent = labels[i] || String(i + 1);
+        button.setAttribute('aria-label', 'Xem slide ' + (labels[i] || (i + 1)));
+        button.addEventListener('click', () => { show(i); restart(); });
+        controls.append(button); return button;
+    });
+    function show(page) {
+        const count = pageCount();
+        if (!count) return;
+        current = ((page % count) + count) % count;
+        slides.forEach((slide, i) => {
+            const selected = Math.floor(i / perPage()) === current;
+            slide.hidden = !selected; slide.classList.toggle('demo-slide-active', selected);
+            slide.setAttribute('aria-hidden', String(!selected));
+            // Hidden slides must not receive keyboard focus.
+            slide.inert = !selected;
+        });
+        dots.forEach((dot, i) => { dot.hidden = i >= count; dot.classList.toggle('active', i === current); dot.setAttribute('aria-pressed', String(i === current)); });
+    }
+    function stop() { if (timer !== null) { clearInterval(timer); timer = null; } }
+    function restart() {
+        stop();
+        if (pageCount() > 1 && !paused && !root.matches(':hover') && !root.contains(document.activeElement) && !document.hidden && !matchMedia('(prefers-reduced-motion: reduce)').matches) timer = setInterval(() => show(current + 1), 5000);
+    }
+    const pause = document.createElement('button'); pause.type = 'button'; pause.textContent = 'Tạm dừng';
+    pause.addEventListener('click', () => { paused = !paused; pause.textContent = paused ? 'Phát' : 'Tạm dừng'; restart(); });
+    if (slides.length > 1) { controls.append(pause); root.after(controls); }
+    root.classList.add('demo-slider'); show(0); restart();
+    root.addEventListener('mouseenter', stop); root.addEventListener('mouseleave', restart);
+    root.addEventListener('focusin', stop); root.addEventListener('focusout', () => setTimeout(restart, 0));
+    root.addEventListener('keydown', event => {
+        if (!['ArrowLeft','ArrowRight'].includes(event.key)) return;
+        event.preventDefault(); show(current + (event.key === 'ArrowRight' ? 1 : -1)); restart();
+    });
+    window.addEventListener('resize', () => { show(Math.min(current, pageCount() - 1)); restart(); });
+    document.addEventListener('visibilitychange', restart);
+    window.addEventListener('pagehide', stop);
+    window.addEventListener('pageshow', restart);
 }
-
-/* ============================================================================
-   Tab System
-   ============================================================================ */
-function initTabs() {
-	const tabButtons = document.querySelectorAll('.tab-button');
-	const tabPanels = document.querySelectorAll('.tab-panel');
-
-	if (tabButtons.length === 0) return;
-
-	tabButtons.forEach(button => {
-		button.addEventListener('click', () => {
-			const tabId = button.getAttribute('data-tab');
-
-			// Remove active class from all buttons and panels
-			tabButtons.forEach(btn => btn.classList.remove('active'));
-			tabPanels.forEach(panel => panel.classList.remove('active'));
-
-			// Add active class to clicked button and corresponding panel
-			button.classList.add('active');
-			const panel = document.getElementById(tabId);
-			if (panel) {
-				panel.classList.add('active');
-			}
-		});
-	});
-}
-
-/* ============================================================================
-   Mobile Menu
-   ============================================================================ */
-function initMobileMenu() {
-	const menuToggle = document.querySelector('.mobile-menu-toggle');
-	const mobileMenu = document.querySelector('.mobile-menu');
-	const menuClose = document.querySelector('.mobile-menu-close');
-	const menuLinks = document.querySelectorAll('.mobile-menu-list a');
-
-	if (!menuToggle || !mobileMenu) return;
-
-	// Toggle menu
-	menuToggle.addEventListener('click', () => {
-		mobileMenu.classList.add('active');
-		document.body.style.overflow = 'hidden';
-	});
-
-	// Close menu
-	const closeMenu = () => {
-		mobileMenu.classList.remove('active');
-		document.body.style.overflow = 'auto';
-	};
-
-	if (menuClose) {
-		menuClose.addEventListener('click', closeMenu);
-	}
-
-	// Close menu when link is clicked
-	menuLinks.forEach(link => {
-		link.addEventListener('click', closeMenu);
-	});
-
-	// Close menu when clicking outside
-	document.addEventListener('click', (e) => {
-		if (!mobileMenu.contains(e.target) && !menuToggle.contains(e.target)) {
-			closeMenu();
-		}
-	});
-}
-
-/* ============================================================================
-   Smooth Scroll
-   ============================================================================ */
-function initSmoothScroll() {
-	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-		anchor.addEventListener('click', function(e) {
-			const href = this.getAttribute('href');
-			if (href === '#') return;
-
-			const target = document.querySelector(href);
-			if (target) {
-				e.preventDefault();
-				target.scrollIntoView({
-					behavior: 'smooth',
-					block: 'start'
-				});
-			}
-		});
-	});
-}
-
-/* ============================================================================
-   Utility Functions
-   ============================================================================ */
-
-// Debounce function for resize events
-function debounce(func, wait) {
-	let timeout;
-	return function executedFunction(...args) {
-		const later = () => {
-			clearTimeout(timeout);
-			func(...args);
-		};
-		clearTimeout(timeout);
-		timeout = setTimeout(later, wait);
-	};
-}
-
-// Check if element is in viewport
-function isInViewport(element) {
-	const rect = element.getBoundingClientRect();
-	return (
-		rect.top >= 0 &&
-		rect.left >= 0 &&
-		rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-		rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-	);
-}
-
-// Lazy load images
-function lazyLoadImages() {
-	const images = document.querySelectorAll('img[data-src]');
-	const imageObserver = new IntersectionObserver((entries, observer) => {
-		entries.forEach(entry => {
-			if (entry.isIntersecting) {
-				const img = entry.target;
-				img.src = img.dataset.src;
-				img.removeAttribute('data-src');
-				observer.unobserve(img);
-			}
-		});
-	});
-
-	images.forEach(img => imageObserver.observe(img));
-}
-
-// Initialize lazy loading
-if ('IntersectionObserver' in window) {
-	lazyLoadImages();
-}
-
-/* ============================================================================
-   Performance & Analytics
-   ============================================================================ */
-
-// Track slider interactions
-document.addEventListener('click', function(e) {
-	if (e.target.matches('.dot')) {
-		// Track slide change
-		if (typeof gtag !== 'undefined') {
-			gtag('event', 'slider_interaction', {
-				'slide_index': Array.from(document.querySelectorAll('.dot')).indexOf(e.target)
-			});
-		}
-	}
-});
-
-// Track tab interactions
-document.addEventListener('click', function(e) {
-	if (e.target.matches('.tab-button')) {
-		// Track tab change
-		if (typeof gtag !== 'undefined') {
-			gtag('event', 'tab_interaction', {
-				'tab_name': e.target.getAttribute('data-tab')
-			});
-		}
-	}
-});
-
-// Track CTA clicks
-document.addEventListener('click', function(e) {
-	const btn = e.target.closest('.btn');
-	if (btn) {
-		if (typeof gtag !== 'undefined') {
-			gtag('event', 'cta_click', {
-				'cta_text': btn.textContent,
-				'cta_href': btn.href
-			});
-		}
-	}
-});
-
-/* ============================================================================
-   Form Handling
-   ============================================================================ */
-
-const searchForm = document.querySelector('.search-form');
-if (searchForm) {
-	searchForm.addEventListener('submit', function(e) {
-		const query = this.querySelector('.search-input').value.trim();
-		if (query) {
-			// Track search
-			if (typeof gtag !== 'undefined') {
-				gtag('event', 'search', {
-					'search_term': query
-				});
-			}
-		}
-	});
-}
-
-/* ============================================================================
-   Accessibility Enhancements
-   ============================================================================ */
-
-// Add keyboard navigation for buttons
-document.querySelectorAll('.btn, .tab-button, .dot').forEach(button => {
-	button.addEventListener('keypress', function(e) {
-		if (e.key === 'Enter' || e.key === ' ') {
-			e.preventDefault();
-			this.click();
-		}
-	});
-});
-
-// Announce live regions to screen readers
-const announceToScreenReader = (message) => {
-	const announcement = document.createElement('div');
-	announcement.setAttribute('role', 'status');
-	announcement.setAttribute('aria-live', 'polite');
-	announcement.setAttribute('aria-atomic', 'true');
-	announcement.textContent = message;
-	announcement.style.position = 'absolute';
-	announcement.style.left = '-10000px';
-	announcement.style.width = '1px';
-	announcement.style.height = '1px';
-	announcement.style.overflow = 'hidden';
-	document.body.appendChild(announcement);
-
-	setTimeout(() => {
-		announcement.remove();
-	}, 3000);
-};
-
-/* ============================================================================
-   Initialization
-   ============================================================================ */
-
-// Add loading complete indicator
-window.addEventListener('load', function() {
-	document.body.classList.add('page-loaded');
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.slider').forEach(initSlider);
+    document.querySelectorAll('[data-animate]').forEach(node => node.setAttribute('data-animated', 'true'));
+    const menu = document.getElementById('main-menu');
+    const toggle = document.querySelector('.demo-menu-toggle');
+    toggle?.addEventListener('click', () => { menu.showModal(); toggle.setAttribute('aria-expanded','true'); });
+    menu?.addEventListener('close', () => toggle?.setAttribute('aria-expanded','false'));
+    document.querySelectorAll('dialog').forEach(dialog => {
+        dialog.querySelectorAll('[data-close-dialog]').forEach(button => button.addEventListener('click', () => dialog.close()));
+        dialog.addEventListener('click', event => { if (event.target === dialog) { const box = dialog.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) dialog.close(); } });
+    });
+    document.addEventListener('click', event => {
+        const target = event.target.closest('[data-demo-contact], [data-demo-pending], a[href="#demo-pending"], a[href="#demo-contact"]');
+        if (!target) return;
+        event.preventDefault();
+        const dialog = document.getElementById(target.matches('[data-demo-contact], [href="#demo-contact"]') ? 'demo-contact' : 'demo-pending');
+        if (dialog && !dialog.open) dialog.showModal();
+    });
+    document.querySelectorAll('.woocommerce-ordering, .woocommerce-ordering-box').forEach(form => {
+        const explain = event => { event.preventDefault(); document.getElementById('demo-pending')?.showModal(); };
+        form.addEventListener('submit', explain); form.querySelectorAll('select').forEach(select => select.addEventListener('change', explain));
+    });
+    document.querySelectorAll('[role="tablist"]').forEach(list => {
+        const tabs = Array.from(list.querySelectorAll('[role="tab"]'));
+        function activate(tab) {
+            const cta = list.closest('.tabbed-content')?.querySelector('.choosetype-seemore');
+            const destinations = {'tab_scotch-whisky':'/danh-muc/scotch-whisky','tab_japanese-whisky':'/danh-muc/world-whisky/whisky-nhat','tab_world-whisky':'/danh-muc/world-whisky'};
+            if (cta) cta.href = destinations[tab.getAttribute('aria-controls')] || '/san-pham';
+            tabs.forEach(other => {
+                const selected = tab === other;
+                other.setAttribute('aria-selected', String(selected)); other.tabIndex = selected ? 0 : -1;
+                other.closest('li')?.classList.toggle('active', selected);
+                const panel = document.getElementById(other.getAttribute('aria-controls'));
+                if (panel) { panel.hidden = !selected; panel.classList.toggle('active', selected); }
+            });
+        }
+        tabs.forEach((tab,i) => {
+            tab.addEventListener('click', event => { event.preventDefault(); activate(tab); });
+            tab.addEventListener('keydown', event => { if (['ArrowLeft','ArrowRight'].includes(event.key)) { event.preventDefault(); const next = tabs[(i + (event.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length]; next.focus(); activate(next); } });
+        });
+        if (tabs.length) activate(tabs[0]);
+    });
 });

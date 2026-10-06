@@ -1,4 +1,4 @@
-<?php include 'layouts/header.php'; ?>
+<?php require VIEW_PATH . '/layouts/header.php'; ?>
 
 <main id="main" class="">
 
@@ -492,4 +492,4 @@ LottieInteractivity.create({
 
 </main>
 
-<?php include 'layouts/footer.php'; ?>
+<?php require VIEW_PATH . '/layouts/footer.php'; ?>

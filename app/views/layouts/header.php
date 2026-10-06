@@ -1,46 +1,46 @@
 <!DOCTYPE html>
-<html lang="vi" prefix="og: https://ogp.me/ns#" class="loading-site no-js">
+<html lang="vi" prefix="og: https://ogp.me/ns#" class="js">
 <head>
 	<meta charset="UTF-8" />
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="/" />
+	
+	
 
-	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+	
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>World Class Whisky &amp; Spirit | DangTau Whisky</title>
+<title><?= e($pageTitle ?? 'DangTau Whisky') ?></title>
 <meta name="description" content="Trải qua hành trình 10 năm học, hiểu và “ngấm” Whisky, chúng tôi tin rằng đây không chỉ là một thứ đồ uống thông thường. Nơi đây chứa đựng lịch sử, là kiến thức, nghệ thuật và đôi khi là trải nghiệm của cả một đời người."/>
-<meta name="robots" content="follow, index"/>
-<link rel="canonical" href="/" />
-<meta property="og:locale" content="vi_VN" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="World Class Whisky &amp; Spirit | DangTau Whisky" />
-<meta property="og:description" content="Trải qua hành trình 10 năm học, hiểu và “ngấm” Whisky, chúng tôi tin rằng đây không chỉ là một thứ đồ uống thông thường. Nơi đây chứa đựng lịch sử, là kiến thức, nghệ thuật và đôi khi là trải nghiệm của cả một đời người." />
-<meta property="og:url" content="https://dangtauwhisky.com/" />
-<meta property="og:site_name" content="DangTau Whisky" />
-<meta property="og:updated_time" content="2026-09-08T08:49:45+07:00" />
-<meta property="og:image" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/dangtau-whisky-thumb.jpg" />
-<meta property="og:image:secure_url" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/dangtau-whisky-thumb.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Trang chủ" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="World Class Whisky &amp; Spirit | DangTau Whisky" />
-<meta name="twitter:description" content="Trải qua hành trình 10 năm học, hiểu và “ngấm” Whisky, chúng tôi tin rằng đây không chỉ là một thứ đồ uống thông thường. Nơi đây chứa đựng lịch sử, là kiến thức, nghệ thuật và đôi khi là trải nghiệm của cả một đời người." />
-<meta name="twitter:image" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/dangtau-whisky-thumb.jpg" />
-<meta name="twitter:label1" content="Được viết bởi" />
-<meta name="twitter:data1" content="Manager Order" />
-<meta name="twitter:label2" content="Thời gian để đọc" />
-<meta name="twitter:data2" content="9 phút" />
-<meta name="google-site-verification" content="3LookEWzoGNdmAyJfGf5uUmwLLe9gjD2dlEETCcZdkY" />
+<meta name="robots" content="noindex, nofollow"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
 
-<link rel='stylesheet' id='contact-form-7-css' href="/public/assets/css/styles.css" type='text/css' media='all' />
+
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
-<link rel='stylesheet' id='toastr-css-css' href="/public/assets/css/toastr.min.css" type='text/css' media='all' />
+
 <link rel='stylesheet' id='flatsome-main-css' href="/public/assets/css/flatsome.css" type='text/css' media='all' />
 <style id='flatsome-main-inline-css' type='text/css'>
 @font-face {
@@ -60,25 +60,21 @@
 <link rel='stylesheet' id='dashicons-css' href="/public/assets/css/dashicons.min.css" type='text/css' media='all' />
 <link rel='stylesheet' id='flatsome-googlefonts-css' href='https://fonts.googleapis.com/css?family=Lato%3Aregular%2C700%2Cregular%2C700%7CDancing+Script%3Aregular%2Cregular&amp;display=block&amp;ver=3.9' type='text/css' media='all' />
 <link rel='stylesheet' id='fs-tuned-animation-style-css' href="/public/assets/css/fs-tuned-animation.css" type='text/css' media='all' />
-<script type="text/javascript" src="/public/assets/js/jquery.min.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="/public/assets/js/jquery.blockUI.min.js" id="jquery-blockui-js" data-wp-strategy="defer"></script>
-<script type="text/javascript" id="wc-add-to-cart-js-extra">
-/* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"https:\/\/dangtauwhisky.com\/gio-hang\/","is_cart":"","cart_redirect_after_add":"no"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="/public/assets/js/add-to-cart.min.js" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
-<script type="text/javascript" src="/public/assets/js/js.cookie.min.js" id="js-cookie-js" data-wp-strategy="defer"></script>
+
+
+
+
+
 
 
 <!-- End Google Tag Manager -->
 
 
 <!-- End Meta Pixel Code -->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<link rel="icon" href="/wp-content/uploads/2024/11/cropped-favicon.png" sizes="32x32" />
-<link rel="icon" href="/wp-content/uploads/2024/11/cropped-favicon.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="/wp-content/uploads/2024/11/cropped-favicon.png" />
-<meta name="msapplication-TileImage" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/cropped-favicon.png" />
+	<link rel="icon" href="/public/assets/images/cropped-favicon.png" sizes="32x32" />
+<link rel="icon" href="/public/assets/images/cropped-favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/public/assets/images/cropped-favicon.png" />
+<meta name="msapplication-TileImage" content="https://dangtauwhisky.com/public/assets/images/cropped-favicon.png" />
 <style id="custom-css" type="text/css">:root {--primary-color: #822a1a;--fs-color-primary: #822a1a;--fs-color-secondary: #636146;--fs-color-success: #fcf7e8;--fs-color-alert: #161616;--fs-experimental-link-color: #636146;--fs-experimental-link-color-hover: #808074;}.tooltipster-base {--tooltip-color: #fff;--tooltip-bg-color: #000;}.off-canvas-right .mfp-content, .off-canvas-left .mfp-content {--drawer-width: 85%;}.off-canvas .mfp-content.off-canvas-cart {--drawer-width: 450px;}.container-width, .full-width .ubermenu-nav, .container, .row{max-width: 1220px}.row.row-collapse{max-width: 1190px}.row.row-small{max-width: 1212.5px}.row.row-large{max-width: 1250px}.header-main{height: 80px}#logo img{max-height: 80px}#logo{width:250px;}#logo img{padding:5px 0;}.header-bottom{min-height: 45px}.header-top{min-height: 37px}.transparent .header-main{height: 80px}.transparent #logo img{max-height: 80px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 160px;}.header.show-on-scroll,.stuck .header-main{height:80px!important}.stuck #logo img{max-height: 80px!important}.search-form{ width: 50%;}.header-bg-color {background-color: #ffffff}.header-bottom {background-color: #ffffff}.top-bar-nav > li > a{line-height: 16px }.header-main .nav > li > a{line-height: 16px }.header-wrapper:not(.stuck) .header-main .header-nav{margin-top: 5px }.stuck .header-main .nav > li > a{line-height: 50px }.header-bottom-nav > li > a{line-height: 25px }@media (max-width: 549px) {.header-main{height: 80px}#logo img{max-height: 80px}}.nav-dropdown{font-size:100%}.header-top{background-color:#161616!important;}body{color: #161616}h1,h2,h3,h4,h5,h6,.heading-font{color: #636146;}body{font-size: 100%;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family: Lato, sans-serif;}body {font-weight: 400;font-style: normal;}.nav > li > a {font-family: Lato, sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family: Lato, sans-serif;}.nav > li > a,.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;font-style: normal;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: Lato, sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2 {font-weight: 700;font-style: normal;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font {font-weight: 400!important;font-style: normal!important;}.header:not(.transparent) .header-bottom-nav.nav > li > a{color: rgba(50,50,50,0.7);}.header:not(.transparent) .header-bottom-nav.nav > li > a:hover,.header:not(.transparent) .header-bottom-nav.nav > li.active > a,.header:not(.transparent) .header-bottom-nav.nav > li.current > a,.header:not(.transparent) .header-bottom-nav.nav > li > a.active,.header:not(.transparent) .header-bottom-nav.nav > li > a.current{color: #323232;}.header-bottom-nav.nav-line-bottom > li > a:before,.header-bottom-nav.nav-line-grow > li > a:before,.header-bottom-nav.nav-line > li > a:before,.header-bottom-nav.nav-box > li > a:hover,.header-bottom-nav.nav-box > li.active > a,.header-bottom-nav.nav-pills > li > a:hover,.header-bottom-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #323232;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 0px!important;width: 0px!important;}}button[name='update_cart'] { display: none; }.nav-vertical-fly-out > li + li {border-top-width: 1px; border-top-style: solid;}/* Custom CSS */.is-divider {display: none;}.divider-on .is-divider {display: block;}.tab-panels .panel {padding-top: 0;transition: 0.4s ease all;}.flickity-page-dots .dot {width: 9px !important;height: 9px !important;}.box-text p {font-size: 16px;}.nav-dropdown-simple .nav-column li > a:hover,.nav-dropdown.nav-dropdown-simple > li > a:hover {background-color: rgba(0, 0, 0, 0);}.uppercase {letter-spacing: unset;}.absolute-footer {display: none;}/*modify mega menu*/.menu-item-has-block .service-menu.megamenu li:first-child {margin-left: 0em !important;}.service-menu.megamenu .tab {border: 0;}.service-menu.megamenu .tab a {color: #fff !important;opacity: 0.45;font-size: 1.5em;line-height: 140% !important;padding-left: 25px;padding-right: 25px;font-weight: 600 !important;transition: 0.5s ease !important;}.service-menu.megamenu .tab a:hover {color: #fff !important;opacity: 1;transition: 0.5s ease !important;}.header-main .menu-item .nav-dropdown .service-menu.megamenu .tab a {padding-top: 10px !important;padding-bottom: 10px !important;}.service-menu.megamenu .tab.active a {color: #fff;opacity: 1;font-weight: 600 !important;transition: 0.5s ease !important;}.service-menu.megamenu .nav-vertical {background-image: url(index.html);background-size: 100% 100%;width: 45%;padding: 25px 10px !important;}.service-menu.megamenu .tab-panels li {border: 0;}.service-menu.megamenu .sidebar-wrapper {padding: 15px 25px 30px 25px !important;font-weight: 500;}.service-menu.megamenu .widget.widget_nav_menu {margin-bottom: 0;}.header-main .menu-item .nav-dropdown .service-menu.megamenu .tab-panels li a {padding: 12px 0 0 0 !important;line-height: 140%;font-size: 16px;font-weight: 600;}.service-menu.megamenu .tab-panels {padding: 0;border: 0;min-height: 390px;}.header-block-block-1 .button {margin-right: 0;}.header-full-width .container {padding-left: 30px;padding-right: 30px;}@media screen and (max-width: 1285px) {.header-full-width .container {padding-left: 15px;padding-right: 15px;}}@media only screen and (min-width: 849px) {.header-main .menu-item .nav-dropdown a,.header-bottom .menu-item .nav-dropdown a {padding: 8px 20px !important;}}.nav-dropdown-simple .nav-column li > a:hover,.nav-dropdown.nav-dropdown-simple > li > a:hover {font-weight: bold;}.justify-align p {text-align: justify;}.h-zero-margin h1,.h-zero-margin h2,.h-zero-margin h3,.h-zero-margin h4,.h-zero-margin h5 {margin-bottom: 0;}.p-zero-margin p {margin-bottom: 0;}.dark p strong,.dark td strong,.dark p b,.dark td b {color: #fff;}/*modify menu mobile divider*/.mfp-content .header-divider {border-bottom: 1px solid #ffffff26 !important;margin-bottom: 30px !important;}.off-canvas-right .mfp-content,.off-canvas-left .mfp-content {-webkit-transform: translateY(-30px);-ms-transform: translateY(-30px);transform: translateY(-30px);opacity: 0;-webkit-transition: opacity 0.3s, -webkit-transform 0.7s;transition: opacity 0.3s, -webkit-transform 0.7s;-o-transition: transform 0.7s, opacity 0.3s;transition: transform 0.7s, opacity 0.3s;transition: transform 0.7s, opacity 0.3s, -webkit-transform 0.5s;}/*responsive br on desktop and mobile*/@media screen and (min-width: 600px) {.br-mobile {display: none;}}@media screen and (max-width: 599px) {.br-desktop {display: none;}}@media screen and (max-width: 890px) {.br-desktop-tablet {display: none;}}@media screen and (min-width: 890px) {.br-mobile-tablet {display: none;}}.dark,.dark p,.dark td {color: color(srgb 1 1 1 / 0.9);}blockquote,dl,figure,form,ol,p,pre,ul {margin-bottom: 1em;}@media screen and (max-width: 599px) {blockquote,dl,figure,form,ol,p,pre,ul {margin-bottom: 0.5em;}}@media screen and (max-width:600px) {.row-mobile-scroll {flex-flow: row wrap;overflow-x: scroll;flex-wrap: unset;overflow-y: hidden;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;}.row-mobile-scroll-smallcol .col:nth-child(1) {padding-left:15px;}.row-mobile-scroll-smallcol {margin-left:-15px !important;margin-right:-15px !important;}.row-mobile-scroll-smallcol .col:nth-child(4) {padding-right:15px !important;}}@media screen and (max-width:900px) {.row-mobile-tablet-scroll {flex-flow: row wrap;overflow-x: scroll;flex-wrap: unset;overflow-y: hidden;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;}.row-mobile-tablet-scroll-smallcol .col:nth-child(1) {padding-left:15px;}.row-mobile-tablet-scroll-smallcol {margin-left:-15px !important;margin-right:-15px !important;}.row-mobile-tablet-scroll-smallcol .col:nth-child(4) {padding-right:15px !important;}}@font-face {font-family:"DangTau";font-weight:bold;src:url("https://dangtauwhisky.com/wp-content/customfonts/DANGTAU.woff");}@font-face {font-family:"SaaSeriesVN";font-weight:400;src:url("https://dangtauwhisky.com/wp-content/customfonts/SaaSeriesVN-Regular.woff2");}@font-face {font-family:"SVNNeueMontreal";font-weight:400;src:url("https://dangtauwhisky.com/wp-content/customfonts/SVN-Neue-Montreal-Regular.woff");}@font-face {font-family:"DangTauEngrave1";font-weight:400;src:url("https://dangtauwhisky.com/wp-content/customfonts/MapRoman-Condensed.otf");}@font-face {font-family:"DangTauEngrave2";font-weight:400;src:url("https://dangtauwhisky.com/wp-content/customfonts/PlayfairDisplay-Regular.ttf");}@font-face {font-family:"DangTauEngrave3";font-weight:400;src:url("https://dangtauwhisky.com/wp-content/customfonts/SVN-Snell-Roundhand-Script-Regular.ttf");}h1,h2,h3,h4,h5,h6, .heading-font {font-family: "DangTau", sans-serif;text-transform:uppercase;}.nav > li > a {font-family: "SaaSeriesVN", sans-serif;font-weight:400;}body {font-family: "SVNNeueMontreal", sans-serif;font-weight:400;}@media screen and (min-width: 768px) {::-webkit-scrollbar {width: 3px;border-radius: 99px;height: 2px;}::-webkit-scrollbar-thumb {background: #161616;border-radius: 0px;}::-webkit-scrollbar-track {background: #f7f7f7;border-radius: 0px;}}.label-new.menu-item > a:after{content:"Mới";}.label-hot.menu-item > a:after{content:"Nổi bật";}.label-sale.menu-item > a:after{content:"Giảm giá";}.label-popular.menu-item > a:after{content:"Phổ biến";}</style>		<style type="text/css" id="wp-custom-css">
 			/*modify global form*/
 .dark .wpcf7-form {
@@ -2457,214 +2453,25 @@ label.font-option {
 }		</style>
 	<!-- DangTau custom stylesheet -->
 	<link rel="stylesheet" href="/public/assets/css/home.css">
-		</head>
-<body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-21 theme-flatsome woocommerce-no-js header-shadow lightbox nav-dropdown-has-shadow catalog-mode">
-
-	<header id="header" class="header header-full-width has-sticky sticky-shrink">
-		<div class="header-wrapper">
-			<div id="top-bar" class="header-top hide-for-sticky nav-dark">
-    <div class="flex-row container">
-      <div class="flex-col hide-for-medium flex-left">
-          <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
-                        </ul>
-      </div>
-
-      <div class="flex-col hide-for-medium flex-center">
-          <ul class="nav nav-center nav-small  nav-divided">
-                        </ul>
-      </div>
-
-      <div class="flex-col hide-for-medium flex-right">
-         <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
-              <li class="header-contact-wrapper">
-		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
 		
-			
-						<li class="">
-			  <a class="tooltip" title="Thứ 2 - Chủ Nhật: 9h00 - 22h00 ">
-			  	   <i class="icon-clock" style="font-size:16px;" ></i>			        <span>Thứ 2 - Chủ Nhật: 9h00 - 22h00</span>
-			  </a>
-			 </li>
-			
-						<li class="">
-			  <a href="tel:090 929 3636" class="tooltip" title="090 929 3636">
-			     <i class="icon-phone" style="font-size:16px;" ></i>			      <span>090 929 3636</span>
-			  </a>
-			</li>
-			
-				</ul>
-</li>
-          </ul>
-      </div>
-
-            <div class="flex-col show-for-medium flex-grow">
-          <ul class="nav nav-center nav-small mobile-nav  nav-divided">
-              <li class="header-contact-wrapper">
-		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
-		
-			
-						<li class="">
-			  <a class="tooltip" title="Thứ 2 - Chủ Nhật: 9h00 - 22h00 ">
-			  	   <i class="icon-clock" style="font-size:16px;" ></i>			        <span>Thứ 2 - Chủ Nhật: 9h00 - 22h00</span>
-			  </a>
-			 </li>
-			
-						<li class="">
-			  <a href="tel:090 929 3636" class="tooltip" title="090 929 3636">
-			     <i class="icon-phone" style="font-size:16px;" ></i>			      <span>090 929 3636</span>
-			  </a>
-			</li>
-			
-				</ul>
-</li>
-          </ul>
-      </div>
-      
-    </div>
-</div>
-<div id="masthead" class="header-main show-logo-center">
-      <div class="header-inner flex-row container logo-center medium-logo-center" role="navigation">
-
-          <!-- Logo -->
-          <div id="logo" class="flex-col logo">
-            
-<!-- Header logo -->
-<a href="/" title="DangTau Whisky - Make Whisky Accessible" rel="home">
-		<img width="0" height="0" src="/public/assets/images/dangtau-whisky-logo-middle.svg" class="header_logo header-logo" alt="DangTau Whisky"/><img  width="0" height="0" src="/public/assets/images/dangtau-whisky-logo-middle.svg" class="header-logo-dark" alt="DangTau Whisky"/></a>
-          </div>
-
-          <!-- Mobile Left Elements -->
-          <div class="flex-col show-for-medium flex-left">
-            <ul class="mobile-nav nav nav-left ">
-              <li class="nav-icon has-icon">
-  		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
-
-		  <i class="icon-menu" ></i>
-		  		</a>
-	</li>
-            </ul>
-          </div>
-
-          <!-- Left Elements -->
-          <div class="flex-col hide-for-medium flex-left
-            ">
-            <ul class="header-nav header-nav-main nav nav-left  nav-size-large nav-spacing-large nav-uppercase" >
-              <li class="header-search-form search-form html relative has-icon">
-	<div class="header-search-form-wrapper">
-		<div class="searchform-wrapper ux-search-box relative form-flat is-normal"><form role="search" method="get" class="searchform" action="index.html">
-	<div class="flex-row relative">
-						<div class="flex-col flex-grow">
-			<label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
-			<input type="search" id="woocommerce-product-search-field-0" class="search-field mb-0" placeholder="Tìm kiếm sản phẩm" value="" name="s" />
-			<input type="hidden" name="post_type" value="product" />
-					</div>
-		<div class="flex-col">
-			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button  icon mb-0" aria-label="Gửi">
-				<i class="icon-search" ></i>			</button>
-		</div>
-	</div>
-	<div class="live-search-results text-left z-top"></div>
-</form>
-</div>	</div>
-</li>
-            </ul>
-          </div>
-
-          <!-- Right Elements -->
-          <div class="flex-col hide-for-medium flex-right">
-            <ul class="header-nav header-nav-main nav nav-right  nav-size-large nav-spacing-large nav-uppercase">
-              <li id="menu-item-4981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4981 menu-item-design-default"><a href="/trac-nghiem-whisky" class="nav-top-link">Trắc nghiệm Whisky</a></li>
-<li id="menu-item-4870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4870 menu-item-design-default has-dropdown"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Về chúng tôi<i class="icon-angle-down" ></i></a>
-<ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li id="menu-item-3339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3339"><a href="/ve-dangtau-whisky">Về DangTau Whisky</a></li>
-	<li id="menu-item-3338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3338"><a href="/ve-nha-sang-lap">Về nhà sáng lập</a></li>
-</ul>
-</li>
-<li id="menu-item-3340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3340 menu-item-design-default has-dropdown"><a href="/kien-thuc-whisky" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Kiến thức Whisky<i class="icon-angle-down" ></i></a>
-<ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li id="menu-item-3341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3341"><a href="/kien-thuc-whisky">Distilleries</a></li>
-	<li id="menu-item-3342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3342"><a href="/kien-thuc-whisky">Spirits</a></li>
-	<li id="menu-item-3343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3343"><a href="/kien-thuc-whisky">Whisky Basics</a></li>
-	<li id="menu-item-3344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3344"><a href="/kien-thuc-whisky">Whisky Review</a></li>
-</ul>
-</li>
-            </ul>
-          </div>
-
-          <!-- Mobile Right Elements -->
-          <div class="flex-col show-for-medium flex-right">
-            <ul class="mobile-nav nav nav-right ">
-              <li class="header-search header-search-lightbox has-icon">
-			<a href="#search-lightbox" aria-label="Tìm kiếm" data-open="#search-lightbox" data-focus="input.search-field"
-		class="is-small">
-		<i class="icon-search" style="font-size:16px;" ></i></a>
-		
-	<div id="search-lightbox" class="mfp-hide dark text-center">
-		<div class="searchform-wrapper ux-search-box relative form-flat is-large"><form role="search" method="get" class="searchform" action="index.html">
-	<div class="flex-row relative">
-						<div class="flex-col flex-grow">
-			<label class="screen-reader-text" for="woocommerce-product-search-field-1">Tìm kiếm:</label>
-			<input type="search" id="woocommerce-product-search-field-1" class="search-field mb-0" placeholder="Tìm kiếm sản phẩm" value="" name="s" />
-			<input type="hidden" name="post_type" value="product" />
-					</div>
-		<div class="flex-col">
-			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button  icon mb-0" aria-label="Gửi">
-				<i class="icon-search" ></i>			</button>
-		</div>
-	</div>
-	<div class="live-search-results text-left z-top"></div>
-</form>
-</div>	</div>
-</li>
-            </ul>
-          </div>
-
-      </div>
-
-      </div>
-<div id="wide-nav" class="header-bottom wide-nav flex-has-center hide-for-medium">
-    <div class="flex-row container">
-
-            
-                        <div class="flex-col hide-for-medium flex-center">
-                <ul class="nav header-nav header-bottom-nav nav-center  nav-size-large nav-spacing-large nav-uppercase">
-                    <li id="menu-item-4217" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4217 menu-item-design-default has-dropdown"><a href="/danh-muc/scotch-whisky" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Scotch Whisky<i class="icon-angle-down" ></i></a>
-<ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li id="menu-item-4218" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4218"><a href="/danh-muc/scotch-whisky/whisky-campbeltown">Whisky Campbeltown</a></li>
-	<li id="menu-item-4219" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4219"><a href="/danh-muc/scotch-whisky/whisky-highland">Whisky Highland</a></li>
-	<li id="menu-item-4220" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4220"><a href="/danh-muc/scotch-whisky/whisky-islay">Whisky Islay</a></li>
-	<li id="menu-item-4221" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4221"><a href="/danh-muc/scotch-whisky/whisky-lowland">Whisky Lowland</a></li>
-	<li id="menu-item-4222" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4222"><a href="/danh-muc/scotch-whisky/whisky-speyside">Whisky Speyside</a></li>
-	<li id="menu-item-5599" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-5599"><a href="/danh-muc/scotch-whisky/whisky-islands">Whisky Islands</a></li>
-</ul>
-</li>
-<li id="menu-item-4224" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4224 menu-item-design-default has-dropdown"><a href="/danh-muc/world-whisky" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">World Spririt<i class="icon-angle-down" ></i></a>
-<ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li id="menu-item-8690" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8690"><a href="/danh-muc/cognac">Cognac</a></li>
-	<li id="menu-item-4225" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4225"><a href="/danh-muc/world-whisky/whisky-ireland">Whiskey Ireland</a></li>
-	<li id="menu-item-4227" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4227"><a href="/danh-muc/world-whisky/whisky-nhat">Whisky Nhật</a></li>
-	<li id="menu-item-4228" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4228"><a href="/danh-muc/world-whisky/whisky-the-lakes">Whisky The Lakes</a></li>
-	<li id="menu-item-8693" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8693"><a href="/danh-muc/gin">Gin</a></li>
-	<li id="menu-item-8694" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8694"><a href="/danh-muc/rum">Rum</a></li>
-	<li id="menu-item-8692" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8692"><a href="/danh-muc/calvados">Calvados</a></li>
-	<li id="menu-item-8695" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8695"><a href="/danh-muc/ruou-trung-quoc">Rượu Trung Quốc</a></li>
-	<li id="menu-item-4226" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4226"><a href="/danh-muc/world-whisky/whisky-khac">Bourbon Whiskey</a></li>
-</ul>
-</li>
-<li id="menu-item-4216" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4216 menu-item-design-default"><a href="/danh-muc/old-rare" class="nav-top-link">Old &amp; Rare</a></li>
-<li id="menu-item-4213" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4213 menu-item-design-default"><a href="/danh-muc/armagnac" class="nav-top-link">Armagnac</a></li>
-<li id="menu-item-4214" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4214 menu-item-design-default"><a href="/danh-muc/wine" class="nav-top-link">Wine</a></li>
-<li id="menu-item-8008" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8008 menu-item-design-default"><a href="/danh-muc/signatory-vintage" class="nav-top-link">Signatory Vintage</a></li>
-<li id="menu-item-4215" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4215 menu-item-design-default"><a href="/danh-muc/bo-qua-tang" class="nav-top-link">Bộ quà tặng</a></li>
-<li id="menu-item-4223" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4223 menu-item-design-default"><a href="/danh-muc/set-thu-ruou" class="nav-top-link">Set thử rượu</a></li>
-<li id="menu-item-5590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5590 menu-item-design-default"><a href="/khac-chai-ca-nhan-hoa" class="nav-top-link">Khắc Tên Lên Chai</a></li>
-                </ul>
-            </div>
-            
-            
-            
-    </div>
-</div>
-
-<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
-	</header>
+<link rel="stylesheet" href="/public/assets/css/demo.css">
+</head>
+<body class="page theme-flatsome header-shadow catalog-mode">
+<header id="header" class="header header-full-width">
+ <div class="header-wrapper">
+  <div class="header-top nav-dark demo-top"><a href="#demo-contact" data-demo-contact>Tư vấn — bản demo</a></div>
+  <div class="header-main"><div class="container demo-masthead">
+   <button type="button" class="demo-menu-toggle" aria-controls="main-menu" aria-expanded="false" aria-label="Mở menu">☰</button>
+   <div class="demo-desktop-search"><?php $searchId = 'desktop-search'; require VIEW_PATH . '/partials/search.php'; ?></div>
+   <a href="/" class="demo-logo"><img src="/public/assets/images/dangtau-whisky-logo-middle.svg" width="250" height="75" alt="DangTau Whisky"></a>
+   <nav aria-label="Thông tin" class="demo-desktop-pages"><ul class="demo-nav"><?php renderMenu(sitemap()['pages']); ?></ul></nav>
+   <a href="/search" class="demo-mobile-search" aria-label="Tìm kiếm">⌕</a>
+  </div></div>
+  <nav class="header-bottom demo-desktop-products" aria-label="Danh mục sản phẩm"><ul class="demo-nav"><?php renderMenu(sitemap()['products']); ?></ul></nav>
+ </div>
+</header>
+<dialog id="main-menu" class="demo-drawer" aria-labelledby="mobile-menu-title">
+ <h2 id="mobile-menu-title">Menu</h2><button class="demo-close" type="button" data-close-dialog aria-label="Đóng menu">×</button>
+ <?php $searchId = 'mobile-search'; require VIEW_PATH . '/partials/search.php'; ?>
+ <nav aria-label="Menu mobile"><ul class="demo-mobile-nav"><li><a href="/">Trang chủ</a></li><li><a href="/san-pham">Tất cả sản phẩm</a></li><?php renderMenu(sitemap()['products'], 'mobile'); renderMenu(sitemap()['pages'], 'mobile'); ?></ul></nav>
+</dialog>

@@ -1,93 +1,43 @@
 <?php
-/**
- * Front Controller - DangTau Whisky
- * Điểm vào duy nhất của toàn bộ ứng dụng (MVC Entry Point)
- */
-
+/** Front controller. Document root remains the repository root. */
 define('ROOT_PATH', __DIR__);
-define('APP_PATH',  ROOT_PATH . '/app');
-define('VIEW_PATH', APP_PATH  . '/views');
+define('APP_PATH', ROOT_PATH . '/app');
+define('VIEW_PATH', APP_PATH . '/views');
+require APP_PATH . '/support/view.php';
+$uri = rtrim(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/', '/') ?: '/';
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
-function loadController(string $file): void
-{
-    require APP_PATH . '/controllers/' . $file;
+// Explicit legacy aliases only. Removed content deliberately has no redirect.
+$aliases = ['/index.html'=>'/', '/products.html'=>'/san-pham', '/wine'=>'/danh-muc/wine', '/product/the-lakes-gift-set'=>'/danh-muc/bo-qua-tang'];
+foreach (categoryIndex() as $slug => $item) $aliases['/product-category/' . $slug] = $item['url'];
+foreach (['cognac','gin','rum','calvados','ruou-trung-quoc'] as $slug) {
+    $aliases['/danh-muc/' . $slug] = '/danh-muc/world-whisky/' . $slug;
+    $aliases['/product-category/' . $slug] = '/danh-muc/world-whisky/' . $slug;
 }
-
-// ── Lấy URI sạch (bỏ query string, bỏ trailing slash) ────────────────────────
-$uri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
-$uri = rtrim($uri, '/') ?: '/';
-
-// ── Route table (pattern → [controller_file, method, param_index|null]) ──────
-//    Thứ tự quan trọng: đặt route cụ thể trước route động
+foreach (['/danh-muc/', '/product-category/'] as $prefix) $aliases[$prefix . 'world-whisky/whisky-khac'] = '/danh-muc/world-whisky/bourbon-whiskey';
+foreach (sitemap()['blogs'] as $item) $aliases['/danh-muc/' . basename($item['url'])] = $item['url'];
+if (isset($aliases[$uri])) {
+    $query = $_SERVER['QUERY_STRING'] ?? '';
+    header('Location: ' . $aliases[$uri] . ($query ? '?' . $query : ''), true, 302);
+    exit;
+}
 $routes = [
-
-    // ── Trang chủ ────────────────────────────────────────────────────────────
-    ['#^/$#',                                   'HomeController.php',    'index',    null],
-    ['#^/home$#',                               'HomeController.php',    'index',    null],
-
-    // ── Danh sách sản phẩm ───────────────────────────────────────────────────
-    ['#^/san-pham$#',                           'ProductController.php', 'index',    null],
-
-    // ── Chi tiết sản phẩm: /san-pham/{slug} ──────────────────────────────────
-    ['#^/san-pham/([a-z0-9\-]+)$#',            'ProductController.php', 'show',     1],
-
-    // ── Danh mục sản phẩm: /danh-muc/{slug} (có thể có sub: /danh-muc/a/b) ──
-    ['#^/danh-muc/([a-z0-9\-/]+)$#',           'ProductController.php', 'category', 1],
-
-    // ── Trang tĩnh ───────────────────────────────────────────────────────────
-    ['#^/ve-dangtau-whisky$#',                  'PageController.php',    'about',    null],
-    ['#^/ve-nha-sang-lap$#',                    'PageController.php',    'founder',  null],
-    ['#^/kien-thuc-whisky$#',                   'PageController.php',    'blog',     null],
-    ['#^/trac-nghiem-whisky$#',                 'PageController.php',    'quiz',     null],
-    ['#^/khac-chai-ca-nhan-hoa$#',              'PageController.php',    'engraving',null],
+    ['#^/(?:home)?$#', 'HomeController', 'index'],
+    ['#^/san-pham$#', 'ProductController', 'index'],
+    ['#^/san-pham/([a-z0-9-]+)$#', 'ProductController', 'show'],
+    ['#^/danh-muc/([a-z0-9/-]+)$#', 'ProductController', 'category'],
+    ['#^/ve-dangtau-whisky$#', 'PageController', 'about'],
+    ['#^/ve-nha-sang-lap$#', 'PageController', 'founder'],
+    ['#^/kien-thuc-whisky$#', 'PageController', 'blog'],
+    ['#^/kien-thuc-whisky/([a-z0-9-]+)$#', 'PageController', 'blog'],
+    ['#^/dich-vu-ca-nhan-hoa$#', 'PageController', 'services'],
+    ['#^/search$#', 'PageController', 'search'],
 ];
-
-// ── Dispatch ──────────────────────────────────────────────────────────────────
-$matched = false;
-
-foreach ($routes as [$pattern, $controllerFile, $method, $paramGroup]) {
+foreach ($routes as [$pattern, $class, $method]) {
     if (preg_match($pattern, $uri, $matches)) {
-        $matched = true;
-
-        // Controller file tồn tại?
-        $controllerPath = APP_PATH . '/controllers/' . $controllerFile;
-        if (!file_exists($controllerPath)) {
-            http_response_code(500);
-            echo "<h1>500 – Controller <code>$controllerFile</code> chưa được tạo.</h1>";
-            exit;
-        }
-
-        require $controllerPath;
-
-        // Lấy tên class từ tên file (bỏ .php)
-        $className = str_replace('.php', '', $controllerFile);
-        $controller = new $className();
-
-        // Gọi method với hoặc không có param
-        if ($paramGroup !== null && isset($matches[$paramGroup])) {
-            $controller->$method($matches[$paramGroup]);
-        } else {
-            $controller->$method();
-        }
-
-        break;
+        require APP_PATH . '/controllers/' . $class . '.php';
+        $controller = new $class();
+        isset($matches[1]) ? $controller->$method($matches[1]) : $controller->$method();
+        exit;
     }
 }
-
-// ── 404 ──────────────────────────────────────────────────────────────────────
-if (!$matched) {
-    http_response_code(404);
-    $pageTitle = '404 – Trang không tồn tại | DangTau Whisky';
-    // Hiển thị layout 404 nếu có, hoặc fallback HTML
-    $layout404 = APP_PATH . '/views/404.php';
-    if (file_exists($layout404)) {
-        require $layout404;
-    } else {
-        echo '<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8">
-              <title>404 | DangTau Whisky</title></head><body>
-              <h1>404 – Trang không tồn tại</h1>
-              <p><a href="/">← Về trang chủ</a></p>
-              </body></html>';
-    }
-}
+notFound();

@@ -94,28 +94,17 @@ class ProductController
                 'title' => 'BỘ QUÀ TẶNG',
                 'desc'  => 'Những bộ quà tặng whisky cao cấp được tuyển chọn và đóng gói tinh tế — lựa chọn hoàn hảo cho những dịp đặc biệt. Từ sinh nhật, kỷ niệm đến quà tặng doanh nghiệp sang trọng.',
             ],
-            'set-thu-ruou' => [
-                'title' => 'SET THỬ RƯỢU',
-                'desc'  => 'Bộ set thử rượu được thiết kế dành cho những người mới khám phá thế giới whisky hoặc muốn mở rộng trải nghiệm. Mỗi set là một hành trình khám phá hương vị được curate bởi chuyên gia của DangTau.',
-            ],
         ];
 
-        // Kiểm tra sub-slug trước, rồi main-slug
-        $lookupKey    = $subSlug ?? $mainSlug;
-        $mockCategory = $categoryMap[$lookupKey]
-            ?? $categoryMap[$mainSlug]
-            ?? [
-                'title' => strtoupper(str_replace('-', ' ', $mainSlug)),
-                'desc'  => 'Khám phá bộ sưu tập ' . ucwords(str_replace('-', ' ', $mainSlug)) . ' được tuyển chọn kỹ lưỡng bởi DangTau Whisky.',
-            ];
-
-        // Gắn thêm slug để View dùng nếu cần
-        $mockCategory['slug'] = $slug;
-
-        // Cập nhật page title theo category
-        $pageTitle = $mockCategory['title'] . ' | DangTau Whisky';
-
-        // TODO: $products = ProductModel::getByCategory($mainSlug, $subSlug);
+        $categories = categoryIndex();
+        if (!isset($categories[$slug])) { notFound(); return; }
+        $item = $categories[$slug];
+        $mockCategory = [
+            'title' => $item['label'],
+            'desc' => $categoryMap[$lookupKey = ($subSlug ?? $mainSlug)]['desc'] ?? 'Danh mục demo — dữ liệu sản phẩm sẽ được hoàn thiện ở chặng 2.',
+            'slug' => $slug,
+        ];
+        $pageTitle = $item['label'] . ' | DangTau Whisky';
         $products = [];
 
         require VIEW_PATH . '/products.php';

@@ -1,16 +1,13 @@
-<?php
-// Page title cho header.php dùng
-$pageTitle = 'Chi Tiết Sản Phẩm | DangTau Whisky';
-?>
-<?php include 'layouts/header.php'; ?>
+<?php require VIEW_PATH . '/layouts/header.php'; ?>
+<div class="container demo-notice">Giao diện minh họa — dữ liệu chi tiết sản phẩm theo đường dẫn đang chờ chặng 2. Thông tin bên dưới chưa phải dữ liệu được xác nhận.</div>
 
 
     <!-- Breadcrumb -->
     <section class="breadcrumb-section">
         <div class="container">
             <p class="breadcrumb">
-                <a href="index.html">Trang Chủ</a> / 
-                <a href="products.html">Sản Phẩm</a> / 
+                <a href="/">Trang Chủ</a> / 
+                <a href="/san-pham">Sản Phẩm</a> / 
                 <span>Macallan 18 Sherry Oak</span>
             </p>
         </div>
@@ -26,10 +23,10 @@ $pageTitle = 'Chi Tiết Sản Phẩm | DangTau Whisky';
                         <img src="https://via.placeholder.com/500x600?text=Product+Image" alt="Macallan 18 Sherry Oak" id="mainImage">
                     </div>
                     <div class="thumbnail-images">
-                        <img src="https://via.placeholder.com/80x100?text=Thumb+1" alt="Thumbnail 1" class="thumbnail" onclick="changeMainImage(this)">
-                        <img src="https://via.placeholder.com/80x100?text=Thumb+2" alt="Thumbnail 2" class="thumbnail" onclick="changeMainImage(this)">
-                        <img src="https://via.placeholder.com/80x100?text=Thumb+3" alt="Thumbnail 3" class="thumbnail" onclick="changeMainImage(this)">
-                        <img src="https://via.placeholder.com/80x100?text=Thumb+4" alt="Thumbnail 4" class="thumbnail" onclick="changeMainImage(this)">
+                        <img src="https://via.placeholder.com/80x100?text=Thumb+1" alt="Thumbnail 1" class="thumbnail" data-demo-pending>
+                        <img src="https://via.placeholder.com/80x100?text=Thumb+2" alt="Thumbnail 2" class="thumbnail" data-demo-pending>
+                        <img src="https://via.placeholder.com/80x100?text=Thumb+3" alt="Thumbnail 3" class="thumbnail" data-demo-pending>
+                        <img src="https://via.placeholder.com/80x100?text=Thumb+4" alt="Thumbnail 4" class="thumbnail" data-demo-pending>
                     </div>
                 </div>
 
@@ -38,7 +35,7 @@ $pageTitle = 'Chi Tiết Sản Phẩm | DangTau Whisky';
                     <div class="product-title-section">
                         <h1>Macallan 18 Sherry Oak</h1>
                         <p class="product-category">
-                            <a href="products.html">Scotch Whisky</a>
+                            <a href="/san-pham">Scotch Whisky</a>
                         </p>
                     </div>
 
@@ -87,15 +84,15 @@ $pageTitle = 'Chi Tiết Sản Phẩm | DangTau Whisky';
                     <div class="product-quantity">
                         <label for="quantity">Số Lượng:</label>
                         <div class="quantity-selector">
-                            <button class="qty-btn minus" onclick="decreaseQty()">−</button>
+                            <button class="qty-btn minus" data-demo-pending>−</button>
                             <input type="number" id="quantity" value="1" min="1">
-                            <button class="qty-btn plus" onclick="increaseQty()">+</button>
+                            <button class="qty-btn plus" data-demo-pending>+</button>
                         </div>
                     </div>
 
                     <div class="product-actions">
-                        <button class="btn btn-primary btn-add-to-cart" onclick="addToCart()">Thêm vào giỏ hàng</button>
-                        <button class="btn btn-secondary btn-wishlist">♡ Yêu Thích</button>
+                        <button class="btn btn-primary" data-demo-contact>Tư vấn</button>
+                        <button class="btn btn-secondary" data-demo-pending>♡ Yêu Thích</button>
                     </div>
 
                     <div class="product-shipping">
@@ -116,9 +113,9 @@ $pageTitle = 'Chi Tiết Sản Phẩm | DangTau Whisky';
     <section class="product-tabs">
         <div class="container">
             <div class="tabs-header">
-                <button class="tab-button active" onclick="switchTab(0)">Mô Tả</button>
-                <button class="tab-button" onclick="switchTab(1)">Thông Tin Bổ Sung</button>
-                <button class="tab-button" onclick="switchTab(2)">Đánh Giá (12)</button>
+                <button class="tab-button active" data-demo-pending>Mô Tả</button>
+                <button class="tab-button" data-demo-pending>Thông Tin Bổ Sung</button>
+                <button class="tab-button" data-demo-pending>Đánh Giá (12)</button>
             </div>
 
             <div class="tabs-content">
@@ -196,22 +193,22 @@ $pageTitle = 'Chi Tiết Sản Phẩm | DangTau Whisky';
             <div class="products-grid">
                 <div class="product-card">
                     <img src="https://via.placeholder.com/200x250?text=Related+1" alt="Related Product 1">
-                    <h4><a href="#">Balvenie 21 Portwood</a></h4>
+                    <h4><a href="/">Balvenie 21 Portwood</a></h4>
                     <p class="price">3.200.000 đ</p>
                 </div>
                 <div class="product-card">
                     <img src="https://via.placeholder.com/200x250?text=Related+2" alt="Related Product 2">
-                    <h4><a href="#">Dalmore 15 King Alexander</a></h4>
+                    <h4><a href="/">Dalmore 15 King Alexander</a></h4>
                     <p class="price">1.950.000 đ</p>
                 </div>
                 <div class="product-card">
                     <img src="https://via.placeholder.com/200x250?text=Related+3" alt="Related Product 3">
-                    <h4><a href="#">Highland Park 18</a></h4>
+                    <h4><a href="/">Highland Park 18</a></h4>
                     <p class="price">2.100.000 đ</p>
                 </div>
                 <div class="product-card">
                     <img src="https://via.placeholder.com/200x250?text=Related+4" alt="Related Product 4">
-                    <h4><a href="#">Glenmorangie Signet</a></h4>
+                    <h4><a href="/">Glenmorangie Signet</a></h4>
                     <p class="price">5.500.000 đ</p>
                 </div>
             </div>
@@ -220,4 +217,4 @@ $pageTitle = 'Chi Tiết Sản Phẩm | DangTau Whisky';
 
     <!-- Footer -->
 
-<?php include 'layouts/footer.php'; ?>
+<?php require VIEW_PATH . '/layouts/footer.php'; ?>
