@@ -55,12 +55,12 @@
 			
 	<div id="text-3694114886" class="text dtsubtitle">
 		
-<p>Macallan 84</p>
+<p>VANG PHÁP</p>
 			</div>
 	
 	<div id="text-2435649643" class="text dtile">
 		
-<h2>CHAI WHISKY GIÀ NHẤT THẾ GIỚI ĐÃ CÓ MẶT TẠI DANGTAU WHISKY</h2>
+<h2>TINH HOA RƯỢU VANG TỪ CÁC CHATEAU DANH TIẾNG ĐÃ CÓ MẶT TẠI DUVIN</h2>
 		
 <style>
 #text-2435649643 {
@@ -69,9 +69,9 @@
 </style>
 	</div>
 	
-<p>Hãy chờ đón video bật mí siêu phẩm này trên youtube của chúng tôi nhé!</p>
+<p>Tuyển tập những dòng vang tinh tế, mang đậm hơi thở của các vùng thổ nhưỡng trứ danh. Khám phá ngay để tìm ra hương vị yêu thích cho những khoảnh khắc gắn kết của bạn!</p>
 <a href="https://youtu.be/hBG0J3qLLuA?si=B5h9_53jgFCKnIAP" target="_blank" class="button white is-outline" rel="noopener nofollow">
-		<span>XEM NGAY</span>
+		<span>KHÁM PHÁ NGAY</span>
 	</a>
 
 		</div>
@@ -92,11 +92,11 @@
   <div class="banner has-hover" id="banner-979033297">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img fetchpriority="high" decoding="async" width="1280" height="1312" src="/public/assets/images/Banner_Mac84.webp" class="bg attachment-original size-original" alt="Banner Mac84 | DangTau Whisky" title="Banner Mac84 | DangTau Whisky">                                    
+            <img fetchpriority="high" decoding="async" width="1280" height="1312" src="/public/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="Banner Mac84 | DangTau Whisky" title="Banner Mac84 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="https://www.youtube.com/@dangtauwhisky" rel="nofollow noopener" target="_blank"><div class="fill banner-link"></div></a>            
+            <a class="fill" href="https://youtube.com/@amisduvin" rel="nofollow noopener" target="_blank"><div class="fill banner-link"></div></a>            
    <div id="text-box-1100581749" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -154,12 +154,12 @@
 			
 	<div id="text-3069244932" class="text dtsubtitle">
 		
-<p>New Arrival </p>
+<p>VANG Ý </p>
 			</div>
 	
 	<div id="text-1699098173" class="text dtile">
 		
-<h2>Speyside ( M ) <br />đã về hàng </h2>
+<h2>BẢN GIAO HƯỞNG ĐẬM ĐÀ VÀ QUYẾN RŨ</h2>
 		
 <style>
 #text-1699098173 {
@@ -172,7 +172,7 @@
 </style>
 	</div>
 	
-<p>Dangtau Whisky tự hào mang đến lô hàng mới gần 20 siêu phẩm từ Signatory Vintage &#8211; những chai whisky độc bản, chất lượng cao cấp nhất dành cho những tín đồ yêu thích whisky Scotland</p>
+<p>DuVin tự hào mang đến những dòng vang Ý thượng hạng, từ những chai mượt mà, ngọt ngào đến những chai chát đậm, cấu trúc chắc chắn. Một lựa chọn hoàn hảo để đánh thức mọi giác quan của người yêu vang.</p>
 <a href="/product-category/signatory-vintage/" class="button white is-outline">
 		<span>XEM THÊM</span>
 	</a>
@@ -195,7 +195,7 @@
   <div class="banner has-hover is-full-height" id="banner-1311413341">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img decoding="async" width="1552" height="1013" src="/public/assets/images/ChatGPT-Image-Sep-1-2026-12_48_26-PM.jpg" class="bg attachment-2048x2048 size-2048x2048" alt="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky" title="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky">                                    
+            <img decoding="async" width="1552" height="1013" src="/public/assets/images/duvin2.jpg" class="bg attachment-2048x2048 size-2048x2048" alt="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky" title="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -257,12 +257,12 @@
 			
 	<div id="text-2773139435" class="text dtsubtitle">
 		
-<p>ARMAGNAC</p>
+<p>VANG CHILE</p>
 			</div>
 	
 	<div id="text-863730640" class="text dtile">
 		
-<h2>armagnac RƯỢU MẠNH<br />PHÁP LỊCH SỬ 700 NĂM</h2>
+<h2>SỰ PHÁ CÁCH MẠNH MẼ TỪ TÂN THẾ GIỚI</h2>
 		
 <style>
 #text-863730640 {
@@ -271,10 +271,9 @@
 </style>
 	</div>
 	
-<p>Khám phá Armagnac, loại rượu brandy hay còn gọi là Eau-De-Vie lâu đời nhất của Pháp, với lịch sử hơn 700 năm &#8211; có trước cả Cognac hơn 150 năm từ năm 1310. Armagnac là đặc trưng của vùng Gascony, nằm ở phía Tây Nam Bordeaux, nơi nổi tiếng với kỷ lục người dân sống thọ nhất nước Pháp.</p>
-<p>Sở hữu ngay chai Armagnac hảo hạng, kết tinh của lịch sử và văn hóa Pháp, với giá khởi điểm từ 5 triệu đồng.</p>
+<p>Trải nghiệm sự bùng nổ hương vị trái cây chín mọng và tannin mềm mại của vang Chile. Dễ uống, dễ kết hợp ẩm thực và mức giá cực kỳ tiếp cận – đây luôn là lựa chọn tuyệt vời cho những buổi tụ họp bạn bè.</p>
 <a href="/product-category/armagnac" class="button white is-outline"  >
-		<span>Tìm hiểu thêm</span>
+		<span>KHÁM PHÁ NGAY</span>
 	</a>
 
 		</div>
@@ -295,7 +294,7 @@
   <div class="banner has-hover" id="banner-193432955">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img decoding="async" width="1200" height="1200" src="/public/assets/images/SYN00141-Edit-e1740029390883.webp" class="bg attachment-original size-original" alt="SYN00141 Edit e1740029390883 | DangTau Whisky" title="SYN00141 Edit e1740029390883 | DangTau Whisky">                                    
+            <img decoding="async" width="1200" height="1200" src="/public/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="SYN00141 Edit e1740029390883 | DangTau Whisky" title="SYN00141 Edit e1740029390883 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -357,12 +356,12 @@
 			
 	<div id="text-1100165524" class="text dtsubtitle">
 		
-<p>WINE</p>
+<p>NEW ARRIVAL</p>
 			</div>
 	
 	<div id="text-2636695128" class="text dtile">
 		
-<h2>KHÔNG CHỈ RƯỢU MẠNH,<br />DANGTAU CŨNG TUYỂN CHỌN NHỮNG CHAI VANG HẢO HẠNG NHẤT</h2>
+<h2>BỘ SƯU TẬP VANG TUYỂN CHỌN MỚI NHẤT</h2>
 		
 <style>
 #text-2636695128 {
@@ -371,9 +370,9 @@
 </style>
 	</div>
 	
-<p>Chúng tôi không dừng lại ở rượu mạnh mà còn đưa cuộc phiêu lưu của mình sang &#8220;vùng đất&#8221; tuyển chọn những chai vang thượng hạng từ khắp thế giới. Mỗi chai vang là một tác phẩm nghệ thuật, kể câu chuyện về vùng đất và con người. Khám phá thế giới vang đa sắc màu, cùng chuyên gia tìm kiếm chai vang hoàn hảo cho riêng bạn.</p>
+<p>DuVin vừa cập bến những dòng vang mới nhất cho mùa lễ hội. Được đích thân nhà sáng lập Phong nếm thử và tuyển chọn khắt khe, đây chắc chắn là những "viên ngọc ẩn" mang lại trải nghiệm đầy bất ngờ.</p>
 <a href="/wine/" class="button white is-outline"  >
-		<span>TÌM HIỂU NGAY</span>
+		<span>XEM CHI TIẾT</span>
 	</a>
 
 		</div>
@@ -394,7 +393,7 @@
   <div class="banner has-hover" id="banner-1125992043">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1920" height="1081" src="/public/assets/images/DSC00968111.webp" class="bg attachment-original size-original" alt="DSC00968111 | DangTau Whisky" title="DSC00968111 | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1920" height="1081" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="DSC00968111 | DangTau Whisky" title="DSC00968111 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -456,13 +455,12 @@
 			
 	<div id="text-564898829" class="text dtsubtitle">
 		
-<p>JAPANESE WHISKY</p>
+<p>QUÀ TẶNG</p>
 			</div>
 	
 	<div id="text-2700571279" class="text dtile">
 		
-<h2>KANOSUKE<br />
-THẾ HỆ MỚI CỦA WHISKY NHẬT</h2>
+<h2>TRAO GỬI THÂM TÌNH QUA NHỮNG HỘP QUÀ TINH TẾ</h2>
 		
 <style>
 #text-2700571279 {
@@ -471,11 +469,10 @@ THẾ HỆ MỚI CỦA WHISKY NHẬT</h2>
 </style>
 	</div>
 	
-<p>Whisky Nhật không chỉ có Yamazaki.Một thế hệ mới đang tạo nên dấu ấn riêng — Kanosuke, với phong cách whisky mềm mại, sâu sắc<br />
-nhưng vẫn đầy cá tính và hiện đại.
+<p>Thể hiện đẳng cấp và sự thấu hiểu với bộ sưu tập hộp quà tặng vang sang trọng từ DuVin. Thiết kế hộp da, hộp gỗ cao cấp cùng những chai vang xứng tầm, thay bạn gửi lời tri ân sâu sắc đến đối tác và người thân.
 </p>
 <a href="/product-category/world-whisky/whisky-nhat/" class="button white is-outline">
-		<span>KHÁM PHÁ NGAY</span>
+		<span>XEM BỘ SƯU TẬP</span>
 	</a>
 
 		</div>
@@ -496,7 +493,7 @@ nhưng vẫn đầy cá tính và hiện đại.
   <div class="banner has-hover" id="banner-931667308">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1947" height="808" src="/public/assets/images/ChatGPT-Image-Sep-8-2026-08_42_47-AM.jpg" class="bg attachment-original size-original" alt="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky" title="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1947" height="808" src="/public/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky" title="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -882,13 +879,13 @@ nhưng vẫn đầy cá tính và hiện đại.
 	<div id="text-3031624791" class="text dtsubtitle">
 		
 
-<p>DangTau Whisky's Influence</p>
+<p>DUVIN'S INFLUENCE</p>
 			</div>
 	
 	<div id="text-3966619878" class="text dtile">
 		
 
-<h2>Sức ảnh hưởng và <br class="br-mobile">lan tỏa của <br class="br-mobile">DangTau Whisky</h2>
+<h2>SỨC ẢNH HƯỞNG VÀ<br class="br-mobile"> LAN TỎA CỦA <br class="br-mobile">DUVIN</h2>
 		
 <style>
 #text-3966619878 {
@@ -922,7 +919,8 @@ nhưng vẫn đầy cá tính và hiện đại.
 	<div id="text-505645133" class="text p-zero-margin">
 		
 
-<p>DangTau Whisky đang là một trong những kênh truyền thông về Whisky &amp; Rượu Mạnh uy tín hàng đầu trên rất nhiều nền tảng mạng xã hội. Qua những bài viết, hình ảnh, video chia sẻ kiến thức, đánh giá và những trải nghiệm cá nhân, tôi đã và đang truyền cảm hứng, xây dựng và phát triển cộng đồng thưởng thức giàu văn hóa hơn.</p>
+<p>DuVin đang từng bước khẳng định vị thế là một trong những cộng đồng chia sẻ kiến thức và văn hóa rượu vang uy tín trên các nền tảng mạng xã hội.
+  Qua những bài viết, video đánh giá chân thực và gần gũi, chúng tôi mong muốn truyền cảm hứng và kết nối những người yêu vang tại Việt Nam.</p>
 			</div>
 	
 
@@ -957,7 +955,7 @@ nhưng vẫn đầy cá tính và hiện đại.
   <div class="banner has-hover" id="banner-240184907">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1253" height="704" src="/public/assets/images/dangtau-infuence-banner.webp" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1253" height="704" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -1029,7 +1027,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	<div id="text-2450199989" class="text dtsubtitle2">
 		
 
-<p>Đánh dấu sự phát triển mạnh mẽ trên Facebook, Instagram, TikTok &amp; YouTube</p>
+<p>Đánh dấu sự phát triển mạnh mẽ trên Facebook &amp Zalo</p>
 		
 <style>
 #text-2450199989 {
@@ -1063,59 +1061,32 @@ nhưng vẫn đầy cá tính và hiện đại.
 		
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1927864184">
-		<a class="" href="https://facebook.com/dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/public/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | DangTau Whisky">						
+		<a class="" href="https://facebook.com/amisduvin" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+			<img decoding="async" src="/public/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | Duvin">						
 					</div>
 						</a>		
 <style>
 #image_1927864184 {
-  width: 100%;
+  width: 30%;
 }
 </style>
 	</div>
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
-		<a class="" href="https://instagram.com/dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/public/assets/images/insta-icon.svg" class="attachment-large size-large" alt="insta icon | DangTau Whisky" title="insta icon | DangTau Whisky">						
+		<a class="" href="https://zalo.me/amisduvin" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+			<img decoding="async" src="/public/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">						
 					</div>
 						</a>		
 <style>
 #image_1831423319 {
-  width: 100%;
+  width: 30%;
 }
 </style>
 	</div>
+
 	
 
-	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_29952405">
-		<a class="" href="https://tiktok.com/@dangtauwhisky.com" target="_blank" rel="noopener">						<div class="img-inner dark" >
-			<img decoding="async" src="/public/assets/images/tiktok-icon.svg" class="attachment-large size-large" alt="tiktok icon | DangTau Whisky" title="tiktok icon | DangTau Whisky">						
-					</div>
-						</a>		
-<style>
-#image_29952405 {
-  width: 100%;
-}
-</style>
-	</div>
-	
-
-	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1139780356">
-		<a class="" href="https://youtube.com/@dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/public/assets/images/ytb-icon.svg" class="attachment-large size-large" alt="ytb icon | DangTau Whisky" title="ytb icon | DangTau Whisky">						
-					</div>
-						</a>		
-<style>
-#image_1139780356 {
-  width: 100%;
-}
-</style>
-	</div>
-	
-
-
-		
 <style>
 #stack-3701893570 > * {
   --stack-gap: 1rem;
@@ -1287,9 +1258,9 @@ nhưng vẫn đầy cá tính và hiện đại.
 
 		<div class="tabbed-content home-tab-choosewhisky">
 			
-			<ul class="nav nav-simple nav-uppercase nav-size-normal nav-left" role="tablist"><li id="tab-scotch-whisky" class="tab active has-icon" role="presentation"><a href="index.html#tab_scotch-whisky" role="tab" aria-selected="true" aria-controls="tab_scotch-whisky"><span>Scotch Whisky</span></a></li>
-<li id="tab-japanese-whisky" class="tab has-icon" role="presentation"><a href="index.html#tab_japanese-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_japanese-whisky"><span>Japanese Whisky</span></a></li>
-<li id="tab-world-whisky" class="tab has-icon" role="presentation"><a href="index.html#tab_world-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_world-whisky"><span>World Whisky</span></a></li></ul><div class="tab-panels"><div id="tab_scotch-whisky" class="panel active entry-content" role="tabpanel" aria-labelledby="tab-scotch-whisky">
+			<ul class="nav nav-simple nav-uppercase nav-size-normal nav-left" role="tablist"><li id="tab-scotch-whisky" class="tab active has-icon" role="presentation"><a href="index.html#tab_scotch-whisky" role="tab" aria-selected="true" aria-controls="tab_scotch-whisky"><span>VANG PHÁP CỔ ĐIỂN</span></a></li>
+<li id="tab-japanese-whisky" class="tab has-icon" role="presentation"><a href="index.html#tab_japanese-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_japanese-whisky"><span>VANG Ý ĐẬM ĐÀ</span></a></li>
+<li id="tab-world-whisky" class="tab has-icon" role="presentation"><a href="index.html#tab_world-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_world-whisky"><span>VANG TÂN THẾ GIỚI</span></a></li></ul><div class="tab-panels"><div id="tab_scotch-whisky" class="panel active entry-content" role="tabpanel" aria-labelledby="tab-scotch-whisky">
 
   <div class="banner has-hover" id="banner-434062862">
           <div class="banner-inner fill">
@@ -1441,7 +1412,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 </div></div></div>
 	<div id="text-271047807" class="text dtsubtitle">
 		
-<p>lựa chọn vùng whisky</p>
+<p>LỰA CHỌN VÙNG RƯỢU VANG</p>
 			</div>
 	
 <a class="button white is-outline choosetype-seemore"  >
@@ -1522,7 +1493,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                   
 	<div id="text-1130707899" class="text dtile">
 		
-<h2>Whisky <br class="br-mobile">dưới 50 triệu</h2>
+<h2>VANG THƯỢNG HẠNG <br class="br-mobile">TỪ 5 TRIỆU</h2>
 		
 <style>
 #text-1130707899 {
@@ -1595,7 +1566,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                   
 	<div id="text-3078320158" class="text dtile">
 		
-<h2>Whisky <br class="br-mobile">dưới 20 triệu</h2>
+<h2>VANG THƯỢNG HẠNG<br class="br-mobile">TỪ 20 TRIỆU</h2>
 		
 <style>
 #text-3078320158 {
@@ -1668,7 +1639,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                   
 	<div id="text-449562150" class="text dtile">
 		
-<h2>Whisky <br class="br-mobile">dưới 10 triệu</h2>
+<h2>VANG THƯỢNG HẠNG <br class="br-mobile"> TỪ 30 TRIỆU</h2>
 		
 <style>
 #text-449562150 {
@@ -1741,7 +1712,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                   
 	<div id="text-1654285321" class="text dtile">
 		
-<h2>Whisky <br class="br-mobile">dưới 5 triệu</h2>
+<h2>VANG THƯỢNG HẠNG <br class="br-mobile">TỪ 10 TRIỆU</h2>
 		
 <style>
 #text-1654285321 {
@@ -1869,7 +1840,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	
 	<div id="text-143498331" class="text dtile">
 		
-<h2>Những set thử &amp; quà tặng ý nghĩa</h2>
+<h2>BỘ SƯU TẬP HỘP QUÀ TẶNG SANG TRỌNG</h2>
 		
 <style>
 #text-143498331 {
@@ -1908,7 +1879,7 @@ nhưng vẫn đầy cá tính và hiện đại.
   <div class="banner has-hover" id="banner-1158509399">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1202" height="1536" src="/public/assets/images/tasting_set_banner.webp" class="bg attachment-original size-original" alt="tasting set banner | DangTau Whisky" title="tasting set banner | DangTau Whisky">                        <div class="overlay"></div>            
+            <img loading="lazy" decoding="async" width="1202" height="1536" src="/public/assets/images/gift1.jpg" class="bg attachment-original size-original" alt="tasting set banner | DangTau Whisky" title="tasting set banner | DangTau Whisky">                        <div class="overlay"></div>            
                     </div>
 		
         <div class="banner-layers container">
@@ -1920,7 +1891,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                   
 	<div id="text-7382685" class="text dtsubtitle2">
 		
-<p>Tasting sets</p>
+<p>WINE TASTING SETS</p>
 		
 <style>
 #text-7382685 {
@@ -1937,7 +1908,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	
 	<div id="text-2312571193" class="text dtsubtitle2">
 		
-<p>Tìm ra hương vị Lakes phù hợp</p>
+<p>KHÁM PHÁ ĐA DẠNG HƯƠNG VỊ</p>
 		
 <style>
 #text-2312571193 {
@@ -2023,7 +1994,7 @@ nhưng vẫn đầy cá tính và hiện đại.
   <div class="banner has-hover" id="banner-1939053351">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1200" height="1489" src="/public/assets/images/LGS_Nostalgia01.webp" class="bg attachment-original size-original" alt="LGS Nostalgia01 | DangTau Whisky" title="LGS Nostalgia01 | DangTau Whisky">                        <div class="overlay"></div>            
+            <img loading="lazy" decoding="async" width="1200" height="1489" src="/public/assets/images/gift2.jpg" class="bg attachment-original size-original" alt="LGS Nostalgia01 | DangTau Whisky" title="LGS Nostalgia01 | DangTau Whisky">                        <div class="overlay"></div>            
                     </div>
 		
         <div class="banner-layers container">
@@ -2035,7 +2006,7 @@ nhưng vẫn đầy cá tính và hiện đại.
                   
 	<div id="text-3597991763" class="text dtsubtitle2">
 		
-<p>Gift set</p>
+<p>PREMIUM GIFT SET</p>
 		
 <style>
 #text-3597991763 {
@@ -2052,7 +2023,7 @@ nhưng vẫn đầy cá tính và hiện đại.
 	
 	<div id="text-2071738324" class="text dtsubtitle2">
 		
-<p>bộ quà tết the lakes single malt</p>
+<p>HỘP QUÀ TẶNG DOANH NGHIỆP Ý NGHĨA</p>
 		
 <style>
 #text-2071738324 {
@@ -2159,85 +2130,6 @@ nhưng vẫn đầy cá tính và hiện đại.
 	</section>
 	
 
-	<section class="section dark" id="section_1570635014">
-		<div class="section-bg fill" >
-			<img loading="lazy" decoding="async" width="736" height="736" src="/public/assets/images/engraving.webp" class="bg attachment-original size-original" alt="engraving | DangTau Whisky" title="engraving | DangTau Whisky">						<div class="section-bg-overlay absolute fill"></div>
-			
-
-		</div>
-
-		
-
-		<div class="section-content relative">
-			
-<div class="row"  id="row-1501334230">
-
-	<div id="col-459689737" class="col small-12 large-12"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-			
-			
-	<div id="text-3877091505" class="text dtsubtitle">
-		
-<p>Personalised Engraving</p>
-			</div>
-	
-	<div id="text-1649073720" class="text dtile">
-		
-<h2>khắc chai<br />cá nhân hóa</h2>
-		
-<style>
-#text-1649073720 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-	<div id="gap-41734416" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style>
-#gap-41734416 {
-  padding-top: 20px;
-}
-</style>
-	</div>
-	
-<a href="/khac-chai-ca-nhan-hoa" class="button white is-outline"  >
-		<span>Khám phá ngay</span>
-	</a>
-
-		</div>
-				
-<style>
-#col-459689737 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-</style>
-	</div>
-
-	
-</div>
-		</div>
-
-		
-<style>
-#section_1570635014 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-#section_1570635014 .section-bg-overlay {
-  background-color: rgba(0, 0, 0, 0.122);
-}
-#section_1570635014 .section-bg img {
-  object-position: 30% 47%;
-}
-@media (min-width:550px) {
-  #section_1570635014 {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-}
-</style>
-	</section>
 	
 
 			

@@ -38,13 +38,13 @@
 		<div class="dtsubtitle dtbreadcrumb">
 				
 
-<nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="https://dangtauwhisky.com">Trang chủ</a><span class="separator"> / </span><span class="last">Về DangTau Whisky</span></p></nav>
+<nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="https://dangtauwhisky.com">Trang chủ</a><span class="separator"> / </span><span class="last">Về Duvin</span></p></nav>
 		</div>
 	
 	<div id="text-3523276544" class="text dtile">
 		
 
-<h2>KẾT NỐI VIỆT NAM<br>VỚI TINH HOA WHISKY TRÊN THẾ GIỚI</h2>
+<h2>KẾT NỐI NGƯỜI VIỆT<br>VỚI TINH HOA RƯỢU VANG THẾ GIỚI</h2>
 		
 <style>
 #text-3523276544 {
@@ -60,7 +60,7 @@
 	<div id="text-2858815667" class="text p-zero-margin">
 		
 
-<p>Đó chính là <strong>sứ mệnh</strong> của DangTau Whisky. Trải qua hành trình 10 năm học, hiểu và “ngấm” Whisky, chúng tôi tin rằng đây không chỉ là một thứ đồ uống thông thường. Đó là lịch sử, là kiến thức, nghệ thuật và đôi khi là trải nghiệm của cả một đời người.</p>
+<p>Đó chính là <strong>sứ mệnh</strong> của DuVin. Trải qua quá trình dài nghiên cứu và chọn lọc, chúng tôi tin rằng vang là dành cho tất cả mọi người. Một trải nghiệm gần gũi, minh bạch, dễ hiểu và đầy cảm hứng.</p>
 			</div>
 	
 
@@ -175,7 +175,7 @@
 	<div id="text-1172040521" class="text dtile">
 		
 
-<h2>Giá trị cốt lõi của dangtau whisky</h2>
+<h2>GIÁ TRỊ CỐT LÕI CỦA DUVIN</h2>
 		
 <style>
 #text-1172040521 {
@@ -187,7 +187,7 @@
 	<div id="text-527745287" class="text p-zero-margin">
 		
 
-<p>Ở DangTau Whisky, chúng tôi tin rằng “Có Hiểu thì mới Có Yêu” – Mỗi chúng ta đều có thể học, hiểu và trân trọng Whisky nếu có cơ hội được tiếp cận Whisky một cách căn bản và đa dạng nhất.</p>
+<p>Ở DuVin, chúng tôi hoạt động theo mô hình Direct-to-Consumer (D2C), mang sản phẩm trực tiếp từ nhà sản xuất đến tay khách hàng, xóa bỏ rào cản và nâng tầm trải nghiệm mua sắm.</p>
 			</div>
 	
 
@@ -206,7 +206,7 @@
 	<div id="text-3847784387" class="text dtsubtitle">
 		
 
-<p>Kết nối Tinh Hoa Whisky với <br class="br-mobile">mọi người ở việt nam</p>
+<p>KẾT NỐI TINH HOA VANG VỚI <br class="br-mobile">MỌI GIA ĐÌNH VIỆT</p>
 		
 <style>
 #text-3847784387 {
@@ -251,13 +251,13 @@
 	<div id="text-394401966" class="text dtsubtitle">
 		
 
-<p>Chất lượng</p>
+<p>CHẤT LƯỢNG CHÍNH HÃNG</p>
 			</div>
 	
 	<div id="text-3828159207" class="text p-zero-margin">
 		
 
-<p>Chúng tôi cam kết cung cấp các sản phẩm chính hãng, chất lượng cao đến từ các nhà máy rượu nổi tiếng và uy tín khắp nơi trên toàn thế giới.</p>
+<p>Chúng tôi cam kết cung cấp các sản phẩm rượu vang nhập khẩu chính ngạch, rõ ràng nguồn gốc và được bảo quản trong điều kiện nhiệt độ chuẩn mực nhất.</p>
 			</div>
 	
 
@@ -274,13 +274,13 @@
 	<div id="text-1188940924" class="text dtsubtitle">
 		
 
-<p> Đa dạng, phong phú</p>
+<p> TRẢI NGHIỆM GẦN GŨI</p>
 			</div>
 	
 	<div id="text-1937885895" class="text p-zero-margin">
 		
 
-<p>DangTau Whisky tự hào là một trong những đơn vị quy tụ nhiều siêu phẩm Whisky cổ và quý hiếm bậc nhất tại Việt Nam.</p>
+<p>DuVin mang đến một không gian mua sắm thân thiện, hiện đại, giúp mọi khách hàng – từ người mới bắt đầu đến giới sành vang – dễ dàng tìm được chai vang ưng ý.</p>
 			</div>
 	
 
@@ -297,13 +297,13 @@
 	<div id="text-3107438721" class="text dtsubtitle">
 		
 
-<p>Whisky Education</p>
+<p>WINE EDUCATION</p>
 			</div>
 	
 	<div id="text-2045375294" class="text p-zero-margin">
 		
 
-<p>Chúng tôi không ngừng chia sẻ những kiến thức và trải nghiệm về Whisky, để cùng nhau chúng ta khám phá mọi chân trời và ngõ ngách của thế giới Whisky rộng lớn.</p>
+<p>Chúng tôi luôn sẵn sàng đồng hành, chia sẻ kiến thức về vang một cách dễ hiểu và ứng dụng thực tế nhất để mỗi bữa tiệc của bạn thêm phần trọn vẹn.</p>
 			</div>
 	
 
@@ -369,7 +369,7 @@
 	<div id="text-820947550" class="text dtsubtitle">
 		
 
-<p>Thư viện Whisky đầu tiên tại Hà Nội</p>
+<p>KHÁM PHÁ SHOWROOM DUVIN</p>
 		
 <style>
 #text-820947550 {
@@ -384,7 +384,7 @@
 	<div id="text-861154820" class="text dtile">
 		
 
-<h2>Khám phá thư viện DangTau Whisky</h2>
+<h2>KHÔNG GIAN TRẢI NGHIỆM VANG HIỆN ĐẠI TẠI HÀ NỘI</h2>
 		
 <style>
 #text-861154820 {
@@ -522,7 +522,7 @@
 	<div id="text-1311682747" class="text dtile">
 		
 
-<h2>Đối tác tin cậy của những thương hiệu hàng đầu</h2>
+<h2>ĐỐI TÁC TIN CẬY CỦA NHỮNG THƯƠNG HIỆU HÀNG ĐẦU</h2>
 		
 <style>
 #text-1311682747 {
@@ -535,7 +535,7 @@
 </style>
 	</div>
 	
-<p>DangTau Whisky tự hào là đơn vị cung cấp dịch vụ Workshop chuyên nghiệp, mang đến trải nghiệm thưởng thức whisky đẳng cấp cho các đối tác lớn. Với kiến thức chuyên sâu về whisky, cùng đội ngũ chuyên gia giàu kinh nghiệm, chúng tôi đã đồng hành cùng nhiều thương hiệu danh tiếng trong việc tổ chức các sự kiện thành công, góp phần nâng tầm giá trị thương hiệu và gắn kết khách hàng.</p>
+<p>DuVin tự hào là đơn vị phân phối và đối tác chiến lược của nhiều nhà làm vang danh tiếng trên thế giới. Với sự tận tâm và am hiểu thị trường, chúng tôi cam kết mang đến những sản phẩm chất lượng, góp phần nâng tầm trải nghiệm thưởng thức cho người Việt.</p>
 
 		</div>
 				
@@ -980,7 +980,7 @@
 	<div id="text-1039943995" class="text dtile">
 		
 
-<h2>The Experience</h2>
+<h2>THE DUVIN EXPERIENCE</h2>
 		
 <style>
 #text-1039943995 {
@@ -1105,7 +1105,7 @@
 	<div id="text-2094170765" class="text dtsubtitle2">
 		
 
-<p>Đến với DangTau Whisky Library, bạn sẽ được trải nghiệm một thế giới Whisky thu nhỏ.</p>
+<p>ĐẾN VỚI DUVIN, BẠN SẼ ĐƯỢC TRẢI NGHIỆM MỘT THẾ GIỚI VANG SỐNG ĐỘNG</p>
 		
 <style>
 #text-2094170765 {
@@ -1135,7 +1135,7 @@
 	</div>
 	
 
-<p>Tasting Menu với các chai rượu độc đáo, được lựa chọn bởi chính Founder của DangTau Whisky, giúp bạn có cơ hội thưởng thức nhiều loại Whisky trước khi mua.</p>
+<p>Tasting menu được lựa chọn cẩn thận bởi đội ngũ chuyên gia của chúng tôi, giúp bạn tự tin khám phá và cảm nhận đa dạng hương vị trước khi quyết định mua sắm.</p>
 
 		</div>
 				
@@ -1165,7 +1165,7 @@
 	<div id="text-497011291" class="text dtsubtitle2">
 		
 
-<p>“Rượu Ngon Phải Có Bạn Hiền”</p>
+<p>“RƯỢU NGON PHẢI CÓ BẠN HIỀN”</p>
 		
 <style>
 #text-497011291 {
@@ -1195,7 +1195,7 @@
 	</div>
 	
 
-<p>Tại DangTau Whisky Library, bạn hoàn toàn có thể ngồi thưởng thức Whisky cùng bạn bè và người thân trong một không gian sang trọng, với không giới hạn các sự lựa chọn Whisky.</p>
+<p>Tại không gian của DuVin, bạn hoàn toàn có thể ngồi thưởng thức vang cùng đối tác, bạn bè trong một bầu không khí ấm cúng, thân thiện nhưng không kém phần tinh tế.</p>
 
 		</div>
 				

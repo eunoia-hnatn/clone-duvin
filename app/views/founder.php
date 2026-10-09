@@ -44,7 +44,7 @@
 	<div id="text-3810541692" class="text dtile">
 		
 
-<h2>Tôi là Đăng – một nhà sưu tập và đại sứ Whisky quốc tế</h2>
+<h2>TÔI LÀ PHONG – NGƯỜI TRUYỀN CẢM HỨNG VÀ KẾT NỐI ĐAM MÊ RƯỢU VANG</h2>
 		
 <style>
 #text-3810541692 {
@@ -56,7 +56,7 @@
 	<div id="text-901633441" class="text p-zero-margin">
 		
 
-<p>Sau một thập kỷ học hỏi, đánh giá và đúc kết,&nbsp; tôi nhận thấy rằng Whisky không chỉ đơn thuần là một loại đồ uống. Đó là di sản, là sự trân trọng tri thức,&nbsp; một loại hình nghệ thuật và có thể là một trải nghiệm đáng nhớ suốt cả một đời người.</p>
+<p>Sau nhiều năm gắn bó và nghiên cứu chuyên sâu về ngành vang, tôi nhận ra rằng rượu vang không chỉ đơn thuần là một thức uống. Đó là văn hóa, là nghệ thuật, và là chất xúc tác tuyệt vời nhất cho những câu chuyện gắn kết trên mọi bàn tiệc.</p>
 			</div>
 	
 
@@ -171,7 +171,7 @@
 	<div id="text-649546875" class="text dtsubtitle">
 		
 
-<p>Hành trình của tôi bắt đầu khi còn là du học sinh Anh Quốc và bị mê hoặc bởi sức hấp dẫn của thứ đồ uống “uisce beatha” tuyệt vời này.</p>
+<p>HÀNH TRÌNH CỦA TÔI BẮT ĐẦU TỪ NIỀM ĐAM MÊ BẤT TẬN VỚI NHỮNG VÙNG TRỒNG NHO DANH TIẾNG VÀ HƯƠNG VỊ BẢN NGUYÊN.</p>
 		
 <style>
 #text-649546875 {
@@ -198,7 +198,7 @@
 	<div id="text-3469488902" class="text dtsubtitle">
 		
 
-<p>Trong một thập kỷ qua, tôi đã xây dựng tên tuổi của mình trong ngành công nghiệp rượu mạnh tại Việt Nam.</p>
+<p>MỤC TIÊU CỦA TÔI LÀ XÓA BỎ MỌI KHOẢNG CÁCH, MANG THẾ GIỚI RƯỢU VANG ĐẾN GẦN HƠN VỚI MỌI GIA ĐÌNH VIỆT.</p>
 		
 <style>
 #text-3469488902 {
@@ -336,7 +336,7 @@
 	<div id="text-3579009926" class="text dtile">
 		
 
-<h2>MỘT THẬP KỈ PHÁT TRIỂN (2024)</h2>
+<h2>MỘT HÀNH TRÌNH PHÁT TRIỂN & CỐNG HIẾN</h2>
 
 		
 <style>
@@ -368,9 +368,8 @@
 	<div id="text-1331900365" class="text">
 		
 
-<p>Trở về Việt Nam, tôi nhận thấy thị trường rượu mạnh, đặc biệt là whisky, còn nhiều tiềm năng chưa được khai phá.  Người yêu rượu còn thiếu những nguồn thông tin chính thống, bài bản để hiểu rõ hơn về  môn chơi thú vị này.</p>
-<p>Chính vì vậy, với niềm đam mê sẵn có, tôi quyết định góp phần thay đổi điều này. Thông qua những nội dung giáo dục chuyên sâu, tôi mong muốn mang đến cho người Việt những kiến thức  chính xác và thú vị về whisky &amp; rượu mạnh.</p>
-<p>Đó là lý do tại sao khát vọng của tôi là trở thành cầu nối giữa những tinh hoa Whisky thế giới với khách hàng Việt Nam.</p>
+<p>Từng bước đi sâu vào thị trường, tôi nhận thấy người yêu vang tại Việt Nam vẫn luôn cần một không gian thân thiện, dễ tiếp cận và minh bạch về nguồn gốc. 
+  Đó là lý do tôi dồn tâm huyết xây dựng DuVin - thương hiệu bán lẻ hoạt động theo mô hình Direct-to-Consumer (D2C), vươn lên làm cầu nối đưa tinh hoa vang thế giới đến thẳng tay người tiêu dùng.</p>
 		
 <style>
 #text-1331900365 {
@@ -463,13 +462,13 @@
 	<div id="text-181871670" class="text dtsubtitle">
 		
 
-<p>Global Whisky Exploration</p>
+<p>GLOBAL WINE EXPLORATION</p>
 			</div>
 	
 	<div id="text-3637677752" class="text dtile">
 		
 
-<h2>12+ nhà chưng cất và hành trình khám phá khắp thế giới</h2>
+<h2>50+ CHATEAU VÀ HÀNH TRÌNH KHÁM PHÁ CÁC VÙNG VANG TRỨ DANH</h2>
 		
 <style>
 #text-3637677752 {
@@ -503,7 +502,7 @@
 	<div id="text-1186089360" class="text p-zero-margin">
 		
 
-<p>Hành trình khám phá thế giới Whisky đã đưa tôi đến nhiều nơi, từ các nhà máy chưng cất huyền thoại ở Scotland, Nhật Bản đến Anh Quốc. Tại mỗi điểm đến, tôi học hỏi cách sản xuất và ủ Whisky, cũng như những câu chuyện văn hóa độc đáo đằng sau mỗi chai rượu.&nbsp;</p>
+<p>Hành trình khám phá đã đưa tôi đến những hầm rượu lâu đời tại Pháp, Ý, Chile, Tây Ban Nha... Mỗi vùng đất, mỗi chateau là một câu chuyện lịch sử, thổ nhưỡng độc đáo mà tôi muốn chắt lọc và mang về Việt Nam.</p>
 			</div>
 	
 
@@ -628,13 +627,13 @@
 	<div id="text-1376312656" class="text dtsubtitle">
 		
 
-<p>DangTau Whisky's Influence</p>
+<p>DUVIN'S INFLUENCE</p>
 			</div>
 	
 	<div id="text-2815730914" class="text dtile">
 		
 
-<h2>Sức ảnh hưởng và <br class="br-mobile">lan tỏa của <br class="br-mobile">DangTau Whisky</h2>
+<h2>SỨC ẢNH HƯỞNG VÀ LAN TỎA CỦA DUVIN</h2>
 		
 <style>
 #text-2815730914 {
@@ -668,7 +667,7 @@
 	<div id="text-2944493983" class="text p-zero-margin">
 		
 
-<p>DangTau Whisky đang là một trong những kênh truyền thông về Whisky &amp; Rượu Mạnh uy tín hàng đầu trên rất nhiều nền tảng mạng xã hội. Qua những bài viết, hình ảnh, video chia sẻ kiến thức, đánh giá và những trải nghiệm cá nhân, tôi đã và đang truyền cảm hứng, xây dựng và phát triển cộng đồng thưởng thức giàu văn hóa hơn.</p>
+<p>DuVin đang từng bước trở thành một trong những điểm đến tin cậy trên các nền tảng mạng xã hội về kiến thức và phong cách thưởng thức rượu vang. Qua những bài viết, video chia sẻ gần gũi, chúng tôi mong muốn xây dựng một cộng đồng yêu vang văn minh và hiện đại.</p>
 			</div>
 	
 
@@ -1021,13 +1020,13 @@
 	<div id="text-1549819130" class="text dtsubtitle">
 		
 
-<p>Exclusive Partnerships</p>
+<p>STRATEGIC PARTNERSHIPS</p>
 			</div>
 	
 	<div id="text-2363418596" class="text dtile">
 		
 
-<h2>Đối tác độc quyền<br>của DangTau <br class="br-mobile">tại Việt Nam</h2>
+<h2>ĐỐI TÁC CHIẾN LƯỢC CỦA DUVIN TẠI VIỆT NAM</h2>
 		
 <style>
 #text-2363418596 {
@@ -1061,7 +1060,7 @@
 	<div id="text-2155648664" class="text p-zero-margin">
 		
 
-<p>Trở về Việt Nam và ra mắt thương hiệu DangTau, tôi đã có cơ hội hợp tác với nhiều thương hiệu nổi tiếng trong ngành Whisky và đồ uống cao cấp. DangTau tự hào đã ký kết hợp tác, giới thiệu &amp; franchise với các thương hiệu hàng đầu tới thị trường Việt Nam.</p>
+<p>Đại diện cho hình ảnh thương hiệu tiếp xúc trực tiếp với người tiêu dùng, DuVin tự hào hợp tác cùng những nhà làm vang uy tín nhất, mang đến các bộ sưu tập vang đa dạng từ phân khúc thưởng thức hàng ngày đến thượng hạng.</p>
 			</div>
 	
 
@@ -1438,13 +1437,13 @@
 	<div id="text-2290652392" class="text dtsubtitle">
 		
 
-<p>Join the DangTau Whisky Club</p>
+<p>JOIN THE DUVIN WINE CLUB</p>
 			</div>
 	
 	<div id="text-1291474655" class="text dtile">
 		
 
-<h2>Cộng đồng thưởng thức <br class="br-desktop">DangTau Whisky &amp; Spirit Club</h2>
+<h2>CỘNG ĐỒNG YÊU VANG DUVIN</h2>
 		
 <style>
 #text-1291474655 {
@@ -1453,7 +1452,7 @@
 </style>
 	</div>
 	
-<p>Tôi tin rằng ai cũng có thể hiểu và trân trọng Whisky nếu được giới thiệu đúng cách. Vì vậy, tôi đã tạo ra DangTau Whisky &amp; Spirit Club, một cộng đồng dành cho những người đam mê whisky trên khắp thế giới. Tại đây, mọi người có thể chia sẻ kiến thức, trải nghiệm và cùng nhau thưởng thức những loại whisky tinh hoa. Cộng đồng không ngừng lớn mạnh và luôn chào đón những thành viên mới</p>
+<p>Tham gia cùng chúng tôi để chia sẻ kiến thức, trải nghiệm và cùng nhau thưởng thức những ly vang tuyệt hảo trong một không gian thân thiện, cởi mở.</p>
 	<div id="gap-1025840375" class="gap-element clearfix" style="display:block; height:auto;">
 		
 <style>
@@ -1530,13 +1529,13 @@
 	<div id="text-1354869782" class="text dtsubtitle">
 		
 
-<p>DangTau’s Whisky Picks</p>
+<p>PHONG'S WINE PICKS</p>
 			</div>
 	
 	<div id="text-566076789" class="text dtile">
 		
 
-<h2>LỰA CHỌN WHISKY <br>CỦA THÁNG</h2>
+<h2>LỰA CHỌN WINE <br>CỦA THÁNG</h2>
 
 		
 <style>
@@ -1586,7 +1585,7 @@
 	<div id="text-105919098" class="text p-zero-margin">
 		
 
-<p>Mỗi tháng và năm, tôi chọn ra những chai whisky xuất sắc nhất để giới thiệu. DangTau’s Choice không chỉ đảm bảo chất lượng mà còn mang lại trải nghiệm độc đáo. Đây là cơ hội để người yêu whisky khám phá hương vị mới và hiểu sâu hơn về giá trị mỗi chai rượu.</p>
+<p>Mỗi tháng, tôi tự tay tuyển chọn những chai vang đặc sắc nhất. Đây là cơ hội để người yêu vang khám phá sự đa dạng của hương vị với mức giá trị xứng đáng nhất cho mỗi trải nghiệm.</p>
 			</div>
 	
 

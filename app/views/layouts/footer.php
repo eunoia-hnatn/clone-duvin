@@ -31,24 +31,11 @@
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_109026919">
 								<div class="img-inner dark" >
-			<img src="/public/assets/images/dangtau-whisky-logo-middle.svg" class="attachment-original size-original" alt="" decoding="async" loading="lazy" />						
+			<img src="/public/assets/images/duvin-logo-white-transparent.png" class="attachment-original size-original" 
+			style="max-height: 120px; width: auto; object-fit: contain; margin: 0 auto; display: block;" alt="DuVin Logo" decoding="async" loading="lazy" />						
 					</div>
 								
-<style>
-#image_109026919 {
-  width: 85%;
-}
-@media (min-width:550px) {
-  #image_109026919 {
-    width: 75%;
-  }
-}
-@media (min-width:850px) {
-  #image_109026919 {
-    width: 44%;
-  }
-}
-</style>
+
 	</div>
 	
 
@@ -71,7 +58,7 @@
 		
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1395129220">
-		<a class="" href="https://facebook.com/dangtauwhisky" target="_blank" rel="noopener" >						<div class="img-inner dark" >
+		<a class="" href="https://facebook.com/amisduvin" target="_blank" rel="noopener" >						<div class="img-inner dark" >
 			<img src="/public/assets/images/fb-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
 					</div>
 						</a>		
@@ -84,7 +71,7 @@
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1638156735">
-		<a class="" href="https://instagram.com/dangtauwhisky" target="_blank" rel="noopener" >						<div class="img-inner dark" >
+		<a class="" href="https://instagram.com/amisduvin" target="_blank" rel="noopener" >						<div class="img-inner dark" >
 			<img src="/public/assets/images/insta-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
 					</div>
 						</a>		
@@ -97,7 +84,7 @@
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1477456768">
-		<a class="" href="https://tiktok.com/@dangtauwhisky.com" target="_blank" rel="noopener" >						<div class="img-inner dark" >
+		<a class="" href="https://tiktok.com/@amisduvin" target="_blank" rel="noopener" >						<div class="img-inner dark" >
 			<img src="/public/assets/images/tiktok-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
 					</div>
 						</a>		
@@ -110,7 +97,7 @@
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_474319430">
-		<a class="" href="https://youtube.com/@dangtauwhisky" target="_blank" rel="noopener" >						<div class="img-inner dark" >
+		<a class="" href="https://youtube.com/@amisduvin" target="_blank" rel="noopener" >						<div class="img-inner dark" >
 			<img src="/public/assets/images/ytb-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
 					</div>
 						</a>		
@@ -154,7 +141,7 @@
 	<div id="text-838481137" class="text">
 		
 
-<p>dt@dangtauwhisky.co.uk</p>
+<p>dv@duvin.co.uk</p>
 
 		
 <style>
@@ -192,7 +179,7 @@
 	<div id="text-2465876687" class="text">
 		
 
-<p>31 Nguyễn Gia Thiều, Q. Hoàn Kiếm, Hà Nội</p>
+<p>58B Võ Văn Dũng, Hoàng Cầu, Hà Nội</p>
 		
 <style>
 #text-2465876687 {
@@ -339,7 +326,7 @@
 	<div id="text-2404955144" class="text p-zero-margin dtsubtitle2">
 		
 
-<p>2026 © DangTau Whisky. Mọi quyền đã được bảo lưu.</p>
+<p>2026 © DUVIN. Mọi quyền đã được bảo lưu.</p>
 		
 <style>
 #text-2404955144 {
@@ -460,14 +447,11 @@
 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4214"><a href="/product-category/wine/">Wine</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8008"><a href="/product-category/signatory-vintage/">Signatory Vintage</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4215"><a href="/product-category/bo-qua-tang/">Bộ quà tặng</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4223"><a href="/product-category/set-thu-ruou/">Set thử rượu</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5590"><a href="/khac-chai-ca-nhan-hoa/">Khắc Tên Lên Chai</a></li>
 			</ul>
 			<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1">
-				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4981"><a href="/trac-nghiem-whisky/">Trắc nghiệm Whisky</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4870"><a href="index.html#">Về chúng tôi</a>
 <ul class="sub-menu nav-sidebar-ul children">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3339"><a href="/ve-dangtau-whisky/">Về DangTau Whisky</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3339"><a href="/ve-dangtau-whisky/">Về Duvin</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3338"><a href="/ve-nha-sang-lap/">Về nhà sáng lập</a></li>
 </ul>
 </li>
@@ -570,31 +554,30 @@ var wpcf7 = {
 <script type="text/javascript" src="/public/assets/js/api.js" id="google-recaptcha-js"></script>
 <script type="text/javascript" id="woocommerce-js-extra">
 /* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+var woocommerce_params = {"ajax_url":"\/404","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/public/assets/js/woocommerce.min.js" id="woocommerce-js" data-wp-strategy="defer"></script>
 <script type="text/javascript" id="frontend-script-js-extra">
 /* <![CDATA[ */
-var admin_ajax_url = {"ajaxurl":"https:\/\/dangtauwhisky.com\/wp-admin\/admin-ajax.php"};
+var admin_ajax_url = {"ajaxurl":"\/404"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/public/assets/js/frontend-script.js" id="frontend-script-js"></script>
 <script type="text/javascript" src="/public/assets/js/toastr.min.js" id="toastr-js-js"></script>
 <script type="text/javascript" src="/public/assets/js/custom-toast.js" id="custom-toast-js"></script>
 <script type="text/javascript" src="/public/assets/js/flatsome-instant-page.js" id="flatsome-instant-page-js"></script>
-<script type="text/javascript" src="/public/assets/js/flatsome-live-search.js" id="flatsome-live-search-js"></script>
 <script type="text/javascript" src="/public/assets/js/sourcebuster.min.js" id="sourcebuster-js-js"></script>
 <script type="text/javascript" id="wc-order-attribution-js-extra">
 /* <![CDATA[ */
-var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/dangtauwhisky.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"\/404","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/public/assets/js/order-attribution.min.js" id="wc-order-attribution-js"></script>
 <script type="text/javascript" src="/public/assets/js/hoverIntent.min.js" id="hoverIntent-js"></script>
 <script type="text/javascript" id="flatsome-js-js-extra">
 /* <![CDATA[ */
-var flatsomeVars = {"theme":{"version":"3.19.6"},"ajaxurl":"https:\/\/dangtauwhisky.com\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"80","stickyHeaderHeight":"0","scrollPaddingTop":"0","assets_url":"https:\/\/dangtauwhisky.com\/wp-content\/themes\/flatsome\/assets\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Menu ch\u00ednh","toggleButton":"Chuy\u1ec3n \u0111\u1ed5i"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_disable_deselect":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_limited":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"500"},"is_mini_cart_reveal":"1"};
+var flatsomeVars = {"theme":{"version":"3.19.6"},"ajaxurl":"\/404","rtl":"","sticky_height":"80","stickyHeaderHeight":"0","scrollPaddingTop":"0","assets_url":"https:\/\/dangtauwhisky.com\/wp-content\/themes\/flatsome\/assets\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Menu ch\u00ednh","toggleButton":"Chuy\u1ec3n \u0111\u1ed5i"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_disable_deselect":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_limited":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"500"},"is_mini_cart_reveal":"1"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/public/assets/js/flatsome.js" id="flatsome-js-js"></script>

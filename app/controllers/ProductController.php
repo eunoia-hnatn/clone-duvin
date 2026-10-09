@@ -28,7 +28,8 @@ class ProductController
      */
     public function show(string $slug): void
     {
-        $pageTitle = 'Chi Tiết Sản Phẩm | DangTau Whisky';
+        $pageTitle  = 'Chi Tiết Sản Phẩm | DangTau Whisky';
+        $body_class = 'single-product woocommerce woocommerce-page';
 
         // TODO: $product = ProductModel::findBySlug($slug);
         $product = null;
