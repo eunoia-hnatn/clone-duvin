@@ -33,7 +33,7 @@
 		<div class="dtsubtitle dtbreadcrumb">
 				
 
-<nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="https://dangtauwhisky.com">Trang chủ</a><span class="separator"> / </span><span class="last">Kiến thức Whisky</span></p></nav>
+<nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="https://dangtauwhisky.com">Trang chủ</a><span class="separator"> / </span><span class="last">Wine Knowledge</span></p></nav>
 		</div>
 	
 	<div id="text-1612071350" class="text dtile">
@@ -78,7 +78,7 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
   <div class="banner has-hover" id="banner-1003381553">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img width="1920" height="1280" src="https://dangtauwhisky.com/wp-content/uploads/2024/12/DTA00618-1.webp" class="bg attachment-original size-original" alt="" decoding="async" fetchpriority="high">                                    
+            <img width="1920" height="1280" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="" decoding="async" fetchpriority="high">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -182,15 +182,15 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 <ul class="sidebar-wrapper ul-reset post-cat-widget"><div id="categories-2" class="widget widget_categories"><div class="widget-title-holder"><h3 class="widget-title">Danh mục bài viết</h3></div>
 			<ul>
-					<li class="cat-item cat-item-19"><a href="https://dangtauwhisky.com/danh-muc/distilleries/">Distilleries</a> (3)
+					<li class="cat-item cat-item-19"><a href="https://dangtauwhisky.com/danh-muc/distilleries/">Wineries & Châteaux</a> (3)
 </li>
 	<li class="cat-item cat-item-143"><a href="https://dangtauwhisky.com/danh-muc/news/">News</a> (21)
 </li>
-	<li class="cat-item cat-item-21"><a href="https://dangtauwhisky.com/danh-muc/spirits/">Spirits</a> (4)
+	<li class="cat-item cat-item-21"><a href="https://dangtauwhisky.com/danh-muc/spirits/">Grape Varieties</a> (4)
 </li>
-	<li class="cat-item cat-item-18"><a href="https://dangtauwhisky.com/danh-muc/whisky-basics/">Whisky Basics</a> (12)
+	<li class="cat-item cat-item-18"><a href="https://dangtauwhisky.com/danh-muc/whisky-basics/">Wine Basics</a> (12)
 </li>
-	<li class="cat-item cat-item-20"><a href="https://dangtauwhisky.com/danh-muc/whisky-review/">Whisky Review</a> (4)
+	<li class="cat-item cat-item-20"><a href="https://dangtauwhisky.com/danh-muc/whisky-review/">Tasting Notes</a> (4)
 </li>
 			</ul>
 

@@ -2504,17 +2504,17 @@ label.font-option {
 			 </li>
 			
 						<li class="">
-			  <a href="tel:+84909293636" class="tooltip" title="090 929 3636">
-			     <i class="icon-phone" style="font-size:16px;" ></i>			      <span>090 929 3636</span>
+			  <a href="tel:+84589598386" class="tooltip" title="058 959 8386">
+			     <i class="icon-phone" style="font-size:16px;" ></i>			      <span>058 959 8386</span>
 			  </a>
 			</li>
 						<li class="">
-			  <a href="https://m.me/amisduvin" class="tooltip" target="_blank" rel="noopener" title="Nhắn tin Messenger">
+			  <a href="https://www.facebook.com/messages/t/DuVinVN" class="tooltip" target="_blank" rel="noopener" title="Nhắn tin Messenger">
 			     <i class="icon-comment" style="font-size:16px;"></i>			      <span>Messenger</span>
 			  </a>
 			</li>
 						<li class="">
-			  <a href="https://zalo.me/amisduvin" class="tooltip" target="_blank" rel="noopener" title="Zalo">
+			  <a href="https://zalo.me/0589598386" class="tooltip" target="_blank" rel="noopener" title="Zalo">
 			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>Zalo</span>
 			  </a>
 			</li>
@@ -2537,17 +2537,17 @@ label.font-option {
 			 </li>
 			
 						<li class="">
-			  <a href="tel:+84909293636" class="tooltip" title="090 929 3636">
-			     <i class="icon-phone" style="font-size:16px;" ></i>			      <span>090 929 3636</span>
+			  <a href="tel:+84589598386" class="tooltip" title="058 959 8386">
+			     <i class="icon-phone" style="font-size:16px;" ></i>			      <span>058 959 8386</span>
 			  </a>
 			</li>
 						<li class="">
-			  <a href="https://m.me/amisduvin" class="tooltip" target="_blank" rel="noopener" title="Nhắn tin Messenger">
+			  <a href="https://www.facebook.com/messages/t/DuVinVN" class="tooltip" target="_blank" rel="noopener" title="Nhắn tin Messenger">
 			     <i class="icon-comment" style="font-size:16px;"></i>			      <span>Messenger</span>
 			  </a>
 			</li>
 						<li class="">
-			  <a href="https://zalo.me/amisduvin" class="tooltip" target="_blank" rel="noopener" title="Zalo">
+			  <a href="https://zalo.me/0589598386" class="tooltip" target="_blank" rel="noopener" title="Zalo">
 			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>Zalo</span>
 			  </a>
 			</li>
@@ -2648,12 +2648,12 @@ label.font-option {
 	<li id="menu-item-3338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3338"><a href="/ve-nha-sang-lap">Về nhà sáng lập</a></li>
 </ul>
 </li>
-<li id="menu-item-3340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3340 menu-item-design-default has-dropdown"><a href="/kien-thuc-whisky" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Kiến thức Whisky<i class="icon-angle-down" ></i></a>
+<li id="menu-item-3340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3340 menu-item-design-default has-dropdown"><a href="/kien-thuc-whisky" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Wine Knowledge<i class="icon-angle-down" ></i></a>
 <ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li id="menu-item-3341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3341"><a href="/kien-thuc-whisky">Distilleries</a></li>
-	<li id="menu-item-3342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3342"><a href="/kien-thuc-whisky">Spirits</a></li>
-	<li id="menu-item-3343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3343"><a href="/kien-thuc-whisky">Whisky Basics</a></li>
-	<li id="menu-item-3344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3344"><a href="/kien-thuc-whisky">Whisky Review</a></li>
+	<li id="menu-item-3341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3341"><a href="/kien-thuc-whisky">Wineries & Châteaux</a></li>
+	<li id="menu-item-3342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3342"><a href="/kien-thuc-whisky">Grape Varieties</a></li>
+	<li id="menu-item-3343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3343"><a href="/kien-thuc-whisky">Wine Basics</a></li>
+	<li id="menu-item-3344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3344"><a href="/kien-thuc-whisky">Tasting Notes</a></li>
 </ul>
 </li>
             </ul>
@@ -2725,7 +2725,7 @@ label.font-option {
 
 /* 2. Phóng to cỡ chữ các mục chính (WINE, OLD & RARE, BỘ QUÀ TẶNG) */
 .header-bottom .nav > li > a {
-    font-size: 20px !important; /* Tăng số này nếu muốn chữ to hơn nữa */
+    font-size: 32px !important; /* Tăng số này nếu muốn chữ to hơn nữa */
     font-weight: 500 !important; /* Tăng độ đậm để chữ nổi bật hơn */
     letter-spacing: 0.5px !important; /* Giãn khoảng cách các chữ cái một chút cho sang trọng */
 }

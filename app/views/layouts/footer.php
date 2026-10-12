@@ -54,61 +54,34 @@
 	</div>
 	
 
-	<div id="stack-2092229133" class="stack home-stack-social stack-row justify-start items-stretch">
+	<div id="stack-2092229133" class="stack home-stack-social stack-row justify-center items-stretch">
 		
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1395129220">
-		<a class="" href="https://facebook.com/amisduvin" target="_blank" rel="noopener" >						<div class="img-inner dark" >
+		<a class="" href="https://www.facebook.com/DuVinVN/" target="_blank" rel="noopener" >						<div class="img-inner dark" >
 			<img src="/public/assets/images/fb-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
 					</div>
 						</a>		
 <style>
 #image_1395129220 {
-  width: 100%;
+  width: 25%;
 }
 </style>
 	</div>
 	
 
-	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1638156735">
-		<a class="" href="https://instagram.com/amisduvin" target="_blank" rel="noopener" >						<div class="img-inner dark" >
-			<img src="/public/assets/images/insta-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
+		<a class="" href="https://zalo.me/0589598386" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+			<img decoding="async" src="/public/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">						
 					</div>
 						</a>		
 <style>
-#image_1638156735 {
-  width: 100%;
+#image_1831423319 {
+  width: 25%;
 }
 </style>
 	</div>
 	
-
-	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1477456768">
-		<a class="" href="https://tiktok.com/@amisduvin" target="_blank" rel="noopener" >						<div class="img-inner dark" >
-			<img src="/public/assets/images/tiktok-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
-					</div>
-						</a>		
-<style>
-#image_1477456768 {
-  width: 100%;
-}
-</style>
-	</div>
-	
-
-	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_474319430">
-		<a class="" href="https://youtube.com/@amisduvin" target="_blank" rel="noopener" >						<div class="img-inner dark" >
-			<img src="/public/assets/images/ytb-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
-					</div>
-						</a>		
-<style>
-#image_474319430 {
-  width: 100%;
-}
-</style>
-	</div>
-	
-
 
 		
 <style>

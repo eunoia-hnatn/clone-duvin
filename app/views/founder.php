@@ -81,7 +81,7 @@
   <div class="banner has-hover" id="banner-485490237">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img fetchpriority="high" decoding="async" width="1356" height="1600" src="https://dangtauwhisky.com/wp-content/uploads/2024/12/Homepage-05.webp" class="bg attachment-original size-original" alt="Homepage 05 | DangTau Whisky" title="Homepage 05 | DangTau Whisky">                                    
+            <img fetchpriority="high" decoding="async" width="1356" height="1600" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="Homepage 05 | DangTau Whisky" title="Homepage 05 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">

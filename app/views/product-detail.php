@@ -1,4 +1,18 @@
 <?php
+$current_url = $_SERVER['REQUEST_URI'];
+
+// 1. Chỉ cần dùng từ khóa 'qua' (bao hàm 'hop-qua', 'set-qua', 'qua-tang') để tóm gọn mọi sản phẩm quà tặng
+if (strpos($current_url, 'qua') !== false || strpos($current_url, 'gift') !== false) {
+    // 2. Dùng __DIR__ để ép PHP gọi chính xác file nằm ngay cạnh file hiện tại, chống lỗi không tìm thấy file
+    include __DIR__ . '/product-detail-gift.php';
+    return; 
+}
+?>
+
+
+
+
+<?php
 // product-detail.php — Full template (Task H restore)
 // $slug (string), $product (null|array) từ ProductController::show()
 ?>
@@ -60,7 +74,7 @@
                 "dragThreshold" : 15,
                 "pageDots": false,
                 "rightToLeft": false       }'>
-    <div data-thumb="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-The-Archival-Series-Folio-1.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image slide first"><a href="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-The-Archival-Series-Folio-1.jpg"><img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-The-Archival-Series-Folio-1.jpg" class="wp-post-image ux-skip-lazy" alt="The Macallan The Archival Series Folio 1 | DangTau Whisky" data-caption="" data-src="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-The-Archival-Series-Folio-1.jpg" data-large_image="https://dangtauwhisky.com/wp-content/uploads/2026/05/The-Macallan-The-Archival-Series-Folio-1.jpg" data-large_image_width="1920" data-large_image_height="1920" decoding="async" fetchpriority="high" data- data-large_image_ title="The Macallan The Archival Series Folio 1 | DangTau Whisky"></a></div>  </div>
+    <div data-thumb="/public/assets/images/wine1.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image slide first"><a href="/public/assets/images/wine1.jpg"><img width="1920" height="1920" src="/public/assets/images/wine1.jpg" class="wp-post-image ux-skip-lazy" alt="The Macallan The Archival Series Folio 1 | DangTau Whisky" data-caption="" data-src="/public/assets/images/wine1.jpg" data-large_image="/public/assets/images/wine1.jpg" data-large_image_width="1920" data-large_image_height="1920" decoding="async" fetchpriority="high" data- data-large_image_ title="The Macallan The Archival Series Folio 1 | DangTau Whisky"></a></div>  </div>
 </div>
 
 <div class="show-for-medium product-gallery-stacked-thumbnails">
@@ -92,7 +106,7 @@
 </div>
 
 <div class="product-short-description">
-	<p>The Macallan The Archival Series Folio 1 – Nồng độ 43.0%, ủ trong thùng Sherry Casks. Nho khô, da thuộc, socola.</p>
+	<p>Nồng độ 43.0%, ủ trong thùng Sherry Casks. Nho khô, da thuộc, socola.</p>
 </div>
 
 
@@ -145,7 +159,7 @@
 	
 <div class="product-price-container is-normal"><div class="price-wrapper">
 	<p class="price product-page-price ">
-  <span class="woocommerce-Price-amount amount"><bdi>520,000,001<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></p>
+  <span class="woocommerce-Price-amount amount"><bdi>9,200,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></p>
 </div>
 </div>
 
@@ -202,17 +216,17 @@
 <div class="row row-collapse row-product-contact"  id="row-715045039">
 
 
-	<div id="col-274049291" class="col medium-6 small-6 large-6"  >
+	<div id="col-274049291" class="col medium-12 small-12 large-12"  >
 				<div class="col-inner"  >
 			
 			
 
-<a href="tel:+84909293636" target="_blank" class="button alert is-outline lowercase expand productcontact-phone" rel="noopener"  >
+<a href="tel:+84589598386" target="_blank" class="button alert is-outline lowercase expand productcontact-phone" rel="noopener"  >
 	<i class="icon-phone" aria-hidden="true" ></i>	<span>Điện thoại</span>
 	</a>
 
 
-<a href="https://zalo.me/amisduvin" target="_blank" class="button alert is-outline lowercase expand productcontact-zalo" rel="noopener"  >
+<a href="https://zalo.me/0589598386" target="_blank" class="button alert is-outline lowercase expand productcontact-zalo" rel="noopener"  >
 	<i class="icon-tumblr" aria-hidden="true" ></i>	<span>Zalo</span>
 	</a>
 
@@ -222,25 +236,20 @@
 				
 <style>
 #col-274049291 > .col-inner {
-  padding: 0px 6px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 </style>
 	</div>
 
 	
 
-	<div id="col-1745960120" class="col medium-6 small-6 large-6"  >
+	<div id="col-1745960120" class="col medium-12 small-12 large-12"  >
 				<div class="col-inner"  >
 			
 			
 
-<a href="https://m.me/amisduvin" target="_blank" class="button alert is-outline lowercase expand productcontact-mess" rel="noopener"  >
+<a href="https://www.facebook.com/messages/t/DuVinVN" target="_blank" class="button alert is-outline lowercase expand productcontact-mess" rel="noopener"  >
 	<i class="icon-envelop" aria-hidden="true" ></i>	<span>Messenger</span>
-	</a>
-
-
-<a href="#" target="_blank" class="button alert is-outline lowercase expand productcontact-ws" rel="noopener"  >
-	<i class="icon-whatsapp" aria-hidden="true" ></i>	<span>Whatsapp</span>
 	</a>
 
 
@@ -1223,12 +1232,12 @@ Website: dangtauwhisky.com</p>
 	<div id="accordion-659597857" class="accordion-item">
 		<a id="accordion-659597857-label" class="accordion-title plain active" href="#accordion-item-1.-whisky-khác-nhau-như-thế-nào-theo-vùng-sản-xuất?" aria-expanded="true" aria-controls="accordion-659597857-content" >
 			<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button>
-			<span>1. Whisky khác nhau như thế nào theo vùng sản xuất?</span>
+			<span>1. RƯỢU VANG KHÁC NHAU NHƯ THẾ NÀO THEO VÙNG THỔ NHƯỠNG(TERROIR)?</span>
 		</a>
 		<div id="accordion-659597857-content" class="accordion-inner" style="display: block;" aria-labelledby="accordion-659597857-label" >
 			
 
-Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy trình, nguyên liệu và khí hậu. Ví dụ, Scotch Whisky thường mang hương vị đậm đà, khói do quá trình ủ trong thùng gỗ sồi, trong khi Whisky Nhật Bản thường tinh tế và cân bằng hơn. Những yếu tố này ảnh hưởng trực tiếp đến hương vị và trải nghiệm của mỗi chai Whisky.
+Mỗi vùng trồng nho sở hữu đặc trưng riêng về khí hậu, đất đai và ánh nắng (Terroir), tạo nên hương vị độc bản cho từng chai vang. Ví dụ, vang Pháp (như Bordeaux) thường có cấu trúc đậm đà, chát mịn từ thùng sồi, trong khi vang Ý lại mang nét mộc mạc, chua thanh và tràn đầy hương quả mọng đỏ. Sự đa dạng này chính là điều làm nên sự quyến rũ của thế giới rượu vang.
 
 		</div>
 	</div>
@@ -1236,12 +1245,12 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 	<div id="accordion-1591992202" class="accordion-item">
 		<a id="accordion-1591992202-label" class="accordion-title plain" href="#accordion-item-2.-làm-sao-để-thưởng-thức-whisky-đúng-cách?" aria-expanded="false" aria-controls="accordion-1591992202-content" >
 			<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button>
-			<span>2. Làm sao để thưởng thức Whisky đúng cách?</span>
+			<span>2. LÀM SAO ĐỂ BẢO QUẢN VÀ THƯỞNG THỨC RƯỢU VANG ĐÚNG CÁCH?</span>
 		</a>
 		<div id="accordion-1591992202-content" class="accordion-inner" aria-labelledby="accordion-1591992202-label" >
 			
 
-Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy trình, nguyên liệu và khí hậu. Ví dụ, Scotch Whisky thường mang hương vị đậm đà, khói do quá trình ủ trong thùng gỗ sồi, trong khi Whisky Nhật Bản thường tinh tế và cân bằng hơn. Những yếu tố này ảnh hưởng trực tiếp đến hương vị và trải nghiệm của mỗi chai Whisky.
+Rượu vang cần được bảo quản ở nhiệt độ mát mẻ và ổn định (12-18°C), đặt nằm ngang để nút bần không bị khô và tránh ánh sáng mặt trời trực tiếp. Khi thưởng thức, vang trắng và vang sủi nên được ướp lạnh (6-10°C), trong khi vang đỏ sẽ bộc lộ hương vị tốt nhất ở nhiệt độ 16-20°C và thường cần cho vang "thở" (Decant) khoảng 30-60 phút trước khi uống.
 
 		</div>
 	</div>
@@ -1249,12 +1258,12 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 	<div id="accordion-1336163982" class="accordion-item">
 		<a id="accordion-1336163982-label" class="accordion-title plain" href="#accordion-item-3.-những-yếu-tố-nào-ảnh-hưởng-đến-giá-của-một-chai-whisky?" aria-expanded="false" aria-controls="accordion-1336163982-content" >
 			<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button>
-			<span>3. Những yếu tố nào ảnh hưởng đến giá của một chai Whisky?</span>
+			<span>3. NHỮNG YẾU TỐ NÀO QUYẾT ĐỊNH GIÁ TRỊ CỦA MỘT CHAI VANG?</span>
 		</a>
 		<div id="accordion-1336163982-content" class="accordion-inner" aria-labelledby="accordion-1336163982-label" >
 			
 
-Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy trình, nguyên liệu và khí hậu. Ví dụ, Scotch Whisky thường mang hương vị đậm đà, khói do quá trình ủ trong thùng gỗ sồi, trong khi Whisky Nhật Bản thường tinh tế và cân bằng hơn. Những yếu tố này ảnh hưởng trực tiếp đến hương vị và trải nghiệm của mỗi chai Whisky.
+Giá trị của một chai vang được định hình bởi nhiều yếu tố: phân hạng rượu (Grand Cru, DOCG...), năm thu hoạch nho (Vintage), thời gian ủ trong thùng gỗ sồi, và danh tiếng của nhà sản xuất (Château/Winery). Ngoài ra, những chai vang được làm thủ công với số lượng giới hạn từ các gốc nho cổ thụ (Old Vines) thường có giá trị thưởng thức và sưu tầm rất cao.
 
 		</div>
 	</div>
@@ -1262,12 +1271,12 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 	<div id="accordion-2414507796" class="accordion-item">
 		<a id="accordion-2414507796-label" class="accordion-title plain" href="#accordion-item-4.-dangtau-có-tổ-chức-sự-kiện-nào-để-chia-sẻ-kiến-thức-không?" aria-expanded="false" aria-controls="accordion-2414507796-content" >
 			<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button>
-			<span>4. DangTau có tổ chức sự kiện nào để chia sẻ kiến thức không?</span>
+			<span>4. DUVIN CÓ TỔ CHỨC CÁC SỰ KIỆN THỬ NẾM (WINE TASTING) KHÔNG?</span>
 		</a>
 		<div id="accordion-2414507796-content" class="accordion-inner" aria-labelledby="accordion-2414507796-label" >
 			
 
-Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy trình, nguyên liệu và khí hậu. Ví dụ, Scotch Whisky thường mang hương vị đậm đà, khói do quá trình ủ trong thùng gỗ sồi, trong khi Whisky Nhật Bản thường tinh tế và cân bằng hơn. Những yếu tố này ảnh hưởng trực tiếp đến hương vị và trải nghiệm của mỗi chai Whisky.
+Có. Duvin thường xuyên tổ chức các buổi Wine Tasting và Masterclass để kết nối cộng đồng người yêu vang. Đây là không gian lý tưởng để khách hàng trải nghiệm trực tiếp các bộ sưu tập vang mới, lắng nghe câu chuyện văn hóa từ các chuyên gia (Sommelier) và nâng tầm kiến thức thưởng thức.
 
 		</div>
 	</div>
@@ -1275,12 +1284,12 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 	<div id="accordion-3413632170" class="accordion-item">
 		<a id="accordion-3413632170-label" class="accordion-title plain" href="#accordion-item-5.-làm-sao-để-trở-thành-thành-viên-của-spirit-club?" aria-expanded="false" aria-controls="accordion-3413632170-content" >
 			<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button>
-			<span>5. Làm sao để trở thành thành viên của Spirit Club?</span>
+			<span>5. LÀM SAO ĐỂ NHẬN ĐƯỢC NHỮNG ĐẶC QUYỀN THÀNH VIÊN TỪ DUVIN?</span>
 		</a>
 		<div id="accordion-3413632170-content" class="accordion-inner" aria-labelledby="accordion-3413632170-label" >
 			
 
-Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy trình, nguyên liệu và khí hậu. Ví dụ, Scotch Whisky thường mang hương vị đậm đà, khói do quá trình ủ trong thùng gỗ sồi, trong khi Whisky Nhật Bản thường tinh tế và cân bằng hơn. Những yếu tố này ảnh hưởng trực tiếp đến hương vị và trải nghiệm của mỗi chai Whisky.
+Ngay sau lần mua sắm đầu tiên tại Duvin, bạn sẽ tự động gia nhập hệ thống khách hàng thân thiết. Thành viên của Duvin sẽ nhận được các đặc quyền như: ưu tiên đặt trước (pre-order) các dòng vang hiếm (Old & Rare), chiết khấu riêng biệt cho các đơn hàng quà tặng doanh nghiệp, và vé mời tham dự các sự kiện Private Tasting giới hạn.
 
 		</div>
 	</div>
@@ -1361,12 +1370,11 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 		<div class="box-image">
 			<div class="image-zoom">
 				<a href="/san-pham/macallan-18-sherry-oak-1965/" aria-label="Macallan 18 Sherry Oak 1965">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/17-scaled-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Macallan 18 Sherry Oak 1965" decoding="async" loading="lazy" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/17-scaled-1.jpg 1920w, https://dangtauwhisky.com/wp-content/uploads/2024/11/17-scaled-1-12x12.jpg 12w" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
+					<img width="1920" height="1920" src="/public/assets/images/wine2.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Macallan 18 Sherry Oak 1965" decoding="async" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
-			<div class="image-tools engraving-badge">
-                        </div>
+			
 
 			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
 							</div>
@@ -1376,9 +1384,9 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Macallan		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-18-sherry-oak-1965/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Macallan 18 Sherry Oak 1965</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>155,000,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+			Vang Sủi		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-18-sherry-oak-1965/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Vang Sủi Champagne Moët &amp; Chandon Brut Imperial</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>8.550.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
 				</div></div>		</div>
@@ -1394,12 +1402,11 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 		<div class="box-image">
 			<div class="image-zoom">
 				<a href="/san-pham/macallan-18-sherry-oak-1974/" aria-label="Macallan 18 Sherry Oak 1974">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/14-scaled-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Macallan 18 Sherry Oak 1974" decoding="async" loading="lazy" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/14-scaled-1.jpg 1920w, https://dangtauwhisky.com/wp-content/uploads/2024/11/14-scaled-1-12x12.jpg 12w" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
+					<img width="1920" height="1920" src="/public/assets/images/wine3.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Macallan 18 Sherry Oak 1974" decoding="async" loading="lazy"  sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
-			<div class="image-tools engraving-badge">
-                        </div>
+			
 
 			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
 							</div>
@@ -1409,9 +1416,9 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Macallan		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-18-sherry-oak-1974/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Macallan 18 Sherry Oak 1974</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>137,000,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+			Vang Ý		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-18-sherry-oak-1974/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Vang Ý San Marzano Talò Primitivo 2020</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>6.850.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
 				</div></div>		</div>
@@ -1427,12 +1434,11 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 		<div class="box-image">
 			<div class="image-zoom">
 				<a href="/san-pham/macallan-18-sherry-oak-1983/" aria-label="Macallan 18 Sherry Oak 1983">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/8-scaled-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/8-scaled-1.jpg 1920w, https://dangtauwhisky.com/wp-content/uploads/2024/11/8-scaled-1-12x12.jpg 12w" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
+					<img width="1920" height="1920" src="/public/assets/images/wine4.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"  sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
-			<div class="image-tools engraving-badge">
-                        </div>
+			
 
 			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
 							</div>
@@ -1442,9 +1448,9 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Macallan		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-18-sherry-oak-1983/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Macallan 18 Sherry Oak 1983</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>115,000,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+			Vang Chile		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-18-sherry-oak-1983/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Vang Chile Concha y Toro Don Melchor 2019</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>5.800.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
 				</div></div>		</div>
@@ -1460,12 +1466,11 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 		<div class="box-image">
 			<div class="image-zoom">
 				<a href="/san-pham/macallan-18-sherry-oak-1971/" aria-label="Macallan 18 Sherry Oak 1971">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/36-scaled-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Macallan 18 Sherry Oak 1971" decoding="async" loading="lazy" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/36-scaled-1.jpg 1920w, https://dangtauwhisky.com/wp-content/uploads/2024/11/36-scaled-1-12x12.jpg 12w" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
+					<img width="1920" height="1920" src="/public/assets/images/wine5.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Macallan 18 Sherry Oak 1971" decoding="async" loading="lazy"  sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
-			<div class="image-tools engraving-badge">
-                        </div>
+			
 
 			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
 							</div>
@@ -1475,9 +1480,9 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Macallan		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-18-sherry-oak-1971/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Macallan 18 Sherry Oak 1971</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>127,000,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+			Vang Trắng		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/macallan-18-sherry-oak-1971/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Vang Trắng Louis Latour Pouilly-Fumé 2021</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>7.100.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
 				</div></div>		</div>
@@ -1493,12 +1498,11 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 		<div class="box-image">
 			<div class="image-zoom">
 				<a href="/san-pham/dalmore-1990-signatory-22-year-old/" aria-label="Dalmore 1990 Signatory 22 Year Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/33-scaled-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Dalmore 1990 Signatory 22 Year Old" decoding="async" loading="lazy" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/33-scaled-1.jpg 1920w, https://dangtauwhisky.com/wp-content/uploads/2024/11/33-scaled-1-12x12.jpg 12w" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
+					<img width="1920" height="1920" src="/public/assets/images/wine6.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Dalmore 1990 Signatory 22 Year Old" decoding="async" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
-			<div class="image-tools engraving-badge">
-            <img src="/wp-content/assets/engravable-badge.svg" alt="Khắc tên" style="max-width: 100%; height: auto;" />            </div>
+			
 
 			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
 							</div>
@@ -1508,9 +1512,9 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Whisky Highland		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/dalmore-1990-signatory-22-year-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Dalmore 1990 Signatory 22 Year Old</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>12,650,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+			Vang Đỏ		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/dalmore-1990-signatory-22-year-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Vang Đỏ Antinori Tignanello 2018</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>6.500.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
 				</div></div>		</div>
@@ -1526,12 +1530,11 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 		<div class="box-image">
 			<div class="image-zoom">
 				<a href="/san-pham/clynelish-1990-signatory-31-year-old/" aria-label="Clynelish 1990 Signatory 31 Year Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/60-scaled-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Clynelish 1990 Signatory 31 Year Old" decoding="async" loading="lazy" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/60-scaled-1.jpg 1920w, https://dangtauwhisky.com/wp-content/uploads/2024/11/60-scaled-1-12x12.jpg 12w" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
+					<img width="1920" height="1920" src="/public/assets/images/wine7.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Clynelish 1990 Signatory 31 Year Old" decoding="async" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
-			<div class="image-tools engraving-badge">
-            <img src="/wp-content/assets/engravable-badge.svg" alt="Khắc tên" style="max-width: 100%; height: auto;" />            </div>
+			
 
 			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
 							</div>
@@ -1541,9 +1544,9 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Whisky Highland		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/clynelish-1990-signatory-31-year-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Clynelish 1990 Signatory 31 Year Old</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>15,200,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+			Vang Chile		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/clynelish-1990-signatory-31-year-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Vang Chile Santa Carolina Reserva Cabernet 2022</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>8.920.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
 				</div></div>		</div>
@@ -1559,12 +1562,11 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 		<div class="box-image">
 			<div class="image-zoom">
 				<a href="/san-pham/cragganmore-1985-signatory-33-year-old/" aria-label="Cragganmore 1985 Signatory 33 Year Old">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/58-scaled-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cragganmore 1985 Signatory 33 Year Old" decoding="async" loading="lazy" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/58-scaled-1.jpg 1920w, https://dangtauwhisky.com/wp-content/uploads/2024/11/58-scaled-1-12x12.jpg 12w" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
+					<img width="1920" height="1920" src="/public/assets/images/wine8.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cragganmore 1985 Signatory 33 Year Old" decoding="async" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
-			<div class="image-tools engraving-badge">
-            <img src="/wp-content/assets/engravable-badge.svg" alt="Khắc tên" style="max-width: 100%; height: auto;" />            </div>
+			
 
 			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
 							</div>
@@ -1574,9 +1576,9 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Whisky Speyside		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/cragganmore-1985-signatory-33-year-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cragganmore 1985 Signatory 33 Year Old</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>23,000,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+			Vang Trắng	</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/cragganmore-1985-signatory-33-year-old/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Vang Trắng Robert Mondavi Fumé Blanc 2020</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>5.350.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
 				</div></div>		</div>
@@ -1592,12 +1594,11 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 		<div class="box-image">
 			<div class="image-zoom">
 				<a href="/san-pham/tullibardine-1973-vintage-edition/" aria-label="Tullibardine 1973 Vintage Edition">
-					<img width="1920" height="1920" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/59-scaled-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tullibardine 1973 Vintage Edition" decoding="async" loading="lazy" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/59-scaled-1.jpg 1920w, https://dangtauwhisky.com/wp-content/uploads/2024/11/59-scaled-1-12x12.jpg 12w" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
+					<img width="1920" height="1920" src="/public/assets/images/gift1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tullibardine 1973 Vintage Edition" decoding="async" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" />				</a>
 			</div>
 			<div class="image-tools is-small top right show-on-hover">
 							</div>
-			<div class="image-tools engraving-badge">
-                        </div>
+			
 
 			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
 							</div>
@@ -1607,9 +1608,9 @@ Mỗi quốc gia sản xuất Whisky có những đặc trưng riêng về quy t
 
 		<div class="box-text box-text-products">
 			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Whisky Highland		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/tullibardine-1973-vintage-edition/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Tullibardine 1973 Vintage Edition</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>22,000,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+			Quà Tặng	</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/tullibardine-1973-vintage-edition/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Hộp Quà Tặng Vang Cao Cấp Penfolds Grange 2017</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>7.750.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
 <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;">
 				* Giá tham khảo, vui lòng liên hệ để được báo giá chính xác nhất
 				</div></div>		</div>

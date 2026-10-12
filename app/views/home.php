@@ -1061,7 +1061,7 @@
 		
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1927864184">
-		<a class="" href="https://facebook.com/amisduvin" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+		<a class="" href="https://www.facebook.com/DuVinVN/" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
 			<img decoding="async" src="/public/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | Duvin">						
 					</div>
 						</a>		
@@ -1074,7 +1074,7 @@
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
-		<a class="" href="https://zalo.me/amisduvin" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+		<a class="" href="https://zalo.me/0589598386" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
 			<img decoding="async" src="/public/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">						
 					</div>
 						</a>		
