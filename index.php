@@ -39,8 +39,6 @@ $routes = [
     ['#^/ve-dangtau-whisky$#',                  'PageController.php',    'about',    null],
     ['#^/ve-nha-sang-lap$#',                    'PageController.php',    'founder',  null],
     ['#^/kien-thuc-whisky$#',                   'PageController.php',    'blog',     null],
-    ['#^/trac-nghiem-whisky$#',                 'PageController.php',    'quiz',     null],
-    ['#^/khac-chai-ca-nhan-hoa$#',              'PageController.php',    'engraving',null],
 ];
 
 // ── Dispatch ──────────────────────────────────────────────────────────────────

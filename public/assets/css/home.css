@@ -7,21 +7,21 @@
 @font-face {
 	font-family: 'DangTau';
 	font-weight: bold;
-	src: url('https://dangtauwhisky.com/wp-content/customfonts/DANGTAU.woff') format('woff');
+	src: url('/public/assets/fonts/DANGTAU.woff') format('woff');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'SaaSeriesVN';
 	font-weight: 400;
-	src: url('https://dangtauwhisky.com/wp-content/customfonts/SaaSeriesVN-Regular.woff2') format('woff2');
+	src: url('/public/assets/fonts/SaaSeriesVN-Regular.woff2') format('woff2');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'SVNNeueMontreal';
 	font-weight: 400;
-	src: url('https://dangtauwhisky.com/wp-content/customfonts/SVN-Neue-Montreal-Regular.woff') format('woff');
+	src: url('/public/assets/fonts/SVN-Neue-Montreal-Regular.woff') format('woff');
 	font-display: swap;
 }
 
