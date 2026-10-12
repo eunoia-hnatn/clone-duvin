@@ -23,7 +23,7 @@
 
 
 	<div id="col-2061382538" class="col full-50center-col medium-6 small-12 large-6">
-				<div class="col-inner dark" style="background-color:#822a1a;">
+				<div class="col-inner dark" style="background-color:#B52025;">
 			
 			
 

@@ -79,7 +79,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 <link rel="icon" href="/wp-content/uploads/2024/11/cropped-favicon.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/11/cropped-favicon.png" />
 <meta name="msapplication-TileImage" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/cropped-favicon.png" />
-<style id="custom-css" type="text/css">:root {--primary-color: #822a1a;--fs-color-primary: #822a1a;--fs-color-secondary: #636146;--fs-color-success: #fcf7e8;--fs-color-alert: #161616;--fs-experimental-link-color: #636146;
+<style id="custom-css" type="text/css">:root {--primary-color: #B52025;--fs-color-primary: #B52025;--fs-color-secondary: #636146;--fs-color-success: #fcf7e8;--fs-color-alert: #161616;--fs-experimental-link-color: #636146;
 --fs-experimental-link-color-hover: #808074;}.tooltipster-base {--tooltip-color: #fff;--tooltip-bg-color: #000;}.off-canvas-right .mfp-content,
  .off-canvas-left .mfp-content {--drawer-width: 85%;}.off-canvas .mfp-content.off-canvas-cart {--drawer-width: 450px;}.container-width, .full-width .ubermenu-nav, .container, 
  .row{max-width: 1220px}.row.row-collapse{max-width: 1190px}.row.row-small{max-width: 1212.5px}.row.row-large{max-width: 1250px}.header-main{height: 80px}#logo img{max-height: 80px}#logo{width:250px;}#logo 

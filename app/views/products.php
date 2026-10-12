@@ -26,7 +26,7 @@ $pageTitle = 'Sản Phẩm | DangTau Whisky';
 
 
 	<div id="col-1931717738" class="col full-50center-col medium-6 small-12 large-6">
-				<div class="col-inner dark" style="background-color:#822a1a;">
+				<div class="col-inner dark" style="background-color:#B52025;">
 			
 			
 

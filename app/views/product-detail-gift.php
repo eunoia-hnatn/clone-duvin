@@ -244,7 +244,7 @@
 				
 <style>
 #col-1745960120 > .col-inner {
-  padding: 0px 0px 0px 6px;
+  padding: 0px 0px 0px 0px;
 }
 </style>
 	</div>

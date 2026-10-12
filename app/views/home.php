@@ -44,7 +44,7 @@
 <div class="row row-collapse row-full-width align-equal align-center"  id="row-1922335903">
 
 	<div id="col-823827177" class="col full-50center-col medium-6 small-12 large-6"  data-animate="bounceIn">
-				<div class="col-inner dark" style="background-color:#822a1a;" >
+				<div class="col-inner dark" style="background-color:#B52025;" >
 			
 			
 <div class="row row-collapse"  id="row-1187038803">
@@ -92,7 +92,7 @@
   <div class="banner has-hover" id="banner-979033297">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img fetchpriority="high" decoding="async" width="1280" height="1312" src="/public/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="Banner Mac84 | DangTau Whisky" title="Banner Mac84 | DangTau Whisky">                                    
+            <img fetchpriority="high" decoding="async" width="1280" height="1312" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="Banner Mac84 | DangTau Whisky" title="Banner Mac84 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -143,7 +143,7 @@
 <div class="row row-collapse row-full-width align-equal"  id="row-1820758871">
 
 	<div id="col-237622452" class="col full-50center-col medium-6 small-12 large-6"  >
-				<div class="col-inner dark" style="background-color:#822a1a;" >
+				<div class="col-inner dark" style="background-color:#B52025;" >
 			
 			
 <div class="row row-collapse"  id="row-381728242">
@@ -192,10 +192,10 @@
 			
 			
 
-  <div class="banner has-hover is-full-height" id="banner-1311413341">
+  <div class="banner has-hover" id="banner-1311413341">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img decoding="async" width="1552" height="1013" src="/public/assets/images/duvin2.jpg" class="bg attachment-2048x2048 size-2048x2048" alt="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky" title="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky">                                    
+            <img decoding="async" width="1552" height="1013" src="/public/assets/images/duvin1.jpg" class="bg attachment-2048x2048 size-2048x2048" alt="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky" title="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -229,10 +229,10 @@
             
 <style>
 #banner-1311413341 {
-  padding-top: 100%;
+  padding-top: 85%;
 }
 #banner-1311413341 .banner-bg img {
-  object-position: 0% 60%;
+  object-position: 48% 57%;
 }
 </style>
   </div>
@@ -294,7 +294,7 @@
   <div class="banner has-hover" id="banner-193432955">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img decoding="async" width="1200" height="1200" src="/public/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="SYN00141 Edit e1740029390883 | DangTau Whisky" title="SYN00141 Edit e1740029390883 | DangTau Whisky">                                    
+            <img decoding="async" width="1200" height="1200" src="/public/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="SYN00141 Edit e1740029390883 | DangTau Whisky" title="SYN00141 Edit e1740029390883 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -345,7 +345,7 @@
 <div class="row row-collapse row-full-width align-equal"  id="row-390322321">
 
 	<div id="col-544534321" class="col full-50center-col medium-6 small-12 large-6"  >
-				<div class="col-inner dark" style="background-color:#822a1a;" >
+				<div class="col-inner dark" style="background-color:#B52025;" >
 			
 			
 <div class="row row-collapse"  id="row-284628847">
@@ -393,7 +393,7 @@
   <div class="banner has-hover" id="banner-1125992043">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1920" height="1081" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="DSC00968111 | DangTau Whisky" title="DSC00968111 | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1920" height="1081" src="/public/assets/images/duvin3.jpg" class="bg attachment-original size-original" alt="DSC00968111 | DangTau Whisky" title="DSC00968111 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -444,7 +444,7 @@
 <div class="row row-collapse row-full-width align-equal"  id="row-1580323448">
 
 	<div id="col-1844507655" class="col full-50center-col medium-6 small-12 large-6"  >
-				<div class="col-inner dark" style="background-color:#822a1a;" >
+				<div class="col-inner dark" style="background-color:#B52025;" >
 			
 			
 <div class="row row-collapse"  id="row-959716099">
@@ -493,7 +493,7 @@
   <div class="banner has-hover" id="banner-931667308">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1947" height="808" src="/public/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky" title="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1947" height="808" src="/public/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky" title="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -530,7 +530,7 @@
   padding-top: 50%;
 }
 #banner-931667308 .banner-bg img {
-  object-position: 10% 60%;
+  object-position: 50% 50%;
 }
 </style>
   </div>
@@ -955,7 +955,7 @@
   <div class="banner has-hover" id="banner-240184907">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1253" height="704" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1253" height="704" src="/public/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -996,11 +996,11 @@
   padding-top: 250px;
 }
 #banner-240184907 .banner-bg img {
-  object-position: 30% 28%;
+  object-position: 50% 50%;
 }
 @media (min-width:550px) {
   #banner-240184907 {
-    padding-top: 380px;
+    padding-top: 390px;
   }
 }
 </style>
@@ -1067,7 +1067,7 @@
 						</a>		
 <style>
 #image_1927864184 {
-  width: 30%;
+  width: 25%;
 }
 </style>
 	</div>
@@ -1080,7 +1080,7 @@
 						</a>		
 <style>
 #image_1831423319 {
-  width: 30%;
+  width: 100%;
 }
 </style>
 	</div>
@@ -1431,7 +1431,7 @@
 #section_1632202293 {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #822a1a;
+  background-color: #b52025;
 }
 </style>
 	</section>

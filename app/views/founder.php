@@ -23,7 +23,7 @@
 
 
 	<div id="col-281101485" class="col full-50center-col medium-6 small-12 large-6">
-				<div class="col-inner dark" style="background-color:#822a1a;">
+				<div class="col-inner dark" style="background-color:#B52025;">
 			
 			
 
@@ -81,7 +81,7 @@
   <div class="banner has-hover" id="banner-485490237">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img fetchpriority="high" decoding="async" width="1356" height="1600" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="Homepage 05 | DangTau Whisky" title="Homepage 05 | DangTau Whisky">                                    
+            <img fetchpriority="high" decoding="async" width="1356" height="1600" src="/public/assets/images/duvin12.jpg" class="bg attachment-original size-original" alt="Homepage 05 | DangTau Whisky" title="Homepage 05 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -177,10 +177,10 @@
 #text-649546875 {
   line-height: 1.3;
   text-align: center;
-  color: #822a1a;
+  color: #B52025;
 }
 #text-649546875 > * {
-  color: #822a1a;
+  color: #B52025;
 }
 </style>
 	</div>
@@ -204,10 +204,10 @@
 #text-3469488902 {
   line-height: 1.3;
   text-align: center;
-  color: #822a1a;
+  color: #B52025;
 }
 #text-3469488902 > * {
-  color: #822a1a;
+  color: #B52025;
 }
 </style>
 	</div>
@@ -243,7 +243,7 @@
   <div class="banner has-hover" id="banner-1171849636">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img decoding="async" width="1200" height="1600" src="https://dangtauwhisky.com/wp-content/uploads/2024/12/Homepage-07.webp" class="bg attachment-original size-original" alt="Homepage 07 | DangTau Whisky" title="Homepage 07 | DangTau Whisky">                                    
+            <img decoding="async" width="1200" height="1600" src="/public/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="Homepage 07 | DangTau Whisky" title="Homepage 07 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -325,10 +325,10 @@
 		
 <style>
 #text-2320639124 {
-  color: #822a1a;
+  color: #B52025;
 }
 #text-2320639124 > * {
-  color: #822a1a;
+  color: #B52025;
 }
 </style>
 	</div>
@@ -342,10 +342,10 @@
 <style>
 #text-3579009926 {
   font-size: 1.65rem;
-  color: #822a1a;
+  color: #B52025;
 }
 #text-3579009926 > * {
-  color: #822a1a;
+  color: #B52025;
 }
 </style>
 	</div>
@@ -373,10 +373,10 @@
 		
 <style>
 #text-1331900365 {
-  color: #822a1a;
+  color: #B52025;
 }
 #text-1331900365 > * {
-  color: #822a1a;
+  color: #B52025;
 }
 </style>
 	</div>
@@ -702,7 +702,7 @@
   <div class="banner has-hover" id="banner-944704205">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1253" height="704" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/dangtau-infuence-banner.webp" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1253" height="704" src="/public/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -1089,7 +1089,7 @@
 
 
 	<div id="col-2110482522" class="col medium-6 small-10 large-6">
-				<div class="col-inner dark" style="background-color:#822a1a;">
+				<div class="col-inner dark" style="background-color:#B52025;">
 			
 			
 
@@ -1097,7 +1097,7 @@
   <div class="banner has-hover" id="banner-88679332">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1920" height="1536" src="https://dangtauwhisky.com/wp-content/uploads/2024/12/Lakes.webp" class="bg attachment-large size-large" alt="Lakes | DangTau Whisky" title="Lakes | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1920" height="1536" src="/public/assets/images/duvin13.jpg" class="bg attachment-large size-large" alt="Lakes | DangTau Whisky" title="Lakes | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -1136,7 +1136,7 @@
 <style>
 #banner-88679332 {
   padding-top: 250px;
-  background-color: #822a1a;
+  background-color: #B52025;
 }
 #banner-88679332 .banner-bg img {
   object-position: 46% 88%;
@@ -1161,7 +1161,7 @@
 	<div id="text-1598954486" class="text dtsubtitle2">
 		
 
-<p>Single Malt XUẤT SẮC NHẤT 2022</p>
+<p>GRAND CRU CLASSÉ TỪ BORDEAUX, PHÁP</p>
 		
 <style>
 #text-1598954486 {
@@ -1179,7 +1179,7 @@
 	<div id="text-3304625020" class="text dtile2 h-zero-margin">
 		
 
-<h3>The Lakes Whisky đến từ <br class="br-mobile">Anh Quốc</h3>
+<h3>CHÂTEAU MARGAUX ĐẲNG CẤP <br class="br-mobile">THẾ GIỚI</h3>
 		
 <style>
 #text-3304625020 {
@@ -1235,7 +1235,7 @@
 	
 
 	<div id="col-225949798" class="col medium-6 small-10 large-6">
-				<div class="col-inner dark" style="background-color:#822a1a;">
+				<div class="col-inner dark" style="background-color:#B52025;">
 			
 			
 
@@ -1243,7 +1243,7 @@
   <div class="banner has-hover" id="banner-115609560">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1919" height="1279" src="https://dangtauwhisky.com/wp-content/uploads/2024/12/SMWS.webp" class="bg attachment-large size-large" alt="SMWS | DangTau Whisky" title="SMWS | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1919" height="1279" src="public/assets/images/duvin7.jpg" class="bg attachment-large size-large" alt="SMWS | DangTau Whisky" title="SMWS | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">
@@ -1282,7 +1282,7 @@
 <style>
 #banner-115609560 {
   padding-top: 250px;
-  background-color: #822a1a;
+  background-color: #B52025;
 }
 #banner-115609560 .banner-bg img {
   object-position: 59% 8%;
@@ -1307,7 +1307,7 @@
 	<div id="text-310229364" class="text dtsubtitle2">
 		
 
-<p>Hiệp Hội Scotch Whisky LỚN NHẤT THẾ GIỚI</p>
+<p>BỘ SƯU TẬP VANG ĐỎ THƯỢNG HẠNG</p>
 		
 <style>
 #text-310229364 {
@@ -1325,7 +1325,7 @@
 	<div id="text-2801137955" class="text dtile2 h-zero-margin">
 		
 
-<h3>Single Malt Whisky Society (SMWS)</h3>
+<h3>TINH HOA TERROIR TỪ PHÁP & TÂY BAN NHA</h3>
 		
 <style>
 #text-2801137955 {
@@ -1416,7 +1416,7 @@
 
 	<section class="section dark" id="section_2074843298">
 		<div class="section-bg fill">
-			<img loading="lazy" decoding="async" width="1920" height="1280" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt-whisky-club-banner.webp" class="bg attachment-original size-original" alt="dt whisky club banner | DangTau Whisky" title="dt whisky club banner | DangTau Whisky">						<div class="section-bg-overlay absolute fill"></div>
+			<img loading="lazy" decoding="async" width="1920" height="1280" src="/public/assets/images/duvin5.jpg" class="bg attachment-original size-original" alt="dt whisky club banner | DangTau Whisky" title="dt whisky club banner | DangTau Whisky">						<div class="section-bg-overlay absolute fill"></div>
 			
 
 		</div>
@@ -1614,7 +1614,7 @@
   <div class="banner has-hover" id="banner-2063084966">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1599" height="899" src="https://dangtauwhisky.com/wp-content/uploads/2024/12/Homepage-02.webp" class="bg attachment-original size-original" alt="Homepage 02 | DangTau Whisky" title="Homepage 02 | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1599" height="899" src="/public/assets/images/duvin10.jpg" class="bg attachment-original size-original" alt="Homepage 02 | DangTau Whisky" title="Homepage 02 | DangTau Whisky">                                    
                     </div>
 		
         <div class="banner-layers container">

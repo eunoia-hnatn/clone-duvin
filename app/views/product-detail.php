@@ -258,7 +258,7 @@ if (strpos($current_url, 'qua') !== false || strpos($current_url, 'gift') !== fa
 				
 <style>
 #col-1745960120 > .col-inner {
-  padding: 0px 0px 0px 6px;
+  padding: 0px 0px 0px 0px;
 }
 </style>
 	</div>
@@ -1114,7 +1114,7 @@ Website: dangtauwhisky.com</p>
 			</h2>
             <div id="review_form">
                 	<div id="respond" class="comment-respond">
-		<span id="reply-title" class="comment-reply-title">Đánh giá sản phẩm &ldquo;The Macallan The Archival Series Folio 1&rdquo; <small><a rel="nofollow" id="cancel-comment-reply-link" href="/san-pham/the-macallan-the-archival-series-folio-1/#respond" style="display:none;">Hủy</a></small></span><form action="https://dangtauwhisky.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Email của bạn sẽ không được hiển thị công khai.</span> <span class="required-field-message">Các trường bắt buộc được đánh dấu <span class="required">*</span></span></p><div class="comment-form-rating"><label for="rating">Đánh giá của bạn</label><select name="rating" id="rating" required>
+		<span id="reply-title" class="comment-reply-title">Đánh giá sản phẩm &ldquo;The Macallan The Archival Series Folio 1&rdquo; <small><a rel="nofollow" id="cancel-comment-reply-link" href="/san-pham/the-macallan-the-archival-series-folio-1/#respond" style="display:none;">Hủy</a></small></span><form id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Email của bạn sẽ không được hiển thị công khai.</span> <span class="required-field-message">Các trường bắt buộc được đánh dấu <span class="required">*</span></span></p><div class="comment-form-rating"><label for="rating">Đánh giá của bạn</label><select name="rating" id="rating" required>
                                 <option value="5">Rất tốt</option>
                                 <option value="4">Tốt</option>
                                 <option value="3">Trung bình</option>
@@ -1123,7 +1123,7 @@ Website: dangtauwhisky.com</p>
                             </select></div><p class="comment-form-comment"><label>Nhận xét của bạn *<textarea id="comment" name="comment" placeholder="Đánh giá sản phẩm..." cols="45" rows="8" required></textarea></label></p><p class="comment-form-author"><label>Họ và tên *<input id="author" name="author" type="text" value="" size="30" aria-required='true' placeholder="Họ và tên" /></label></p>
 <p class="comment-form-email"><label>Địa chỉ Email *<input id="email" name="email" type="email" value="" size="30" aria-required='true' placeholder="Email" /></label></p>
 <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Lưu tên của tôi, email, và trang web trong trình duyệt này cho lần bình luận kế tiếp của tôi.</label></p>
-<div class="g-recaptcha" data-sitekey="6LfTg0oqAAAAAFkYneJLCazqfDBTVdg1pC0T5ajX"></div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Gửi đi" /> <input type='hidden' name='comment_post_ID' value='8516' id='comment_post_ID' />
+<div class="g-recaptcha" data-sitekey="6LfTg0oqAAAAAFkYneJLCazqfDBTVdg1pC0T5ajX"></div><p class="form-submit"><input type="submit" class="submit" value="Gửi đi" /> <input type='hidden' name='comment_post_ID' value='8516' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 </p></form>	</div><!-- #respond -->
 					<script type="text/javascript">
@@ -1673,6 +1673,15 @@ Ngay sau lần mua sắm đầu tiên tại Duvin, bạn sẽ tự động gia n
 
 		
 	</div><!-- shop container -->
+
+
+<script>
+    document.getElementById('commentform').addEventListener('submit', function(e) {
+        e.preventDefault(); // Chặn việc tự động chuyển trang
+        alert('Cảm ơn bạn! Đánh giá đã được ghi nhận.');
+        this.reset(); // Xóa trắng form
+    });
+</script>
 
 
 </main>

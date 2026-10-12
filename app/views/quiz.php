@@ -305,7 +305,7 @@
 
 
 	<div id="col-857882644" class="col small-12 large-12">
-				<div class="col-inner text-center dark" style="background-color:#822a1a;">
+				<div class="col-inner text-center dark" style="background-color:#B52025;">
 			
 			
 
