@@ -39,7 +39,7 @@
 	<div id="text-1612071350" class="text dtile">
 		
 
-<h2>Học và hiểu về Whisky miễn phí</h2>
+<h2>KHÁM PHÁ THẾ GIỚI RƯỢU VANG BẤT TẬN</h2>
 		
 <style>
 #text-1612071350 {
@@ -51,7 +51,7 @@
 		<div class="p-zero-margin">
 				
 
-Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy trình sản xuất, cách thưởng thức và những bí quyết để hiểu rõ hơn về văn hóa Whisky toàn cầu. Dù bạn là người mới bắt đầu hay là một tín đồ kỳ cựu, bạn đều sẽ tìm thấy những thông tin hữu ích để nâng cao trải nghiệm Whisky của mình.
+Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, quy trình ủ nho, nghệ thuật thưởng thức và những bí quyết ghép nối ẩm thực. Dù bạn là người mới bắt đầu hay một người sành vang thực thụ, bạn đều sẽ tìm thấy những thông tin hữu ích để nâng tầm trải nghiệm rượu vang của mình.
 		</div>
 	
 
@@ -272,7 +272,7 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
             					<div class="box-image">
   						<div class="image-cover" style="padding-top:70%;">
 							<a href="https://dangtauwhisky.com/blog/single-malt-la-gi-va-khac-gi-blended-whiskey/" class="plain" aria-label="Single Malt Là Gì Và Khác Gì Blended Whiskey? 5 Điều Thú Vị Bạn Nên Biết">
-								<img width="800" height="800" src="https://dangtauwhisky.com/wp-content/uploads/2024/12/irish-whiskey-5.webp" class="attachment-medium size-medium wp-post-image" alt="Rượu Irish Blended Whiskey" decoding="async" loading="lazy" title="irish whiskey 5 | DangTau Whisky">							</a>
+								<img width="800" height="800" src="/public/assets/images/duvin7.jpg" class="attachment-medium size-medium wp-post-image" alt="Rượu Irish Blended Whiskey" decoding="async" loading="lazy" title="irish whiskey 5 | DangTau Whisky">							</a>
   							  							  						</div>
   						  					</div>
           					<div class="box-text text-left">
@@ -280,10 +280,10 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 					
 					<p class="cat-label  is-xxsmall op-7 uppercase">
-    <span>Whisky Basics</span></p>
+    <span>Wine Basics</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/single-malt-la-gi-va-khac-gi-blended-whiskey/" class="plain">Single Malt Là Gì Và Khác Gì Blended Whiskey? 5 Điều Thú Vị Bạn Nên Biết</a>
+						<a href="https://dangtauwhisky.com/blog/single-malt-la-gi-va-khac-gi-blended-whiskey/" class="plain">Phân biệt Vang Đỏ, Vang Trắng và Vang Hồng: Hướng dẫn cho người mới</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -307,7 +307,7 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
             					<div class="box-image">
   						<div class="image-cover" style="padding-top:70%;">
 							<a href="https://dangtauwhisky.com/blog/nghe-thuat-thuong-thuc-whisky/" class="plain" aria-label="Nghệ thuật thưởng thức Whisky cho người mới đúng cách">
-								<img width="1920" height="1279" src="https://dangtauwhisky.com/wp-content/uploads/2025/06/CF2.jpg" class="attachment-medium size-medium wp-post-image" alt="CF2 | DangTau Whisky" decoding="async" loading="lazy" title="CF2 | DangTau Whisky">							</a>
+								<img width="1920" height="1279" src="/public/assets/images/duvin8.jpg" class="attachment-medium size-medium wp-post-image" alt="CF2 | DangTau Whisky" decoding="async" loading="lazy" title="CF2 | DangTau Whisky">							</a>
   							  							  						</div>
   						  					</div>
           					<div class="box-text text-left">
@@ -315,10 +315,10 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 					
 					<p class="cat-label  is-xxsmall op-7 uppercase">
-    <span>Whisky Basics</span></p>
+    <span>TASTING NOTES</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/nghe-thuat-thuong-thuc-whisky/" class="plain">Nghệ thuật thưởng thức Whisky cho người mới đúng cách</a>
+						<a href="https://dangtauwhisky.com/blog/nghe-thuat-thuong-thuc-whisky/" class="plain">Nghệ thuật nếm thử rượu vang đúng chuẩn 5 bước của Sommelier</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -342,7 +342,7 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
             					<div class="box-image">
   						<div class="image-cover" style="padding-top:70%;">
 							<a href="https://dangtauwhisky.com/blog/kham-pha-whisky-va-whiskey/" class="plain" aria-label="4 điều về Whisky và Whiskey khác nhau như thế nào?">
-								<img width="900" height="506" src="https://dangtauwhisky.com/wp-content/uploads/2026/04/Whisky-whiskey.jpg" class="attachment-medium size-medium wp-post-image" alt="Whisky whiskey | DangTau Whisky" decoding="async" loading="lazy" title="Whisky whiskey | DangTau Whisky">							</a>
+								<img width="900" height="506" src="/public/assets/images/duvin9.jpg" class="attachment-medium size-medium wp-post-image" alt="Whisky whiskey | DangTau Whisky" decoding="async" loading="lazy" title="Whisky whiskey | DangTau Whisky">							</a>
   							  							  						</div>
   						  					</div>
           					<div class="box-text text-left">
@@ -350,10 +350,10 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 					
 					<p class="cat-label  is-xxsmall op-7 uppercase">
-    <span>News</span></p>
+    <span>GRAPE VARIETIES</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/kham-pha-whisky-va-whiskey/" class="plain">4 điều về Whisky và Whiskey khác nhau như thế nào?</a>
+						<a href="https://dangtauwhisky.com/blog/kham-pha-whisky-va-whiskey/" class="plain">Cabernet Sauvignon - "Vị vua" của các giống nho đỏ trên toàn thế giới</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -377,7 +377,7 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
             					<div class="box-image">
   						<div class="image-cover" style="padding-top:70%;">
 							<a href="https://dangtauwhisky.com/blog/thai-lan-tao-dau-moc-lich-su-voi-whisky-single-malt-dau-tien-mang-ten-prakaan-vuon-ra-toan-cau/" class="plain" aria-label="Thái Lan tạo dấu mốc lịch sử với whisky single malt đầu tiên mang tên PRAKAAN vươn ra toàn cầu">
-								<img width="1230" height="630" src="https://dangtauwhisky.com/wp-content/uploads/2025/06/Prakaan-Thailand-Single-Malt-Whisky.jpg" class="attachment-medium size-medium wp-post-image" alt="Prakaan Thailand Single Malt Whisky | DangTau Whisky" decoding="async" loading="lazy" title="Prakaan Thailand Single Malt Whisky | DangTau Whisky">							</a>
+								<img width="1230" height="630" src="/public/assets/images/duvin10.jpg" class="attachment-medium size-medium wp-post-image" alt="Prakaan Thailand Single Malt Whisky | DangTau Whisky" decoding="async" loading="lazy" title="Prakaan Thailand Single Malt Whisky | DangTau Whisky">							</a>
   							  							  						</div>
   						  					</div>
           					<div class="box-text text-left">
@@ -385,10 +385,10 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 					
 					<p class="cat-label  is-xxsmall op-7 uppercase">
-    <span>News</span></p>
+    <span>WINE BASICS</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/thai-lan-tao-dau-moc-lich-su-voi-whisky-single-malt-dau-tien-mang-ten-prakaan-vuon-ra-toan-cau/" class="plain">Thái Lan tạo dấu mốc lịch sử với whisky single malt đầu tiên mang tên PRAKAAN vươn ra toàn cầu</a>
+						<a href="https://dangtauwhisky.com/blog/thai-lan-tao-dau-moc-lich-su-voi-whisky-single-malt-dau-tien-mang-ten-prakaan-vuon-ra-toan-cau/" class="plain">Cách kết hợp rượu vang và ẩm thực: Nguyên tắc cơ bản không thể bỏ qua</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -412,7 +412,7 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
             					<div class="box-image">
   						<div class="image-cover" style="padding-top:70%;">
 							<a href="https://dangtauwhisky.com/blog/laphroaig-ra-mat-archive-collection-38-nam-tuoi-phien-ban-cuc-hiem-chung-cat-tu-nam-1985/" class="plain" aria-label="Laphroaig ra mắt Archive Collection 38 năm tuổi – phiên bản cực hiếm chưng cất từ năm 1985">
-								<img width="1230" height="630" src="https://dangtauwhisky.com/wp-content/uploads/2025/06/Laphroaig-Archive-Collection-38-YO.jpg" class="attachment-medium size-medium wp-post-image" alt="Laphroaig Archive Collection 38 YO | DangTau Whisky" decoding="async" loading="lazy" title="Laphroaig Archive Collection 38 YO | DangTau Whisky">							</a>
+								<img width="1230" height="630" src="/public/assets/images/duvin11.jpg" class="attachment-medium size-medium wp-post-image" alt="Laphroaig Archive Collection 38 YO | DangTau Whisky" decoding="async" loading="lazy" title="Laphroaig Archive Collection 38 YO | DangTau Whisky">							</a>
   							  							  						</div>
   						  					</div>
           					<div class="box-text text-left">
@@ -420,10 +420,10 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 					
 					<p class="cat-label  is-xxsmall op-7 uppercase">
-    <span>News</span></p>
+    <span>WINERIES & CHÂTEAUX</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/laphroaig-ra-mat-archive-collection-38-nam-tuoi-phien-ban-cuc-hiem-chung-cat-tu-nam-1985/" class="plain">Laphroaig ra mắt Archive Collection 38 năm tuổi – phiên bản cực hiếm chưng cất từ năm 1985</a>
+						<a href="https://dangtauwhisky.com/blog/laphroaig-ra-mat-archive-collection-38-nam-tuoi-phien-ban-cuc-hiem-chung-cat-tu-nam-1985/" class="plain">Hành trình thăm thú vùng Bordeaux - Trái tim của ngành công nghiệp vang Pháp</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -458,7 +458,7 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
     <span>News</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/2xo-ton-vinh-dia-vinyl-co-dien-voi-phien-ban-gioi-han-the-vinyl-blend-bourbon/" class="plain">2XO tôn vinh đĩa vinyl cổ điển với phiên bản giới hạn The Vinyl Blend Bourbon</a>
+						<a href="https://dangtauwhisky.com/blog/2xo-ton-vinh-dia-vinyl-co-dien-voi-phien-ban-gioi-han-the-vinyl-blend-bourbon/" class="plain">Xu hướng thưởng thức Vang Tự Nhiên (Natural Wine) lên ngôi toàn cầu</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -490,10 +490,10 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 					
 					<p class="cat-label  is-xxsmall op-7 uppercase">
-    <span>News</span></p>
+    <span>GRAPE VARIETIES</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/glenfarclas-cong-bo-single-malt-lau-nam-nhat-tu-truoc-den-nay/" class="plain">Glenfarclas công bố single malt lâu năm nhất từ trước đến nay</a>
+						<a href="https://dangtauwhisky.com/blog/glenfarclas-cong-bo-single-malt-lau-nam-nhat-tu-truoc-den-nay/" class="plain">Chardonnay: Giống nho trắng đa năng nhất thế giới có gì đặc biệt?</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -525,10 +525,10 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 					
 					<p class="cat-label  is-xxsmall op-7 uppercase">
-    <span>News</span></p>
+    <span>TASTING NOTES</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/5-chai-whisky-anh-nen-thu-trong-tuan-le-whisky-anh/" class="plain">5 chai whisky Anh nên thử trong Tuần lễ Whisky Anh</a>
+						<a href="https://dangtauwhisky.com/blog/5-chai-whisky-anh-nen-thu-trong-tuan-le-whisky-anh/" class="plain">Giải mã thuật ngữ "Tannin" và "Body" trong từ điển rượu vang</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -560,10 +560,10 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 
 					
 					<p class="cat-label  is-xxsmall op-7 uppercase">
-    <span>News</span></p>
+    <span>WINERIES & CHÂTEAUX</span></p>
 
 					<h5 class="post-title is-large ">
-						<a href="https://dangtauwhisky.com/blog/the-lakes-distillery-ra-mat-chai-whisky-signature/" class="plain">The Lakes Distillery ra mắt chai whisky Signature</a>
+						<a href="https://dangtauwhisky.com/blog/the-lakes-distillery-ra-mat-chai-whisky-signature/" class="plain">Vang Tân Thế Giới: Sự trỗi dậy của các điền trang tại thung lũng Napa, Mỹ</a>
 					</h5>
 										<div class="is-divider"></div>
 					                    
@@ -581,12 +581,12 @@ Nơi chia sẻ những kiến thức sâu rộng về các loại Whisky, quy tr
 						</div>
 									</div>
 			</div>
-		</div><div class="col post-item">
+		</div>
 			<div class="col-inner">
 				<div class="box box-text-bottom box-blog-post has-hover">
             					<div class="box-image">
   						<div class="image-cover" style="padding-top:70%;">
-							<a href="https://dangtauwhisky.com/blog/lochlea-lan-dau-tien-ket-hop-sherry-va-than-bun-trong-cung-mot-chai-whisky/" class="plain" aria-label="Lochlea lần đầu tiên kết hợp sherry và than bùn trong cùng một chai whisky">
+							<a hr<div class="col post-item">ef="https://dangtauwhisky.com/blog/lochlea-lan-dau-tien-ket-hop-sherry-va-than-bun-trong-cung-mot-chai-whisky/" class="plain" aria-label="Lochlea lần đầu tiên kết hợp sherry và than bùn trong cùng một chai whisky">
 								<img width="1600" height="680" src="https://dangtauwhisky.com/wp-content/uploads/2025/06/lochlea_jill-boyd-with-cask-strength-batch-3.webp" class="attachment-medium size-medium wp-post-image" alt="lochlea jill boyd with cask strength batch 3 | DangTau Whisky" decoding="async" loading="lazy" title="lochlea jill boyd with cask strength batch 3 | DangTau Whisky">							</a>
   							  							  						</div>
   						  					</div>

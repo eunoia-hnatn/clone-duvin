@@ -1,0 +1,236 @@
+/* ============================================================
+   Pusher – Scroll-to-top & Nút liên hệ nhanh
+   Bảng màu: --fs-color-secondary (#636146) | --primary-color (#B52025)
+   ============================================================ */
+
+/*
+ * Tính toán vị trí:
+ *   Nút contact (toggle):  bottom: 28px,  height: 58px
+ *   Gap mặc định giữa 2 nút: 12px
+ *   → bottom scroll-top mặc định = 28 + 58 + 12 = 98px
+ *
+ *   Khi menu mở, 3 option mỗi cái: 46px + 10px gap = 56px × 3 = 168px
+ *   Cộng thêm gap trên toggle: 10px
+ *   → bottom scroll-top khi mở = 98 + 168 + 10 ≈ 276px
+ *   (JS tính động để chính xác tuyệt đối)
+ */
+
+/* ─── Nút scroll-to-top (position: fixed độc lập) ─── */
+.pusher-scroll-top {
+    position: fixed;
+    right: 24px;
+    /* bottom mặc định: ngay sát trên nút contact */
+    bottom: 98px;
+    z-index: 9999;
+
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 2px solid var(--fs-color-secondary, #636146);
+    background-color: #fff;
+    color: var(--fs-color-secondary, #636146);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    outline: none;
+
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.15);
+
+    /* Ẩn mặc định */
+    opacity: 0;
+    pointer-events: none;
+
+    /* Transition mượt cho cả hiện/ẩn lẫn dịch chuyển bottom */
+    transition: bottom 0.3s ease-in-out,
+                opacity 0.25s ease,
+                background-color 0.2s ease,
+                color 0.2s ease,
+                border-color 0.2s ease,
+                transform 0.2s ease;
+}
+
+/* Hiện khi đã scroll xuống */
+.pusher-scroll-top.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.pusher-scroll-top:hover,
+.pusher-scroll-top:focus-visible {
+    background-color: var(--fs-color-secondary, #636146);
+    color: #fff;
+    border-color: var(--fs-color-secondary, #636146);
+    transform: translateY(-2px);
+}
+
+.pusher-scroll-top svg {
+    display: block;
+    flex-shrink: 0;
+}
+
+/* ─── Nút liên hệ (position: fixed độc lập) ─── */
+.pusher-widget {
+    position: fixed;
+    bottom: 28px;
+    right: 24px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+/* ─── Nút toggle ─── */
+.pusher-toggle {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: var(--fs-color-secondary, #636146);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    outline: none;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.pusher-toggle:hover,
+.pusher-toggle:focus-visible {
+    background-color: var(--primary-color, #B52025);
+    transform: scale(1.08);
+}
+
+.pusher-toggle__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pusher-toggle__icon--close {
+    display: none;
+}
+
+.pusher-widget.is-open .pusher-toggle__icon--open {
+    display: none;
+}
+
+.pusher-widget.is-open .pusher-toggle__icon--close {
+    display: flex;
+}
+
+.pusher-widget.is-open .pusher-toggle {
+    background-color: var(--primary-color, #B52025);
+}
+
+/* ─── Danh sách options ─── */
+.pusher-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(12px) scale(0.95);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.pusher-widget.is-open .pusher-options {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0) scale(1);
+}
+
+/* ─── Từng nút option ─── */
+.pusher-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px 0 12px;
+    height: 46px;
+    border-radius: 23px;
+    text-decoration: none;
+    font-family: "SaaSeriesVN", "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    background-color: var(--fs-color-secondary, #636146);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pusher-option:hover,
+.pusher-option:focus-visible {
+    background-color: var(--primary-color, #B52025);
+    transform: translateX(-4px);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.28);
+    color: #fff;
+    text-decoration: none;
+}
+
+.pusher-option__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.pusher-option__icon img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
+/* ─── Stagger animation ─── */
+.pusher-widget.is-open .pusher-option:nth-child(1) { transition-delay: 0.05s; }
+.pusher-widget.is-open .pusher-option:nth-child(2) { transition-delay: 0.10s; }
+.pusher-widget.is-open .pusher-option:nth-child(3) { transition-delay: 0.15s; }
+
+/* ─── Pulse animation khi toggle đóng ─── */
+@keyframes pusher-pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(99, 97, 70, 0.55); }
+    70%  { box-shadow: 0 0 0 14px rgba(99, 97, 70, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(99, 97, 70, 0); }
+}
+
+.pusher-widget:not(.is-open) .pusher-toggle {
+    animation: pusher-pulse 2.5s ease-out infinite;
+}
+
+/* ─── Responsive mobile ─── */
+@media (max-width: 549px) {
+    /* bottom contact: 20px, height: 52px, gap: 10px → 82px */
+    .pusher-scroll-top {
+        right: 16px;
+        bottom: 82px;
+        width: 52px;
+        height: 52px;
+    }
+
+    .pusher-widget {
+        bottom: 20px;
+        right: 16px;
+    }
+
+    .pusher-toggle {
+        width: 52px;
+        height: 52px;
+    }
+
+    .pusher-option {
+        font-size: 14px;
+        height: 42px;
+        padding: 0 14px 0 10px;
+    }
+}

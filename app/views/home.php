@@ -70,7 +70,7 @@
 	</div>
 	
 <p>Tuyển tập những dòng vang tinh tế, mang đậm hơi thở của các vùng thổ nhưỡng trứ danh. Khám phá ngay để tìm ra hương vị yêu thích cho những khoảnh khắc gắn kết của bạn!</p>
-<a href="https://youtu.be/hBG0J3qLLuA?si=B5h9_53jgFCKnIAP" target="_blank" class="button white is-outline" rel="noopener nofollow">
+<a href="/danh-muc/vang-phap" target="_blank" class="button white is-outline" rel="noopener nofollow">
 		<span>KHÁM PHÁ NGAY</span>
 	</a>
 
@@ -173,7 +173,7 @@
 	</div>
 	
 <p>DuVin tự hào mang đến những dòng vang Ý thượng hạng, từ những chai mượt mà, ngọt ngào đến những chai chát đậm, cấu trúc chắc chắn. Một lựa chọn hoàn hảo để đánh thức mọi giác quan của người yêu vang.</p>
-<a href="/product-category/signatory-vintage/" class="button white is-outline">
+<a href="/danh-muc/vang-y" class="button white is-outline">
 		<span>XEM THÊM</span>
 	</a>
 
@@ -272,7 +272,7 @@
 	</div>
 	
 <p>Trải nghiệm sự bùng nổ hương vị trái cây chín mọng và tannin mềm mại của vang Chile. Dễ uống, dễ kết hợp ẩm thực và mức giá cực kỳ tiếp cận – đây luôn là lựa chọn tuyệt vời cho những buổi tụ họp bạn bè.</p>
-<a href="/product-category/armagnac" class="button white is-outline"  >
+<a href="/danh-muc/vang-chile" class="button white is-outline"  >
 		<span>KHÁM PHÁ NGAY</span>
 	</a>
 
@@ -371,7 +371,7 @@
 	</div>
 	
 <p>DuVin vừa cập bến những dòng vang mới nhất cho mùa lễ hội. Được đích thân nhà sáng lập Phong nếm thử và tuyển chọn khắt khe, đây chắc chắn là những "viên ngọc ẩn" mang lại trải nghiệm đầy bất ngờ.</p>
-<a href="/wine/" class="button white is-outline"  >
+<a href="/danh-muc/new-arrival/" class="button white is-outline"  >
 		<span>XEM CHI TIẾT</span>
 	</a>
 
@@ -471,7 +471,7 @@
 	
 <p>Thể hiện đẳng cấp và sự thấu hiểu với bộ sưu tập hộp quà tặng vang sang trọng từ DuVin. Thiết kế hộp da, hộp gỗ cao cấp cùng những chai vang xứng tầm, thay bạn gửi lời tri ân sâu sắc đến đối tác và người thân.
 </p>
-<a href="/product-category/world-whisky/whisky-nhat/" class="button white is-outline">
+<a href="/danh-muc/bo-qua-tang" class="button white is-outline">
 		<span>XEM BỘ SƯU TẬP</span>
 	</a>
 
@@ -1269,7 +1269,7 @@
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/scotch-whisky/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/danh-muc/vang-phap" ><div class="fill banner-link"></div></a>            
    <div id="text-box-869028469" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1319,7 +1319,7 @@
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/world-whisky/whisky-nhat/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/danh-muc/vang-y" ><div class="fill banner-link"></div></a>            
    <div id="text-box-321183929" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1369,7 +1369,7 @@
                     </div>
 		
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/world-whisky/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="/danh-muc/vang-tan-the-gioi" ><div class="fill banner-link"></div></a>            
    <div id="text-box-1562739921" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
               
@@ -1415,7 +1415,7 @@
 <p>LỰA CHỌN VÙNG RƯỢU VANG</p>
 			</div>
 	
-<a class="button white is-outline choosetype-seemore"  >
+<a href="/danh-muc/wine" class="button white is-outline choosetype-seemore" >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1520,7 +1520,7 @@
               
               <div class="text-inner text-left">
                   
-<a href="/san-pham/page/2/?min_price=20000000&amp;max_price=50000000" class="button white is-outline"  >
+<a href="/danh-muc/wine" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1593,7 +1593,7 @@
               
               <div class="text-inner text-left">
                   
-<a href="/san-pham/page/2/?min_price=10000000&amp;max_price=20000000" class="button white is-outline"  >
+<a href="/danh-muc/wine" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1666,7 +1666,7 @@
               
               <div class="text-inner text-left">
                   
-<a href="/san-pham/page/2/?min_price=5000000&amp;max_price=10000000" class="button white is-outline"  >
+<a href="/danh-muc/wine" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1739,7 +1739,7 @@
               
               <div class="text-inner text-left">
                   
-<a href="/san-pham/page/2/?min_price=0&amp;max_price=5000000" class="button white is-outline"  >
+<a href="/danh-muc/wine" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -1933,7 +1933,7 @@
 </style>
 	</div>
 	
-<a href="/product-category/set-thu-ruou/" class="button white is-outline"  >
+<a href="/danh-muc/bo-qua-tang" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
@@ -2048,7 +2048,7 @@
 </style>
 	</div>
 	
-<a href="/product/the-lakes-gift-set" class="button white is-outline"  >
+<a href="/danh-muc/bo-qua-tang" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 

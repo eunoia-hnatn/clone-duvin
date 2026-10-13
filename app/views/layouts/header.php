@@ -2725,7 +2725,7 @@ label.font-option {
 
 /* 2. Phóng to cỡ chữ các mục chính (WINE, OLD & RARE, BỘ QUÀ TẶNG) */
 .header-bottom .nav > li > a {
-    font-size: 32px !important; /* Tăng số này nếu muốn chữ to hơn nữa */
+    font-size: 28px !important; /* Tăng số này nếu muốn chữ to hơn nữa */
     font-weight: 500 !important; /* Tăng độ đậm để chữ nổi bật hơn */
     letter-spacing: 0.5px !important; /* Giãn khoảng cách các chữ cái một chút cho sang trọng */
 }

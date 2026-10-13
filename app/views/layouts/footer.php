@@ -189,7 +189,7 @@
 	<div id="text-3657797876" class="text">
 		
 
-<p>(+84) 909 29 3636</p>
+<p>(+84) 58 959 8386</p>
 
 		
 <style>
@@ -245,7 +245,7 @@
 	<div id="text-1497284481" class="text dtsubtitle2">
 		
 
-<p>Chấp hành Nghị định số 105/2017/NĐ-CP của Chính phủ về kinh doanh rượu và các quy định về quản lý thương mại điện tử, DangTau Whisky không kinh doanh qua mạng internet các loại rượu, bia, đồ uống có cồn và không bán sản phẩm chứa cồn cho người dưới 18 tuổi. Website chỉ mang tính tham khảo và cung cấp thông tin về sản phẩm.</p>
+<p>Chấp hành Nghị định số 105/2017/NĐ-CP của Chính phủ về kinh doanh rượu và các quy định về quản lý thương mại điện tử, Duvin không kinh doanh qua mạng internet các loại rượu, bia, đồ uống có cồn và không bán sản phẩm chứa cồn cho người dưới 18 tuổi. Website chỉ mang tính tham khảo và cung cấp thông tin về sản phẩm.</p>
 		
 <style>
 #text-1497284481 {
@@ -560,5 +560,11 @@ var flatsomeVars = {"theme":{"version":"3.19.6"},"ajaxurl":"\/404","rtl":"","sti
 
 <!-- DangTau custom script -->
 <script src="/public/assets/js/home.js" defer></script>
+
+<!-- Pusher Widget -->
+<link rel="stylesheet" href="/public/assets/css/pusher.css" />
+<?php include __DIR__ . '/../pusher.php'; ?>
+<script src="/public/assets/js/pusher.js" defer></script>
+
 </body>
 </html>
