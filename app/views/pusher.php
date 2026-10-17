@@ -34,7 +34,7 @@
            aria-label="Zalo"
            title="Nhắn Zalo">
             <span class="pusher-option__icon">
-                <img src="/public/assets/images/zalo1-icon.png" alt="Zalo" width="22" height="22" />
+                <img src="/assets/images/zalo1-icon.png" alt="Zalo" width="22" height="22" />
             </span>
             <span class="pusher-option__label">Zalo</span>
         </a>

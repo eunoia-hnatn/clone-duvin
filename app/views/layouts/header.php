@@ -7,7 +7,7 @@
 
 	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>World Class Whisky &amp; Spirit | DangTau Whisky</title>
+<title><?= htmlspecialchars($pageTitle ?? 'Duvin', ENT_QUOTES, 'UTF-8') ?></title>
 <meta name="description" content="Trải qua hành trình 10 năm học, hiểu và “ngấm” Whisky, chúng tôi tin rằng đây không chỉ là một thứ đồ uống thông thường. Nơi đây chứa đựng lịch sử, là kiến thức, nghệ thuật và đôi khi là trải nghiệm của cả một đời người."/>
 <meta name="robots" content="follow, index"/>
 <link rel="canonical" href="/" />
@@ -15,19 +15,17 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="World Class Whisky &amp; Spirit | DangTau Whisky" />
 <meta property="og:description" content="Trải qua hành trình 10 năm học, hiểu và “ngấm” Whisky, chúng tôi tin rằng đây không chỉ là một thứ đồ uống thông thường. Nơi đây chứa đựng lịch sử, là kiến thức, nghệ thuật và đôi khi là trải nghiệm của cả một đời người." />
-<meta property="og:url" content="https://dangtauwhisky.com/" />
+<meta property="og:url" content="/" />
 <meta property="og:site_name" content="DangTau Whisky" />
 <meta property="og:updated_time" content="2026-09-08T08:49:45+07:00" />
-<meta property="og:image" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/dangtau-whisky-thumb.jpg" />
-<meta property="og:image:secure_url" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/dangtau-whisky-thumb.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
+<meta property="og:image" content="/assets/images/duvin-logo-red-transparent.png" />
+<meta property="og:image:secure_url" content="/assets/images/duvin-logo-red-transparent.png" />
 <meta property="og:image:alt" content="Trang chủ" />
-<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:type" content="image/png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="World Class Whisky &amp; Spirit | DangTau Whisky" />
 <meta name="twitter:description" content="Trải qua hành trình 10 năm học, hiểu và “ngấm” Whisky, chúng tôi tin rằng đây không chỉ là một thứ đồ uống thông thường. Nơi đây chứa đựng lịch sử, là kiến thức, nghệ thuật và đôi khi là trải nghiệm của cả một đời người." />
-<meta name="twitter:image" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/dangtau-whisky-thumb.jpg" />
+<meta name="twitter:image" content="/assets/images/duvin-logo-red-transparent.png" />
 <meta name="twitter:label1" content="Được viết bởi" />
 <meta name="twitter:data1" content="Manager Order" />
 <meta name="twitter:label2" content="Thời gian để đọc" />
@@ -36,53 +34,52 @@
 
 <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
 
-<link rel='stylesheet' id='contact-form-7-css' href="/public/assets/css/styles.css" type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href="/assets/css/styles.css" type='text/css' media='all' />
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
-<link rel='stylesheet' id='toastr-css-css' href="/public/assets/css/toastr.min.css" type='text/css' media='all' />
-<link rel='stylesheet' id='flatsome-main-css' href="/public/assets/css/flatsome.css" type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-main-css' href="/assets/css/flatsome.css" type='text/css' media='all' />
 <style id='flatsome-main-inline-css' type='text/css'>
 @font-face {
 				font-family: "fl-icons";
 				font-display: block;
-				src: url(/public/assets/css/icons/fl-icons.eot);
+				src: url(/assets/css/icons/fl-icons.eot);
 				src:
-					url(/public/assets/css/icons/fl-icons.eot#iefix?v=3.19.6) format("embedded-opentype"),
-					url(/public/assets/css/icons/fl-icons.woff2?v=3.19.6) format("woff2"),
-					url(/public/assets/css/icons/fl-icons.ttf) format("truetype"),
-					url(/public/assets/css/icons/fl-icons.woff) format("woff"),
-					url(/public/assets/css/icons/fl-icons.svg) format("svg");
+					url(/assets/css/icons/fl-icons.eot#iefix?v=3.19.6) format("embedded-opentype"),
+					url(/assets/css/icons/fl-icons.woff2?v=3.19.6) format("woff2"),
+					url(/assets/css/icons/fl-icons.ttf) format("truetype"),
+					url(/assets/css/icons/fl-icons.woff) format("woff"),
+					url(/assets/css/icons/fl-icons.svg) format("svg");
 			}
 </style>
-<link rel='stylesheet' id='flatsome-shop-css' href="/public/assets/css/flatsome-shop.css" type='text/css' media='all' />
-<link rel='stylesheet' id='flatsome-style-css' href="/public/assets/css/style.css" type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css' href="/public/assets/css/dashicons.min.css" type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-shop-css' href="/assets/css/flatsome-shop.css" type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-style-css' href="/assets/css/style.css" type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href="/assets/css/dashicons.min.css" type='text/css' media='all' />
 <link rel='stylesheet' id='flatsome-googlefonts-css' href='https://fonts.googleapis.com/css?family=Lato%3Aregular%2C700%2Cregular%2C700%7CDancing+Script%3Aregular%2Cregular&amp;display=block&amp;ver=3.9' type='text/css' media='all' />
-<link rel='stylesheet' id='fs-tuned-animation-style-css' href="/public/assets/css/fs-tuned-animation.css" type='text/css' media='all' />
-<script type="text/javascript" src="/public/assets/js/jquery.min.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="/public/assets/js/jquery.blockUI.min.js" id="jquery-blockui-js" data-wp-strategy="defer"></script>
+<link rel='stylesheet' id='fs-tuned-animation-style-css' href="/assets/css/fs-tuned-animation.css" type='text/css' media='all' />
+<script type="text/javascript" src="/assets/js/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="/assets/js/jquery.blockUI.min.js" id="jquery-blockui-js" data-wp-strategy="defer"></script>
 <script type="text/javascript" id="wc-add-to-cart-js-extra">
 /* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"https:\/\/dangtauwhisky.com\/gio-hang\/","is_cart":"","cart_redirect_after_add":"no"};
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"\/gio-hang\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/public/assets/js/add-to-cart.min.js" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
-<script type="text/javascript" src="/public/assets/js/js.cookie.min.js" id="js-cookie-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="/assets/js/add-to-cart.min.js" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="/assets/js/js.cookie.min.js" id="js-cookie-js" data-wp-strategy="defer"></script>
 
 
 <!-- End Google Tag Manager -->
 
 
 <!-- End Meta Pixel Code -->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<link rel="icon" href="/wp-content/uploads/2024/11/cropped-favicon.png" sizes="32x32" />
-<link rel="icon" href="/wp-content/uploads/2024/11/cropped-favicon.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="/wp-content/uploads/2024/11/cropped-favicon.png" />
-<meta name="msapplication-TileImage" content="https://dangtauwhisky.com/wp-content/uploads/2024/11/cropped-favicon.png" />
+	<link rel="icon" href="/assets/images/cropped-favicon.png" sizes="32x32" />
+<link rel="icon" href="/assets/images/cropped-favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/assets/images/cropped-favicon.png" />
+<meta name="msapplication-TileImage" content="/assets/images/cropped-favicon.png" />
 <style id="custom-css" type="text/css">:root {--primary-color: #B52025;--fs-color-primary: #B52025;--fs-color-secondary: #636146;--fs-color-success: #fcf7e8;--fs-color-alert: #161616;--fs-experimental-link-color: #636146;
 --fs-experimental-link-color-hover: #808074;}.tooltipster-base {--tooltip-color: #fff;--tooltip-bg-color: #000;}.off-canvas-right .mfp-content,
- .off-canvas-left .mfp-content {--drawer-width: 85%;}.off-canvas .mfp-content.off-canvas-cart {--drawer-width: 450px;}.container-width, .full-width .ubermenu-nav, .container, 
- .row{max-width: 1220px}.row.row-collapse{max-width: 1190px}.row.row-small{max-width: 1212.5px}.row.row-large{max-width: 1250px}.header-main{height: 80px}#logo img{max-height: 80px}#logo{width:250px;}#logo 
+ .off-canvas-left .mfp-content {--drawer-width: 85%;}.off-canvas .mfp-content.off-canvas-cart {--drawer-width: 450px;}.container-width, .full-width .ubermenu-nav, .container,
+ .row{max-width: 1220px}.row.row-collapse{max-width: 1190px}.row.row-small{max-width: 1212.5px}.row.row-large{max-width: 1250px}.header-main{height: 80px}#logo img{max-height: 80px}#logo{width:250px;}#logo
  img{padding:5px 0;}.header-bottom{min-height: 45px}.header-top{min-height: 37px}.transparent .header-main{height: 80px}.transparent #logo img{max-height: 80px}.has-transparent + .page-title:first-of-type,
  .has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 160px;}.header.show-on-scroll,
  .stuck .header-main{height:80px!important}.stuck #logo img{max-height: 80px!important}.search-form{ width: 50%;}.header-bg-color {background-color: #ffffff}.header-bottom {background-color: #ffffff}.
@@ -92,11 +89,11 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
  body {font-weight: 400;font-style: normal;}.nav > li > a {font-family: Lato, sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family: Lato, sans-serif;}.nav > li > a,
  .mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;font-style: normal;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: Lato, sans-serif;}
  h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2 {font-weight: 700;font-style: normal;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font {font-weight: 400!important;font-style: normal!important;}
- .header:not(.transparent) .header-bottom-nav.nav > li > a{color: rgba(50,50,50,0.7);}.header:not(.transparent) .header-bottom-nav.nav > li > a:hover,.header:not(.transparent) 
- .header-bottom-nav.nav > li.active > a,.header:not(.transparent) .header-bottom-nav.nav > li.current > a,.header:not(.transparent) .header-bottom-nav.nav > li > a.active,.header:not(.transparent) 
+ .header:not(.transparent) .header-bottom-nav.nav > li > a{color: rgba(50,50,50,0.7);}.header:not(.transparent) .header-bottom-nav.nav > li > a:hover,.header:not(.transparent)
+ .header-bottom-nav.nav > li.active > a,.header:not(.transparent) .header-bottom-nav.nav > li.current > a,.header:not(.transparent) .header-bottom-nav.nav > li > a.active,.header:not(.transparent)
  .header-bottom-nav.nav > li > a.current{color: #323232;}.header-bottom-nav.nav-line-bottom > li > a:before,.header-bottom-nav.nav-line-grow > li > a:before,.header-bottom-nav.nav-line > li > a:before,
  .header-bottom-nav.nav-box > li > a:hover,.header-bottom-nav.nav-box > li.active > a,.header-bottom-nav.nav-pills > li > a:hover,.header-bottom-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #323232;}
- @media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 0px!important;width: 0px!important;}}button[name='update_cart'] { display: none; }.nav-vertical-fly-out > li + li {border-top-width: 1px; border-top-style: solid;}/* Custom CSS */.is-divider {display: none;}.divider-on .is-divider {display: block;}.tab-panels .panel {padding-top: 0;transition: 0.4s ease all;}.flickity-page-dots .dot {width: 9px !important;height: 9px !important;}.box-text p {font-size: 16px;}.nav-dropdown-simple .nav-column li > a:hover,.nav-dropdown.nav-dropdown-simple > li > a:hover {background-color: rgba(0, 0, 0, 0);}.uppercase {letter-spacing: unset;}.absolute-footer {display: none;}/*modify mega menu*/.menu-item-has-block .service-menu.megamenu li:first-child {margin-left: 0em !important;}.service-menu.megamenu .tab {border: 0;}.service-menu.megamenu .tab a {color: #fff !important;opacity: 0.45;font-size: 1.5em;line-height: 140% !important;padding-left: 25px;padding-right: 25px;font-weight: 600 !important;transition: 0.5s ease !important;}.service-menu.megamenu .tab a:hover {color: #fff !important;opacity: 1;transition: 0.5s ease !important;}.header-main .menu-item .nav-dropdown .service-menu.megamenu .tab a {padding-top: 10px !important;padding-bottom: 10px !important;}.service-menu.megamenu .tab.active a {color: #fff;opacity: 1;font-weight: 600 !important;transition: 0.5s ease !important;}.service-menu.megamenu .nav-vertical {background-image: url(index.html);background-size: 100% 100%;width: 45%;padding: 25px 10px !important;}.service-menu.megamenu .tab-panels li {border: 0;}.service-menu.megamenu .sidebar-wrapper {padding: 15px 25px 30px 25px !important;font-weight: 500;}.service-menu.megamenu .widget.widget_nav_menu {margin-bottom: 0;}.header-main .menu-item .nav-dropdown .service-menu.megamenu .tab-panels li a {padding: 12px 0 0 0 !important;line-height: 140%;font-size: 16px;font-weight: 600;}.service-menu.megamenu .tab-panels {padding: 0;border: 0;min-height: 390px;}.header-block-block-1 .button {margin-right: 0;}.header-full-width .container {padding-left: 30px;padding-right: 30px;}@media screen and (max-width: 1285px) {.header-full-width .container {padding-left: 15px;padding-right: 15px;}}@media only screen and (min-width: 849px) {.header-main .menu-item .nav-dropdown a,.header-bottom .menu-item .nav-dropdown a {padding: 8px 20px !important;}}.nav-dropdown-simple .nav-column li > a:hover,.nav-dropdown.nav-dropdown-simple > li > a:hover {font-weight: bold;}.justify-align p {text-align: justify;}.h-zero-margin h1,.h-zero-margin h2,.h-zero-margin h3,.h-zero-margin h4,.h-zero-margin h5 {margin-bottom: 0;}.p-zero-margin p {margin-bottom: 0;}.dark p strong,.dark td strong,.dark p b,.dark td b {color: #fff;}/*modify menu mobile divider*/.mfp-content .header-divider {border-bottom: 1px solid #ffffff26 !important;margin-bottom: 30px !important;}.off-canvas-right .mfp-content,.off-canvas-left .mfp-content {-webkit-transform: translateY(-30px);-ms-transform: translateY(-30px);transform: translateY(-30px);opacity: 0;-webkit-transition: opacity 0.3s, -webkit-transform 0.7s;transition: opacity 0.3s, -webkit-transform 0.7s;-o-transition: transform 0.7s, opacity 0.3s;transition: transform 0.7s, opacity 0.3s;transition: transform 0.7s, opacity 0.3s, -webkit-transform 0.5s;}/*responsive br on desktop and mobile*/@media screen and (min-width: 600px) {.br-mobile {display: none;}}@media screen and (max-width: 599px) {.br-desktop {display: none;}}@media screen and (max-width: 890px) {.br-desktop-tablet {display: none;}}@media screen and (min-width: 890px) {.br-mobile-tablet {display: none;}}.dark,.dark p,.dark td {color: color(srgb 1 1 1 / 0.9);}blockquote,dl,figure,form,ol,p,pre,ul {margin-bottom: 1em;}@media screen and (max-width: 599px) {blockquote,dl,figure,form,ol,p,pre,ul {margin-bottom: 0.5em;}}@media screen and (max-width:600px) {.row-mobile-scroll {flex-flow: row wrap;overflow-x: scroll;flex-wrap: unset;overflow-y: hidden;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;}.row-mobile-scroll-smallcol .col:nth-child(1) {padding-left:15px;}.row-mobile-scroll-smallcol {margin-left:-15px !important;margin-right:-15px !important;}.row-mobile-scroll-smallcol .col:nth-child(4) {padding-right:15px !important;}}@media screen and (max-width:900px) {.row-mobile-tablet-scroll {flex-flow: row wrap;overflow-x: scroll;flex-wrap: unset;overflow-y: hidden;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;}.row-mobile-tablet-scroll-smallcol .col:nth-child(1) {padding-left:15px;}.row-mobile-tablet-scroll-smallcol {margin-left:-15px !important;margin-right:-15px !important;}.row-mobile-tablet-scroll-smallcol .col:nth-child(4) {padding-right:15px !important;}}@font-face {font-family:"DangTau";font-weight:bold;src:url("/public/assets/fonts/DANGTAU.woff");}@font-face {font-family:"SaaSeriesVN";font-weight:400;src:url("/public/assets/fonts/SaaSeriesVN-Regular.woff2");}@font-face {font-family:"SVNNeueMontreal";font-weight:400;src:url("/public/assets/fonts/SVN-Neue-Montreal-Regular.woff");}@font-face {font-family:"DangTauEngrave1";font-weight:400;src:url("/public/assets/fonts/MapRoman-Condensed.otf");}@font-face {font-family:"DangTauEngrave2";font-weight:400;src:url("/public/assets/fonts/PlayfairDisplay-Regular.ttf");}@font-face {font-family:"DangTauEngrave3";font-weight:400;src:url("/public/assets/fonts/SVN-Snell-Roundhand-Script-Regular.ttf");}h1,h2,h3,h4,h5,h6, .heading-font {font-family: "DangTau", sans-serif;text-transform:uppercase;}.nav > li > a {font-family: "SaaSeriesVN", sans-serif;font-weight:400;}body {font-family: "SVNNeueMontreal", sans-serif;font-weight:400;}@media screen and (min-width: 768px) {::-webkit-scrollbar {width: 3px;border-radius: 99px;height: 2px;}::-webkit-scrollbar-thumb {background: #161616;border-radius: 0px;}::-webkit-scrollbar-track {background: #f7f7f7;border-radius: 0px;}}.label-new.menu-item > a:after{content:"Mới";}.label-hot.menu-item > a:after{content:"Nổi bật";}.label-sale.menu-item > a:after{content:"Giảm giá";}.label-popular.menu-item > a:after{content:"Phổ biến";}</style>		<style type="text/css" id="wp-custom-css">
+ @media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 0px!important;width: 0px!important;}}button[name='update_cart'] { display: none; }.nav-vertical-fly-out > li + li {border-top-width: 1px; border-top-style: solid;}/* Custom CSS */.is-divider {display: none;}.divider-on .is-divider {display: block;}.tab-panels .panel {padding-top: 0;transition: 0.4s ease all;}.flickity-page-dots .dot {width: 9px !important;height: 9px !important;}.box-text p {font-size: 16px;}.nav-dropdown-simple .nav-column li > a:hover,.nav-dropdown.nav-dropdown-simple > li > a:hover {background-color: rgba(0, 0, 0, 0);}.uppercase {letter-spacing: unset;}.absolute-footer {display: none;}/*modify mega menu*/.menu-item-has-block .service-menu.megamenu li:first-child {margin-left: 0em !important;}.service-menu.megamenu .tab {border: 0;}.service-menu.megamenu .tab a {color: #fff !important;opacity: 0.45;font-size: 1.5em;line-height: 140% !important;padding-left: 25px;padding-right: 25px;font-weight: 600 !important;transition: 0.5s ease !important;}.service-menu.megamenu .tab a:hover {color: #fff !important;opacity: 1;transition: 0.5s ease !important;}.header-main .menu-item .nav-dropdown .service-menu.megamenu .tab a {padding-top: 10px !important;padding-bottom: 10px !important;}.service-menu.megamenu .tab.active a {color: #fff;opacity: 1;font-weight: 600 !important;transition: 0.5s ease !important;}.service-menu.megamenu .nav-vertical {background-image: url(index.html);background-size: 100% 100%;width: 45%;padding: 25px 10px !important;}.service-menu.megamenu .tab-panels li {border: 0;}.service-menu.megamenu .sidebar-wrapper {padding: 15px 25px 30px 25px !important;font-weight: 500;}.service-menu.megamenu .widget.widget_nav_menu {margin-bottom: 0;}.header-main .menu-item .nav-dropdown .service-menu.megamenu .tab-panels li a {padding: 12px 0 0 0 !important;line-height: 140%;font-size: 16px;font-weight: 600;}.service-menu.megamenu .tab-panels {padding: 0;border: 0;min-height: 390px;}.header-block-block-1 .button {margin-right: 0;}.header-full-width .container {padding-left: 30px;padding-right: 30px;}@media screen and (max-width: 1285px) {.header-full-width .container {padding-left: 15px;padding-right: 15px;}}@media only screen and (min-width: 849px) {.header-main .menu-item .nav-dropdown a,.header-bottom .menu-item .nav-dropdown a {padding: 8px 20px !important;}}.nav-dropdown-simple .nav-column li > a:hover,.nav-dropdown.nav-dropdown-simple > li > a:hover {font-weight: bold;}.justify-align p {text-align: justify;}.h-zero-margin h1,.h-zero-margin h2,.h-zero-margin h3,.h-zero-margin h4,.h-zero-margin h5 {margin-bottom: 0;}.p-zero-margin p {margin-bottom: 0;}.dark p strong,.dark td strong,.dark p b,.dark td b {color: #fff;}/*modify menu mobile divider*/.mfp-content .header-divider {border-bottom: 1px solid #ffffff26 !important;margin-bottom: 30px !important;}.off-canvas-right .mfp-content,.off-canvas-left .mfp-content {-webkit-transform: translateY(-30px);-ms-transform: translateY(-30px);transform: translateY(-30px);opacity: 0;-webkit-transition: opacity 0.3s, -webkit-transform 0.7s;transition: opacity 0.3s, -webkit-transform 0.7s;-o-transition: transform 0.7s, opacity 0.3s;transition: transform 0.7s, opacity 0.3s;transition: transform 0.7s, opacity 0.3s, -webkit-transform 0.5s;}/*responsive br on desktop and mobile*/@media screen and (min-width: 600px) {.br-mobile {display: none;}}@media screen and (max-width: 599px) {.br-desktop {display: none;}}@media screen and (max-width: 890px) {.br-desktop-tablet {display: none;}}@media screen and (min-width: 890px) {.br-mobile-tablet {display: none;}}.dark,.dark p,.dark td {color: color(srgb 1 1 1 / 0.9);}blockquote,dl,figure,form,ol,p,pre,ul {margin-bottom: 1em;}@media screen and (max-width: 599px) {blockquote,dl,figure,form,ol,p,pre,ul {margin-bottom: 0.5em;}}@media screen and (max-width:600px) {.row-mobile-scroll {flex-flow: row wrap;overflow-x: scroll;flex-wrap: unset;overflow-y: hidden;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;}.row-mobile-scroll-smallcol .col:nth-child(1) {padding-left:15px;}.row-mobile-scroll-smallcol {margin-left:-15px !important;margin-right:-15px !important;}.row-mobile-scroll-smallcol .col:nth-child(4) {padding-right:15px !important;}}@media screen and (max-width:900px) {.row-mobile-tablet-scroll {flex-flow: row wrap;overflow-x: scroll;flex-wrap: unset;overflow-y: hidden;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;}.row-mobile-tablet-scroll-smallcol .col:nth-child(1) {padding-left:15px;}.row-mobile-tablet-scroll-smallcol {margin-left:-15px !important;margin-right:-15px !important;}.row-mobile-tablet-scroll-smallcol .col:nth-child(4) {padding-right:15px !important;}}@font-face {font-family:"DangTau";font-weight:bold;src:url("/assets/fonts/DANGTAU.woff");}@font-face {font-family:"SaaSeriesVN";font-weight:400;src:url("/assets/fonts/SaaSeriesVN-Regular.woff2");}@font-face {font-family:"SVNNeueMontreal";font-weight:400;src:url("/assets/fonts/SVN-Neue-Montreal-Regular.woff");}@font-face {font-family:"DangTauEngrave1";font-weight:400;src:url("/assets/fonts/MapRoman-Condensed.otf");}@font-face {font-family:"DangTauEngrave2";font-weight:400;src:url("/assets/fonts/PlayfairDisplay-Regular.ttf");}@font-face {font-family:"DangTauEngrave3";font-weight:400;src:url("/assets/fonts/SVN-Snell-Roundhand-Script-Regular.ttf");}h1,h2,h3,h4,h5,h6, .heading-font {font-family: "DangTau", sans-serif;text-transform:uppercase;}.nav > li > a {font-family: "SaaSeriesVN", sans-serif;font-weight:400;}body {font-family: "SVNNeueMontreal", sans-serif;font-weight:400;}@media screen and (min-width: 768px) {::-webkit-scrollbar {width: 3px;border-radius: 99px;height: 2px;}::-webkit-scrollbar-thumb {background: #161616;border-radius: 0px;}::-webkit-scrollbar-track {background: #f7f7f7;border-radius: 0px;}}.label-new.menu-item > a:after{content:"Mới";}.label-hot.menu-item > a:after{content:"Nổi bật";}.label-sale.menu-item > a:after{content:"Giảm giá";}.label-popular.menu-item > a:after{content:"Phổ biến";}</style>		<style type="text/css" id="wp-custom-css">
 			/*modify global form*/
 .dark .wpcf7-form {
 	font-family: "SaaSeriesVN", sans-serif;
@@ -428,7 +425,7 @@ ul ul {
 	.home-mainslider .button {
 		margin-top:20px;
 	}
-} 
+}
 @media (min-width: 300px) {
 .home-mainslider .flickity-page-dots {
         bottom: 80px;
@@ -454,7 +451,7 @@ display:flex;
 	transition:0.3s ease all;
 	font-size:1.2em;
 	padding:2px 20px 2px
-	
+
 	}
 	.home-mainslider .flickity-page-dots .dot.is-selected {
 		color:rgba(99, 97, 70, 1);
@@ -882,7 +879,7 @@ display:flex;
 }
 .single-post .blog-wrapper.blog-single.page-wrapper .post-sidebar .post-meta {
 	font-family: 'SaaSeriesVN';
-	font-size:1.1em;	
+	font-size:1.1em;
 }
 .single-post .blog-wrapper.blog-single.page-wrapper .post-sidebar .post-meta:before {
 	content: "\f508";
@@ -912,7 +909,7 @@ display:flex;
 }
 .related-post-section .flickity-button {
 	display:none !important;
-} 
+}
 @media screen and (max-width: 599px) {
     .related-post-section .post-item .post-title a {
         -webkit-line-clamp: 2;
@@ -998,7 +995,7 @@ ul.links.nav-pagination {
 	font-size:18px;
 }
 @media screen and (max-width: 850px) {
-	#toast-container>div { 
+	#toast-container>div {
 		font-size:18px;
 	}
 	#toast-container .message-container {
@@ -1222,16 +1219,16 @@ button.ux-buy-now-button.button.primary.ml-half {
   transform: scale(0.9);
 }
 .row-product-contact .button.productcontact-phone i:before {
-	content: url('/public/assets/images/icons/phone-icon.svg');
+	content: url('/assets/images/icons/phone-icon.svg');
 }
 .row-product-contact .button.productcontact-mess i:before {
-	content: url('/public/assets/images/icons/mess-icon.svg');
+	content: url('/assets/images/icons/mess-icon.svg');
 }
 .row-product-contact .button.productcontact-zalo i:before {
-	content: url('/public/assets/images/icons/zalo3-icon.svg');
+	content: url('/assets/images/icons/zalo3-icon.svg');
 }
 .row-product-contact .button.productcontact-ws i:before {
-	content: url('/public/assets/images/icons/whatsapp-icon.svg');
+	content: url('/assets/images/icons/whatsapp-icon.svg');
 }
 .row-product-usp .icon-inner img {
 	padding:0;
@@ -1485,13 +1482,13 @@ button.single_add_to_cart_button.button.alt, button.ux-buy-now-button.button.pri
 }
 
 .button.product-engravingbtn i:before {
-	content: url('/public/assets/images/icons/icon-pen-engraving.svg');
+	content: url('/assets/images/icons/icon-pen-engraving.svg');
 }
 
 .button.product-engravingbtn {
 	padding: 12px 25px 12px;
 }
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
 	.button.product-engravingbtn {
 	margin-top:15px;
 }
@@ -1499,14 +1496,14 @@ button.single_add_to_cart_button.button.alt, button.ux-buy-now-button.button.pri
 
 /*add see more in product long description and seo content*/
 .product-longdescol, .seo-content {
-    position: relative; 
+    position: relative;
 }
 
 .product-longdescol .col-inner, .seo-content {
-    max-height: 300px; 
-    overflow: hidden; 
-    position: relative; 
-    transition: max-height 0.5s ease; 
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.5s ease;
 }
 
 .product-longdescol .gradient-overlay {
@@ -1514,27 +1511,27 @@ button.single_add_to_cart_button.button.alt, button.ux-buy-now-button.button.pri
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px; 
-    background: linear-gradient(to top, #fcf7e8, rgba(255, 255, 255, 0)); 
-    display: none; 
+    height: 100px;
+    background: linear-gradient(to top, #fcf7e8, rgba(255, 255, 255, 0));
+    display: none;
 }
 .seo-content .gradient-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px; 
-    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); 
-    display: none; 
+    height: 100px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    display: none;
 }
 
 .see-more, .see-less {
     margin-top: 30px;
 	margin-bottom:-30px;
-    cursor: pointer; 
-    color: rgba(50, 50, 50, 1); 
+    cursor: pointer;
+    color: rgba(50, 50, 50, 1);
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     display: none;
 		font-family: "SaaSeriesVN", sans-serif;
 	font-weight:400;
@@ -1600,7 +1597,7 @@ button.single_add_to_cart_button.button.alt, button.ux-buy-now-button.button.pri
 	opacity:1 !important;
 	font-weight:400;
 }
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
 .product-faqmain .accordion-title {
 	 font-size: 1.3em;
 	 padding: 0.6em 0;
@@ -1613,18 +1610,18 @@ button.single_add_to_cart_button.button.alt, button.ux-buy-now-button.button.pri
     position: absolute;
     bottom: 0;
 }
-@media screen and (min-width: 600px) { 
+@media screen and (min-width: 600px) {
 	.product-small .image-tools.engraving-badge img {
 		width:100px;
 }
 }
-@media screen and (max-width: 600px) {  
+@media screen and (max-width: 600px) {
 	.product-small .image-tools.engraving-badge img {
 		width:70px;
 }
 }
 
-@media screen and (min-width: 600px) { 
+@media screen and (min-width: 600px) {
 .woocommerce-no-products-found {
 	margin-bottom:50px;
 }
@@ -1819,7 +1816,7 @@ button.single_add_to_cart_button.button.alt, button.ux-buy-now-button.button.pri
 	position:absolute;
 	top:5px;
 	left:40px;
-	background-image:url(/public/assets/images/icons/engravable-badge.svg);
+	background-image:url(/assets/images/icons/engravable-badge.svg);
 	display:block;
 	width:30px;
 	height:30px;
@@ -1967,7 +1964,7 @@ button.single_add_to_cart_button.button.alt, button.ux-buy-now-button.button.pri
 /*modify product card*/
 .product-small .badge-inner.secondary.on-sale {
 	content:"";
-	background-image:url(/public/assets/images/icons/sale-badge.svg);
+	background-image:url(/assets/images/icons/sale-badge.svg);
 	background-size:100% 100%;
 	background-color:transparent;
 	transform:scale(1.3);
@@ -1981,7 +1978,7 @@ button.single_add_to_cart_button.button.alt, button.ux-buy-now-button.button.pri
 	.product-small .badge-container.absolute {
 	margin-top:15px;
 }
-	.product-small .badge-inner.secondary.on-sale { 
+	.product-small .badge-inner.secondary.on-sale {
 	transform:scale(1.1);
 	}
 }
@@ -2254,8 +2251,8 @@ label.font-option {
 }
 
 .quizques-value4 div {
-  flex: 0 0 calc(50% - 5px); 
-  margin-bottom: 12px; 
+  flex: 0 0 calc(50% - 5px);
+  margin-bottom: 12px;
 }
 .quizques-value div {
 	transition:0.3s ease all;
@@ -2270,18 +2267,18 @@ label.font-option {
 .quizques-value6 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .quizques-value6 div {
-    flex: 0 0 calc(33.33% - 8px); 
-    margin-bottom: 12px; 
+    flex: 0 0 calc(33.33% - 8px);
+    margin-bottom: 12px;
 }
 .quizques-value div span {
 	display:block;
 }
 .quizques-value div img {
-    max-width: 100%; 
+    max-width: 100%;
     height: 100px;
 	object-fit:cover;
 	margin-bottom:8px;
@@ -2298,13 +2295,13 @@ label.font-option {
 		font-size:2em;
 	}
     .quizques-value4 div {
-        flex: 0 0 100%; 
+        flex: 0 0 100%;
 			    align-items: center;
     justify-content: center;
     }
 
     .quizques-value6 div {
-        flex: 0 0 calc(50% - 5px); 
+        flex: 0 0 calc(50% - 5px);
     }
 	.quizques-value div {
 		    padding: 5px 10px;
@@ -2473,7 +2470,7 @@ label.font-option {
 }
 }		</style>
 	<!-- DangTau custom stylesheet -->
-	<link rel="stylesheet" href="/public/assets/css/home.css">
+	<link rel="stylesheet" href="/assets/css/home.css">
 		</head>
 <body class="<?= isset($body_class) ? htmlspecialchars($body_class) : 'home page-template page-template-page-blank page-template-page-blank-php page page-id-21' ?> theme-flatsome woocommerce-no-js header-shadow lightbox nav-dropdown-has-shadow catalog-mode">
 
@@ -2494,32 +2491,7 @@ label.font-option {
       <div class="flex-col hide-for-medium flex-right">
          <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
               <li class="header-contact-wrapper">
-		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
-		
-			
-						<li class="">
-			  <a class="tooltip" title="Thứ 2 - Chủ Nhật: 9h00 - 22h00 ">
-			  	   <i class="icon-clock" style="font-size:16px;" ></i>			        <span>Thứ 2 - Chủ Nhật: 9h00 - 22h00</span>
-			  </a>
-			 </li>
-			
-						<li class="">
-			  <a href="tel:+84589598386" class="tooltip" title="058 959 8386">
-			     <i class="icon-phone" style="font-size:16px;" ></i>			      <span>058 959 8386</span>
-			  </a>
-			</li>
-						<li class="">
-			  <a href="https://www.facebook.com/messages/t/DuVinVN" class="tooltip" target="_blank" rel="noopener" title="Nhắn tin Messenger">
-			     <i class="icon-comment" style="font-size:16px;"></i>			      <span>Messenger</span>
-			  </a>
-			</li>
-						<li class="">
-			  <a href="https://zalo.me/0589598386" class="tooltip" target="_blank" rel="noopener" title="Zalo">
-			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>Zalo</span>
-			  </a>
-			</li>
-			
-				</ul>
+		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact"><?php $menuItems = $site['menus']['header_contact']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
 </li>
           </ul>
       </div>
@@ -2527,36 +2499,11 @@ label.font-option {
             <div class="flex-col show-for-medium flex-grow">
           <ul class="nav nav-center nav-small mobile-nav  nav-divided">
               <li class="header-contact-wrapper">
-		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
-		
-			
-						<li class="">
-			  <a class="tooltip" title="Thứ 2 - Chủ Nhật: 9h00 - 22h00 ">
-			  	   <i class="icon-clock" style="font-size:16px;" ></i>			        <span>Thứ 2 - Chủ Nhật: 9h00 - 22h00</span>
-			  </a>
-			 </li>
-			
-						<li class="">
-			  <a href="tel:+84589598386" class="tooltip" title="058 959 8386">
-			     <i class="icon-phone" style="font-size:16px;" ></i>			      <span>058 959 8386</span>
-			  </a>
-			</li>
-						<li class="">
-			  <a href="https://www.facebook.com/messages/t/DuVinVN" class="tooltip" target="_blank" rel="noopener" title="Nhắn tin Messenger">
-			     <i class="icon-comment" style="font-size:16px;"></i>			      <span>Messenger</span>
-			  </a>
-			</li>
-						<li class="">
-			  <a href="https://zalo.me/0589598386" class="tooltip" target="_blank" rel="noopener" title="Zalo">
-			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>Zalo</span>
-			  </a>
-			</li>
-			
-				</ul>
+		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact"><?php $menuItems = $site['menus']['header_contact']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
 </li>
           </ul>
       </div>
-      
+
     </div>
 </div>
 <div id="masthead" class="header-main show-logo-center">
@@ -2572,7 +2519,7 @@ label.font-option {
         padding-top: 5px !important;
         padding-bottom: 0px !important;
     }
-    
+
     /* Gỡ bỏ các giới hạn chiều cao cũ của vùng chứa logo */
     .header-main .header-inner {
         height: auto !important;
@@ -2587,18 +2534,18 @@ label.font-option {
         margin-bottom: 0px !important;
         position: relative !important;
     }
-    
+
     /* Ép thẻ a bọc ngoài ảnh cũng không bị bóp méo */
     #logo a {
         display: block !important;
         line-height: 1 !important;
     }
 </style>
-            
+
 <!-- Header logo -->
 <a href="/" title="Duvin" rel="home">
-		<img style="max-height: 95px; width: auto; object-fit: contain;" src="/public/assets/images/duvin-logo-red-transparent.png" class="header_logo header-logo" 
-		alt="DuVin Logo"/><img  style="max-height: 95px; width: auto; object-fit: contain;" src="/public/assets/images/duvin-logo-red-transparent.png" class="header-logo-dark" alt="DuVin Logo"/></a>
+		<img style="max-height: 95px; width: auto; object-fit: contain;" src="/assets/images/duvin-logo-red-transparent.png" class="header_logo header-logo"
+		alt="DuVin Logo"/><img  style="max-height: 95px; width: auto; object-fit: contain;" src="/assets/images/duvin-logo-red-transparent.png" class="header-logo-dark" alt="DuVin Logo"/></a>
           </div>
 
           <!-- Mobile Left Elements -->
@@ -2619,7 +2566,7 @@ label.font-option {
             <ul class="header-nav header-nav-main nav nav-left  nav-size-large nav-spacing-large nav-uppercase" >
               <li class="header-search-form search-form html relative has-icon">
 	<div class="header-search-form-wrapper">
-		<div class="searchform-wrapper ux-search-box relative form-flat is-normal"><form role="search" method="get" class="searchform" action="index.html">
+		<div class="searchform-wrapper ux-search-box relative form-flat is-normal"><form role="search" method="get" class="searchform" action="/san-pham">
 	<div class="flex-row relative">
 						<div class="flex-col flex-grow">
 			<label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
@@ -2640,23 +2587,7 @@ label.font-option {
 
           <!-- Right Elements -->
           <div class="flex-col hide-for-medium flex-right">
-            <ul class="header-nav header-nav-main nav nav-right  nav-size-large nav-spacing-large nav-uppercase">
-<li id="menu-item-amisduvin" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-design-default"><a href="https://amis.duvin.vn" target="_blank" class="nav-top-link">AMISDUVIN</a></li>
-<li id="menu-item-4870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4870 menu-item-design-default has-dropdown"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Về chúng tôi<i class="icon-angle-down" ></i></a>
-<ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li id="menu-item-3339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3339"><a href="/ve-dangtau-whisky">Về Duvin</a></li>
-	<li id="menu-item-3338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3338"><a href="/ve-nha-sang-lap">Về nhà sáng lập</a></li>
-</ul>
-</li>
-<li id="menu-item-3340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3340 menu-item-design-default has-dropdown"><a href="/kien-thuc-whisky" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Wine Knowledge<i class="icon-angle-down" ></i></a>
-<ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li id="menu-item-3341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3341"><a href="/kien-thuc-whisky">Wineries & Châteaux</a></li>
-	<li id="menu-item-3342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3342"><a href="/kien-thuc-whisky">Grape Varieties</a></li>
-	<li id="menu-item-3343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3343"><a href="/kien-thuc-whisky">Wine Basics</a></li>
-	<li id="menu-item-3344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3344"><a href="/kien-thuc-whisky">Tasting Notes</a></li>
-</ul>
-</li>
-            </ul>
+            <ul class="header-nav header-nav-main nav nav-right  nav-size-large nav-spacing-large nav-uppercase"><?php $menuItems = $site['menus']['header_2']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
           </div>
 
           <!-- Mobile Right Elements -->
@@ -2666,9 +2597,9 @@ label.font-option {
 			<a href="#search-lightbox" aria-label="Tìm kiếm" data-open="#search-lightbox" data-focus="input.search-field"
 		class="is-small">
 		<i class="icon-search" style="font-size:16px;" ></i></a>
-		
+
 	<div id="search-lightbox" class="mfp-hide dark text-center">
-		<div class="searchform-wrapper ux-search-box relative form-flat is-large"><form role="search" method="get" class="searchform" action="index.html">
+		<div class="searchform-wrapper ux-search-box relative form-flat is-large"><form role="search" method="get" class="searchform" action="/san-pham">
 	<div class="flex-row relative">
 						<div class="flex-col flex-grow">
 			<label class="screen-reader-text" for="woocommerce-product-search-field-1">Tìm kiếm:</label>
@@ -2693,33 +2624,21 @@ label.font-option {
 <div id="wide-nav" class="header-bottom wide-nav flex-has-center hide-for-medium">
     <div class="flex-row container">
 
-            
+
                         <div class="flex-col hide-for-medium flex-center">
-                <ul class="nav header-nav header-bottom-nav nav-center  nav-size-large nav-spacing-large nav-uppercase">
-                    <li id="menu-item-wine" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-wine menu-item-design-default has-dropdown"><a href="/danh-muc/wine" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Wine<i class="icon-angle-down" ></i></a>
-<ul class="sub-menu nav-dropdown nav-dropdown-simple">
-	<li class="menu-item"><a href="/danh-muc/vang-phap">Vang Pháp</a></li>
-	<li class="menu-item"><a href="/danh-muc/vang-y">Vang Ý</a></li>
-	<li class="menu-item"><a href="/danh-muc/vang-chile">Vang Chile</a></li>
-	<li class="menu-item"><a href="/danh-muc/vang-tay-ban-nha">Vang Tây Ban Nha</a></li>
-	<li class="menu-item"><a href="/danh-muc/vang-tan-the-gioi">Vang Tân Thế Giới</a></li>
-</ul>
-</li>
-<li id="menu-item-4216" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4216 menu-item-design-default"><a href="/danh-muc/old-rare" class="nav-top-link">Old &amp; Rare</a></li>
-<li id="menu-item-4215" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4215 menu-item-design-default"><a href="/danh-muc/bo-qua-tang" class="nav-top-link">Bộ quà tặng</a></li>
-                </ul>
+                <ul class="nav header-nav header-bottom-nav nav-center  nav-size-large nav-spacing-large nav-uppercase"><?php $menuItems = $site['menus']['header_3']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
             </div>
-            
-            
-            
+
+
+
     </div>
 </div>
 
-<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>
 <style>
 /* 1. Tăng độ dày (chiều cao từ trên xuống dưới) của thanh menu */
 .header-bottom {
-    padding-top: 10px !important; 
+    padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
 

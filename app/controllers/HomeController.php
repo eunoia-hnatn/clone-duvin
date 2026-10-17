@@ -1,16 +1,21 @@
 <?php
-/**
- * HomeController
- * Xử lý trang chủ của DangTau Whisky
- */
-class HomeController
+
+declare(strict_types=1);
+
+final class HomeController extends BaseController
 {
+    public function __construct(private HomeRepository $home, private BrandRepository $brands, private SiteRepository $site)
+    {
+    }
+
     public function index(): void
     {
-        // Tiêu đề trang — header.php sẽ dùng biến này
-        $pageTitle = 'World Class Whisky & Spirit | DangTau Whisky';
-
-        // Load view
-        require VIEW_PATH . '/home.php';
+        $this->render('home', [
+            'pageTitle' => 'World Class Whisky & Spirit | DangTau Whisky',
+            'home' => $this->home->content(),
+            'presentation' => $this->home->presentation(),
+            'brands' => $this->brands->all(),
+            'site' => $this->site->content(),
+        ]);
     }
 }

@@ -1,23 +1,23 @@
-<?php include 'layouts/header.php'; ?>
+<?php include __DIR__ . '/layouts/header.php'; ?>
 
 	<main id="main" class="">
 
 
 <div id="content" role="main" class="content-area">
 
-		
-			
+
+
 	<section class="section" id="section_1194579430">
 		<div class="section-bg fill" >
-									
-			
+
+
 
 		</div>
 
-		
+
 
 		<div class="section-content relative">
-			
+
 <div class="slider-wrapper relative home-mainslider" id="slider-1466808294" >
     <div class="slider slider-type-fade slider-nav-circle slider-nav-large slider-nav-light slider-style-normal slider-show-nav"
         data-flickity-options='{
@@ -40,507 +40,10 @@
             "parallax" : 0,
             "friction": 0.6        }'
         >
-        
-<div class="row row-collapse row-full-width align-equal align-center"  id="row-1922335903">
 
-	<div id="col-823827177" class="col full-50center-col medium-6 small-12 large-6"  data-animate="bounceIn">
-				<div class="col-inner dark" style="background-color:#B52025;" >
-			
-			
-<div class="row row-collapse"  id="row-1187038803">
-
-	<div id="col-577842964" class="col center-maxwidth-50 small-12 large-12"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-			
-			
-	<div id="text-3694114886" class="text dtsubtitle">
-		
-<p>VANG PHÁP</p>
-			</div>
-	
-	<div id="text-2435649643" class="text dtile">
-		
-<h2>TINH HOA RƯỢU VANG TỪ CÁC CHATEAU DANH TIẾNG ĐÃ CÓ MẶT TẠI DUVIN</h2>
-		
-<style>
-#text-2435649643 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-<p>Tuyển tập những dòng vang tinh tế, mang đậm hơi thở của các vùng thổ nhưỡng trứ danh. Khám phá ngay để tìm ra hương vị yêu thích cho những khoảnh khắc gắn kết của bạn!</p>
-<a href="/danh-muc/vang-phap" target="_blank" class="button white is-outline" rel="noopener nofollow">
-		<span>KHÁM PHÁ NGAY</span>
-	</a>
-
-		</div>
-					</div>
-
-	
-</div>
-		</div>
-					</div>
-
-	
-
-	<div id="col-1882220669" class="col medium-6 small-12 large-6"  >
-				<div class="col-inner"  >
-			
-			
-
-  <div class="banner has-hover" id="banner-979033297">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img fetchpriority="high" decoding="async" width="1280" height="1312" src="/public/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="Banner Mac84 | DangTau Whisky" title="Banner Mac84 | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="https://youtube.com/@amisduvin" rel="nofollow noopener" target="_blank"><div class="fill banner-link"></div></a>            
-   <div id="text-box-1100581749" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-center">
-                  
-              </div>
-           </div>
-                            
-<style>
-#text-box-1100581749 {
-  width: 60%;
-}
-#text-box-1100581749 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1100581749 {
-    width: 60%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-979033297 {
-  padding-top: 85%;
-}
-#banner-979033297 .banner-bg img {
-  object-position: 48% 57%;
-}
-</style>
-  </div>
-
-
-		</div>
-					</div>
-
-	
-</div>
-<div class="row row-collapse row-full-width align-equal"  id="row-1820758871">
-
-	<div id="col-237622452" class="col full-50center-col medium-6 small-12 large-6"  >
-				<div class="col-inner dark" style="background-color:#B52025;" >
-			
-			
-<div class="row row-collapse"  id="row-381728242">
-
-	<div id="col-1763453208" class="col center-maxwidth-50 small-12 large-12"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-			
-			
-	<div id="text-3069244932" class="text dtsubtitle">
-		
-<p>VANG Ý </p>
-			</div>
-	
-	<div id="text-1699098173" class="text dtile">
-		
-<h2>BẢN GIAO HƯỞNG ĐẬM ĐÀ VÀ QUYẾN RŨ</h2>
-		
-<style>
-#text-1699098173 {
-  font-size: 1.65rem;
-  color: #fcf7e8;
-}
-#text-1699098173 > * {
-  color: #fcf7e8;
-}
-</style>
-	</div>
-	
-<p>DuVin tự hào mang đến những dòng vang Ý thượng hạng, từ những chai mượt mà, ngọt ngào đến những chai chát đậm, cấu trúc chắc chắn. Một lựa chọn hoàn hảo để đánh thức mọi giác quan của người yêu vang.</p>
-<a href="/danh-muc/vang-y" class="button white is-outline">
-		<span>XEM THÊM</span>
-	</a>
-
-		</div>
-					</div>
-
-	
-</div>
-		</div>
-					</div>
-
-	
-
-	<div id="col-671305950" class="col medium-6 small-12 large-6"  >
-				<div class="col-inner"  >
-			
-			
-
-  <div class="banner has-hover" id="banner-1311413341">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img decoding="async" width="1552" height="1013" src="/public/assets/images/duvin1.jpg" class="bg attachment-2048x2048 size-2048x2048" alt="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky" title="ChatGPT Image Sep 1 2026 12 48 26 PM | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/product-category/bo-qua-tang/" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-1087970436" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-center">
-                  
-              </div>
-           </div>
-                            
-<style>
-#text-box-1087970436 {
-  width: 60%;
-}
-#text-box-1087970436 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1087970436 {
-    width: 60%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-1311413341 {
-  padding-top: 85%;
-}
-#banner-1311413341 .banner-bg img {
-  object-position: 48% 57%;
-}
-</style>
-  </div>
-
-
-		</div>
-					</div>
-
-	
-</div>
-<div class="row row-collapse row-full-width align-equal"  id="row-1879841671">
-
-	<div id="col-707082203" class="col full-50center-col medium-6 small-12 large-6"  >
-				<div class="col-inner dark" style="background-color:rgb(152, 125, 79);" >
-			
-			
-<div class="row row-collapse"  id="row-1645264762">
-
-	<div id="col-329374132" class="col center-maxwidth-50 small-12 large-12"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-			
-			
-	<div id="text-2773139435" class="text dtsubtitle">
-		
-<p>VANG CHILE</p>
-			</div>
-	
-	<div id="text-863730640" class="text dtile">
-		
-<h2>SỰ PHÁ CÁCH MẠNH MẼ TỪ TÂN THẾ GIỚI</h2>
-		
-<style>
-#text-863730640 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-<p>Trải nghiệm sự bùng nổ hương vị trái cây chín mọng và tannin mềm mại của vang Chile. Dễ uống, dễ kết hợp ẩm thực và mức giá cực kỳ tiếp cận – đây luôn là lựa chọn tuyệt vời cho những buổi tụ họp bạn bè.</p>
-<a href="/danh-muc/vang-chile" class="button white is-outline"  >
-		<span>KHÁM PHÁ NGAY</span>
-	</a>
-
-		</div>
-					</div>
-
-	
-</div>
-		</div>
-					</div>
-
-	
-
-	<div id="col-1314829462" class="col medium-6 small-12 large-6"  >
-				<div class="col-inner"  >
-			
-			
-
-  <div class="banner has-hover" id="banner-193432955">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img decoding="async" width="1200" height="1200" src="/public/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="SYN00141 Edit e1740029390883 | DangTau Whisky" title="SYN00141 Edit e1740029390883 | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/kien-thuc-whisky/" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-2112587687" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-center">
-                  
-              </div>
-           </div>
-                            
-<style>
-#text-box-2112587687 {
-  width: 60%;
-}
-#text-box-2112587687 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-2112587687 {
-    width: 60%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-193432955 {
-  padding-top: 85%;
-}
-#banner-193432955 .banner-bg img {
-  object-position: 47% 66%;
-}
-</style>
-  </div>
-
-
-		</div>
-					</div>
-
-	
-</div>
-<div class="row row-collapse row-full-width align-equal"  id="row-390322321">
-
-	<div id="col-544534321" class="col full-50center-col medium-6 small-12 large-6"  >
-				<div class="col-inner dark" style="background-color:#B52025;" >
-			
-			
-<div class="row row-collapse"  id="row-284628847">
-
-	<div id="col-1975241358" class="col center-maxwidth-50 small-12 large-12"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-			
-			
-	<div id="text-1100165524" class="text dtsubtitle">
-		
-<p>NEW ARRIVAL</p>
-			</div>
-	
-	<div id="text-2636695128" class="text dtile">
-		
-<h2>BỘ SƯU TẬP VANG TUYỂN CHỌN MỚI NHẤT</h2>
-		
-<style>
-#text-2636695128 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-<p>DuVin vừa cập bến những dòng vang mới nhất cho mùa lễ hội. Được đích thân nhà sáng lập Phong nếm thử và tuyển chọn khắt khe, đây chắc chắn là những "viên ngọc ẩn" mang lại trải nghiệm đầy bất ngờ.</p>
-<a href="/danh-muc/new-arrival/" class="button white is-outline"  >
-		<span>XEM CHI TIẾT</span>
-	</a>
-
-		</div>
-					</div>
-
-	
-</div>
-		</div>
-					</div>
-
-	
-
-	<div id="col-1741366004" class="col medium-6 small-12 large-6"  >
-				<div class="col-inner"  >
-			
-			
-
-  <div class="banner has-hover" id="banner-1125992043">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1920" height="1081" src="/public/assets/images/duvin3.jpg" class="bg attachment-original size-original" alt="DSC00968111 | DangTau Whisky" title="DSC00968111 | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/ve-nha-sang-lap/" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-790187112" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-center">
-                  
-              </div>
-           </div>
-                            
-<style>
-#text-box-790187112 {
-  width: 60%;
-}
-#text-box-790187112 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-790187112 {
-    width: 60%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-1125992043 {
-  padding-top: 85%;
-}
-#banner-1125992043 .banner-bg img {
-  object-position: 42% 67%;
-}
-</style>
-  </div>
-
-
-		</div>
-					</div>
-
-	
-</div>
-<div class="row row-collapse row-full-width align-equal"  id="row-1580323448">
-
-	<div id="col-1844507655" class="col full-50center-col medium-6 small-12 large-6"  >
-				<div class="col-inner dark" style="background-color:#B52025;" >
-			
-			
-<div class="row row-collapse"  id="row-959716099">
-
-	<div id="col-186699168" class="col center-maxwidth-50 small-12 large-12"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-			
-			
-	<div id="text-564898829" class="text dtsubtitle">
-		
-<p>QUÀ TẶNG</p>
-			</div>
-	
-	<div id="text-2700571279" class="text dtile">
-		
-<h2>TRAO GỬI THÂM TÌNH QUA NHỮNG HỘP QUÀ TINH TẾ</h2>
-		
-<style>
-#text-2700571279 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-<p>Thể hiện đẳng cấp và sự thấu hiểu với bộ sưu tập hộp quà tặng vang sang trọng từ DuVin. Thiết kế hộp da, hộp gỗ cao cấp cùng những chai vang xứng tầm, thay bạn gửi lời tri ân sâu sắc đến đối tác và người thân.
-</p>
-<a href="/danh-muc/bo-qua-tang" class="button white is-outline">
-		<span>XEM BỘ SƯU TẬP</span>
-	</a>
-
-		</div>
-					</div>
-
-	
-</div>
-		</div>
-					</div>
-
-	
-
-	<div id="col-2021297182" class="col medium-6 small-12 large-6"  >
-				<div class="col-inner"  >
-			
-			
-
-  <div class="banner has-hover" id="banner-931667308">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1947" height="808" src="/public/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky" title="ChatGPT Image Sep 8 2026 08 42 47 AM | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/ve-nha-sang-lap/" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-1891507640" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-center">
-                  
-              </div>
-           </div>
-                            
-<style>
-#text-box-1891507640 {
-  width: 60%;
-}
-#text-box-1891507640 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1891507640 {
-    width: 60%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-931667308 {
-  padding-top: 50%;
-}
-#banner-931667308 .banner-bg img {
-  object-position: 50% 50%;
-}
-</style>
-  </div>
-
-
-		</div>
-					</div>
-
-	
-</div>
+<?php foreach ($home['hero_slides'] as $index => $slide): $layout = $presentation['hero'][$index]; ?>
+<?php include __DIR__ . '/components/home/hero-slide.php'; ?>
+<?php endforeach; ?>
      </div>
 
      <div class="loading-spin dark large centered"></div>
@@ -550,7 +53,7 @@
 
 		</div>
 
-		
+
 <style>
 #section_1194579430 {
   padding-top: 0px;
@@ -559,29 +62,29 @@
 }
 </style>
 	</section>
-	
+
 
 	<section class="section" id="section_733328052">
 		<div class="section-bg fill" >
-									
-			
+
+
 
 		</div>
 
-		
+
 
 		<div class="section-content relative">
-			
+
 <div class="row" style="max-width:1500px" id="row-1830793009">
 
 	<div id="col-133004022" class="col small-12 large-12"  data-animate="fadeInLeft">
 				<div class="col-inner"  >
-			
-			
+
+
 	<div id="text-1062957703" class="text dtile">
-		
-<h2>NHỮNG THƯƠNG HIỆU NỔI TIẾNG</h2>
-		
+
+<h2><?php foreach ($home['copy']['brands_heading'] as $lineIndex => $line): ?><?= $lineIndex === 0 ? '' : '<br class="br-mobile">' ?><?= e($line) ?><?php endforeach; ?></h2>
+
 <style>
 #text-1062957703 {
   font-size: 1.65rem;
@@ -589,9 +92,9 @@
 }
 </style>
 	</div>
-	
+
 		</div>
-				
+
 <style>
 #col-133004022 > .col-inner {
   margin: 0px 0px -15px 0px;
@@ -604,227 +107,21 @@
 </style>
 	</div>
 
-	
+
 
 	<div id="col-1939288690" class="col small-12 large-12"  data-animate="fadeInRight">
 				<div class="col-inner"  >
-			
-			
 
-  
+
+
+
     <div class="row home-brandlogo-slider lightbox-multi-gallery large-columns-5 medium-columns-3 small-columns-1 row-full-width slider row-slider slider-nav-simple slider-nav-outside"  data-flickity-options='{&quot;imagesLoaded&quot;: true, &quot;groupCells&quot;: &quot;100%&quot;, &quot;dragThreshold&quot; : 5, &quot;cellAlign&quot;: &quot;left&quot;,&quot;wrapAround&quot;: true,&quot;prevNextButtons&quot;: true,&quot;percentPosition&quot;: true,&quot;pageDots&quot;: true, &quot;rightToLeft&quot;: false, &quot;autoPlay&quot; : 3000}' >
 
-  <div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_13.webp" class="home-brandlogo-slider" alt="dt brand logo 13 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_13.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_13-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 13 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?filter_brands=macallan&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_9.webp" class="home-brandlogo-slider" alt="dt brand logo 9 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_9.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_9-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 9 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/world-whisky/whisky-the-lakes/</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_14.webp" class="home-brandlogo-slider" alt="dt brand logo 14 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_14.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_14-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 14 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/world-whisky/whisky-nhat/?filter_brands=chichibu&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_5.webp" class="home-brandlogo-slider" alt="dt brand logo 5 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_5.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_5-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 5 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/whisky-campbeltown/?filter_brands=springbank&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_17.webp" class="home-brandlogo-slider" alt="dt brand logo 17 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_17.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_17-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 17 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/world-whisky/whisky-nhat/?filter_brands=yamazaki&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_3.webp" class="home-brandlogo-slider" alt="dt brand logo 3 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_3.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_3-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 3 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/whisky-highland/?filter_brands=glenfarclas&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_10.webp" class="home-brandlogo-slider" alt="dt brand logo 10 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_10.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_10-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 10 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?filter_brands=mortlach&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_12.webp" class="home-brandlogo-slider" alt="dt brand logo 12 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_12.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_12-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 12 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?query_type_brands=or&amp;filter_brands=balvenie</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_7.webp" class="home-brandlogo-slider" alt="dt brand logo 7 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_7.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_7-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 7 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?query_type_brands=or&amp;filter_brands=ardbeg</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_8.webp" class="home-brandlogo-slider" alt="dt brand logo 8 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_8.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_8-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 8 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?filter_brands=glenfiddich&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_11.webp" class="home-brandlogo-slider" alt="dt brand logo 11 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_11.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_11-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 11 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/world-whisky/whisky-nhat/?filter_brands=hibiki&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_15.webp" class="home-brandlogo-slider" alt="dt brand logo 15 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_15.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_15-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 15 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?filter_brands=glengoyne&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_16.webp" class="home-brandlogo-slider" alt="dt brand logo 16 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_16.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_16-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 16 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?filter_brands=laphroaig&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_18.webp" class="home-brandlogo-slider" alt="dt brand logo 18 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_18.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_18-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 18 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/world-whisky/whisky-nhat/?filter_brands=hakushu&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_4.webp" class="home-brandlogo-slider" alt="dt brand logo 4 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_4.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_4-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 4 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?filter_brands=glen-scotia&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div><div class="gallery-col col" data-animate="fadeInLeft">
-          <div class="col-inner">
-                        <div class="box has-hover gallery-box box-none">
-              <div class="box-image" style="width:80%;">
-                <img decoding="async" height="225" src="/public/assets/images/dt_brand_logo_6.webp" class="home-brandlogo-slider" alt="dt brand logo 6 | DangTau Whisky" ids="242,238,243,252,246,250,239,241,236,237,240,244,245,247,251,253" style="none" lightbox="false" type="slider" columns="5" columns__sm="1" animate="fadeInLeft" slider_nav_style="simple" slider_nav_position="outside" slider_bullets="true" auto_slide="3000" image_width="80" image_overlay="rgba(255, 255, 255, 0)" srcset="https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_6.webp 549w, https://dangtauwhisky.com/wp-content/uploads/2024/11/dt_brand_logo_6-18x7.webp 18w" sizes="(max-width: 549px) 100vw, 549px" title="dt brand logo 6 | DangTau Whisky">                                  <div class="overlay fill"
-                      style="background-color: rgba(255, 255, 255, 0)">
-                  </div>
-                                                              </div>
-              <div class="box-text text-left" >
-                 <p>https://dangtauwhisky.com/product-category/scotch-whisky/?filter_brands=bowmore&amp;query_type_brands=or</p>
-              </div>
-            </div>
-                      </div>
-         </div></div>
+  <?php foreach ($brands as $brand): ?>
+<?php include __DIR__ . '/components/home/brand.php'; ?>
+<?php endforeach; ?></div>
 		</div>
-				
+
 <style>
 #col-1939288690 > .col-inner {
   margin: 0px 0px -10px 0px;
@@ -837,11 +134,11 @@
 </style>
 	</div>
 
-	
+
 </div>
 		</div>
 
-		
+
 <style>
 #section_733328052 {
   padding-top: 60px;
@@ -855,48 +152,48 @@
 }
 </style>
 	</section>
-	
+
 
 	<section class="section" id="section_165136154">
 		<div class="section-bg fill" >
-									
-			
+
+
 
 		</div>
 
-		
+
 
 		<div class="section-content relative">
-			
+
 <div class="row"  id="row-353129079">
 
 
 	<div id="col-618367648" class="col medium-6 small-12 large-6"  data-animate="fadeInLeft">
 				<div class="col-inner"  >
-			
-			
+
+
 
 	<div id="text-3031624791" class="text dtsubtitle">
-		
 
-<p>DUVIN'S INFLUENCE</p>
+
+<p><?php foreach ($home['copy']['influence_eyebrow'] as $lineIndex => $line): ?><?= $lineIndex === 0 ? '' : '<br class="br-mobile">' ?><?= e($line) ?><?php endforeach; ?></p>
 			</div>
-	
-	<div id="text-3966619878" class="text dtile">
-		
 
-<h2>SỨC ẢNH HƯỞNG VÀ<br class="br-mobile"> LAN TỎA CỦA <br class="br-mobile">DUVIN</h2>
-		
+	<div id="text-3966619878" class="text dtile">
+
+
+<h2><?php foreach ($home['copy']['influence_heading'] as $lineIndex => $line): ?><?= $lineIndex === 0 ? '' : '<br class="br-mobile">' ?><?= e($line) ?><?php endforeach; ?></h2>
+
 <style>
 #text-3966619878 {
   font-size: 1.65rem;
 }
 </style>
 	</div>
-	
+
 
 		</div>
-				
+
 <style>
 #col-618367648 > .col-inner {
   margin: 0px 0px -20px 0px;
@@ -909,23 +206,22 @@
 </style>
 	</div>
 
-	
+
 
 	<div id="col-1212784119" class="col medium-6 small-12 large-6"  data-animate="fadeInRight">
 				<div class="col-inner"  >
-			
-			
+
+
 
 	<div id="text-505645133" class="text p-zero-margin">
-		
 
-<p>DuVin đang từng bước khẳng định vị thế là một trong những cộng đồng chia sẻ kiến thức và văn hóa rượu vang uy tín trên các nền tảng mạng xã hội.
-  Qua những bài viết, video đánh giá chân thực và gần gũi, chúng tôi mong muốn truyền cảm hứng và kết nối những người yêu vang tại Việt Nam.</p>
+
+<p><?php foreach ($home['copy']['influence_description'] as $lineIndex => $line): ?><?= $lineIndex === 0 ? '' : '<br class="br-mobile">' ?><?= e($line) ?><?php endforeach; ?></p>
 			</div>
-	
+
 
 		</div>
-				
+
 <style>
 #col-1212784119 > .col-inner {
   padding: 0px 0px 0px 0px;
@@ -944,33 +240,33 @@
 </style>
 	</div>
 
-	
+
 
 	<div id="col-855128820" class="col medium-6 small-12 large-6"  data-animate="fadeInLeft">
 				<div class="col-inner"  >
-			
-			
+
+
 
 
   <div class="banner has-hover" id="banner-240184907">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1253" height="704" src="/public/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">                                    
+            <?php $image = $home['collections'][0]['image']; include __DIR__ . '/components/image.php'; ?>
                     </div>
-		
+
         <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
+            <div class="fill banner-link"></div>
 
    <div id="text-box-2015974485" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
                                 <div class="text-box-content text dark">
-              
+
               <div class="text-inner text-center">
-                  
+
 
 
               </div>
            </div>
-                            
+
 <style>
 #text-box-2015974485 {
   width: 60%;
@@ -985,12 +281,12 @@
 }
 </style>
     </div>
- 
+
 
         </div>
       </div>
 
-            
+
 <style>
 #banner-240184907 {
   padding-top: 250px;
@@ -1009,7 +305,7 @@
 
 
 		</div>
-				
+
 <style>
 #col-855128820 > .col-inner {
   margin: 0px 0px -20px 0px;
@@ -1017,18 +313,18 @@
 </style>
 	</div>
 
-	
+
 
 	<div id="col-1334770715" class="col divider-on medium-6 small-12 large-6"  data-animate="fadeInUp">
 				<div class="col-inner"  >
-			
-			
+
+
 
 	<div id="text-2450199989" class="text dtsubtitle2">
-		
 
-<p>Đánh dấu sự phát triển mạnh mẽ trên Facebook &amp Zalo</p>
-		
+
+<p><?php foreach ($home['copy']['social_milestone'] as $lineIndex => $line): ?><?= $lineIndex === 0 ? '' : '<br class="br-mobile">' ?><?= e($line) ?><?php endforeach; ?></p>
+
 <style>
 #text-2450199989 {
   font-size: 1.5rem;
@@ -1041,9 +337,9 @@
 }
 </style>
 	</div>
-	
+
 	<div id="gap-560321887" class="gap-element clearfix" style="display:block; height:auto;">
-		
+
 <style>
 #gap-560321887 {
   padding-top: 20px;
@@ -1055,29 +351,29 @@
 }
 </style>
 	</div>
-	
+
 
 	<div id="stack-3701893570" class="stack home-stack-social stack-row justify-start items-stretch">
-		
+
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1927864184">
 		<a class="" href="https://www.facebook.com/DuVinVN/" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/public/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | Duvin">						
+			<img decoding="async" src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | Duvin">
 					</div>
-						</a>		
+						</a>
 <style>
 #image_1927864184 {
   width: 25%;
 }
 </style>
 	</div>
-	
+
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
 		<a class="" href="https://zalo.me/0589598386" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/public/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">						
+			<img decoding="async" src="/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">
 					</div>
-						</a>		
+						</a>
 <style>
 #image_1831423319 {
   width: 100%;
@@ -1085,7 +381,7 @@
 </style>
 	</div>
 
-	
+
 
 <style>
 #stack-3701893570 > * {
@@ -1093,11 +389,11 @@
 }
 </style>
 	</div>
-	
+
 
 
 	<div id="gap-1112070631" class="gap-element clearfix" style="display:block; height:auto;">
-		
+
 <style>
 #gap-1112070631 {
   padding-top: 35px;
@@ -1109,12 +405,12 @@
 }
 </style>
 	</div>
-	
+
 
 <div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;background-color:rgba(99, 97, 70, 0.6);"></div>
 
 	<div id="gap-1982491605" class="gap-element clearfix" style="display:block; height:auto;">
-		
+
 <style>
 #gap-1982491605 {
   padding-top: 20px;
@@ -1126,77 +422,26 @@
 }
 </style>
 	</div>
-	
+
 
 	<div id="stack-3637927383" class="stack stack-bignum stack-row justify-start items-stretch">
-		
-
-<div class="row row-collapse"  id="row-1404662968">
 
 
-	<div id="col-589037030" class="col small-12 large-12"  >
-				<div class="col-inner"  >
-			
-			
-
-	<div id="text-2916360142" class="text dt-bignum">
-		
-
-<p><span class="count-up">110000</span></p>
-			</div>
-	
-	<div id="text-4230103372" class="text dt-bignum-sub">
-		
-
-<p>Lượt theo dõi</p>
-			</div>
-	
-
-		</div>
-					</div>
-
-	
-
-</div>
-<div class="row row-collapse"  id="row-385751197">
+<?php foreach ($home['statistics'] as $index => $statistic): $statLayout = $presentation['statistics'][$index]; ?>
+<?php include __DIR__ . '/components/home/statistic.php'; ?>
+<?php endforeach; ?>
 
 
-	<div id="col-646669310" class="col small-12 large-12"  >
-				<div class="col-inner"  >
-			
-			
-
-	<div id="text-2186524649" class="text dt-bignum">
-		
-
-<p><span class="count-up">18000000</span></p>
-			</div>
-	
-	<div id="text-1670527859" class="text dt-bignum-sub">
-		
-
-<p>Lượt xem</p>
-			</div>
-	
-
-		</div>
-					</div>
-
-	
-
-</div>
-
-		
 <style>
 #stack-3637927383 > * {
   --stack-gap: 0rem;
 }
 </style>
 	</div>
-	
+
 
 		</div>
-				
+
 <style>
 #col-1334770715 > .col-inner {
   padding: 25px 0px 0px 0px;
@@ -1216,12 +461,12 @@
 </style>
 	</div>
 
-	
+
 
 </div>
 		</div>
 
-		
+
 <style>
 #section_165136154 {
   padding-top: 60px;
@@ -1236,185 +481,40 @@
 }
 </style>
 	</section>
-	
+
 
 	<section class="section home-section-choosewhisky dark" id="section_1632202293">
 		<div class="section-bg fill" >
-									
-			
+
+
 
 		</div>
 
-		
+
 
 		<div class="section-content relative">
-			
+
 <div class="row row-collapse row-full-width"  id="row-274672475">
 
 	<div id="col-1821239223" class="col small-12 large-12"  data-animate="fadeInUp">
 				<div class="col-inner"  >
-			
-			
+
+
 
 		<div class="tabbed-content home-tab-choosewhisky">
-			
-			<ul class="nav nav-simple nav-uppercase nav-size-normal nav-left" role="tablist"><li id="tab-scotch-whisky" class="tab active has-icon" role="presentation"><a href="index.html#tab_scotch-whisky" role="tab" aria-selected="true" aria-controls="tab_scotch-whisky"><span>VANG PHÁP CỔ ĐIỂN</span></a></li>
-<li id="tab-japanese-whisky" class="tab has-icon" role="presentation"><a href="index.html#tab_japanese-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_japanese-whisky"><span>VANG Ý ĐẬM ĐÀ</span></a></li>
-<li id="tab-world-whisky" class="tab has-icon" role="presentation"><a href="index.html#tab_world-whisky" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab_world-whisky"><span>VANG TÂN THẾ GIỚI</span></a></li></ul><div class="tab-panels"><div id="tab_scotch-whisky" class="panel active entry-content" role="tabpanel" aria-labelledby="tab-scotch-whisky">
 
-  <div class="banner has-hover" id="banner-434062862">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="2300" height="1203" src="/public/assets/images/dt_world_whisky_banner.webp" class="bg attachment-original size-original" alt="dt world whisky banner | DangTau Whisky" title="dt world whisky banner | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/danh-muc/vang-phap" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-869028469" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-center">
-                  
-              </div>
-           </div>
-                            
-<style>
-#text-box-869028469 {
-  width: 60%;
-}
-#text-box-869028469 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-869028469 {
-    width: 60%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-434062862 {
-  padding-top: 45%;
-  background-color: #812a1b;
-}
-#banner-434062862 .banner-bg img {
-  object-position: 100% 75%;
-}
-</style>
-  </div>
-
-
+			<ul class="nav nav-simple nav-uppercase nav-size-normal nav-left" role="tablist"><?php foreach ($home['category_tabs'] as $index => $tab): $layout = $presentation['tabs'][$index]; ?>
+<li id="<?= e($layout['tab_id']) ?>" class="tab <?= $index === 0 ? 'active ' : '' ?>has-icon" role="presentation"><a href="#<?= e($layout['panel_id']) ?>" role="tab" aria-selected="<?= $index === 0 ? 'true' : 'false' ?>" aria-controls="<?= e($layout['panel_id']) ?>"><span><?= e($tab['title']) ?></span></a></li>
+<?php endforeach; ?></ul><div class="tab-panels"><?php foreach ($home['category_tabs'] as $index => $tab): $layout = $presentation['tabs'][$index]; ?>
+<div id="<?= e($layout['panel_id']) ?>" class="panel <?= $index === 0 ? 'active ' : '' ?>entry-content" role="tabpanel" aria-labelledby="<?= e($layout['tab_id']) ?>">
+<?php include __DIR__ . '/components/home/category-banner.php'; ?>
 </div>
-<div id="tab_japanese-whisky" class="panel entry-content" role="tabpanel" aria-labelledby="tab-japanese-whisky">
-
-  <div class="banner has-hover" id="banner-143471527">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="2300" height="1203" src="/public/assets/images/dt_japanese_whisky_banner.webp" class="bg attachment-original size-original" alt="dt japanese whisky banner | DangTau Whisky" title="dt japanese whisky banner | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/danh-muc/vang-y" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-321183929" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-center">
-                  
-              </div>
-           </div>
-                            
-<style>
-#text-box-321183929 {
-  width: 60%;
-}
-#text-box-321183929 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-321183929 {
-    width: 60%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-143471527 {
-  padding-top: 45%;
-  background-color: #66604b;
-}
-#banner-143471527 .banner-bg img {
-  object-position: 100% 75%;
-}
-</style>
-  </div>
-
-
-</div>
-<div id="tab_world-whisky" class="panel entry-content" role="tabpanel" aria-labelledby="tab-world-whisky">
-
-  <div class="banner has-hover" id="banner-269721518">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1920" height="1004" src="/public/assets/images/Artboard-19-2.webp" class="bg attachment-original size-original" alt="Artboard 19 2 | DangTau Whisky" title="Artboard 19 2 | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/danh-muc/vang-tan-the-gioi" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-1562739921" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-center">
-                  
-              </div>
-           </div>
-                            
-<style>
-#text-box-1562739921 {
-  width: 60%;
-}
-#text-box-1562739921 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1562739921 {
-    width: 60%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-269721518 {
-  padding-top: 45%;
-  background-color: #9a7d4f;
-}
-#banner-269721518 .banner-bg img {
-  object-position: 100% 75%;
-}
-</style>
-  </div>
-
-
-</div></div></div>
+<?php endforeach; ?></div></div>
 	<div id="text-271047807" class="text dtsubtitle">
-		
-<p>LỰA CHỌN VÙNG RƯỢU VANG</p>
+
+<p><?php foreach ($home['copy']['regions_heading'] as $lineIndex => $line): ?><?= $lineIndex === 0 ? '' : '<br class="br-mobile">' ?><?= e($line) ?><?php endforeach; ?></p>
 			</div>
-	
+
 <a href="/danh-muc/wine" class="button white is-outline choosetype-seemore" >
 		<span>Khám phá sản phẩm</span>
 	</a>
@@ -1422,11 +522,11 @@
 		</div>
 					</div>
 
-	
+
 </div>
 		</div>
 
-		
+
 <style>
 #section_1632202293 {
   padding-top: 0px;
@@ -1435,25 +535,25 @@
 }
 </style>
 	</section>
-	
+
 
 	<section class="section" id="section_1899544034">
 		<div class="section-bg fill" >
-									
-			
+
+
 
 		</div>
 
-		
+
 
 		<div class="section-content relative">
-			
+
 <div class="row row-collapse row-full-width"  id="row-176228329">
 
 	<div id="col-2023850650" class="col overflow-colright-slider small-12 large-12"  data-animate="fadeInRight">
 				<div class="col-inner"  >
-			
-			
+
+
 <div class="slider-wrapper relative homeslider-whisky-range" id="slider-410928108" >
     <div class="slider slider-nav-dots-simple slider-nav-circle slider-nav-large slider-nav-dark slider-nav-outside slider-style-normal"
         data-flickity-options='{
@@ -1476,297 +576,11 @@
             "parallax" : 0,
             "friction": 0.6        }'
         >
-        
-
-  <div class="banner has-hover" id="banner-1270577499">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1920" height="920" src="/public/assets/images/whisky_duoi_20_banner_1.webp" class="bg attachment-original size-original" alt="whisky duoi 20 banner 1 | DangTau Whisky" title="whisky duoi 20 banner 1 | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/san-pham/page/2/?min_price=20000000&amp;max_price=50000000" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-921517434" class="text-box banner-layer slider-whisky-pricerange-title x5 md-x5 lg-x5 y10 md-y10 lg-y10 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-	<div id="text-1130707899" class="text dtile">
-		
-<h2>VANG THƯỢNG HẠNG <br class="br-mobile">TỪ 5 TRIỆU</h2>
-		
-<style>
-#text-1130707899 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-              </div>
-           </div>
-                            
-<style>
-#text-box-921517434 {
-  width: 60%;
-}
-#text-box-921517434 .text-box-content {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-   <div id="text-box-843585836" class="text-box banner-layer slider-whisky-pricerange-btn x5 md-x5 lg-x5 y95 md-y95 lg-y95 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-<a href="/danh-muc/wine" class="button white is-outline"  >
-		<span>Khám phá sản phẩm</span>
-	</a>
-
-              </div>
-           </div>
-                            
-<style>
-#text-box-843585836 {
-  width: 60%;
-}
-#text-box-843585836 .text-box-content {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-1270577499 {
-  padding-top: 550px;
-  background-color: #822b1d;
-}
-</style>
-  </div>
 
 
-
-  <div class="banner has-hover" id="banner-581769971">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1920" height="920" src="/public/assets/images/whisky_duoi_10_banner_1.webp" class="bg attachment-original size-original" alt="whisky duoi 10 banner 1 | DangTau Whisky" title="whisky duoi 10 banner 1 | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/san-pham/page/2/?min_price=10000000&amp;max_price=20000000" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-540172700" class="text-box banner-layer slider-whisky-pricerange-title x5 md-x5 lg-x5 y10 md-y10 lg-y10 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-	<div id="text-3078320158" class="text dtile">
-		
-<h2>VANG THƯỢNG HẠNG<br class="br-mobile">TỪ 20 TRIỆU</h2>
-		
-<style>
-#text-3078320158 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-              </div>
-           </div>
-                            
-<style>
-#text-box-540172700 {
-  width: 60%;
-}
-#text-box-540172700 .text-box-content {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-   <div id="text-box-1153042829" class="text-box banner-layer slider-whisky-pricerange-btn x5 md-x5 lg-x5 y95 md-y95 lg-y95 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-<a href="/danh-muc/wine" class="button white is-outline"  >
-		<span>Khám phá sản phẩm</span>
-	</a>
-
-              </div>
-           </div>
-                            
-<style>
-#text-box-1153042829 {
-  width: 60%;
-}
-#text-box-1153042829 .text-box-content {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-581769971 {
-  padding-top: 550px;
-  background-color: #987e4e;
-}
-</style>
-  </div>
-
-
-
-  <div class="banner has-hover" id="banner-1329137938">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1920" height="920" src="/public/assets/images/whisky_duoi_6_banner_1.webp" class="bg attachment-original size-original" alt="whisky duoi 6 banner 1 | DangTau Whisky" title="whisky duoi 6 banner 1 | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <a class="fill" href="/san-pham/page/2/?min_price=5000000&amp;max_price=10000000" ><div class="fill banner-link"></div></a>            
-   <div id="text-box-1518456505" class="text-box banner-layer slider-whisky-pricerange-title x5 md-x5 lg-x5 y10 md-y10 lg-y10 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-	<div id="text-449562150" class="text dtile">
-		
-<h2>VANG THƯỢNG HẠNG <br class="br-mobile"> TỪ 30 TRIỆU</h2>
-		
-<style>
-#text-449562150 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-              </div>
-           </div>
-                            
-<style>
-#text-box-1518456505 {
-  width: 60%;
-}
-#text-box-1518456505 .text-box-content {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-   <div id="text-box-1151213487" class="text-box banner-layer slider-whisky-pricerange-btn x5 md-x5 lg-x5 y95 md-y95 lg-y95 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-<a href="/danh-muc/wine" class="button white is-outline"  >
-		<span>Khám phá sản phẩm</span>
-	</a>
-
-              </div>
-           </div>
-                            
-<style>
-#text-box-1151213487 {
-  width: 60%;
-}
-#text-box-1151213487 .text-box-content {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-1329137938 {
-  padding-top: 550px;
-  background-color: #74655d;
-}
-</style>
-  </div>
-
-
-
-  <div class="banner has-hover" id="banner-1355496253">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1920" height="920" src="/public/assets/images/whisky_duoi_4_banner-1.webp" class="bg attachment-original size-original" alt="whisky duoi 4 banner 1 | DangTau Whisky" title="whisky duoi 4 banner 1 | DangTau Whisky">                                    
-                    </div>
-		
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-   <div id="text-box-2109130971" class="text-box banner-layer slider-whisky-pricerange-title x5 md-x5 lg-x5 y10 md-y10 lg-y10 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-	<div id="text-1654285321" class="text dtile">
-		
-<h2>VANG THƯỢNG HẠNG <br class="br-mobile">TỪ 10 TRIỆU</h2>
-		
-<style>
-#text-1654285321 {
-  font-size: 1.65rem;
-}
-</style>
-	</div>
-	
-              </div>
-           </div>
-                            
-<style>
-#text-box-2109130971 {
-  width: 60%;
-}
-#text-box-2109130971 .text-box-content {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-   <div id="text-box-2108672553" class="text-box banner-layer slider-whisky-pricerange-btn x5 md-x5 lg-x5 y95 md-y95 lg-y95 res-text">
-                                <div class="text-box-content text dark">
-              
-              <div class="text-inner text-left">
-                  
-<a href="/danh-muc/wine" class="button white is-outline"  >
-		<span>Khám phá sản phẩm</span>
-	</a>
-
-              </div>
-           </div>
-                            
-<style>
-#text-box-2108672553 {
-  width: 60%;
-}
-#text-box-2108672553 .text-box-content {
-  font-size: 100%;
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-1355496253 {
-  padding-top: 550px;
-  background-color: #636048;
-}
-</style>
-  </div>
+  <?php foreach ($home['price_slides'] as $index => $slide): $layout = $presentation['price'][$index]; ?>
+<?php include __DIR__ . '/components/home/price-slide.php'; ?>
+<?php endforeach; ?>
 
 
      </div>
@@ -1777,7 +591,7 @@
 
 
 		</div>
-				
+
 <style>
 #col-2023850650 > .col-inner {
   padding: 0px 0px 5px 15px;
@@ -1795,11 +609,11 @@
 </style>
 	</div>
 
-	
+
 </div>
 		</div>
 
-		
+
 <style>
 #section_1899544034 {
   padding-top: 60px;
@@ -1814,43 +628,43 @@
 }
 </style>
 	</section>
-	
+
 
 	<section class="section" id="section_451098536">
 		<div class="section-bg fill" >
-									
-			
+
+
 
 		</div>
 
-		
+
 
 		<div class="section-content relative">
-			
+
 <div class="row"  id="row-1677677110">
 
 	<div id="col-1065571273" class="col small-12 large-12"  data-animate="fadeInLeft">
 				<div class="col-inner"  >
-			
-			
+
+
 	<div id="text-2557870156" class="text dtsubtitle">
-		
-<p>Gift &amp; accessories</p>
+
+<p><?php foreach ($home['copy']['gifts_eyebrow'] as $lineIndex => $line): ?><?= $lineIndex === 0 ? '' : '<br class="br-mobile">' ?><?= e($line) ?><?php endforeach; ?></p>
 			</div>
-	
+
 	<div id="text-143498331" class="text dtile">
-		
-<h2>BỘ SƯU TẬP HỘP QUÀ TẶNG SANG TRỌNG</h2>
-		
+
+<h2><?php foreach ($home['copy']['gifts_heading'] as $lineIndex => $line): ?><?= $lineIndex === 0 ? '' : '<br class="br-mobile">' ?><?= e($line) ?><?php endforeach; ?></h2>
+
 <style>
 #text-143498331 {
   font-size: 1.65rem;
 }
 </style>
 	</div>
-	
+
 		</div>
-				
+
 <style>
 #col-1065571273 > .col-inner {
   margin: 0px 0px -20px 0px;
@@ -1863,36 +677,36 @@
 </style>
 	</div>
 
-	
+
 
 	<div id="col-842419818" class="col small-12 large-12"  data-animate="fadeInRight">
 				<div class="col-inner"  >
-			
-			
+
+
 <div class="row banner-linear-bottom"  id="row-251649603">
 
 	<div id="col-20533896" class="col medium-6 small-12 large-6"  >
 				<div class="col-inner"  >
-			
-			
+
+
 
   <div class="banner has-hover" id="banner-1158509399">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1202" height="1536" src="/public/assets/images/gift1.jpg" class="bg attachment-original size-original" alt="tasting set banner | DangTau Whisky" title="tasting set banner | DangTau Whisky">                        <div class="overlay"></div>            
+            <?php $image = $home['collections'][1]['image']; include __DIR__ . '/components/image.php'; ?>                        <div class="overlay"></div>
                     </div>
-		
+
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/set-thu-ruou/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="<?= e($home['collections'][1]['url_0']) ?>" ><div class="fill banner-link"></div></a>
    <div id="text-box-310536909" class="text-box banner-layer x50 md-x50 lg-x50 y95 md-y95 lg-y95 res-text">
                                 <div class="text-box-content text dark">
-              
+
               <div class="text-inner text-left">
-                  
+
 	<div id="text-7382685" class="text dtsubtitle2">
-		
-<p>WINE TASTING SETS</p>
-		
+
+<p><?= e($home['collections'][1]['text_0']) ?></p>
+
 <style>
 #text-7382685 {
   font-size: 1.2rem;
@@ -1905,11 +719,11 @@
 }
 </style>
 	</div>
-	
+
 	<div id="text-2312571193" class="text dtsubtitle2">
-		
-<p>KHÁM PHÁ ĐA DẠNG HƯƠNG VỊ</p>
-		
+
+<p><?= e($home['collections'][1]['text_1']) ?></p>
+
 <style>
 #text-2312571193 {
   font-size: 1.65rem;
@@ -1923,23 +737,23 @@
 }
 </style>
 	</div>
-	
+
 	<div id="gap-399557335" class="gap-element clearfix" style="display:block; height:auto;">
-		
+
 <style>
 #gap-399557335 {
   padding-top: 15px;
 }
 </style>
 	</div>
-	
-<a href="/danh-muc/bo-qua-tang" class="button white is-outline"  >
+
+<a href="<?= e($home['collections'][1]['url_1']) ?>" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
               </div>
            </div>
-                            
+
 <style>
 #text-box-310536909 .text-inner {
   padding: 0px 15px 10px 15px;
@@ -1960,11 +774,11 @@
 }
 </style>
     </div>
- 
+
         </div>
       </div>
 
-            
+
 <style>
 #banner-1158509399 {
   padding-top: 400px;
@@ -1984,30 +798,30 @@
 		</div>
 					</div>
 
-	
+
 
 	<div id="col-732776585" class="col medium-6 small-12 large-6"  >
 				<div class="col-inner"  >
-			
-			
+
+
 
   <div class="banner has-hover" id="banner-1939053351">
           <div class="banner-inner fill">
         <div class="banner-bg fill" >
-            <img loading="lazy" decoding="async" width="1200" height="1489" src="/public/assets/images/gift2.jpg" class="bg attachment-original size-original" alt="LGS Nostalgia01 | DangTau Whisky" title="LGS Nostalgia01 | DangTau Whisky">                        <div class="overlay"></div>            
+            <?php $image = $home['collections'][2]['image']; include __DIR__ . '/components/image.php'; ?>                        <div class="overlay"></div>
                     </div>
-		
+
         <div class="banner-layers container">
-            <a class="fill" href="/product-category/bo-qua-tang/" ><div class="fill banner-link"></div></a>            
+            <a class="fill" href="<?= e($home['collections'][2]['url_0']) ?>" ><div class="fill banner-link"></div></a>
    <div id="text-box-1841096281" class="text-box banner-layer x50 md-x50 lg-x50 y95 md-y95 lg-y95 res-text">
                                 <div class="text-box-content text dark">
-              
+
               <div class="text-inner text-left">
-                  
+
 	<div id="text-3597991763" class="text dtsubtitle2">
-		
-<p>PREMIUM GIFT SET</p>
-		
+
+<p><?= e($home['collections'][2]['text_0']) ?></p>
+
 <style>
 #text-3597991763 {
   font-size: 1.2rem;
@@ -2020,11 +834,11 @@
 }
 </style>
 	</div>
-	
+
 	<div id="text-2071738324" class="text dtsubtitle2">
-		
-<p>HỘP QUÀ TẶNG DOANH NGHIỆP Ý NGHĨA</p>
-		
+
+<p><?= e($home['collections'][2]['text_1']) ?></p>
+
 <style>
 #text-2071738324 {
   font-size: 1.65rem;
@@ -2038,23 +852,23 @@
 }
 </style>
 	</div>
-	
+
 	<div id="gap-13144486" class="gap-element clearfix" style="display:block; height:auto;">
-		
+
 <style>
 #gap-13144486 {
   padding-top: 15px;
 }
 </style>
 	</div>
-	
-<a href="/danh-muc/bo-qua-tang" class="button white is-outline"  >
+
+<a href="<?= e($home['collections'][2]['url_1']) ?>" class="button white is-outline"  >
 		<span>Khám phá sản phẩm</span>
 	</a>
 
               </div>
            </div>
-                            
+
 <style>
 #text-box-1841096281 .text-inner {
   padding: 0px 15px 10px 15px;
@@ -2075,11 +889,11 @@
 }
 </style>
     </div>
- 
+
         </div>
       </div>
 
-            
+
 <style>
 #banner-1939053351 {
   padding-top: 400px;
@@ -2099,10 +913,10 @@
 		</div>
 					</div>
 
-	
+
 </div>
 		</div>
-				
+
 <style>
 #col-842419818 > .col-inner {
   margin: 0px 0px -50px 0px;
@@ -2110,11 +924,11 @@
 </style>
 	</div>
 
-	
+
 </div>
 		</div>
 
-		
+
 <style>
 #section_451098536 {
   padding-top: 60px;
@@ -2128,16 +942,16 @@
 }
 </style>
 	</section>
-	
 
-	
 
-			
-		
+
+
+
+
 </div>
 
 
 
 </main>
 
-<?php include 'layouts/footer.php'; ?>
+<?php include __DIR__ . '/layouts/footer.php'; ?>
