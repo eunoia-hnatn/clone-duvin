@@ -2,7 +2,6 @@
 
 <main id="main" class="">
 
-
 <div id="content" role="main" class="content-area">
 
 		
@@ -21,14 +20,12 @@
 
 <div class="row row-collapse row-full-width align-equal" id="row-967792426">
 
-
 	<div id="col-557646879" class="col full-50center-col medium-6 small-12 large-6">
 				<div class="col-inner" style="background-color:#fcf7e8;">
 			
 			
 
 <div class="row row-collapse" id="row-687872525">
-
 
 	<div id="col-1279330479" class="col center-maxwidth-50 medium-12 small-12 large-12" data-animate="fadeInLeft" data-animate-transform="true" data-animate-transition="true" data-animated="true">
 				<div class="col-inner">
@@ -46,15 +43,6 @@
 
 <h2>KẾT NỐI NGƯỜI VIỆT<br>VỚI TINH HOA RƯỢU VANG THẾ GIỚI</h2>
 		
-<style>
-#text-3523276544 {
-  font-size: 1.65rem;
-  color: rgb(152, 125, 79);
-}
-#text-3523276544 > * {
-  color: rgb(152, 125, 79);
-}
-</style>
 	</div>
 	
 	<div id="text-2858815667" class="text p-zero-margin">
@@ -81,7 +69,6 @@
 			
 			
 
-
   <div class="banner has-hover" id="banner-751263463">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
@@ -97,23 +84,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-1903545701 {
-  width: 60%;
-}
-#text-box-1903545701 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1903545701 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -121,17 +94,7 @@
       </div>
 
             
-<style>
-#banner-751263463 {
-  padding-top: 85%;
-}
-#banner-751263463 .banner-bg img {
-  object-position: 66% 72%;
-}
-</style>
   </div>
-
-
 
 		</div>
 					</div>
@@ -143,12 +106,6 @@
 		</div>
 
 		
-<style>
-#section_976845703 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-</style>
 	</section>
 	
 
@@ -166,7 +123,6 @@
 
 <div class="row" id="row-138368383">
 
-
 	<div id="col-815710102" class="col medium-8 small-12 large-8" data-animate="fadeInLeft" data-animate-transform="true" data-animate-transition="true" data-animated="true">
 				<div class="col-inner">
 			
@@ -177,11 +133,6 @@
 
 <h2>GIÁ TRỊ CỐT LÕI CỦA DUVIN</h2>
 		
-<style>
-#text-1172040521 {
-  font-size: 1.65rem;
-}
-</style>
 	</div>
 	
 	<div id="text-527745287" class="text p-zero-margin">
@@ -208,29 +159,11 @@
 
 <p>KẾT NỐI TINH HOA VANG VỚI <br class="br-mobile">MỌI GIA ĐÌNH VIỆT</p>
 		
-<style>
-#text-3847784387 {
-  line-height: 1.3;
-  text-align: center;
-}
-</style>
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-899201113 > .col-inner {
-  padding: 20px 0px 20px 0px;
-  margin: 15px 0px 15px 0px;
-}
-@media (min-width:550px) {
-  #col-899201113 > .col-inner {
-    padding: 25px 0px 25px 0px;
-    margin: 25px 0px 25px 0px;
-  }
-}
-</style>
 	</div>
 
 	
@@ -241,7 +174,6 @@
 			
 
 <div class="row" id="row-2089598672">
-
 
 	<div id="col-1098970214" class="col medium-4 small-12 large-4">
 				<div class="col-inner">
@@ -316,11 +248,6 @@
 
 		</div>
 				
-<style>
-#col-1223709394 > .col-inner {
-  margin: 0px 0px -60px 0px;
-}
-</style>
 	</div>
 
 	
@@ -330,19 +257,6 @@
 		</div>
 
 		
-<style>
-#section_1598000781 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: rgb(152, 125, 79);
-}
-@media (min-width:550px) {
-  #section_1598000781 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-</style>
 	</section>
 	
 
@@ -360,7 +274,6 @@
 
 <div class="row" id="row-654517398">
 
-
 	<div id="col-894932503" class="col small-12 large-12" data-animate="fadeInLeft">
 				<div class="col-inner">
 			
@@ -371,14 +284,6 @@
 
 <p>KHÁM PHÁ SHOWROOM DUVIN</p>
 		
-<style>
-#text-820947550 {
-  color: rgb(0, 0, 0);
-}
-#text-820947550 > * {
-  color: rgb(0, 0, 0);
-}
-</style>
 	</div>
 	
 	<div id="text-861154820" class="text dtile">
@@ -386,30 +291,11 @@
 
 <h2>KHÔNG GIAN TRẢI NGHIỆM VANG HIỆN ĐẠI TẠI HÀ NỘI</h2>
 		
-<style>
-#text-861154820 {
-  font-size: 1.65rem;
-  color: rgb(130, 42, 26);
-}
-#text-861154820 > * {
-  color: rgb(130, 42, 26);
-}
-</style>
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-894932503 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-@media (min-width:550px) {
-  #col-894932503 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
 	</div>
 
 	
@@ -418,7 +304,6 @@
 				<div class="col-inner">
 			
 			
-
 
   <div class="banner has-hover" id="banner-750386750">
           <div class="banner-inner fill">
@@ -435,23 +320,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-1061059925 {
-  width: 60%;
-}
-#text-box-1061059925 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1061059925 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -459,30 +330,10 @@
       </div>
 
             
-<style>
-#banner-750386750 {
-  padding-top: 250px;
-}
-#banner-750386750 .banner-bg img {
-  object-position: 30% 42%;
-}
-@media (min-width:550px) {
-  #banner-750386750 {
-    padding-top: 600px;
-  }
-}
-</style>
   </div>
-
-
 
 		</div>
 				
-<style>
-#col-498955171 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-</style>
 	</div>
 
 	
@@ -490,21 +341,10 @@
 </div>
 	<div id="gap-1652109282" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-1652109282 {
-  padding-top: 50px;
-}
-@media (min-width:550px) {
-  #gap-1652109282 {
-    padding-top: 90px;
-  }
-}
-</style>
 	</div>
 	
 
 <div class="row row-collapse row-full-width" id="row-558861169">
-
 
 	<div id="col-1225831563" class="col overflow-colright-slider small-12 large-12" data-animate="fadeInRight">
 				<div class="col-inner">
@@ -512,7 +352,6 @@
 			
 
 <div class="row" id="row-1112239965">
-
 
 	<div id="col-1240487958" class="col medium-6 small-12 large-6">
 				<div class="col-inner">
@@ -524,31 +363,12 @@
 
 <h2>ĐỐI TÁC TIN CẬY CỦA NHỮNG THƯƠNG HIỆU HÀNG ĐẦU</h2>
 		
-<style>
-#text-1311682747 {
-  font-size: 1.65rem;
-  color: #B52025;
-}
-#text-1311682747 > * {
-  color: #B52025;
-}
-</style>
 	</div>
 	
 <p>DuVin tự hào là đơn vị phân phối và đối tác chiến lược của nhiều nhà làm vang danh tiếng trên thế giới. Với sự tận tâm và am hiểu thị trường, chúng tôi cam kết mang đến những sản phẩm chất lượng, góp phần nâng tầm trải nghiệm thưởng thức cho người Việt.</p>
 
 		</div>
 				
-<style>
-#col-1240487958 > .col-inner {
-  margin: 0px 0px -10px 0px;
-}
-@media (min-width:550px) {
-  #col-1240487958 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
 	</div>
 
 	
@@ -576,7 +396,6 @@
             &quot;friction&quot;: 0.6        }">
         
 
-
   <div class="banner has-hover" id="banner-1295164011">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
@@ -592,23 +411,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-1719901594 {
-  width: 60%;
-}
-#text-box-1719901594 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1719901594 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -616,18 +421,7 @@
       </div>
 
             
-<style>
-#banner-1295164011 {
-  padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
-}
-#banner-1295164011 .banner-bg img {
-  object-position: 55% 51%;
-}
-</style>
   </div>
-
-
 
   <div class="banner has-hover" id="banner-1593881690">
           <div class="banner-inner fill">
@@ -644,23 +438,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-385175304 {
-  width: 60%;
-}
-#text-box-385175304 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-385175304 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -668,18 +448,7 @@
       </div>
 
             
-<style>
-#banner-1593881690 {
-  padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
-}
-#banner-1593881690 .banner-bg img {
-  object-position: 51% 100%;
-}
-</style>
   </div>
-
-
 
   <div class="banner has-hover" id="banner-123807438">
           <div class="banner-inner fill">
@@ -696,23 +465,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-608348501 {
-  width: 60%;
-}
-#text-box-608348501 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-608348501 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -720,18 +475,7 @@
       </div>
 
             
-<style>
-#banner-123807438 {
-  padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
-}
-#banner-123807438 .banner-bg img {
-  object-position: 49% 43%;
-}
-</style>
   </div>
-
-
 
   <div class="banner has-hover" id="banner-1243308598">
           <div class="banner-inner fill">
@@ -748,23 +492,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-863671651 {
-  width: 60%;
-}
-#text-box-863671651 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-863671651 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -772,18 +502,7 @@
       </div>
 
             
-<style>
-#banner-1243308598 {
-  padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
-}
-#banner-1243308598 .banner-bg img {
-  object-position: 57% 7%;
-}
-</style>
   </div>
-
-
 
   <div class="banner has-hover" id="banner-1953597997">
           <div class="banner-inner fill">
@@ -800,23 +519,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-1076999661 {
-  width: 60%;
-}
-#text-box-1076999661 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1076999661 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -824,18 +529,7 @@
       </div>
 
             
-<style>
-#banner-1953597997 {
-  padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
-}
-#banner-1953597997 .banner-bg img {
-  object-position: 70% 51%;
-}
-</style>
   </div>
-
-
 
   <div class="banner has-hover" id="banner-2035071266">
           <div class="banner-inner fill">
@@ -852,23 +546,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-404932397 {
-  width: 60%;
-}
-#text-box-404932397 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-404932397 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -876,18 +556,7 @@
       </div>
 
             
-<style>
-#banner-2035071266 {
-  padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
-}
-#banner-2035071266 .banner-bg img {
-  object-position: 56% 99%;
-}
-</style>
   </div>
-
-
 
   <div class="banner has-hover" id="banner-1359961902">
           <div class="banner-inner fill">
@@ -904,23 +573,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-1883037875 {
-  width: 60%;
-}
-#text-box-1883037875 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1883037875 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -928,25 +583,13 @@
       </div>
 
             
-<style>
-#banner-1359961902 {
-  padding-top: 500px;
-}
-#banner-1359961902 .banner-bg img {
-  object-position: 12% 42%;
-}
-</style>
   </div>
-
-
 
      </div>
 
      <div class="loading-spin dark large centered" style="display: none;"></div>
 
 	</div>
-
-
 
 		</div>
 					</div>
@@ -956,21 +599,10 @@
 </div>
 	<div id="gap-1582483888" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-1582483888 {
-  padding-top: 50px;
-}
-@media (min-width:550px) {
-  #gap-1582483888 {
-    padding-top: 60px;
-  }
-}
-</style>
 	</div>
 	
 
 <div class="row" id="row-43501245">
-
 
 	<div id="col-1997956880" class="col small-12 large-12" data-animate="fadeInLeft">
 				<div class="col-inner">
@@ -982,30 +614,11 @@
 
 <h2>THE DUVIN EXPERIENCE</h2>
 		
-<style>
-#text-1039943995 {
-  font-size: 1.65rem;
-  color: #B52025;
-}
-#text-1039943995 > * {
-  color: #B52025;
-}
-</style>
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-1997956880 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-@media (min-width:550px) {
-  #col-1997956880 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
 	</div>
 
 	
@@ -1017,12 +630,10 @@
 
 <div class="row align-middle" id="row-1916580879">
 
-
 	<div id="col-1891256537" class="col medium-7 small-12 large-7" data-animate="fadeInLeft">
 				<div class="col-inner">
 			
 			
-
 
   <div class="banner has-hover" id="banner-312496420">
           <div class="banner-inner fill">
@@ -1039,23 +650,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-1201312793 {
-  width: 60%;
-}
-#text-box-1201312793 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1201312793 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -1063,36 +660,10 @@
       </div>
 
             
-<style>
-#banner-312496420 {
-  padding-top: 230px;
-  background-color: #636146;
-}
-#banner-312496420 .banner-bg img {
-  object-position: 30% 62%;
-}
-@media (min-width:550px) {
-  #banner-312496420 {
-    padding-top: 460px;
-  }
-}
-</style>
   </div>
-
-
 
 		</div>
 				
-<style>
-#col-1891256537 > .col-inner {
-  margin: 0px 0px -10px 0px;
-}
-@media (min-width:550px) {
-  #col-1891256537 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
 	</div>
 
 	
@@ -1107,31 +678,10 @@
 
 <p>ĐẾN VỚI DUVIN, BẠN SẼ ĐƯỢC TRẢI NGHIỆM MỘT THẾ GIỚI VANG SỐNG ĐỘNG</p>
 		
-<style>
-#text-2094170765 {
-  font-size: 1.5rem;
-  line-height: 1.3;
-}
-@media (min-width:550px) {
-  #text-2094170765 {
-    font-size: 1.9rem;
-  }
-}
-</style>
 	</div>
 	
 	<div id="gap-1985609363" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-1985609363 {
-  padding-top: 5px;
-}
-@media (min-width:550px) {
-  #gap-1985609363 {
-    padding-top: 10px;
-  }
-}
-</style>
 	</div>
 	
 
@@ -1139,23 +689,12 @@
 
 		</div>
 				
-<style>
-#col-1565158666 > .col-inner {
-  padding: 0px 0px 0px 0px;
-}
-@media (min-width:550px) {
-  #col-1565158666 > .col-inner {
-    padding: 0px 0px 0px 50px;
-  }
-}
-</style>
 	</div>
 
 	
 
 </div>
 <div class="row align-middle" id="row-2147267302">
-
 
 	<div id="col-2074048745" class="col medium-5 small-12 large-5" data-animate="fadeInLeft">
 				<div class="col-inner">
@@ -1167,31 +706,10 @@
 
 <p>“RƯỢU NGON PHẢI CÓ BẠN HIỀN”</p>
 		
-<style>
-#text-497011291 {
-  font-size: 1.5rem;
-  line-height: 1.3;
-}
-@media (min-width:550px) {
-  #text-497011291 {
-    font-size: 1.9rem;
-  }
-}
-</style>
 	</div>
 	
 	<div id="gap-66238800" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-66238800 {
-  padding-top: 5px;
-}
-@media (min-width:550px) {
-  #gap-66238800 {
-    padding-top: 10px;
-  }
-}
-</style>
 	</div>
 	
 
@@ -1199,16 +717,6 @@
 
 		</div>
 				
-<style>
-#col-2074048745 > .col-inner {
-  padding: 0px 0px 0px 0px;
-}
-@media (min-width:550px) {
-  #col-2074048745 > .col-inner {
-    padding: 0px 50px 0px 0px;
-  }
-}
-</style>
 	</div>
 
 	
@@ -1217,7 +725,6 @@
 				<div class="col-inner">
 			
 			
-
 
   <div class="banner has-hover" id="banner-1834911861">
           <div class="banner-inner fill">
@@ -1234,23 +741,9 @@
               <div class="text-inner text-center">
                   
 
-
               </div>
            </div>
                             
-<style>
-#text-box-2058841550 {
-  width: 60%;
-}
-#text-box-2058841550 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-2058841550 {
-    width: 60%;
-  }
-}
-</style>
     </div>
  
 
@@ -1258,36 +751,10 @@
       </div>
 
             
-<style>
-#banner-1834911861 {
-  padding-top: 230px;
-  background-color: #636146;
-}
-#banner-1834911861 .banner-bg img {
-  object-position: 69% 85%;
-}
-@media (min-width:550px) {
-  #banner-1834911861 {
-    padding-top: 460px;
-  }
-}
-</style>
   </div>
-
-
 
 		</div>
 				
-<style>
-#col-182482213 > .col-inner {
-  margin: 0px 0px -10px 0px;
-}
-@media (min-width:550px) {
-  #col-182482213 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
 	</div>
 
 	
@@ -1296,11 +763,6 @@
 
 		</div>
 				
-<style>
-#col-1203755972 > .col-inner {
-  margin: 0px 0px -60px 0px;
-}
-</style>
 	</div>
 
 	
@@ -1310,26 +772,11 @@
 		</div>
 
 		
-<style>
-#section_559669973 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #fcf7e8;
-}
-@media (min-width:550px) {
-  #section_559669973 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-</style>
 	</section>
 	
 			
 		
 </div>
-
-
 
 </main>
 

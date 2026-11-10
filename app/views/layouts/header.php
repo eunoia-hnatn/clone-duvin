@@ -49,6 +49,8 @@
 	<!-- DangTau custom stylesheet -->
 	<link rel="stylesheet" href="/assets/css/home.css">
 	<link rel="stylesheet" href="/assets/css/legacy-flatsome.css" />
+	<link rel="stylesheet" href="/assets/css/duvin-light.css" />
+	<link rel="stylesheet" href="/assets/css/pdp.css" />
 </head>
 <body class="<?= isset($body_class) ? htmlspecialchars($body_class) : 'home page-template page-template-page-blank page-template-page-blank-php page page-id-21' ?> theme-flatsome header-shadow lightbox nav-dropdown-has-shadow catalog-mode">
 
