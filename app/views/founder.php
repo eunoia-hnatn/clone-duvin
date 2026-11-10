@@ -1,4 +1,4 @@
-<?php include 'layouts/header.php'; ?>
+<?php include __DIR__ . '/layouts/header.php'; ?>
 
 <main id="main" class="">
 
@@ -38,7 +38,7 @@
 		<div class="dtsubtitle dtbreadcrumb">
 				
 
-<nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="https://dangtauwhisky.com">Trang chủ</a><span class="separator"> / </span><span class="last">Về nhà sáng lập</span></p></nav>
+<nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="/">Trang chủ</a><span class="separator"> / </span><span class="last">Về nhà sáng lập</span></p></nav>
 		</div>
 	
 	<div id="text-3810541692" class="text dtile">
@@ -81,7 +81,7 @@
   <div class="banner has-hover" id="banner-485490237">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img fetchpriority="high" decoding="async" width="1356" height="1600" src="/public/assets/images/duvin12.jpg" class="bg attachment-original size-original" alt="Homepage 05 | DangTau Whisky" title="Homepage 05 | DangTau Whisky">                                    
+            <img fetchpriority="high" decoding="async" width="1356" height="1600" src="/assets/images/duvin12.jpg" class="bg attachment-original size-original" alt="Homepage 05 | DangTau Whisky" title="Homepage 05 | DangTau Whisky">
                     </div>
 		
         <div class="banner-layers container">
@@ -243,7 +243,7 @@
   <div class="banner has-hover" id="banner-1171849636">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img decoding="async" width="1200" height="1600" src="/public/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="Homepage 07 | DangTau Whisky" title="Homepage 07 | DangTau Whisky">                                    
+            <img decoding="async" width="1200" height="1600" src="/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="Homepage 07 | DangTau Whisky" title="Homepage 07 | DangTau Whisky">
                     </div>
 		
         <div class="banner-layers container">
@@ -531,7 +531,7 @@
   <div class="banner has-hover bg-overlay-add" id="banner-1744774418">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img decoding="async" width="1920" height="1440" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/12-plus-nha-chung-cat-img-1.webp" class="bg attachment-original size-original" alt="12 plus nha chung cat img 1 | DangTau Whisky" title="12 plus nha chung cat img 1 | DangTau Whisky">                        <div class="overlay"></div>            
+            <img decoding="async" width="1920" height="1440" src="/assets/images/12-plus-nha-chung-cat-img-1.webp" class="bg attachment-original size-original" alt="12 plus nha chung cat img 1 | DangTau Whisky" title="12 plus nha chung cat img 1 | DangTau Whisky">                        <div class="overlay"></div>
                     </div>
 		
         <div class="banner-layers container">
@@ -702,7 +702,7 @@
   <div class="banner has-hover" id="banner-944704205">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1253" height="704" src="/public/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1253" height="704" src="/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">
                     </div>
 		
         <div class="banner-layers container">
@@ -809,7 +809,7 @@
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1236761539">
 		<a class="" href="https://facebook.com/dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
-			<img decoding="async" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | DangTau Whisky">						
+			<img decoding="async" src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | DangTau Whisky">
 					</div>
 						</a>		
 <style>
@@ -822,7 +822,7 @@
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1607656373">
 		<a class="" href="https://instagram.com/dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
-			<img decoding="async" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/insta-icon.svg" class="attachment-large size-large" alt="insta icon | DangTau Whisky" title="insta icon | DangTau Whisky">						
+			<img decoding="async" src="/assets/images/insta-icon.svg" class="attachment-large size-large" alt="insta icon | DangTau Whisky" title="insta icon | DangTau Whisky">
 					</div>
 						</a>		
 <style>
@@ -834,8 +834,8 @@
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_383462243">
-		<a class="" href="https://tiktok.com/@dangtauwhisky.com" target="_blank" rel="noopener">						<div class="img-inner dark">
-			<img decoding="async" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/tiktok-icon.svg" class="attachment-large size-large" alt="tiktok icon | DangTau Whisky" title="tiktok icon | DangTau Whisky">						
+		<a class="" href="/" target="_blank" rel="noopener">						<div class="img-inner dark">
+			<img decoding="async" src="/assets/images/tiktok-icon.svg" class="attachment-large size-large" alt="tiktok icon | DangTau Whisky" title="tiktok icon | DangTau Whisky">
 					</div>
 						</a>		
 <style>
@@ -848,7 +848,7 @@
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1651767606">
 		<a class="" href="https://youtube.com/@dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
-			<img decoding="async" src="https://dangtauwhisky.com/wp-content/uploads/2024/11/ytb-icon.svg" class="attachment-large size-large" alt="ytb icon | DangTau Whisky" title="ytb icon | DangTau Whisky">						
+			<img decoding="async" src="/assets/images/ytb-icon.svg" class="attachment-large size-large" alt="ytb icon | DangTau Whisky" title="ytb icon | DangTau Whisky">
 					</div>
 						</a>		
 <style>
@@ -1097,7 +1097,7 @@
   <div class="banner has-hover" id="banner-88679332">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1920" height="1536" src="/public/assets/images/duvin13.jpg" class="bg attachment-large size-large" alt="Lakes | DangTau Whisky" title="Lakes | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1920" height="1536" src="/assets/images/duvin13.jpg" class="bg attachment-large size-large" alt="Lakes | DangTau Whisky" title="Lakes | DangTau Whisky">
                     </div>
 		
         <div class="banner-layers container">
@@ -1205,7 +1205,7 @@
 	</div>
 	
 
-<a href="/product-category/world-whisky/whisky-the-lakes" class="button white is-outline">
+<a href="/danh-muc/world-whisky/whisky-the-lakes" class="button white is-outline">
 		<span>KHÁM PHÁ NGAY</span>
 	</a>
 
@@ -1243,7 +1243,7 @@
   <div class="banner has-hover" id="banner-115609560">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1919" height="1279" src="public/assets/images/duvin7.jpg" class="bg attachment-large size-large" alt="SMWS | DangTau Whisky" title="SMWS | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1919" height="1279" src="/assets/images/duvin7.jpg" class="bg attachment-large size-large" alt="SMWS | DangTau Whisky" title="SMWS | DangTau Whisky">
                     </div>
 		
         <div class="banner-layers container">
@@ -1416,7 +1416,7 @@
 
 	<section class="section dark" id="section_2074843298">
 		<div class="section-bg fill">
-			<img loading="lazy" decoding="async" width="1920" height="1280" src="/public/assets/images/duvin5.jpg" class="bg attachment-original size-original" alt="dt whisky club banner | DangTau Whisky" title="dt whisky club banner | DangTau Whisky">						<div class="section-bg-overlay absolute fill"></div>
+			<img loading="lazy" decoding="async" width="1920" height="1280" src="/assets/images/duvin5.jpg" class="bg attachment-original size-original" alt="dt whisky club banner | DangTau Whisky" title="dt whisky club banner | DangTau Whisky">						<div class="section-bg-overlay absolute fill"></div>
 			
 
 		</div>
@@ -1614,7 +1614,7 @@
   <div class="banner has-hover" id="banner-2063084966">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1599" height="899" src="/public/assets/images/duvin10.jpg" class="bg attachment-original size-original" alt="Homepage 02 | DangTau Whisky" title="Homepage 02 | DangTau Whisky">                                    
+            <img loading="lazy" decoding="async" width="1599" height="899" src="/assets/images/duvin10.jpg" class="bg attachment-original size-original" alt="Homepage 02 | DangTau Whisky" title="Homepage 02 | DangTau Whisky">
                     </div>
 		
         <div class="banner-layers container">
@@ -1706,4 +1706,4 @@
 
 </main>
 
-<?php include 'layouts/footer.php'; ?>
+<?php include __DIR__ . '/layouts/footer.php'; ?>

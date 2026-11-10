@@ -1,46 +1,46 @@
 <footer id="footer" class="footer-wrapper">
 
-	
+
 	<section class="section" id="section_645310097">
 		<div class="section-bg fill" >
-									
-			
+
+
 
 		</div>
 
-		
+
 
 		<div class="section-content relative">
-			
+
 
 <div class="row"  id="row-604363842">
 
 
 	<div id="col-54894707" class="col small-12 large-12"  data-animate="fadeInUp">
 				<div class="col-inner"  >
-			
-			
+
+
 
 <div class="row align-center"  id="row-967223584">
 
 
 	<div id="col-672595123" class="col medium-9 small-12 large-9"  >
 				<div class="col-inner text-center"  >
-			
-			
+
+
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_109026919">
 								<div class="img-inner dark" >
-			<img src="/public/assets/images/duvin-logo-white-transparent.png" class="attachment-original size-original" 
-			style="max-height: 120px; width: auto; object-fit: contain; margin: 0 auto; display: block;" alt="DuVin Logo" decoding="async" loading="lazy" />						
+			<img src="/assets/images/duvin-logo-white-transparent.png" class="attachment-original size-original"
+			style="max-height: 120px; width: auto; object-fit: contain; margin: 0 auto; display: block;" alt="DuVin Logo" decoding="async" loading="lazy" />
 					</div>
-								
+
 
 	</div>
-	
+
 
 	<div id="gap-278321616" class="gap-element clearfix" style="display:block; height:auto;">
-		
+
 <style>
 #gap-278321616 {
   padding-top: 5px;
@@ -52,71 +52,71 @@
 }
 </style>
 	</div>
-	
+
 
 	<div id="stack-2092229133" class="stack home-stack-social stack-row justify-center items-stretch">
-		
+
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1395129220">
 		<a class="" href="https://www.facebook.com/DuVinVN/" target="_blank" rel="noopener" >						<div class="img-inner dark" >
-			<img src="/public/assets/images/fb-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />						
+			<img src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />
 					</div>
-						</a>		
+						</a>
 <style>
 #image_1395129220 {
   width: 25%;
 }
 </style>
 	</div>
-	
+
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
 		<a class="" href="https://zalo.me/0589598386" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/public/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">						
+			<img decoding="async" src="/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">
 					</div>
-						</a>		
+						</a>
 <style>
 #image_1831423319 {
   width: 25%;
 }
 </style>
 	</div>
-	
 
-		
+
+
 <style>
 #stack-2092229133 > * {
   --stack-gap: 1rem;
 }
 </style>
 	</div>
-	
+
 
 
 	<div id="gap-185281368" class="gap-element clearfix" style="display:block; height:auto;">
-		
+
 <style>
 #gap-185281368 {
   padding-top: 50px;
 }
 </style>
 	</div>
-	
+
 
 <div class="row footer-contact"  id="row-1772542579">
 
 
 	<div id="col-1501166594" class="col medium-3 small-12 large-3"  >
 				<div class="col-inner"  >
-			
-			
+
+
 
 	<div id="text-838481137" class="text">
-		
+
 
 <p>dv@duvin.co.uk</p>
 
-		
+
 <style>
 #text-838481137 {
   color: rgb(22, 22, 22);
@@ -126,10 +126,10 @@
 }
 </style>
 	</div>
-	
+
 
 		</div>
-				
+
 <style>
 #col-1501166594 > .col-inner {
   margin: 0px 0px -30px 0px;
@@ -142,18 +142,18 @@
 </style>
 	</div>
 
-	
+
 
 	<div id="col-2117228260" class="col medium-6 small-12 large-6"  >
 				<div class="col-inner"  >
-			
-			
+
+
 
 	<div id="text-2465876687" class="text">
-		
+
 
 <p>58B Võ Văn Dũng, Hoàng Cầu, Hà Nội</p>
-		
+
 <style>
 #text-2465876687 {
   color: rgb(22, 22, 22);
@@ -163,10 +163,10 @@
 }
 </style>
 	</div>
-	
+
 
 		</div>
-				
+
 <style>
 #col-2117228260 > .col-inner {
   margin: 0px 0px -30px 0px;
@@ -179,19 +179,19 @@
 </style>
 	</div>
 
-	
+
 
 	<div id="col-1888979318" class="col medium-3 small-12 large-3"  >
 				<div class="col-inner"  >
-			
-			
+
+
 
 	<div id="text-3657797876" class="text">
-		
+
 
 <p>(+84) 58 959 8386</p>
 
-		
+
 <style>
 #text-3657797876 {
   color: rgb(22, 22, 22);
@@ -201,10 +201,10 @@
 }
 </style>
 	</div>
-	
+
 
 		</div>
-				
+
 <style>
 #col-1888979318 > .col-inner {
   margin: 0px 0px -30px 0px;
@@ -217,12 +217,12 @@
 </style>
 	</div>
 
-	
+
 
 </div>
 
 		</div>
-				
+
 <style>
 #col-672595123 > .col-inner {
   margin: 0px 0px 5px 0px;
@@ -235,18 +235,18 @@
 </style>
 	</div>
 
-	
+
 
 	<div id="col-1302614419" class="col medium-8 small-12 large-8"  >
 				<div class="col-inner"  >
-			
-			
+
+
 
 	<div id="text-1497284481" class="text dtsubtitle2">
-		
+
 
 <p>Chấp hành Nghị định số 105/2017/NĐ-CP của Chính phủ về kinh doanh rượu và các quy định về quản lý thương mại điện tử, Duvin không kinh doanh qua mạng internet các loại rượu, bia, đồ uống có cồn và không bán sản phẩm chứa cồn cho người dưới 18 tuổi. Website chỉ mang tính tham khảo và cung cấp thông tin về sản phẩm.</p>
-		
+
 <style>
 #text-1497284481 {
   font-size: 0.9rem;
@@ -263,17 +263,17 @@
 }
 </style>
 	</div>
-	
+
 
 		</div>
 					</div>
 
-	
+
 
 </div>
 
 		</div>
-				
+
 <style>
 #col-54894707 > .col-inner {
   padding: 60px 0px 0px 0px;
@@ -282,7 +282,7 @@
 </style>
 	</div>
 
-	
+
 
 </div>
 <div class="row row-collapse row-full-width"  id="row-256155669">
@@ -290,31 +290,31 @@
 
 	<div id="col-790373404" class="col small-12 large-12"  data-animate="flipInX">
 				<div class="col-inner"  >
-			
+
 	<div class="is-border"
 		style="border-color:rgba(0, 0, 0, 0.2);border-width:1px 0px 0px 0px;">
 	</div>
-			
+
 
 	<div id="text-2404955144" class="text p-zero-margin dtsubtitle2">
-		
+
 
 <p>2026 © DUVIN. Mọi quyền đã được bảo lưu.</p>
-		
+
 <style>
 #text-2404955144 {
   text-align: center;
 }
 </style>
 	</div>
-	
 
 
-<!-- <div class="ss-label"><a href="https://servisense.vn/vi/" target="_blank" rel="noopener"><img src="/public/assets/images/powered-by-servisense-dark.svg"></a></div> -->
+
+<!-- <div class="ss-label"><a href="https://servisense.vn/vi/" target="_blank" rel="noopener"><img src="/assets/images/powered-by-servisense-dark.svg"></a></div> -->
 
 
 		</div>
-				
+
 <style>
 #col-790373404 > .col-inner {
   padding: 25px 0px 25px 0px;
@@ -322,13 +322,13 @@
 </style>
 	</div>
 
-	
+
 
 </div>
 
 		</div>
 
-		
+
 <style>
 #section_645310097 {
   padding-top: 0px;
@@ -337,7 +337,7 @@
 }
 </style>
 	</section>
-	
+
 <div class="absolute-footer dark medium-text-center small-text-center">
   <div class="container clearfix">
 
@@ -358,7 +358,7 @@
 <path d="M13.043 8.356c-0.46 0-0.873 0.138-1.24 0.413s-0.662 0.681-0.885 1.217c-0.223 0.536-0.334 1.112-0.334 1.727 0 0.568 0.119 0.99 0.358 1.265s0.619 0.413 1.141 0.413c0.508 0 1.096-0.131 1.765-0.393v1.327c-0.693 0.262-1.389 0.393-2.089 0.393-0.884 0-1.572-0.254-2.063-0.763s-0.736-1.229-0.736-2.161c0-0.892 0.181-1.712 0.543-2.462s0.846-1.32 1.452-1.709 1.302-0.584 2.089-0.584c0.435 0 0.822 0.038 1.159 0.115s0.7 0.217 1.086 0.421l-0.616 1.276c-0.369-0.201-0.673-0.333-0.914-0.398s-0.478-0.097-0.715-0.097zM19.524 12.842h-2.47l-0.898 1.776h-1.671l3.999-7.491h1.948l0.767 7.491h-1.551l-0.125-1.776zM19.446 11.515l-0.136-1.786c-0.035-0.445-0.052-0.876-0.052-1.291v-0.184c-0.153 0.408-0.343 0.84-0.569 1.296l-0.982 1.965h1.739zM27.049 12.413c0 0.711-0.257 1.273-0.773 1.686s-1.213 0.62-2.094 0.62c-0.769 0-1.389-0.153-1.859-0.46v-1.398c0.672 0.367 1.295 0.551 1.869 0.551 0.39 0 0.694-0.072 0.914-0.217s0.329-0.343 0.329-0.595c0-0.147-0.024-0.275-0.070-0.385s-0.114-0.214-0.201-0.309c-0.087-0.095-0.303-0.269-0.648-0.52-0.481-0.337-0.818-0.67-1.013-1s-0.293-0.685-0.293-1.066c0-0.439 0.108-0.831 0.324-1.176s0.523-0.614 0.922-0.806 0.857-0.288 1.376-0.288c0.755 0 1.446 0.168 2.073 0.505l-0.569 1.189c-0.543-0.252-1.044-0.378-1.504-0.378-0.289 0-0.525 0.077-0.71 0.23s-0.276 0.355-0.276 0.607c0 0.207 0.058 0.389 0.172 0.543s0.372 0.36 0.773 0.615c0.421 0.272 0.736 0.572 0.945 0.9s0.313 0.712 0.313 1.151zM33.969 14.618h-1.597l0.7-3.22h-2.46l-0.7 3.22h-1.592l1.613-7.46h1.597l-0.632 2.924h2.459l0.632-2.924h1.592l-1.613 7.46zM46.319 9.831c0 0.963-0.172 1.824-0.517 2.585s-0.816 1.334-1.415 1.722c-0.598 0.388-1.288 0.582-2.067 0.582-0.891 0-1.587-0.251-2.086-0.753s-0.749-1.198-0.749-2.090c0-0.902 0.172-1.731 0.517-2.488s0.82-1.338 1.425-1.743c0.605-0.405 1.306-0.607 2.099-0.607 0.888 0 1.575 0.245 2.063 0.735s0.73 1.176 0.73 2.056zM43.395 8.356c-0.421 0-0.808 0.155-1.159 0.467s-0.627 0.739-0.828 1.283-0.3 1.135-0.3 1.771c0 0.5 0.116 0.877 0.348 1.133s0.558 0.383 0.979 0.383 0.805-0.148 1.151-0.444c0.346-0.296 0.617-0.714 0.812-1.255s0.292-1.148 0.292-1.822c0-0.483-0.113-0.856-0.339-1.12-0.227-0.264-0.546-0.396-0.957-0.396zM53.427 14.618h-1.786l-1.859-5.644h-0.031l-0.021 0.163c-0.111 0.735-0.227 1.391-0.344 1.97l-0.757 3.511h-1.436l1.613-7.46h1.864l1.775 5.496h0.021c0.042-0.259 0.109-0.628 0.203-1.107s0.407-1.942 0.94-4.388h1.43l-1.613 7.461zM13.296 20.185c0 0.98-0.177 1.832-0.532 2.556s-0.868 1.274-1.539 1.652c-0.672 0.379-1.464 0.568-2.376 0.568h-2.449l1.678-7.68h2.15c0.977 0 1.733 0.25 2.267 0.751s0.801 1.219 0.801 2.154zM8.925 23.615c0.536 0 1.003-0.133 1.401-0.399s0.71-0.657 0.934-1.174c0.225-0.517 0.337-1.108 0.337-1.773 0-0.54-0.131-0.95-0.394-1.232s-0.64-0.423-1.132-0.423h-0.624l-1.097 5.001h0.575zM18.64 24.96h-4.436l1.678-7.68h4.442l-0.293 1.334h-2.78l-0.364 1.686h2.59l-0.299 1.334h-2.59l-0.435 1.98h2.78l-0.293 1.345zM20.509 24.96l1.678-7.68h1.661l-1.39 6.335h2.78l-0.294 1.345h-4.436zM26.547 24.96l1.694-7.68h1.656l-1.694 7.68h-1.656zM33.021 23.389c0.282-0.774 0.481-1.27 0.597-1.487l2.346-4.623h1.716l-4.061 7.68h-1.814l-0.689-7.68h1.602l0.277 4.623c0.015 0.157 0.022 0.39 0.022 0.699-0.007 0.361-0.018 0.623-0.033 0.788h0.038zM41.678 24.96h-4.437l1.678-7.68h4.442l-0.293 1.334h-2.78l-0.364 1.686h2.59l-0.299 1.334h-2.59l-0.435 1.98h2.78l-0.293 1.345zM45.849 22.013l-0.646 2.947h-1.656l1.678-7.68h1.949c0.858 0 1.502 0.179 1.933 0.536s0.646 0.881 0.646 1.571c0 0.554-0.15 1.029-0.451 1.426s-0.733 0.692-1.298 0.885l1.417 3.263h-1.803l-1.124-2.947h-0.646zM46.137 20.689h0.424c0.474 0 0.843-0.1 1.108-0.3s0.396-0.504 0.396-0.914c0-0.287-0.086-0.502-0.258-0.646s-0.442-0.216-0.812-0.216h-0.402l-0.456 2.076zM53.712 20.39l2.031-3.11h1.857l-3.355 4.744-0.646 2.936h-1.645l0.646-2.936-1.281-4.744h1.694l0.7 3.11z"></path>
 </svg>
 </div></div>      </div>
-    
+
     <div class="footer-primary pull-left">
             <div class="copyright-footer">
               </div>
@@ -373,89 +373,45 @@
 
 <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
 
-	
+
 	<div class="sidebar-menu no-scrollbar ">
 
-		
-		
+
+
 			<ul class="sidebar-menu-tabs flex nav nav-line-bottom nav-uppercase">
 				<li class="sidebar-menu-tabs__tab active">
-					<a class="sidebar-menu-tabs__tab-link" href="index.html#">
+					<a class="sidebar-menu-tabs__tab-link" href="#">
 						<span class="sidebar-menu-tabs__tab-text">Giới thiệu</span>
 					</a>
 				</li>
 				<li class="sidebar-menu-tabs__tab">
-					<a class="sidebar-menu-tabs__tab-link" href="index.html#">
+					<a class="sidebar-menu-tabs__tab-link" href="#">
 						<span class="sidebar-menu-tabs__tab-text">Sản phẩm</span>
 					</a>
 				</li>
 			</ul>
 
-			<ul class="nav nav-sidebar nav-vertical nav-uppercase hidden" data-tab="2">
-				<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4217"><a href="/product-category/scotch-whisky/">Scotch Whisky</a>
-<ul class="sub-menu nav-sidebar-ul children">
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4218"><a href="/product-category/scotch-whisky/whisky-campbeltown/">Whisky Campbeltown</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4219"><a href="/product-category/scotch-whisky/whisky-highland/">Whisky Highland</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4220"><a href="/product-category/scotch-whisky/whisky-islay/">Whisky Islay</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4221"><a href="/product-category/scotch-whisky/whisky-lowland/">Whisky Lowland</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4222"><a href="/product-category/scotch-whisky/whisky-speyside/">Whisky Speyside</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-5599"><a href="/product-category/scotch-whisky/whisky-islands/">Whisky Islands</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4224"><a href="/product-category/world-whisky/">World Spririt</a>
-<ul class="sub-menu nav-sidebar-ul children">
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8690"><a href="/product-category/cognac/">Cognac</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4225"><a href="/product-category/world-whisky/whisky-ireland/">Whiskey Ireland</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4227"><a href="/product-category/world-whisky/whisky-nhat/">Whisky Nhật</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4228"><a href="/product-category/world-whisky/whisky-the-lakes/">Whisky The Lakes</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8693"><a href="/product-category/gin/">Gin</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8694"><a href="/product-category/rum/">Rum</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8692"><a href="/product-category/calvados/">Calvados</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8695"><a href="/product-category/ruou-trung-quoc/">Rượu Trung Quốc</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4226"><a href="/product-category/world-whisky/whisky-khac/">Bourbon Whiskey</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4216"><a href="/product-category/old-rare/">Old &amp; Rare</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4213"><a href="/product-category/armagnac/">Armagnac</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4214"><a href="/product-category/wine/">Wine</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8008"><a href="/product-category/signatory-vintage/">Signatory Vintage</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-4215"><a href="/product-category/bo-qua-tang/">Bộ quà tặng</a></li>
-			</ul>
-			<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1">
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4870"><a href="index.html#">Về chúng tôi</a>
-<ul class="sub-menu nav-sidebar-ul children">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3339"><a href="/ve-dangtau-whisky/">Về Duvin</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3338"><a href="/ve-nha-sang-lap/">Về nhà sáng lập</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3340"><a href="/kien-thuc-whisky/">Kiến thức Whisky</a>
-<ul class="sub-menu nav-sidebar-ul children">
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3341"><a href="/danh-muc/distilleries/">Distilleries</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3342"><a href="/danh-muc/spirits/">Spirits</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3343"><a href="/danh-muc/whisky-basics/">Whisky Basics</a></li>
-	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3344"><a href="/danh-muc/whisky-review/">Whisky Review</a></li>
-</ul>
-</li>
-			</ul>
-		
-		
+			<ul class="nav nav-sidebar nav-vertical nav-uppercase hidden" data-tab="2"><?php $menuItems = $site['menus']['footer_0']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
+			<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1"><?php $menuItems = $site['menus']['footer_1']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
+
+
 	</div>
 
-	
+
 </div>
     <div id="login-form-popup" class="lightbox-content mfp-hide">
             	<div class="woocommerce">
       		<div class="woocommerce-notices-wrapper"></div>
 <div class="account-container lightbox-inner">
 
-	
+
 			<div class="account-login-inner">
 
 				<h3 class="uppercase">Đăng nhập</h3>
 
 				<form class="woocommerce-form woocommerce-form-login login" method="post">
 
-					
+
 					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
 						<label for="username">Tên tài khoản hoặc địa chỉ email&nbsp;<span class="required" aria-hidden="true">*</span><span class="screen-reader-text">Bắt buộc</span></label>
 						<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" required aria-required="true" />					</p>
@@ -464,7 +420,7 @@
 						<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" required aria-required="true" />
 					</p>
 
-					
+
 					<p class="form-row">
 						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
 							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Ghi nhớ mật khẩu</span>
@@ -475,11 +431,11 @@
 						<a href="/tai-khoan/lost-password/">Quên mật khẩu?</a>
 					</p>
 
-					
+
 				</form>
 			</div>
 
-			
+
 </div>
 
 		</div>
@@ -491,18 +447,17 @@
 			document.body.className = c;
 		})();
 	</script>
-	<link rel='stylesheet' id='wc-blocks-style-css' href="/public/assets/css/wc-blocks.css" type='text/css' media='all' />
+	<link rel='stylesheet' id='wc-blocks-style-css' href="/assets/css/wc-blocks.css" type='text/css' media='all' />
 <style id='global-styles-inline-css' type='text/css'>
 :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: #B52025;--wp--preset--color--secondary: #636146;--wp--preset--color--success: #fcf7e8;--wp--preset--color--alert: #161616;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: none;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-success-color{color: var(--wp--preset--color--success) !important;}.has-alert-color{color: var(--wp--preset--color--alert) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-success-background-color{background-color: var(--wp--preset--color--success) !important;}.has-alert-background-color{background-color: var(--wp--preset--color--alert) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-success-border-color{border-color: var(--wp--preset--color--success) !important;}.has-alert-border-color{border-color: var(--wp--preset--color--alert) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 </style>
-<script type="text/javascript" src="/public/assets/js/hooks.min.js" id="wp-hooks-js"></script>
-<script type="text/javascript" src="/public/assets/js/i18n.min.js" id="wp-i18n-js"></script>
+<script type="text/javascript" src="/assets/js/hooks.min.js" id="wp-hooks-js"></script>
+<script type="text/javascript" src="/assets/js/i18n.min.js" id="wp-i18n-js"></script>
 <script type="text/javascript" id="wp-i18n-js-after">
 /* <![CDATA[ */
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 /* ]]> */
 </script>
-<script type="text/javascript" src="/public/assets/js/index.js" id="swv-js"></script>
 <script type="text/javascript" id="contact-form-7-js-translations">
 /* <![CDATA[ */
 ( function( domain, translations ) {
@@ -516,55 +471,52 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 /* <![CDATA[ */
 var wpcf7 = {
     "api": {
-        "root": "https:\/\/dangtauwhisky.com\/wp-json\/",
+        "root": "\/wp-json\/",
         "namespace": "contact-form-7\/v1"
     },
     "cached": 1
 };
 /* ]]> */
 </script>
-<script type="text/javascript" src="/public/assets/js/index.js" id="contact-form-7-js"></script>
-<script type="text/javascript" src="/public/assets/js/api.js" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="/assets/js/index.js" id="contact-form-7-js"></script>
 <script type="text/javascript" id="woocommerce-js-extra">
 /* <![CDATA[ */
 var woocommerce_params = {"ajax_url":"\/404","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/public/assets/js/woocommerce.min.js" id="woocommerce-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="/assets/js/woocommerce.min.js" id="woocommerce-js" data-wp-strategy="defer"></script>
 <script type="text/javascript" id="frontend-script-js-extra">
 /* <![CDATA[ */
 var admin_ajax_url = {"ajaxurl":"\/404"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/public/assets/js/frontend-script.js" id="frontend-script-js"></script>
-<script type="text/javascript" src="/public/assets/js/toastr.min.js" id="toastr-js-js"></script>
-<script type="text/javascript" src="/public/assets/js/custom-toast.js" id="custom-toast-js"></script>
-<script type="text/javascript" src="/public/assets/js/flatsome-instant-page.js" id="flatsome-instant-page-js"></script>
-<script type="text/javascript" src="/public/assets/js/sourcebuster.min.js" id="sourcebuster-js-js"></script>
+<script type="text/javascript" src="/assets/js/frontend-script.js" id="frontend-script-js"></script>
+<script type="text/javascript" src="/assets/js/flatsome-instant-page.js" id="flatsome-instant-page-js"></script>
+<script type="text/javascript" src="/assets/js/sourcebuster.min.js" id="sourcebuster-js-js"></script>
 <script type="text/javascript" id="wc-order-attribution-js-extra">
 /* <![CDATA[ */
 var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"\/404","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/public/assets/js/order-attribution.min.js" id="wc-order-attribution-js"></script>
-<script type="text/javascript" src="/public/assets/js/hoverIntent.min.js" id="hoverIntent-js"></script>
+<script type="text/javascript" src="/assets/js/order-attribution.min.js" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="/assets/js/hoverIntent.min.js" id="hoverIntent-js"></script>
 <script type="text/javascript" id="flatsome-js-js-extra">
 /* <![CDATA[ */
-var flatsomeVars = {"theme":{"version":"3.19.6"},"ajaxurl":"\/404","rtl":"","sticky_height":"80","stickyHeaderHeight":"0","scrollPaddingTop":"0","assets_url":"https:\/\/dangtauwhisky.com\/wp-content\/themes\/flatsome\/assets\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Menu ch\u00ednh","toggleButton":"Chuy\u1ec3n \u0111\u1ed5i"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_disable_deselect":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_limited":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"500"},"is_mini_cart_reveal":"1"};
+var flatsomeVars = {"theme":{"version":"3.19.6"},"ajaxurl":"\/404","rtl":"","sticky_height":"80","stickyHeaderHeight":"0","scrollPaddingTop":"0","assets_url":"\/assets\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Menu ch\u00ednh","toggleButton":"Chuy\u1ec3n \u0111\u1ed5i"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_disable_deselect":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_limited":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"500"},"is_mini_cart_reveal":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/public/assets/js/flatsome.js" id="flatsome-js-js"></script>
-<script type="text/javascript" src="/public/assets/js/woocommerce.js" id="flatsome-theme-woocommerce-js-js"></script>
-<script type="text/javascript" src="/public/assets/js/engraving.js" id="engraving-js-js"></script>
-<script type="text/javascript" src="/public/assets/js/fs-tuned-animation.js" id="fs-tuned-animation-js-js"></script>
+<script type="text/javascript" src="/assets/js/flatsome.js" id="flatsome-js-js"></script>
+<script type="text/javascript" src="/assets/js/woocommerce.js" id="flatsome-theme-woocommerce-js-js"></script>
+<script type="text/javascript" src="/assets/js/engraving.js" id="engraving-js-js"></script>
+<script type="text/javascript" src="/assets/js/fs-tuned-animation.js" id="fs-tuned-animation-js-js"></script>
 
 <!-- DangTau custom script -->
-<script src="/public/assets/js/home.js" defer></script>
+<script src="/assets/js/home.js" defer></script>
 
 <!-- Pusher Widget -->
-<link rel="stylesheet" href="/public/assets/css/pusher.css" />
+<link rel="stylesheet" href="/assets/css/pusher.css" />
 <?php include __DIR__ . '/../pusher.php'; ?>
-<script src="/public/assets/js/pusher.js" defer></script>
+<script src="/assets/js/pusher.js" defer></script>
 
 </body>
 </html>

@@ -1,9 +1,14 @@
 //lấy content trong subtitle của slider tại home và hiện trong dot, đồng thời cho dots sang bên trái chung với col ở trên
 document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.querySelector('.home-mainslider');
+    if (!slider || typeof IntersectionObserver === 'undefined') {
+        return;
+    }
+
     // Hàm để xử lý nội dung khi phần tử trong viewport
     const handleSliderContent = (entries, observer) => {
         entries.forEach(entry => {
-            if (entry.isIntersecting) {
+            if (entry.isIntersecting && entry.target) {
                 // Lấy phần tử .home-mainslider
                 const mainSlider = entry.target;
 
@@ -62,10 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Lấy phần tử .home-mainslider và bắt đầu theo dõi
-    const mainSlider = document.querySelector('.home-mainslider');
-    if (mainSlider) {
-        observer.observe(mainSlider);
-    }
+    observer.observe(slider);
 });
 
 
@@ -87,18 +89,20 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Thêm sự kiện click cho nút "Khám phá sản phẩm"
-    exploreButton.addEventListener('click', function(event) {
-        event.preventDefault(); // Ngăn chặn hành động mặc định của nút
+    if (exploreButton) {
+        exploreButton.addEventListener('click', function(event) {
+            event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
-        // Tìm phần tử banner trong panel active
-        const activePanel = document.querySelector('.home-section-choosewhisky .tab-panels .panel.active');
-        if (activePanel) {
-            const bannerLink = activePanel.querySelector('.home-section-choosewhisky .banner.has-hover a.fill');
-            if (bannerLink) {
-                bannerLink.click(); // Nhấp vào link bên trong banner
+            // Tìm phần tử banner trong panel active
+            const activePanel = document.querySelector('.home-section-choosewhisky .tab-panels .panel.active');
+            if (activePanel) {
+                const bannerLink = activePanel.querySelector('.home-section-choosewhisky .banner.has-hover a.fill');
+                if (bannerLink) {
+                    bannerLink.click(); // Nhấp vào link bên trong banner
+                }
             }
-        }
-    });
+        });
+    }
 });
 
 
@@ -106,9 +110,16 @@ document.addEventListener('DOMContentLoaded', function() {
 // Xử lý see more trong product description
 document.addEventListener('DOMContentLoaded', function() {
     const productLongDesCol = document.querySelector('.product-longdescol');
-    const colInner = productLongDesCol.querySelector('.col-inner');
     const woocommerceTabs = document.querySelector('.woocommerce-tabs'); // Chọn phần tử woocommerce-tabs
+    if (!productLongDesCol || !woocommerceTabs) {
+        return;
+    }
+    const colInner = productLongDesCol.querySelector('.col-inner');
     const tabPanels = woocommerceTabs.querySelector('.tab-panels'); // Chọn phần tử tab-panels
+
+    if (!colInner || !tabPanels) {
+        return;
+    }
 
     // Tạo nút "Xem thêm"
     const seeMoreButton = document.createElement('button');
@@ -152,7 +163,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Cuộn về đầu của .product-longdestitlecol
         const productLongDesTitleCol = document.querySelector('.product-longdestitlecol'); // Chọn phần tử cần cuộn
-        productLongDesTitleCol.scrollIntoView({ behavior: 'smooth' }); // Cuộn mượt mà
+        if (productLongDesTitleCol) {
+            productLongDesTitleCol.scrollIntoView({ behavior: 'smooth' });
+        } // Cuộn mượt mà
     });
 });
 
@@ -164,8 +177,11 @@ document.addEventListener('DOMContentLoaded', function() {
 //Change the product order dropdown to selectbox-->
 document.addEventListener("DOMContentLoaded", function() {
     const select = document.querySelector('select[name="orderby"]');
-    const options = select.querySelectorAll('option');
     const orderOptionsDiv = document.getElementById('order-options');
+    if (!select || !orderOptionsDiv) {
+        return;
+    }
+    const options = select.querySelectorAll('option');
 
     options.forEach(option => {
         const link = document.createElement('a');
@@ -210,6 +226,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Lấy giá trị min và max từ thuộc tính data-min và data-max
     const minPriceInput = document.getElementById('min_price');
     const maxPriceInput = document.getElementById('max_price');
+    const priceFilterWidget = document.getElementById('woocommerce_price_filter-3');
+    if (!minPriceInput || !maxPriceInput || !priceFilterWidget) {
+        return;
+    }
 
     // Hàm để tạo danh sách các nút lọc giá
     function createPriceFilterList(minPrice, maxPrice) {
@@ -275,7 +295,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const priceFilterList = createPriceFilterList(minPrice, maxPrice);
 
         // Tìm phần tử form và thay thế nó
-        const priceFilterWidget = document.getElementById('woocommerce_price_filter-3');
         const formElement = priceFilterWidget.querySelector('form');
 
         if (formElement) {
@@ -348,7 +367,14 @@ document.addEventListener('DOMContentLoaded', function() {
 // Xử lý see more trong SEO content
 document.addEventListener('DOMContentLoaded', function() {
     const seoContentWrapper = document.querySelector('.seo-content-wrapper'); // Chọn phần tử .seo-content-wrapper
+    if (!seoContentWrapper) {
+        return;
+    }
     const seoContent = seoContentWrapper.querySelector('.seo-content'); // Chọn phần tử .seo-content
+
+    if (!seoContent) {
+        return;
+    }
 
     // Tạo lớp gradient
     const gradientOverlay = document.createElement('div');
@@ -405,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const productStockElement = document.querySelector('.product-stock');
 
     // Kiểm tra xem có nội dung trong phần tử p.stock hay không
-    if (stockElement && stockElement.textContent.trim() !== '') {
+    if (stockElement && productStockElement && stockElement.textContent.trim() !== '') {
         // Lưu nội dung của p.stock
         const stockText = stockElement.textContent;
 
@@ -425,13 +451,22 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.home-brandlogo-slider .box-image').forEach(boxImage => {
       boxImage.addEventListener('click', function() {
         // Tìm phần tử .box-text chứa thẻ <p> kế bên
-        const boxText = this.closest('.gallery-col').querySelector('.box-text p');
+        const galleryCol = this.closest('.gallery-col');
+        if (!galleryCol) {
+            return;
+        }
+        const boxText = galleryCol.querySelector('.box-text p');
+        if (!boxText) {
+            return;
+        }
         
         // Lấy URL từ thẻ <p>
         const url = boxText.innerText;
 
         // Mở URL trong tab mới
-        window.open(url, '_blank');
+        if (url && url.trim()) {
+            window.open(url.trim(), '_blank');
+        }
       });
     });
   });

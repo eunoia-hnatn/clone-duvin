@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	initTabs();
 	initMobileMenu();
 	initSmoothScroll();
+	lazyLoadImages();
 });
 
 /* ============================================================================
@@ -16,19 +17,22 @@ document.addEventListener('DOMContentLoaded', function() {
    ============================================================================ */
 function initSlider() {
 	const slider = document.querySelector('.hero-slider');
-	const slides = document.querySelectorAll('.slide');
-	const dots = document.querySelectorAll('.dot');
+	if (!slider || slider.classList.contains('flickity-enabled')) return;
+	const slides = slider.querySelectorAll('.slide');
+	const dots = slider.querySelectorAll('.dot');
+	if (slides.length === 0) return;
 	let currentSlide = 0;
 	let autoplayInterval;
 
 	function goToSlide(n) {
+		if (!slides[n]) return;
 		// Remove active class from all slides and dots
 		slides.forEach(slide => slide.classList.remove('slide-active'));
 		dots.forEach(dot => dot.classList.remove('active'));
 
 		// Add active class to current slide and dot
 		slides[n].classList.add('slide-active');
-		dots[n].classList.add('active');
+		if (dots[n]) dots[n].classList.add('active');
 
 		currentSlide = n;
 	}
@@ -45,7 +49,8 @@ function initSlider() {
 
 	// Autoplay
 	function startAutoplay() {
-		autoplayInterval = setInterval(nextSlide, 3000);
+		stopAutoplay();
+		if (slides.length > 1) autoplayInterval = setInterval(nextSlide, 3000);
 	}
 
 	function stopAutoplay() {
@@ -69,6 +74,7 @@ function initSlider() {
 
 	// Keyboard navigation
 	document.addEventListener('keydown', (e) => {
+		if (e.target?.closest?.('input, textarea, select, [contenteditable]')) return;
 		if (e.key === 'ArrowLeft') prevSlide();
 		if (e.key === 'ArrowRight') nextSlide();
 	});
@@ -84,11 +90,13 @@ function initTabs() {
 	const tabButtons = document.querySelectorAll('.tab-button');
 	const tabPanels = document.querySelectorAll('.tab-panel');
 
-	if (tabButtons.length === 0) return;
+	if (tabButtons.length === 0 || tabPanels.length === 0) return;
 
 	tabButtons.forEach(button => {
 		button.addEventListener('click', () => {
 			const tabId = button.getAttribute('data-tab');
+			const panel = tabId ? document.getElementById(tabId) : null;
+			if (!panel) return;
 
 			// Remove active class from all buttons and panels
 			tabButtons.forEach(btn => btn.classList.remove('active'));
@@ -96,7 +104,6 @@ function initTabs() {
 
 			// Add active class to clicked button and corresponding panel
 			button.classList.add('active');
-			const panel = document.getElementById(tabId);
 			if (panel) {
 				panel.classList.add('active');
 			}
@@ -151,9 +158,14 @@ function initSmoothScroll() {
 	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		anchor.addEventListener('click', function(e) {
 			const href = this.getAttribute('href');
-			if (href === '#') return;
-
-			const target = document.querySelector(href);
+			if (!href || href === '#') return;
+			let id;
+			try {
+				id = decodeURIComponent(href.slice(1));
+			} catch {
+				return;
+			}
+			const target = document.getElementById(id);
 			if (target) {
 				e.preventDefault();
 				target.scrollIntoView({
@@ -184,6 +196,7 @@ function debounce(func, wait) {
 
 // Check if element is in viewport
 function isInViewport(element) {
+	if (!element || typeof element.getBoundingClientRect !== 'function') return false;
 	const rect = element.getBoundingClientRect();
 	return (
 		rect.top >= 0 &&
@@ -195,8 +208,10 @@ function isInViewport(element) {
 
 // Lazy load images
 function lazyLoadImages() {
+	if (!('IntersectionObserver' in window)) return;
 	const images = document.querySelectorAll('img[data-src]');
-	const imageObserver = new IntersectionObserver((entries, observer) => {
+	if (images.length === 0) return;
+	const imageObserver = new window.IntersectionObserver((entries, observer) => {
 		entries.forEach(entry => {
 			if (entry.isIntersecting) {
 				const img = entry.target;
@@ -210,10 +225,6 @@ function lazyLoadImages() {
 	images.forEach(img => imageObserver.observe(img));
 }
 
-// Initialize lazy loading
-if ('IntersectionObserver' in window) {
-	lazyLoadImages();
-}
 
 /* ============================================================================
    Performance & Analytics
@@ -221,7 +232,7 @@ if ('IntersectionObserver' in window) {
 
 // Track slider interactions
 document.addEventListener('click', function(e) {
-	if (e.target.matches('.dot')) {
+	if (e.target?.matches?.('.dot')) {
 		// Track slide change
 		if (typeof gtag !== 'undefined') {
 			gtag('event', 'slider_interaction', {
@@ -233,7 +244,7 @@ document.addEventListener('click', function(e) {
 
 // Track tab interactions
 document.addEventListener('click', function(e) {
-	if (e.target.matches('.tab-button')) {
+	if (e.target?.matches?.('.tab-button')) {
 		// Track tab change
 		if (typeof gtag !== 'undefined') {
 			gtag('event', 'tab_interaction', {
@@ -245,7 +256,7 @@ document.addEventListener('click', function(e) {
 
 // Track CTA clicks
 document.addEventListener('click', function(e) {
-	const btn = e.target.closest('.btn');
+	const btn = e.target?.closest?.('.btn');
 	if (btn) {
 		if (typeof gtag !== 'undefined') {
 			gtag('event', 'cta_click', {
@@ -263,7 +274,9 @@ document.addEventListener('click', function(e) {
 const searchForm = document.querySelector('.search-form');
 if (searchForm) {
 	searchForm.addEventListener('submit', function(e) {
-		const query = this.querySelector('.search-input').value.trim();
+		const input = this.querySelector('.search-input');
+		if (!input) return;
+		const query = input.value.trim();
 		if (query) {
 			// Track search
 			if (typeof gtag !== 'undefined') {
@@ -291,6 +304,7 @@ document.querySelectorAll('.btn, .tab-button, .dot').forEach(button => {
 
 // Announce live regions to screen readers
 const announceToScreenReader = (message) => {
+	if (!document.body) return;
 	const announcement = document.createElement('div');
 	announcement.setAttribute('role', 'status');
 	announcement.setAttribute('aria-live', 'polite');
@@ -314,5 +328,5 @@ const announceToScreenReader = (message) => {
 
 // Add loading complete indicator
 window.addEventListener('load', function() {
-	document.body.classList.add('page-loaded');
+	if (document.body) document.body.classList.add('page-loaded');
 });
