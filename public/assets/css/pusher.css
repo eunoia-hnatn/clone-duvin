@@ -4,24 +4,28 @@
    ============================================================ */
 
 /*
- * Tính toán vị trí:
- *   Nút contact (toggle):  bottom: 28px,  height: 58px
- *   Gap mặc định giữa 2 nút: 12px
- *   → bottom scroll-top mặc định = 28 + 58 + 12 = 98px
+ * Vị trí (độc lập, trượt theo trạng thái menu):
+ *   Nút contact (toggle):  bottom: 28px, height: 58px
+ *   Menu liên hệ bung ra:  toggle(58) + gap(10) + 3 option(46×3) + 2 gap(10×2)
+ *                          = 226px → đỉnh menu ở 28+226 = 254px
+ *   Nút scroll-top (ĐÓNG): bottom: 90px (ngay trên nút contact), right: 24px
+ *   Nút scroll-top (MỞ):  bottom: 270px (cao hơn đỉnh menu 16px)
+ *   → Khi menu đóng, nút scroll-top nằm sát nút contact; khi mở, trượt lên
+ *     trên khối options. Transition bottom 0.3s ease cho hiệu ứng mượt.
  *
- *   Khi menu mở, 3 option mỗi cái: 46px + 10px gap = 56px × 3 = 168px
- *   Cộng thêm gap trên toggle: 10px
- *   → bottom scroll-top khi mở = 98 + 168 + 10 ≈ 276px
- *   (JS tính động để chính xác tuyệt đối)
+ *   Nút scroll-top có z-index CAO HƠN widget (10000 > 9999) và widget dùng
+ *   pointer-events: none cho container (các nút con tự bật lại pointer-events)
+ *   để vùng trong suốt của widget không che/quẹt nút scroll-top.
  */
 
 /* ─── Nút scroll-to-top (position: fixed độc lập) ─── */
 .pusher-scroll-top {
     position: fixed;
     right: 24px;
-    /* bottom mặc định: ngay sát trên nút contact */
-    bottom: 98px;
-    z-index: 9999;
+    /* Khi menu ĐÓNG: nằm ngay trên nút contact (toggle top 86px + 4px) */
+    bottom: 90px;
+    /* Cao hơn .pusher-widget (9999) để không bao giờ bị widget che */
+    z-index: 10000;
 
     width: 58px;
     height: 58px;
@@ -43,8 +47,8 @@
     opacity: 0;
     pointer-events: none;
 
-    /* Transition mượt cho cả hiện/ẩn lẫn dịch chuyển bottom */
-    transition: bottom 0.3s ease-in-out,
+    /* Transition mượt cho hiện/ẩn + trượt lên/xuống khi menu mở/đóng */
+    transition: bottom 0.3s ease,
                 opacity 0.25s ease,
                 background-color 0.2s ease,
                 color 0.2s ease,
@@ -71,6 +75,14 @@
     flex-shrink: 0;
 }
 
+/* Khi menu liên hệ MỞ: đẩy nút scroll-top lên trên khối options bung ra.
+   Đỉnh menu = 254px, nút ở 270px (cách 16px).
+   Selector ~ yêu cầu .pusher-scroll-top nằm SAU .pusher-widget trong DOM
+   (đã đảo thứ tự trong pusher.php). */
+.pusher-widget.is-open ~ .pusher-scroll-top {
+    bottom: 270px;
+}
+
 /* ─── Nút liên hệ (position: fixed độc lập) ─── */
 .pusher-widget {
     position: fixed;
@@ -81,6 +93,9 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
+    /* Container trong suốt không bắt sự kiện → vùng trống không che nút scroll-top.
+       Các nút con (.pusher-toggle / .pusher-options) tự bật pointer-events lại. */
+    pointer-events: none;
 }
 
 /* ─── Nút toggle ─── */
@@ -98,6 +113,8 @@
     flex-shrink: 0;
     outline: none;
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    /* Bật lại click vì .pusher-widget đặt pointer-events: none */
+    pointer-events: auto;
     transition: background-color 0.25s ease, transform 0.25s ease;
 }
 
@@ -129,7 +146,7 @@
     background-color: var(--primary-color, #B52025);
 }
 
-/* ─── Danh sách options ─── */
+/* ─── Danh sách options (cột dọc, sát nhau) ─── */
 .pusher-options {
     display: flex;
     flex-direction: column;
@@ -210,12 +227,17 @@
 
 /* ─── Responsive mobile ─── */
 @media (max-width: 549px) {
-    /* bottom contact: 20px, height: 52px, gap: 10px → 82px */
+    /* Khi menu ĐÓNG: scroll-top ngay trên toggle (top 72px + 10px) = 82px */
     .pusher-scroll-top {
         right: 16px;
         bottom: 82px;
         width: 52px;
         height: 52px;
+    }
+
+    /* Khi menu MỞ: đẩy lên trên đỉnh menu (228px + 16px) = 244px */
+    .pusher-widget.is-open ~ .pusher-scroll-top {
+        bottom: 244px;
     }
 
     .pusher-widget {

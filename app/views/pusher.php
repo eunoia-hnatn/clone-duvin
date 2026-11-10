@@ -1,15 +1,3 @@
-<!-- Pusher: Nút Scroll-to-top (độc lập) -->
-<button id="scrollToTop"
-        class="pusher-scroll-top"
-        aria-label="Lên đầu trang"
-        title="Lên đầu trang">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-         stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-         width="26" height="26">
-        <polyline points="18 15 12 9 6 15"/>
-    </svg>
-</button>
-
 <!-- Pusher: Nút liên hệ nhanh (độc lập) -->
 <div id="pusher-widget" class="pusher-widget" aria-label="Liên hệ nhanh">
 
@@ -76,3 +64,15 @@
     </button>
 
 </div>
+
+<!-- Pusher: Nút Scroll-to-top (độc lập) — đặt sau widget để CSS sibling selector hoạt động -->
+<button id="scrollToTop"
+        class="pusher-scroll-top"
+        aria-label="Lên đầu trang"
+        title="Lên đầu trang">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+         width="26" height="26">
+        <polyline points="18 15 12 9 6 15"/>
+    </svg>
+</button>
