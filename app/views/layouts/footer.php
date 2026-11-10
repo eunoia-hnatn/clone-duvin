@@ -35,9 +35,19 @@
 		<a class="" href="https://www.facebook.com/DuVinVN/" target="_blank" rel="noopener" >						<div class="img-inner dark" >
 			<img src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />
 					</div>
+<style>
+#stack-2092229133 > * {
+  --stack-gap: 1rem;
+}
+</style>
 						</a>
 	</div>
 
+<style>
+#image_1395129220 {
+  width: 25%;
+}
+</style>
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
 		<a class="" href="https://zalo.me/0589598386" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
 			<img decoding="async" src="/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">
@@ -48,6 +58,11 @@
 	</div>
 
 	<div id="gap-185281368" class="gap-element clearfix" style="display:block; height:auto;">
+<style>
+#image_1831423319 {
+  width: 25%;
+}
+</style>
 
 	</div>
 

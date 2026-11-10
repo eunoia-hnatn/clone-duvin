@@ -376,7 +376,7 @@
 						</a>
 <style>
 #image_1831423319 {
-  width: 100%;
+  width: 25%;
 }
 </style>
 	</div>
