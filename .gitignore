@@ -1,1 +1,31 @@
+# 1. Biến môi trường & Cấu hình nhạy cảm
+.env
+.env.*
+!.env.example
+
+# 2. Tài liệu nội bộ & BA
+docs/
+
+# 3. Trình soạn thảo / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 4. File hệ điều hành
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 5. File deploy state, Cache & Log
+.ftp-deploy-sync-state*.json
+*.log
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+# 6. Thư mục cài đặt phụ trợ
+/vendor/
+/node_modules/

@@ -35,6 +35,7 @@
 <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
 
 <link rel='stylesheet' id='contact-form-7-css' href="/assets/css/styles.css" type='text/css' media='all' />
+<link rel='stylesheet' id='duvin-pdp-css' href="/assets/css/pdp.css" type='text/css' media='all' />
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>

@@ -1,5 +1,3 @@
-<?php include __DIR__ . '/layouts/header.php'; ?>
-
 <main id="main" class="">
 
 
@@ -1332,5 +1330,3 @@
 
 
 </main>
-
-<?php include __DIR__ . '/layouts/footer.php'; ?>

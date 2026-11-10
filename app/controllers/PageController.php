@@ -5,6 +5,8 @@
  */
 class PageController extends BaseController
 {
+    protected ?string $layout = 'layouts/master';
+
     public function __construct(private SiteRepository $site, private ArticleRepository $articles)
     {
     }
@@ -67,11 +69,4 @@ class PageController extends BaseController
             'site' => $this->site->content(),
         ]);
     }
-
-    private function notFound(): void
-    {
-        http_response_code(404);
-        $this->render('errors/http', ['status' => 404]);
-    }
-
 }

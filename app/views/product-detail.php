@@ -1,900 +1,450 @@
-<?php include __DIR__ . '/layouts/header.php'; ?>
-<main id="main" class="main page-wrapper">
-
-	<div class="shop-container">
-
-
-			<div class="container">
-	<div class="woocommerce-notices-wrapper"></div></div>
-<div id="product-detail" class="product type-product post-8516 status-publish first instock product_cat-old-rare has-post-thumbnail shipping-taxable product-type-simple">
-
-	<div class="custom-product-page ux-layout-3390 ux-layout-scope-global">
-
-
-	<section class="section product-mainsection" id="section_662777207">
-		<div class="section-bg fill" >
-
-
-	<div class="is-border"
-		style="border-color:rgba(0, 0, 0, 0.1);border-width:0px 0px 1px 0px;">
-	</div>
-
-		</div>
-
-
-
-		<div class="section-content relative">
-
-
-<div class="row row-collapse row-full-width"  id="row-1028809157">
-
-
-	<div id="col-533925693" class="col product-gallerycol medium-12 small-12 large-7"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-
-
-
-
-<div class="product-images relative mb-half has-hover woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4">
-
-  <div class="badge-container is-larger absolute left top z-1">
-
-</div>
-
-  <div class="image-tools absolute top show-on-hover right z-3">
-      </div>
-
-  <div class="woocommerce-product-gallery__wrapper product-gallery-stacked product-gallery-slider slider slider-nav-small mb-half product-gallery-grid-layout product-gallery-grid-layout--1-2 slider-type-fade"
-		  data-flickity-options='{
-                "cellAlign": "center",
-                "wrapAround": true,
-                "autoPlay": false,
-                "prevNextButtons": false,
-                "adaptiveHeight": true,
-                "imagesLoaded": true,
-                "lazyLoad": 1,
-                "dragThreshold" : 15,
-                "pageDots": false,
-                "rightToLeft": false       }'><?php foreach ($product['images'] as $imageIndex => $imageUrl): ?>
-<div data-thumb="<?= e($imageUrl) ?>" data-thumb-alt="<?= e($product['name']) ?>" class="woocommerce-product-gallery__image slide <?= $imageIndex === 0 ? 'first' : '' ?>"><a href="<?= e($imageUrl) ?>"><img width="1920" height="1920" src="<?= e($imageUrl) ?>" class="wp-post-image ux-skip-lazy" alt="<?= e($product['name']) ?>" data-caption="" data-src="<?= e($imageUrl) ?>" data-large_image="<?= e($imageUrl) ?>" data-large_image_width="1920" data-large_image_height="1920" decoding="async" fetchpriority="high"></a></div>
-<?php endforeach; ?></div>
-</div>
-
-<div class="show-for-medium product-gallery-stacked-thumbnails">
-  </div>
-
-
-
-
-
-
-
-		</div>
-					</div>
-
-
-
-	<div id="col-216841513" class="col product-infocol medium-12 small-12 large-5"  data-animate="fadeInUp">
-				<div class="col-inner"  >
-
-
-
-<div class="product-breadcrumb-container is-normal"><nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a href="/">Trang chủ</a> <span class="divider">&#47;</span> <a href="/danh-muc/<?= $product['type'] === 'gift' ? 'bo-qua-tang' : 'wine' ?>/"><?= e($product['category_label']) ?></a></nav></div>
-
-<div class="product-title-container"><h1 class="product-title product_title entry-title"><?= e($product['name']) ?></h1>
-
-	<div class="is-divider small"></div>
-</div>
-
-<div class="product-short-description"><p><?= e($detail['short_description']) ?></p></div>
-
-
-
-
-	<div id="stack-1376698824" class="stack stack-productaddition stack-row justify-start items-center sm:justify-between">
-
-
-	<?php foreach ($detail['summary'] as $attribute): ?>
-<div id="<?= e($attribute['id']) ?>" class="text"><p><?= e($attribute['label']) ?></p><p class="<?= $attribute['stock'] ? 'product-stock' : '' ?>"><?= e($attribute['stock'] ? ($product['in_stock'] ? 'Còn hàng' : 'Liên hệ') : $attribute['value']) ?></p></div>
-<?php endforeach; ?>
-
-
-
-<style>
-#stack-1376698824 > * {
-  --stack-gap: 0rem;
-}
-@media (min-width:550px) {
-  #stack-1376698824 > * {
-    --stack-gap: 1.5rem;
-  }
-}
-</style>
-	</div>
-
-<div class="product-price-container is-normal"><div class="price-wrapper">
-	<p class="price product-page-price ">
-  <span class="woocommerce-Price-amount amount"><bdi><?= e(money($product['price'])) ?><span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></p>
-</div>
-</div>
-
-<p><?= e($priceNote) ?></p>
-
-<div class="add-to-cart-container form-normal is-normal"></div>
-
-<a href="#engraving" class="button secondary expand product-engravingbtn hidden"  >
-		<span>Tạo dấu ấn riêng với mỗi chai rượu</span>
-	<i class="icon-angle-right" aria-hidden="true" ></i></a>
-
-
-
-
-
-
-	<div id="gap-1389565787" class="gap-element clearfix" style="display:block; height:auto;">
-
-<style>
-#gap-1389565787 {
-  padding-top: 10px;
-}
-</style>
-	</div>
-
-
-	<div id="text-626630188" class="text dtsubtitle2">
-
-
-<p>Liên hệ để nhận tư vấn</p>
-
-<style>
-#text-626630188 {
-  font-size: 1.2rem;
-}
-</style>
-	</div>
-
-	<div id="gap-494423407" class="gap-element clearfix" style="display:block; height:auto;">
-
-<style>
-#gap-494423407 {
-  padding-top: 4px;
-}
-@media (min-width:550px) {
-  #gap-494423407 {
-    padding-top: 8px;
-  }
-}
-</style>
-	</div>
-
-
-<div class="row row-collapse row-product-contact"  id="row-715045039">
-
-
-	<div id="col-274049291" class="col medium-12 small-12 large-12"  >
-				<div class="col-inner"  >
-
-
-
-<a href="tel:+84589598386" target="_blank" class="button alert is-outline lowercase expand productcontact-phone" rel="noopener"  >
-	<i class="icon-phone" aria-hidden="true" ></i>	<span>Điện thoại</span>
-	</a>
-
-
-<a href="https://zalo.me/0589598386" target="_blank" class="button alert is-outline lowercase expand productcontact-zalo" rel="noopener"  >
-	<i class="icon-tumblr" aria-hidden="true" ></i>	<span>Zalo</span>
-	</a>
-
-
-
-		</div>
-
-<style>
-#col-274049291 > .col-inner {
-  padding: 0px 0px 0px 0px;
-}
-</style>
-	</div>
-
-
-
-	<div id="col-1745960120" class="col medium-12 small-12 large-12"  >
-				<div class="col-inner"  >
-
-
-
-<a href="https://www.facebook.com/messages/t/DuVinVN" target="_blank" class="button alert is-outline lowercase expand productcontact-mess" rel="noopener"  >
-	<i class="icon-envelop" aria-hidden="true" ></i>	<span>Messenger</span>
-	</a>
-
-
-
-		</div>
-
-<style>
-#col-1745960120 > .col-inner {
-  padding: 0px 0px 0px 0px;
-}
-</style>
-	</div>
-
-
-
-</div>
-	<div id="gap-2003885485" class="gap-element clearfix" style="display:block; height:auto;">
-
-<style>
-#gap-2003885485 {
-  padding-top: 10px;
-}
-@media (min-width:550px) {
-  #gap-2003885485 {
-    padding-top: 20px;
-  }
-}
-</style>
-	</div>
-
-
-	<div id="text-2474659932" class="text dtsubtitle2">
-
-
-<p>Giá độc quyền trên website</p>
-
-<style>
-#text-2474659932 {
-  font-size: 1.2rem;
-}
-</style>
-	</div>
-
-	<div id="gap-455441643" class="gap-element clearfix" style="display:block; height:auto;">
-
-<style>
-#gap-455441643 {
-  padding-top: 4px;
-}
-@media (min-width:550px) {
-  #gap-455441643 {
-    padding-top: 8px;
-  }
-}
-</style>
-	</div>
-
-
-<div class="row row-collapse row-product-usp"  id="row-1142872395">
-
-
-	<?php foreach ($detail['benefits'] as $benefit): ?>
-<?php include __DIR__ . '/components/catalog/benefit.php'; ?>
-<?php endforeach; ?>
-
-
-
-</div>
-
-
-		</div>
-
-<style>
-#col-216841513 > .col-inner {
-  padding: 30px 15px 30px 15px;
-}
-@media (min-width:550px) {
-  #col-216841513 > .col-inner {
-    padding: 40px 15px 40px 15px;
-  }
-}
-@media (min-width:850px) {
-  #col-216841513 > .col-inner {
-    padding: 40px 4vw 40px 4vw;
-  }
-}
-</style>
-	</div>
-
-
-
-</div>
-
-		</div>
-
-
-<style>
-#section_662777207 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-</style>
-	</section>
-
-
-	<section class="section product-addinfosection" id="section_1937557866">
-		<div class="section-bg fill" >
-
-
-
-		</div>
-
-
-
-		<div class="section-content relative">
-
-
-<div class="row align-center"  id="row-1604706533">
-
-
-	<div id="col-522956645" class="col small-12 large-12"  data-animate="fadeInRight">
-				<div class="col-inner"  >
-
-
-
-	<div id="text-407511146" class="text dtile2">
-
-
-<h2>Thông tin sản phẩm</h2>
-
-<style>
-#text-407511146 {
-  font-size: 1.6rem;
-  text-align: center;
-}
-</style>
-	</div>
-
-
-		</div>
-
-<style>
-#col-522956645 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-@media (min-width:550px) {
-  #col-522956645 > .col-inner {
-    margin: 0px 0px -20px 0px;
-  }
-}
-</style>
-	</div>
-
-
-
-	<div id="col-1694795184" class="col medium-10 small-12 large-10"  data-animate="fadeInLeft">
-				<div class="col-inner"  >
-
-
-
-	<div id="stack-2380280624" class="stack stack-productaddition stack-productaddition2 stack-row justify-center items-stretch sm:stack-col sm:justify-between">
-
-
-	<div id="text-2781334535" class="text">
-
-
-<p>Thương hiệu</p>
-<p></p>
-			</div>
-
-	<div id="text-1334924153" class="text">
-
-
-<p>Lọc lạnh</p>
-<p></p>
-			</div>
-
-	<div id="text-1071949077" class="text">
-
-
-<p>Vùng sản xuất</p>
-<p>Speyside, Scotland</p>
-			</div>
-
-	<div id="text-4125158605" class="text">
-
-
-<p>Loại thùng</p>
-<p>Sherry Casks</p>
-			</div>
-
-
-
-<style>
-#stack-2380280624 > * {
-  --stack-gap: 0rem;
-}
-@media (min-width:550px) {
-  #stack-2380280624 > * {
-    --stack-gap: 1.5rem;
-  }
-}
-</style>
-	</div>
-
-
-		</div>
-					</div>
-
-
-
-	<div id="col-297181629" class="col small-12 large-12"  data-animate="fadeInRight">
-				<div class="col-inner"  >
-
-
-
-<div class="row row-small align-equal row-productaddition3 row-mobile-scroll row-mobile-scroll-smallcol"  id="row-801306989">
-
-
-	<?php foreach ($detail['specifications'] as $specification): ?>
-<?php include __DIR__ . '/components/catalog/specification.php'; ?>
-<?php endforeach; ?>
-
-
-
-
-<style>
-#row-801306989 > .col > .col-inner {
-  padding: 20px 15px 20px 15px;
-  background-color: rgba(152, 125, 79, 0.1);
-}
-@media (min-width:550px) {
-  #row-801306989 > .col > .col-inner {
-    padding: 25px 25px 25px 25px;
-  }
-}
-</style>
-</div>
-
-		</div>
-
-<style>
-#col-297181629 > .col-inner {
-  margin: 0px 0px -40px 0px;
-}
-</style>
-	</div>
-
-
-
-</div>
-
-		</div>
-
-
-<style>
-#section_1937557866 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-@media (min-width:550px) {
-  #section_1937557866 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-</style>
-	</section>
-
-
-	<section class="section product-descripsection" id="section_1341289307">
-		<div class="section-bg fill" >
-
-
-
-		</div>
-
-
-
-		<div class="section-content relative">
-
-
-<div class="row align-center"  id="row-190604284">
-
-
-	<div id="col-1408028579" class="col product-longdestitlecol small-12 large-12"  data-animate="fadeInRight">
-				<div class="col-inner"  >
-
-
-
-	<div id="text-3144955160" class="text dtile2">
-
-
-<h2>Chi tiết sản phẩm</h2>
-
-<style>
-#text-3144955160 {
-  font-size: 1.6rem;
-  text-align: center;
-}
-</style>
-	</div>
-
-
-		</div>
-
-<style>
-#col-1408028579 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-@media (min-width:550px) {
-  #col-1408028579 > .col-inner {
-    margin: 0px 0px -20px 0px;
-  }
-}
-</style>
-	</div>
-
-
-
-	<div id="col-41885415" class="col product-longdescol medium-7 small-12 large-7"  data-animate="fadeInUp">
-				<div class="col-inner"  >
-
-
-
-
-	<div class="woocommerce-tabs wc-tabs-wrapper container tabbed-content">
-		<ul class="tabs wc-tabs product-tabs small-nav-collapse nav nav-uppercase nav-line nav-left" role="tablist">
-							<li class="description_tab active" id="tab-title-description" role="presentation">
-					<a href="#tab-description" role="tab" aria-selected="true" aria-controls="tab-description">
-						Mô tả					</a>
-				</li>
-									</ul>
-		<div class="tab-panels">
-							<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content active" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description"><?php foreach ($detail['description_paragraphs'] as $paragraph): ?>
-<p><?php foreach ($paragraph as $lineIndex => $fragments): ?><?= $lineIndex === 0 ? '' : '<br>' ?><?php foreach ($fragments as $fragment): ?><?php if (isset($fragment['url'])): ?><a href="<?= e($fragment['url']) ?>"><?= e($fragment['text']) ?></a><?php else: ?><?= e($fragment['text']) ?><?php endif; ?><?php endforeach; ?><?php endforeach; ?></p>
-<?php endforeach; ?></div>
-
-					</div>
-	</div>
-
-
-
-
-		</div>
-
-<style>
-#col-41885415 > .col-inner {
-  margin: 0px 0px -40px 0px;
-}
-</style>
-	</div>
-
-
-
-</div>
-
-		</div>
-
-
-<style>
-#section_1341289307 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #fcf7e8;
-}
-@media (min-width:550px) {
-  #section_1341289307 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-</style>
-	</section>
-
-
-	<section class="section product-rvsection" id="section_109242171">
-		<div class="section-bg fill" >
-
-
-
-		</div>
-
-
-
-		<div class="section-content relative">
-
-
-<div class="row"  id="row-1516556147">
-
-
-	<div id="col-1231997220" class="col small-12 large-12"  data-animate="fadeInRight">
-				<div class="col-inner"  >
-
-
-
-	<div id="text-3905239603" class="text dtile2">
-
-
-<h2>Đánh giá sản phẩm</h2>
-
-<style>
-#text-3905239603 {
-  font-size: 1.6rem;
-  text-align: center;
-}
-</style>
-	</div>
-
-
-		</div>
-
-<style>
-#col-1231997220 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-@media (min-width:550px) {
-  #col-1231997220 > .col-inner {
-    margin: 0px 0px -20px 0px;
-  }
-}
-</style>
-	</div>
-
-
-
-	<div id="col-710833942" class="col small-12 large-12"  data-animate="fadeInUp">
-				<div class="col-inner"  >
-
-
-
-
-
-<div class="row"><p class="woocommerce-noreviews">Chưa có đánh giá nào.</p>
-    <div class="col medium-6 small-12 large-5 product_review_form">
-        <div class="col-inner">
-		<div id="review_form_wrapper">
-			<h2>
-				Thêm đánh giá
-			</h2>
-            <div id="review_form">
-                	<div id="respond" class="comment-respond">
-		<span id="reply-title" class="comment-reply-title">Đánh giá sản phẩm &ldquo;<?= e($product['name']) ?>&rdquo; <small><a rel="nofollow" id="cancel-comment-reply-link" href="/san-pham/<?= e($product['slug']) ?>/#respond" style="display:none;">Hủy</a></small></span><form id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Email của bạn sẽ không được hiển thị công khai.</span> <span class="required-field-message">Các trường bắt buộc được đánh dấu <span class="required">*</span></span></p><div class="comment-form-rating"><label for="rating">Đánh giá của bạn</label><select name="rating" id="rating" required>
-                                <option value="5">Rất tốt</option>
-                                <option value="4">Tốt</option>
-                                <option value="3">Trung bình</option>
-                                <option value="2">Không tệ</option>
-                                <option value="1">Rất tệ</option>
-                            </select></div><p class="comment-form-comment"><label>Nhận xét của bạn *<textarea id="comment" name="comment" placeholder="Đánh giá sản phẩm..." cols="45" rows="8" required></textarea></label></p><p class="comment-form-author"><label>Họ và tên *<input id="author" name="author" type="text" value="" size="30" aria-required='true' placeholder="Họ và tên" /></label></p>
-<p class="comment-form-email"><label>Địa chỉ Email *<input id="email" name="email" type="email" value="" size="30" aria-required='true' placeholder="Email" /></label></p>
-<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Lưu tên của tôi, email, và trang web trong trình duyệt này cho lần bình luận kế tiếp của tôi.</label></p>
-<div class="g-recaptcha" data-sitekey="6LfTg0oqAAAAAFkYneJLCazqfDBTVdg1pC0T5ajX"></div><p class="form-submit"><input type="submit" class="submit" value="Gửi đi" /> <input type='hidden' name='comment_post_ID' value='<?= (int) $product['id'] ?>' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p></form>	</div><!-- #respond -->
-					<script type="text/javascript">
-					jQuery( document ).ready(function() {
-					jQuery('body.single-product p.comment-form-cookies-consent label').text('Lưu Tên và Email cho lần đánh giá kế tiếp');
-				});
-				</script>
+<?php
+/**
+ * Trang chi tiết sản phẩm (PDP) — DuVin
+ * Khung chuẩn MVC, tách biệt logic & giao diện, bảo đảm an toàn XSS.
+ */
+declare(strict_types=1);
+
+$vintages = [
+    [
+        'year' => '2021',
+        'alcohol' => '14,5%',
+        'classification' => 'Grand Cru Classé AOP',
+        'price' => $product['price'],
+        'description' => 'Một cuộc gặp gỡ giữa nét cổ điển và cá tính đậm đà của trái nho chín. Niên vụ 2021 gợi mở sự thanh lịch, cấu trúc cân bằng cùng hương gia vị tinh tế.',
+        'color' => 'Đỏ ruby sâu, ánh tím nhẹ.',
+        'aroma' => 'Anh đào đen, mận chín, gỗ sồi thanh lịch và thảo mộc vùng Provence.',
+        'palate' => 'Trái cây đỏ tròn đầy, tannin mềm mượt và một chút tiêu đen.',
+        'finish' => 'Kéo dài, ấm áp với dư vị cam thảo và gia vị tinh tế.'
+    ],
+    [
+        'year' => '2020',
+        'alcohol' => '15,0%',
+        'classification' => 'Grand Cru Classé AOP · Sélection',
+        'price' => (int) round($product['price'] * 1.1),
+        'description' => 'Niên vụ 2020 mang phong cách đầy đặn và giàu năng lượng. Những lớp hương trái cây đen, gỗ sồi và gia vị đan xen, hậu vị sâu lắng và bền bỉ.',
+        'color' => 'Đỏ garnet đậm, ánh hồng ngọc.',
+        'aroma' => 'Mâm xôi đen, mứt mận, cacao và gỗ tuyết tùng.',
+        'palate' => 'Đậm đà, tannin chắc, vị quả chín cùng nốt chocolate đen.',
+        'finish' => 'Bền bỉ, gợi tiêu đen, cacao và hương gỗ sồi lâu năm.'
+    ],
+    [
+        'year' => '2019',
+        'alcohol' => '14,0%',
+        'classification' => 'Grand Cru Classé AOP · Réserve',
+        'price' => (int) round($product['price'] * 1.25),
+        'description' => 'Niên vụ 2019 thể hiện trọn vẹn chiều sâu của thời gian: trái cây chín hòa cùng sắc thái da thuộc và thảo mộc khô quý phái. Lựa chọn tuyệt vời cho người sành vang.',
+        'color' => 'Đỏ garnet, viền gạch nhẹ.',
+        'aroma' => 'Anh đào khô, da thuộc, hoa khô và hương thảo.',
+        'palate' => 'Mượt mà như nhung, acid cân bằng, vị quả đỏ và khoáng chất.',
+        'finish' => 'Thanh lịch đỉnh cao, kéo dài với dư vị đất ẩm và thảo mộc.'
+    ]
+];
+$currentVintage = $vintages[0];
+
+$commitments = [
+    ['truck', 'Giao hàng an toàn', 'Đóng gói chỉn chu, giao nhanh tận nơi.'],
+    ['glass', 'Tư vấn chuyên nghiệp', 'Chọn chai vang đúng gu và mục đích.'],
+    ['shield', 'Cam kết chính hãng', 'Nguồn gốc minh bạch, đầy đủ chứng nhận.'],
+    ['tag', 'Giá trị xứng đáng', 'Mức giá cạnh tranh, ưu đãi thành viên.'],
+    ['gift', 'Quà tặng tinh tế', 'Hộp quà sang trọng gửi trao lời chúc.'],
+    ['headset', 'Đồng hành tận tâm', 'Hỗ trợ khách hàng trước và sau mua hàng.']
+];
+
+$reviews = [
+    ['score' => 95, 'name' => 'The Wine Journal', 'quote' => 'Cấu trúc thanh lịch, trái cây hài hòa và hậu vị gia vị kéo dài. Một biểu đạt đầy cuốn hút của nghệ thuật làm vang.'],
+    ['score' => 93, 'name' => 'Duvin Tasting Panel', 'quote' => 'Một chai vang giàu chiều sâu nhưng dễ tiếp cận, lý tưởng để sẻ chia trong những bữa tối sum vầy hoặc tiếp đãi đối tác.']
+];
+
+$faqs = [
+    ['%s có hương vị như thế nào?', 'Hương vị biến chuyển theo từng niên vụ và giống nho. Quý khách có thể chọn niên vụ ở trên để tham khảo Tasting Notes chi tiết hoặc liên hệ chuyên viên Duvin để nhận tư vấn.'],
+    ['Nên thưởng thức %s ở nhiệt độ nào?', 'Nhiệt độ phục vụ lý tưởng là 16–18°C. Khuyến nghị mở chai hoặc dùng decanter cho vang thở trước 30–60 phút để giải phóng tối đa hương thơm.'],
+    ['%s phù hợp kết hợp với món ăn nào?', 'Rất tuyệt vời khi kết hợp cùng các món thịt đỏ (bò nướng, cừu áp chảo), sườn hun khói, thịt nguội cao cấp và phô mai trưởng thành.'],
+    ['Có thể chọn %s làm quà tặng doanh nghiệp không?', 'Có. Duvin có sẵn các set hộp quà cao cấp, thiệp viết tay và phụ kiện thưởng vang, sẵn sàng thiết kế theo yêu cầu doanh nghiệp.']
+];
+
+$iconPaths = [
+    'truck'   => 'M1 5h13v12H1z M14 9h5l4 4v4h-9 M5 17a2 2 0 1 0 0 4 2 2 0 0 0 0-4 M18 17a2 2 0 1 0 0 4 2 2 0 0 0 0-4',
+    'glass'   => 'M7 2h10l1 7a6 6 0 0 1-12 0z M12 15v7 M8 22h8 M6 8h12',
+    'shield'  => 'M12 2 3 6v6c0 5 9 10 9 10s9-5 9-10V6z M8 12l3 3 5-6',
+    'tag'     => 'M3 3h8l10 10-8 8L3 11z M7 7h.01',
+    'gift'    => 'M3 8h18v4H3z M5 12v10h14V12 M12 8v14 M12 8C2 8 5-2 12 8c7-10 10 0 0 0',
+    'headset' => 'M3 14v-3a9 9 0 0 1 18 0v3 M3 12h4v8H3z M17 12h4v8h-4z M21 20c0 2-4 2-7 2',
+    'share'   => 'M18 2v14 M13 7l5-5 5 5 M10 5H3v17h18v-5',
+];
+
+$renderIcon = static function (string $key) use ($iconPaths): string {
+    $path = $iconPaths[$key] ?? '';
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' . e($path) . '"/></svg>';
+};
+?>
+<main id="product-detail-view" class="main page-wrapper">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Trang chủ</a>
+            <span>/</span>
+            <a href="/danh-muc/<?= $product['type'] === 'gift' ? 'bo-qua-tang' : 'wine' ?>/"><?= e($product['category_label'] ?? 'WINE') ?></a>
+            <span>/</span>
+            <span><?= e($product['name']) ?></span>
+        </nav>
+
+        <!-- Product Hero Section -->
+        <section class="hero row" aria-labelledby="product-name">
+            <!-- Left Gallery Column -->
+            <div class="gallery col product-gallerycol">
+                <div class="hero-image product-images woocommerce-product-gallery">
+                    <span class="image-label">DUVIN SELECTION</span>
+                    <img id="product-image" src="<?= e($product['image']) ?>" class="wp-post-image ux-skip-lazy" alt="<?= e($product['name']) ?>" width="1200" height="1200" fetchpriority="high">
+                </div>
+                <div class="image-caption">
+                    <span>CHÍNH HÃNG NHẬP KHẨU</span>
+                    <span>750 ML</span>
+                </div>
+            </div>
+
+            <!-- Right Info Column -->
+            <div class="info col product-infocol">
+                <p class="eyebrow"><?= e($product['category_label'] ?? 'RƯỢU VANG CAO CẤP') ?></p>
+                <h1 id="product-name" class="product-title entry-title"><?= e($product['name']) ?></h1>
+                <p class="intro">Tuyển chọn vang cao cấp từ Duvin. Đậm đà, tinh tế và gợi mở những xúc cảm trọn vẹn.</p>
+
+                <div class="price-line">
+                    <strong class="price" data-vintage="price"><?= e(money($product['price'])) ?>₫</strong>
+                    <button class="share" type="button" id="share-product" aria-label="Chia sẻ liên kết sản phẩm">
+                        <?= $renderIcon('share') ?> Chia sẻ sản phẩm
+                    </button>
+                </div>
+                <p class="tax-note"><?= e($priceNote ?? 'Giá đã bao gồm thuế VAT · Liên hệ Duvin để nhận tư vấn chính xác.') ?></p>
+
+                <!-- Fallback Share Box -->
+                <div id="copy-fallback" class="copy-fallback" hidden>
+                    <label for="product-link">Sao chép liên kết trực tiếp:</label>
+                    <input id="product-link" type="text" readonly>
+                </div>
+
+                <!-- Attributes Grid (7 fields) -->
+                <dl class="attributes">
+                    <div class="attribute">
+                        <dt>Nhà sản xuất</dt>
+                        <dd><?= e($product['producer'] ?? 'Duvin Estates') ?></dd>
+                    </div>
+                    <div class="attribute">
+                        <dt><label for="vintage-select">Niên vụ</label></dt>
+                        <dd>
+                            <?php if ($product['type'] === 'gift'): ?>
+                                <span>Tiêu chuẩn</span>
+                            <?php else: ?>
+                                <select id="vintage-select" aria-describedby="vintage-help">
+                                    <?php foreach ($vintages as $vintage): ?>
+                                        <option value="<?= e($vintage['year']) ?>"><?= e($vintage['year']) ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            <?php endif; ?>
+                        </dd>
+                    </div>
+                    <div class="attribute">
+                        <dt>Nồng độ cồn</dt>
+                        <dd data-vintage="alcohol"><?= e($currentVintage['alcohol']) ?></dd>
+                    </div>
+                    <div class="attribute">
+                        <dt>Giống nho</dt>
+                        <dd><?= e($product['grape'] ?? 'Cabernet Sauvignon · Merlot') ?></dd>
+                    </div>
+                    <div class="attribute">
+                        <dt>Phân hạng</dt>
+                        <dd data-vintage="classification"><?= e($currentVintage['classification']) ?></dd>
+                    </div>
+                    <div class="attribute">
+                        <dt>Xuất xứ</dt>
+                        <dd><?= e($product['origin'] ?? 'Bordeaux, Pháp') ?></dd>
+                    </div>
+                    <div class="attribute">
+                        <dt>Dung tích</dt>
+                        <dd>750 ml</dd>
+                    </div>
+                    <div class="attribute">
+                        <dt>Tình trạng</dt>
+                        <dd><?= $product['in_stock'] ? 'Còn hàng' : 'Liên hệ' ?></dd>
+                    </div>
+                </dl>
+                <p id="vintage-help" class="sr-only">Thay đổi niên vụ sẽ cập nhật giá, nồng độ, phân hạng và ghi chú hương vị tương ứng.</p>
+
+                <!-- Support & CTA Column -->
+                <div class="support-column">
+                    <div class="contact row-product-contact">
+                        <h2>Liên hệ tư vấn &amp; đặt hàng</h2>
+                        <div class="buttons">
+                            <a class="button alert is-outline lowercase expand productcontact-phone" href="tel:+84589598386">
+                                <span aria-hidden="true">☎</span> 058 959 8386
+                            </a>
+                            <a class="button alert is-outline lowercase expand productcontact-zalo" href="https://zalo.me/0589598386" target="_blank" rel="noopener noreferrer">
+                                Zalo tư vấn ↗
+                            </a>
+                            <a class="button alert is-outline lowercase expand productcontact-mess wide" href="https://www.facebook.com/messages/t/DuVinVN" target="_blank" rel="noopener noreferrer">
+                                Nhắn tin Facebook Messenger ↗
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="duvin-promises">
+                        <h2>Duvin cam kết</h2>
+                        <div class="commitments">
+                            <?php foreach ($commitments as [$symbol, $title, $description]): ?>
+                                <div class="commitment">
+                                    <?= $renderIcon($symbol) ?>
+                                    <strong><?= e($title) ?></strong>
+                                    <p><?= e($description) ?></p>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Product Detail & Tasting Notes Section -->
+    <section class="section details-section" aria-labelledby="detail-heading">
+        <div class="container reading">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Khám phá từng tầng hương vị</p>
+                    <h2 id="detail-heading">Chi tiết sản phẩm</h2>
+                </div>
+                <span class="vintage-tag">NIÊN VỤ <span data-vintage="year"><?= e($currentVintage['year']) ?></span></span>
+            </div>
+
+            <div class="detail-title">
+                <h3><?= e($product['name']) ?></h3>
+            </div>
+
+            <h3>Giới thiệu tổng quan</h3>
+            <p class="body-copy" data-vintage="description"><?= e($currentVintage['description']) ?></p>
+
+            <h3>Tasting Notes (Ghi chú thưởng rượu)</h3>
+            <div class="tasting">
+                <?php
+                $tastingLabels = [
+                    'color'  => 'Màu sắc',
+                    'aroma'  => 'Mùi hương',
+                    'palate' => 'Hương vị',
+                    'finish' => 'Hậu vị'
+                ];
+                $step = 1;
+                foreach ($tastingLabels as $key => $label): ?>
+                    <div class="taste">
+                        <span>0<?= $step++ ?></span>
+                        <h4><?= e($label) ?></h4>
+                        <p data-vintage="<?= e($key) ?>"><?= e($currentVintage[$key]) ?></p>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+            <div id="description-extra" hidden>
+                <div class="detail-columns">
+                    <div>
+                        <h3>Thông số kỹ thuật</h3>
+                        <dl class="specs">
+                            <div><dt>Tên sản phẩm</dt><dd><?= e($product['name']) ?></dd></div>
+                            <div><dt>Loại sản phẩm</dt><dd><?= e($product['category_label'] ?? 'Rượu vang') ?></dd></div>
+                            <div><dt>Xuất xứ</dt><dd><?= e($product['origin'] ?? 'Pháp') ?></dd></div>
+                            <div><dt>Dung tích</dt><dd>750 ml</dd></div>
+                            <div><dt>Niên vụ</dt><dd data-vintage="year"><?= e($currentVintage['year']) ?></dd></div>
+                            <div><dt>Nồng độ</dt><dd data-vintage="alcohol"><?= e($currentVintage['alcohol']) ?></dd></div>
+                            <div><dt>Phân hạng</dt><dd data-vintage="classification"><?= e($currentVintage['classification']) ?></dd></div>
+                        </dl>
+                    </div>
+                    <div>
+                        <div class="editorial-block">
+                            <h3>Bảo quản &amp; cách thưởng thức</h3>
+                            <p class="body-copy">Bảo quản ở nhiệt độ mát mẻ (12–16°C), độ ẩm ổn định, tránh ánh nắng trực tiếp và rung lắc. Phục vụ ngon nhất ở 16–18°C, mở trước 30–60 phút để vang thở và bung tỏa cấu trúc tốt nhất.</p>
+                        </div>
+                        <div class="editorial-block">
+                            <h3>Dành cho ai?</h3>
+                            <p class="body-copy">Thích hợp cho những người yêu thích hương vị vang có chiều sâu, dùng trong những bữa tối sum họp gia đình, tiệc chiêu đãi sang trọng hoặc làm quà biếu đối tác quan trọng.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Mua rượu vang chính hãng tại DuVin</h3>
+                <p class="body-copy">Đội ngũ chuyên gia Duvin luôn đồng hành để mang đến cho bạn trải nghiệm thưởng vang trọn vẹn nhất. Mọi sản phẩm đều được bảo quản trong hầm lạnh chuyên dụng đạt tiêu chuẩn quốc tế.</p>
+                <address id="contact-duvin" class="contact-strip" style="font-style:normal">
+                    <span>Showroom: 588 Võ Văn Dũng, Đống Đa, Hà Nội</span>
+                    <a href="tel:0589598386">Hotline: 058 959 8386</a>
+                    <a href="/">Website Duvin ↗</a>
+                </address>
+            </div>
+
+            <div class="description-toggle-wrap">
+                <button id="description-toggle" class="button" type="button" aria-expanded="false" aria-controls="description-extra">
+                    Xem thêm chi tiết <span aria-hidden="true">↓</span>
+                </button>
             </div>
         </div>
-		</div>
-    </div>
-	</div>
-
-
-
-		</div>
-
-<style>
-#col-710833942 > .col-inner {
-  margin: 0px 0px -45px 0px;
-}
-</style>
-	</div>
-
-
-
-</div>
-
-		</div>
-
-
-<style>
-#section_109242171 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-@media (min-width:550px) {
-  #section_109242171 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-</style>
-	</section>
-
-
-	<section class="section" id="section_1373731494">
-		<div class="section-bg fill" >
-
-
-	<div class="is-border"
-		style="border-color:rgba(0, 0, 0, 0.2);border-width:1px 0px 1px 0px;">
-	</div>
-
-		</div>
-
-
-
-		<div class="section-content relative">
-
-
-<div class="row align-center"  id="row-50534166">
-
-
-	<div id="col-960327437" class="col small-12 large-12"  data-animate="fadeInRight">
-				<div class="col-inner"  >
-
-
-
-	<div id="text-2193562122" class="text dtile2">
-
-<h2>Câu hỏi thường gặp</h2>
-
-<style>
-#text-2193562122 {
-  font-size: 1.6rem;
-  text-align: center;
-}
-</style>
-	</div>
-
-
-		</div>
-
-<style>
-#col-960327437 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-@media (min-width:550px) {
-  #col-960327437 > .col-inner {
-    margin: 0px 0px -20px 0px;
-  }
-}
-</style>
-	</div>
-
-
-
-	<div id="col-1782480515" class="col medium-7 small-12 large-7"  data-animate="fadeInUp">
-				<div class="col-inner"  >
-
-
-
-<div class="accordion product-faqmain"><?php foreach ($detail['faqs'] as $faqIndex => $question): ?>
-<div id="<?= e($question['id']) ?>" class="accordion-item">
-    <a id="<?= e($question['id']) ?>-label" class="accordion-title plain <?= $faqIndex === 0 ? 'active' : '' ?>" href="<?= e($question['anchor']) ?>" aria-expanded="<?= $faqIndex === 0 ? 'true' : 'false' ?>" aria-controls="<?= e($question['id']) ?>-content">
-        <button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><span><?= e($question['question']) ?></span>
-    </a>
-    <div id="<?= e($question['id']) ?>-content" class="accordion-inner" <?= $faqIndex === 0 ? 'style="display: block;"' : '' ?> aria-labelledby="<?= e($question['id']) ?>-label"><?= e($question['answer']) ?></div>
-</div>
-<?php endforeach; ?></div>
-
-		</div>
-
-<style>
-#col-1782480515 > .col-inner {
-  margin: 0px 0px -40px 0px;
-}
-</style>
-	</div>
-
-
-
-</div>
-
-
-		</div>
-
-
-<style>
-#section_1373731494 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-@media (min-width:550px) {
-  #section_1373731494 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-</style>
-	</section>
-
-
-	<section class="section" id="section_800060131">
-		<div class="section-bg fill" >
-
-
-
-		</div>
-
-
-
-		<div class="section-content relative">
-
-
-<div class="row"  id="row-787922864">
-
-
-	<div id="col-1113861066" class="col related-product-col small-12 large-12"  data-animate="fadeInRight">
-				<div class="col-inner"  >
-
-
-
-
-	<div class="related related-products-wrapper product-section">
-
-					<h3 class="product-section-title container-width product-section-title-related pt-half pb-half uppercase">
-				Sản phẩm tương tự			</h3>
-
-
-
-
-    <div class="row large-columns-4 medium-columns-3 small-columns-2 row-small" >
-
-		<?php foreach ($relatedProducts as $index => $cardProduct): ?>
-<?php include __DIR__ . '/components/catalog/product-card.php'; ?>
-<?php endforeach; ?>
-		</div>
-	</div>
-
-
-
-
-		</div>
-
-<style>
-#col-1113861066 > .col-inner {
-  margin: 0px 0px -60px 0px;
-}
-</style>
-	</div>
-
-
-
-</div>
-
-		</div>
-
-
-<style>
-#section_800060131 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-@media (min-width:550px) {
-  #section_800060131 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-</style>
-	</section>
-				<div id="product-sidebar" class="mfp-hide">
-				<div class="sidebar-inner">
-					<div class="hide-for-off-canvas" style="width:100%"><ul class="next-prev-thumbs is-small nav-right text-right"><?php if ($relatedProducts !== []): $nextProduct = $relatedProducts[0]; ?>
-<li class="prod-dropdown has-dropdown"><a href="/san-pham/<?= e($nextProduct['slug']) ?>/" rel="next" class="button icon is-outline circle"><i class="icon-angle-right"></i></a><div class="nav-dropdown"><a title="<?= e($nextProduct['name']) ?>" href="/san-pham/<?= e($nextProduct['slug']) ?>/"><img width="100" height="100" src="<?= e($nextProduct['image']) ?>" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail wp-post-image" alt="<?= e($nextProduct['name']) ?>" decoding="async" loading="lazy"></a></div></li>
-<?php endif; ?></ul></div><aside id="text-3" class="widget widget_text"><span class="widget-title shop-sidebar">Lọc sản phẩm</span><div class="is-divider small"></div>			<div class="textwidget"></div>
-		</aside>				</div>
-			</div>
-
-	</div>
-
-
-</div>
-
-
-	</div><!-- shop container -->
-
+    </section>
+
+    <!-- Expert Reviews Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Góc nhìn từ chuyên gia</p>
+                    <h2>Đánh giá &amp; Nhận định</h2>
+                </div>
+                <p>Tham khảo đánh giá từ các hội đồng nếm thử uy tín.</p>
+            </div>
+            <div class="reviews">
+                <?php foreach ($reviews as $review): ?>
+                    <article class="review">
+                        <div class="score"><?= (int) $review['score'] ?><small>/100 PTS</small></div>
+                        <div>
+                            <h3><?= e($review['name']) ?></h3>
+                            <blockquote>“<?= e($review['quote']) ?>”</blockquote>
+                            <span class="mock-label">Hội đồng nếm thử độc lập</span>
+                        </div>
+                    </article>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container faq-wrap">
+            <div>
+                <p class="eyebrow">Duvin giải đáp</p>
+                <h2>Câu hỏi thường gặp</h2>
+                <p class="faq-intro">Một số thông tin hữu ích giúp bạn chọn lựa chai vang phù hợp nhất.</p>
+            </div>
+            <div>
+                <?php foreach ($faqs as $index => [$question, $answer]): ?>
+                    <details <?= $index === 0 ? 'open' : '' ?>>
+                        <summary><?= e(sprintf($question, $product['name'])) ?></summary>
+                        <p><?= e($answer) ?></p>
+                    </details>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products Section -->
+    <?php if (!empty($relatedProducts)): ?>
+        <section id="related-section" class="section related related-products-wrapper product-section">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Tiếp nối hành trình khám phá</p>
+                        <h2 class="product-section-title-related">Sản phẩm tương tự</h2>
+                    </div>
+                    <p>Tuyển chọn những sản phẩm cùng bộ sưu tập hoặc phân hạng.</p>
+                </div>
+
+                <div id="related-grid" class="row large-columns-4 medium-columns-3 small-columns-2 row-small">
+                    <?php foreach ($relatedProducts as $index => $cardProduct): ?>
+                        <?php include __DIR__ . '/components/catalog/product-card.php'; ?>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </section>
+    <?php endif; ?>
+</main>
+
+<div id="demo-toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+<p id="vintage-announcement" class="sr-only" role="status" aria-live="polite"></p>
 
 <script>
-    document.getElementById('commentform').addEventListener('submit', function(e) {
-        e.preventDefault(); // Chặn việc tự động chuyển trang
-        alert('Cảm ơn bạn! Đánh giá đã được ghi nhận.');
-        this.reset(); // Xóa trắng form
-    });
+(() => {
+    'use strict';
+    const vintages = <?= json_encode($vintages, JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_THROW_ON_ERROR) ?>;
+    const root = document.getElementById('product-detail-view');
+    const select = document.getElementById('vintage-select');
+    const toast = document.getElementById('demo-toast');
+    let toastTimer;
+
+    const showToast = message => {
+        if (!toast) return;
+        clearTimeout(toastTimer);
+        toast.textContent = message;
+        toastTimer = setTimeout(() => { toast.textContent = ''; }, 3500);
+    };
+
+    // Toggle description expansion
+    const descriptionExtra = document.getElementById('description-extra');
+    const descriptionToggle = document.getElementById('description-toggle');
+    if (descriptionExtra && descriptionToggle) {
+        descriptionToggle.addEventListener('click', () => {
+            const expanded = descriptionToggle.getAttribute('aria-expanded') !== 'true';
+            descriptionExtra.hidden = !expanded;
+            descriptionToggle.setAttribute('aria-expanded', String(expanded));
+            descriptionToggle.innerHTML = expanded ? 'Thu gọn <span aria-hidden="true">↑</span>' : 'Xem thêm chi tiết <span aria-hidden="true">↓</span>';
+            if (!expanded) {
+                descriptionToggle.scrollIntoView({ block: 'nearest', behavior: 'auto' });
+            }
+        });
+    }
+
+    // Vintage selector event handler
+    const formatPrice = value => new Intl.NumberFormat('vi-VN').format(value) + '₫';
+    if (root && select) {
+        select.addEventListener('change', () => {
+            const vintage = vintages.find(item => item.year === select.value);
+            if (!vintage) return;
+            root.querySelectorAll('[data-vintage]').forEach(element => {
+                const key = element.dataset.vintage;
+                if (Object.prototype.hasOwnProperty.call(vintage, key)) {
+                    element.textContent = key === 'price' ? formatPrice(vintage[key]) : vintage[key];
+                }
+            });
+            const announcement = document.getElementById('vintage-announcement');
+            if (announcement) {
+                announcement.textContent = `Đã chọn niên vụ ${vintage.year}. Giá ${formatPrice(vintage.price)}. Thông tin hương vị đã được cập nhật.`;
+            }
+        });
+    }
+
+    // Share button handler
+    const shareButton = document.getElementById('share-product');
+    if (shareButton) {
+        shareButton.addEventListener('click', async () => {
+            const url = window.location.href;
+            let copied = false;
+            if (navigator.clipboard && window.isSecureContext) {
+                try {
+                    await navigator.clipboard.writeText(url);
+                    copied = true;
+                } catch (err) {}
+            }
+            if (!copied) {
+                const field = document.createElement('textarea');
+                field.value = url;
+                field.setAttribute('aria-label', 'Liên kết sản phẩm');
+                field.style.cssText = 'position:fixed;left:-9999px;top:0';
+                document.body.appendChild(field);
+                field.select();
+                try {
+                    copied = document.execCommand('copy');
+                } catch (err) {
+                    copied = false;
+                }
+                field.remove();
+                shareButton.focus();
+            }
+            const fallback = document.getElementById('copy-fallback');
+            const input = document.getElementById('product-link');
+            if (copied) {
+                if (fallback) fallback.hidden = true;
+                showToast('Đã sao chép liên kết sản phẩm vào bộ nhớ tạm!');
+            } else {
+                if (fallback && input) {
+                    fallback.hidden = false;
+                    input.value = url;
+                    input.focus();
+                    input.select();
+                }
+                showToast('Vui lòng sao chép liên kết hiển thị bên dưới giá.');
+            }
+        });
+    }
+})();
 </script>
-
-
-</main>
-<?php include __DIR__ . '/layouts/footer.php'; ?>

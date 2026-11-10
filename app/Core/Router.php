@@ -7,50 +7,90 @@ final class Router
 {
     private array $routes = [];
     private $errorHandler;
+    private string $groupPrefix = '';
+    private array $groupMiddlewares = [];
 
     public function __construct(?callable $errorHandler = null)
     {
         $this->errorHandler = $errorHandler;
     }
 
-    public function get(string $path, callable $handler, array $constraints = []): self
+    public function get(string $path, callable $handler, array $constraints = [], array $middlewares = []): self
     {
-        return $this->add('GET', $path, $handler, $constraints);
+        return $this->add('GET', $path, $handler, $constraints, $middlewares);
     }
 
-    public function post(string $path, callable $handler, array $constraints = []): self
+    public function post(string $path, callable $handler, array $constraints = [], array $middlewares = []): self
     {
-        return $this->add('POST', $path, $handler, $constraints);
+        return $this->add('POST', $path, $handler, $constraints, $middlewares);
     }
 
-    private function add(string $method, string $path, callable $handler, array $constraints): self
+    public function put(string $path, callable $handler, array $constraints = [], array $middlewares = []): self
+    {
+        return $this->add('PUT', $path, $handler, $constraints, $middlewares);
+    }
+
+    public function delete(string $path, callable $handler, array $constraints = [], array $middlewares = []): self
+    {
+        return $this->add('DELETE', $path, $handler, $constraints, $middlewares);
+    }
+
+    public function group(string $prefix, callable $callback, array $middlewares = []): self
+    {
+        $previousPrefix = $this->groupPrefix;
+        $previousMiddlewares = $this->groupMiddlewares;
+
+        $prefix = trim($prefix, '/');
+        $this->groupPrefix = ($previousPrefix !== '' ? $previousPrefix : '') . ($prefix !== '' ? '/' . $prefix : '');
+        $this->groupMiddlewares = array_merge($previousMiddlewares, $middlewares);
+
+        $callback($this);
+
+        $this->groupPrefix = $previousPrefix;
+        $this->groupMiddlewares = $previousMiddlewares;
+
+        return $this;
+    }
+
+    private function add(string $method, string $path, callable $handler, array $constraints, array $middlewares = []): self
     {
         if ($path === '' || $path[0] !== '/' || strpbrk($path, '?#') !== false) {
             throw new InvalidArgumentException('Route paths must start with / and contain no query or fragment.');
         }
 
-        $path = rtrim($path, '/') ?: '/';
+        $fullPath = $this->groupPrefix . $path;
+        $fullPath = preg_replace('#/{2,}#', '/', $fullPath);
+        $fullPath = rtrim($fullPath, '/') ?: '/';
+
         $pattern = '';
         $offset = 0;
         $parameters = [];
-        preg_match_all('/\{([a-zA-Z_][a-zA-Z0-9_]*)\}/', $path, $matches, PREG_OFFSET_CAPTURE);
+        preg_match_all('/\{([a-zA-Z_][a-zA-Z0-9_]*)\}/', $fullPath, $matches, PREG_OFFSET_CAPTURE);
         foreach ($matches[0] as $index => [$placeholder, $position]) {
             $name = $matches[1][$index][0];
             if (in_array($name, $parameters, true)) {
                 throw new InvalidArgumentException('Duplicate route parameter: ' . $name);
             }
-            $pattern .= preg_quote(substr($path, $offset, $position - $offset), '~');
+            $pattern .= preg_quote(substr($fullPath, $offset, $position - $offset), '~');
             $constraint = $constraints[$name] ?? '[^/]+';
             $pattern .= '(?P<' . $name . '>' . $constraint . ')';
             $parameters[] = $name;
             $offset = $position + strlen($placeholder);
         }
-        $pattern .= preg_quote(substr($path, $offset), '~');
+        $pattern .= preg_quote(substr($fullPath, $offset), '~');
         $pattern = '~^' . $pattern . '$~D';
         if (@preg_match($pattern, '') === false) {
             throw new InvalidArgumentException('Invalid route constraint.');
         }
-        $this->routes[] = compact('method', 'pattern', 'parameters', 'handler');
+
+        $allMiddlewares = array_merge($this->groupMiddlewares, $middlewares);
+        $this->routes[] = [
+            'method' => $method,
+            'pattern' => $pattern,
+            'parameters' => $parameters,
+            'handler' => $handler,
+            'middlewares' => $allMiddlewares,
+        ];
 
         return $this;
     }
@@ -76,6 +116,15 @@ final class Router
             if ($route['method'] !== $method && !($method === 'HEAD' && $route['method'] === 'GET')) {
                 continue;
             }
+
+            // Run middlewares
+            foreach ($route['middlewares'] as $middleware) {
+                $continue = $this->executeMiddleware($middleware);
+                if ($continue === false) {
+                    return;
+                }
+            }
+
             $arguments = [];
             foreach ($route['parameters'] as $name) {
                 $arguments[] = $matches[$name];
@@ -93,6 +142,24 @@ final class Router
             return;
         }
         $this->error(404);
+    }
+
+    private function executeMiddleware(mixed $middleware): bool
+    {
+        if (is_callable($middleware)) {
+            $result = $middleware();
+            return $result !== false;
+        }
+
+        if (is_string($middleware) && class_exists($middleware)) {
+            $instance = new $middleware();
+            if (method_exists($instance, 'handle')) {
+                $result = $instance->handle();
+                return $result !== false;
+            }
+        }
+
+        return true;
     }
 
     private function error(int $status): void

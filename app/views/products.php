@@ -1,6 +1,3 @@
-<?php include __DIR__ . '/layouts/header.php'; ?>
-
-
     <!-- Products Section -->
     <div id="wrapper">
 
@@ -337,6 +334,3 @@
 
 
 </div>
-
-
-<?php include __DIR__ . '/layouts/footer.php'; ?>

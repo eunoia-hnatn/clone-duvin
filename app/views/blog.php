@@ -1,5 +1,3 @@
-<?php include __DIR__ . '/layouts/header.php'; ?>
-
 <div class="blog-header-wrapper">
 	<section class="section" id="section_671957014">
 		<div class="section-bg fill">
@@ -288,5 +286,3 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
 
 
 </main>
-
-<?php include __DIR__ . '/layouts/footer.php'; ?>

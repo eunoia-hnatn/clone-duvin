@@ -1,6 +1,4 @@
-<?php include __DIR__ . '/layouts/header.php'; ?>
-
-	<main id="main" class="">
+<main id="main" class="">
 
 
 <div id="content" role="main" class="content-area">
@@ -953,5 +951,3 @@
 
 
 </main>
-
-<?php include __DIR__ . '/layouts/footer.php'; ?>
