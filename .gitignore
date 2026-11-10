@@ -29,3 +29,4 @@ Desktop.ini
 # 6. Thư mục cài đặt phụ trợ
 /vendor/
 /node_modules/
+database/
