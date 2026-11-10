@@ -1,3 +1,4 @@
+<link rel="stylesheet" id="duvin-founder-css" href="/assets/css/founder.css">
 <main id="main" class="">
 
 
@@ -44,11 +45,7 @@
 
 <h2>TÔI LÀ PHONG – NGƯỜI TRUYỀN CẢM HỨNG VÀ KẾT NỐI ĐAM MÊ RƯỢU VANG</h2>
 		
-<style>
-#text-3810541692 {
-  font-size: 1.65rem;
-}
-</style>
+
 	</div>
 	
 	<div id="text-901633441" class="text p-zero-margin">
@@ -95,19 +92,7 @@
               </div>
            </div>
                             
-<style>
-#text-box-1893654633 {
-  width: 60%;
-}
-#text-box-1893654633 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1893654633 {
-    width: 60%;
-  }
-}
-</style>
+
     </div>
  
 
@@ -115,14 +100,7 @@
       </div>
 
             
-<style>
-#banner-485490237 {
-  padding-top: 85%;
-}
-#banner-485490237 .banner-bg img {
-  object-position: 0% 92%;
-}
-</style>
+
   </div>
 
 
@@ -137,12 +115,7 @@
 		</div>
 
 		
-<style>
-#section_1713484047 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-</style>
+
 	</section>
 	
 
@@ -171,25 +144,12 @@
 
 <p>HÀNH TRÌNH CỦA TÔI BẮT ĐẦU TỪ NIỀM ĐAM MÊ BẤT TẬN VỚI NHỮNG VÙNG TRỒNG NHO DANH TIẾNG VÀ HƯƠNG VỊ BẢN NGUYÊN.</p>
 		
-<style>
-#text-649546875 {
-  line-height: 1.3;
-  text-align: center;
-  color: #B52025;
-}
-#text-649546875 > * {
-  color: #B52025;
-}
-</style>
+
 	</div>
 	
 	<div id="gap-779797219" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-779797219 {
-  padding-top: 20px;
-}
-</style>
+
 	</div>
 	
 
@@ -198,26 +158,13 @@
 
 <p>MỤC TIÊU CỦA TÔI LÀ XÓA BỎ MỌI KHOẢNG CÁCH, MANG THẾ GIỚI RƯỢU VANG ĐẾN GẦN HƠN VỚI MỌI GIA ĐÌNH VIỆT.</p>
 		
-<style>
-#text-3469488902 {
-  line-height: 1.3;
-  text-align: center;
-  color: #B52025;
-}
-#text-3469488902 > * {
-  color: #B52025;
-}
-</style>
+
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-2024104700 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-</style>
+
 	</div>
 
 	
@@ -257,19 +204,7 @@
               </div>
            </div>
                             
-<style>
-#text-box-1774078619 {
-  width: 60%;
-}
-#text-box-1774078619 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1774078619 {
-    width: 60%;
-  }
-}
-</style>
+
     </div>
  
 
@@ -277,36 +212,14 @@
       </div>
 
             
-<style>
-#banner-1171849636 {
-  padding-top: 230px;
-  background-color: #636146;
-}
-#banner-1171849636 .banner-bg img {
-  object-position: 52% 84%;
-}
-@media (min-width:550px) {
-  #banner-1171849636 {
-    padding-top: 650px;
-  }
-}
-</style>
+
   </div>
 
 
 
 		</div>
 				
-<style>
-#col-1713773004 > .col-inner {
-  margin: 0px 0px -10px 0px;
-}
-@media (min-width:550px) {
-  #col-1713773004 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -321,14 +234,7 @@
 
 <p>Hành Trình Đam Mê</p>
 		
-<style>
-#text-2320639124 {
-  color: #B52025;
-}
-#text-2320639124 > * {
-  color: #B52025;
-}
-</style>
+
 	</div>
 	
 	<div id="text-3579009926" class="text dtile">
@@ -337,29 +243,12 @@
 <h2>MỘT HÀNH TRÌNH PHÁT TRIỂN & CỐNG HIẾN</h2>
 
 		
-<style>
-#text-3579009926 {
-  font-size: 1.65rem;
-  color: #B52025;
-}
-#text-3579009926 > * {
-  color: #B52025;
-}
-</style>
+
 	</div>
 	
 	<div id="gap-256303139" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-256303139 {
-  padding-top: 5px;
-}
-@media (min-width:550px) {
-  #gap-256303139 {
-    padding-top: 10px;
-  }
-}
-</style>
+
 	</div>
 	
 
@@ -369,29 +258,13 @@
 <p>Từng bước đi sâu vào thị trường, tôi nhận thấy người yêu vang tại Việt Nam vẫn luôn cần một không gian thân thiện, dễ tiếp cận và minh bạch về nguồn gốc. 
   Đó là lý do tôi dồn tâm huyết xây dựng DuVin - thương hiệu bán lẻ hoạt động theo mô hình Direct-to-Consumer (D2C), vươn lên làm cầu nối đưa tinh hoa vang thế giới đến thẳng tay người tiêu dùng.</p>
 		
-<style>
-#text-1331900365 {
-  color: #B52025;
-}
-#text-1331900365 > * {
-  color: #B52025;
-}
-</style>
+
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-1629617993 > .col-inner {
-  padding: 0px 0px 0px 0px;
-}
-@media (min-width:550px) {
-  #col-1629617993 > .col-inner {
-    padding: 0px 0px 0px 50px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -400,18 +273,7 @@
 
 		</div>
 				
-<style>
-#col-912403675 > .col-inner {
-  padding: 50px 0px 0px 0px;
-  margin: 30px 0px -60px 0px;
-}
-@media (min-width:550px) {
-  #col-912403675 > .col-inner {
-    padding: 80px 0px 0px 0px;
-    margin: 70px 0px -50px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -421,19 +283,7 @@
 		</div>
 
 		
-<style>
-#section_1243584448 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #fcf7e8;
-}
-@media (min-width:550px) {
-  #section_1243584448 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-</style>
+
 	</section>
 	
 
@@ -468,26 +318,13 @@
 
 <h2>50+ CHATEAU VÀ HÀNH TRÌNH KHÁM PHÁ CÁC VÙNG VANG TRỨ DANH</h2>
 		
-<style>
-#text-3637677752 {
-  font-size: 1.65rem;
-}
-</style>
+
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-497150371 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-@media (min-width:550px) {
-  #col-497150371 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -506,16 +343,7 @@
 
 		</div>
 				
-<style>
-#col-701226950 > .col-inner {
-  padding: 0px 0px 0px 0px;
-}
-@media (min-width:550px) {
-  #col-701226950 > .col-inner {
-    padding: 55px 0px 0px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -547,19 +375,7 @@
               </div>
            </div>
                             
-<style>
-#text-box-56983704 {
-  width: 60%;
-}
-#text-box-56983704 .text-box-content {
-  font-size: 150%;
-}
-@media (min-width:550px) {
-  #text-box-56983704 {
-    width: 25%;
-  }
-}
-</style>
+
     </div>
  
 
@@ -567,33 +383,14 @@
       </div>
 
             
-<style>
-#banner-1744774418 {
-  padding-top: 250px;
-}
-#banner-1744774418 .overlay {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-#banner-1744774418 .banner-bg img {
-  object-position: 20% 28%;
-}
-@media (min-width:550px) {
-  #banner-1744774418 {
-    padding-top: 600px;
-  }
-}
-</style>
+
   </div>
 
 
 
 		</div>
 				
-<style>
-#col-1488842354 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-</style>
+
 	</div>
 
 	
@@ -601,16 +398,7 @@
 </div>
 	<div id="gap-354702134" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-354702134 {
-  padding-top: 70px;
-}
-@media (min-width:550px) {
-  #gap-354702134 {
-    padding-top: 90px;
-  }
-}
-</style>
+
 	</div>
 	
 
@@ -633,26 +421,13 @@
 
 <h2>SỨC ẢNH HƯỞNG VÀ LAN TỎA CỦA DUVIN</h2>
 		
-<style>
-#text-2815730914 {
-  font-size: 1.65rem;
-}
-</style>
+
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-1931603810 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-@media (min-width:550px) {
-  #col-1931603810 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -671,22 +446,7 @@
 
 		</div>
 				
-<style>
-#col-1863865342 > .col-inner {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
-@media (min-width:550px) {
-  #col-1863865342 > .col-inner {
-    padding: 30px 0px 0px 0px;
-  }
-}
-@media (min-width:850px) {
-  #col-1863865342 > .col-inner {
-    padding: 30px 0px 0px 70px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -716,19 +476,7 @@
               </div>
            </div>
                             
-<style>
-#text-box-610415950 {
-  width: 60%;
-}
-#text-box-610415950 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-610415950 {
-    width: 60%;
-  }
-}
-</style>
+
     </div>
  
 
@@ -736,30 +484,14 @@
       </div>
 
             
-<style>
-#banner-944704205 {
-  padding-top: 250px;
-}
-#banner-944704205 .banner-bg img {
-  object-position: 30% 28%;
-}
-@media (min-width:550px) {
-  #banner-944704205 {
-    padding-top: 380px;
-  }
-}
-</style>
+
   </div>
 
 
 
 		</div>
 				
-<style>
-#col-620175036 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-</style>
+
 	</div>
 
 	
@@ -774,31 +506,12 @@
 
 <p>Đánh dấu sự phát triển mạnh mẽ trên Facebook, Instagram, TikTok &amp; YouTube</p>
 		
-<style>
-#text-1776387851 {
-  font-size: 1.5rem;
-  line-height: 1.3;
-}
-@media (min-width:550px) {
-  #text-1776387851 {
-    font-size: 1.8rem;
-  }
-}
-</style>
+
 	</div>
 	
 	<div id="gap-835187223" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-835187223 {
-  padding-top: 20px;
-}
-@media (min-width:550px) {
-  #gap-835187223 {
-    padding-top: 20px;
-  }
-}
-</style>
+
 	</div>
 	
 
@@ -810,11 +523,7 @@
 			<img decoding="async" src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | DangTau Whisky">
 					</div>
 						</a>		
-<style>
-#image_1236761539 {
-  width: 100%;
-}
-</style>
+
 	</div>
 	
 
@@ -823,11 +532,7 @@
 			<img decoding="async" src="/assets/images/insta-icon.svg" class="attachment-large size-large" alt="insta icon | DangTau Whisky" title="insta icon | DangTau Whisky">
 					</div>
 						</a>		
-<style>
-#image_1607656373 {
-  width: 100%;
-}
-</style>
+
 	</div>
 	
 
@@ -836,11 +541,7 @@
 			<img decoding="async" src="/assets/images/tiktok-icon.svg" class="attachment-large size-large" alt="tiktok icon | DangTau Whisky" title="tiktok icon | DangTau Whisky">
 					</div>
 						</a>		
-<style>
-#image_383462243 {
-  width: 100%;
-}
-</style>
+
 	</div>
 	
 
@@ -849,37 +550,20 @@
 			<img decoding="async" src="/assets/images/ytb-icon.svg" class="attachment-large size-large" alt="ytb icon | DangTau Whisky" title="ytb icon | DangTau Whisky">
 					</div>
 						</a>		
-<style>
-#image_1651767606 {
-  width: 100%;
-}
-</style>
+
 	</div>
 	
 
 
 		
-<style>
-#stack-148051312 > * {
-  --stack-gap: 1rem;
-}
-</style>
+
 	</div>
 	
 
 
 	<div id="gap-97718709" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-97718709 {
-  padding-top: 35px;
-}
-@media (min-width:550px) {
-  #gap-97718709 {
-    padding-top: 50px;
-  }
-}
-</style>
+
 	</div>
 	
 
@@ -887,16 +571,7 @@
 
 	<div id="gap-1399250581" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-1399250581 {
-  padding-top: 20px;
-}
-@media (min-width:550px) {
-  #gap-1399250581 {
-    padding-top: 30px;
-  }
-}
-</style>
+
 	</div>
 	
 
@@ -959,33 +634,13 @@
 </div>
 
 		
-<style>
-#stack-2566009505 > * {
-  --stack-gap: 0rem;
-}
-</style>
+
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-2138196288 > .col-inner {
-  padding: 25px 0px 0px 0px;
-  margin: 0px 0px -30px 0px;
-}
-@media (min-width:550px) {
-  #col-2138196288 > .col-inner {
-    padding: 10px 0px 0px 0px;
-    margin: 0px 0px -20px 0px;
-  }
-}
-@media (min-width:850px) {
-  #col-2138196288 > .col-inner {
-    padding: 10px 0px 0px 70px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -994,16 +649,7 @@
 
 	<div id="gap-1325971333" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-1325971333 {
-  padding-top: 60px;
-}
-@media (min-width:550px) {
-  #gap-1325971333 {
-    padding-top: 90px;
-  }
-}
-</style>
+
 	</div>
 	
 
@@ -1026,26 +672,13 @@
 
 <h2>ĐỐI TÁC CHIẾN LƯỢC CỦA DUVIN TẠI VIỆT NAM</h2>
 		
-<style>
-#text-2363418596 {
-  font-size: 1.65rem;
-}
-</style>
+
 	</div>
 	
 
 		</div>
 				
-<style>
-#col-749944060 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-@media (min-width:550px) {
-  #col-749944060 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -1064,16 +697,7 @@
 
 		</div>
 				
-<style>
-#col-3969020 > .col-inner {
-  padding: 0px 0px 0px 0px;
-}
-@media (min-width:550px) {
-  #col-3969020 > .col-inner {
-    padding: 55px 0px 0px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -1111,19 +735,7 @@
               </div>
            </div>
                             
-<style>
-#text-box-125608887 {
-  width: 60%;
-}
-#text-box-125608887 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-125608887 {
-    width: 60%;
-  }
-}
-</style>
+
     </div>
  
 
@@ -1131,20 +743,7 @@
       </div>
 
             
-<style>
-#banner-88679332 {
-  padding-top: 250px;
-  background-color: #B52025;
-}
-#banner-88679332 .banner-bg img {
-  object-position: 46% 88%;
-}
-@media (min-width:550px) {
-  #banner-88679332 {
-    padding-top: 450px;
-  }
-}
-</style>
+
   </div>
 
 
@@ -1161,17 +760,7 @@
 
 <p>GRAND CRU CLASSÉ TỪ BORDEAUX, PHÁP</p>
 		
-<style>
-#text-1598954486 {
-  font-size: 1.1rem;
-  line-height: 1.3;
-}
-@media (min-width:550px) {
-  #text-1598954486 {
-    line-height: 1.6;
-  }
-}
-</style>
+
 	</div>
 	
 	<div id="text-3304625020" class="text dtile2 h-zero-margin">
@@ -1179,27 +768,12 @@
 
 <h3>CHÂTEAU MARGAUX ĐẲNG CẤP <br class="br-mobile">THẾ GIỚI</h3>
 		
-<style>
-#text-3304625020 {
-  font-size: 1.4rem;
-  line-height: 1.4;
-}
-@media (min-width:550px) {
-  #text-3304625020 {
-    font-size: 1.3rem;
-    line-height: 1.6;
-  }
-}
-</style>
+
 	</div>
 	
 	<div id="gap-1245217779" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-1245217779 {
-  padding-top: 15px;
-}
-</style>
+
 	</div>
 	
 
@@ -1211,16 +785,7 @@
 
 		</div>
 				
-<style>
-#col-1726990465 > .col-inner {
-  padding: 20px 15px 10px 15px;
-}
-@media (min-width:550px) {
-  #col-1726990465 > .col-inner {
-    padding: 25px 30px 15px 30px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -1257,19 +822,7 @@
               </div>
            </div>
                             
-<style>
-#text-box-950134415 {
-  width: 60%;
-}
-#text-box-950134415 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-950134415 {
-    width: 60%;
-  }
-}
-</style>
+
     </div>
  
 
@@ -1277,20 +830,7 @@
       </div>
 
             
-<style>
-#banner-115609560 {
-  padding-top: 250px;
-  background-color: #B52025;
-}
-#banner-115609560 .banner-bg img {
-  object-position: 59% 8%;
-}
-@media (min-width:550px) {
-  #banner-115609560 {
-    padding-top: 450px;
-  }
-}
-</style>
+
   </div>
 
 
@@ -1307,17 +847,7 @@
 
 <p>BỘ SƯU TẬP VANG ĐỎ THƯỢNG HẠNG</p>
 		
-<style>
-#text-310229364 {
-  font-size: 1.1rem;
-  line-height: 1.3;
-}
-@media (min-width:550px) {
-  #text-310229364 {
-    line-height: 1.6;
-  }
-}
-</style>
+
 	</div>
 	
 	<div id="text-2801137955" class="text dtile2 h-zero-margin">
@@ -1325,27 +855,12 @@
 
 <h3>TINH HOA TERROIR TỪ PHÁP & TÂY BAN NHA</h3>
 		
-<style>
-#text-2801137955 {
-  font-size: 1.4rem;
-  line-height: 1.4;
-}
-@media (min-width:550px) {
-  #text-2801137955 {
-    font-size: 1.3rem;
-    line-height: 1.6;
-  }
-}
-</style>
+
 	</div>
 	
 	<div id="gap-2106016434" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-2106016434 {
-  padding-top: 15px;
-}
-</style>
+
 	</div>
 	
 
@@ -1357,16 +872,7 @@
 
 		</div>
 				
-<style>
-#col-1836981264 > .col-inner {
-  padding: 20px 15px 10px 15px;
-}
-@media (min-width:550px) {
-  #col-1836981264 > .col-inner {
-    padding: 25px 30px 15px 30px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -1382,11 +888,7 @@
 
 		</div>
 				
-<style>
-#col-1512445944 > .col-inner {
-  margin: 0px 0px -60px 0px;
-}
-</style>
+
 	</div>
 
 	
@@ -1396,19 +898,7 @@
 		</div>
 
 		
-<style>
-#section_879914255 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #fcf7e8;
-}
-@media (min-width:550px) {
-  #section_879914255 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-</style>
+
 	</section>
 	
 
@@ -1443,21 +933,13 @@
 
 <h2>CỘNG ĐỒNG YÊU VANG DUVIN</h2>
 		
-<style>
-#text-1291474655 {
-  font-size: 1.65rem;
-}
-</style>
+
 	</div>
 	
 <p>Tham gia cùng chúng tôi để chia sẻ kiến thức, trải nghiệm và cùng nhau thưởng thức những ly vang tuyệt hảo trong một không gian thân thiện, cởi mở.</p>
 	<div id="gap-1025840375" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-1025840375 {
-  padding-top: 20px;
-}
-</style>
+
 	</div>
 	
 
@@ -1469,11 +951,7 @@
 
 		</div>
 				
-<style>
-#col-1952933772 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-</style>
+
 	</div>
 
 	
@@ -1483,24 +961,7 @@
 		</div>
 
 		
-<style>
-#section_2074843298 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-#section_2074843298 .section-bg-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#section_2074843298 .section-bg img {
-  object-position: 11% 47%;
-}
-@media (min-width:550px) {
-  #section_2074843298 {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-}
-</style>
+
 	</section>
 	
 
@@ -1536,20 +997,12 @@
 <h2>LỰA CHỌN WINE <br>CỦA THÁNG</h2>
 
 		
-<style>
-#text-566076789 {
-  font-size: 1.65rem;
-}
-</style>
+
 	</div>
 	
 	<div id="gap-886494020" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-886494020 {
-  padding-top: 5px;
-}
-</style>
+
 	</div>
 	
 
@@ -1561,16 +1014,7 @@
 
 		</div>
 				
-<style>
-#col-1244240362 > .col-inner {
-  margin: 0px 0px -20px 0px;
-}
-@media (min-width:550px) {
-  #col-1244240362 > .col-inner {
-    margin: 0px 0px 0px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -1589,16 +1033,7 @@
 
 		</div>
 				
-<style>
-#col-2086415588 > .col-inner {
-  padding: 0px 0px 0px 0px;
-}
-@media (min-width:550px) {
-  #col-2086415588 > .col-inner {
-    padding: 55px 0px 0px 0px;
-  }
-}
-</style>
+
 	</div>
 
 	
@@ -1628,19 +1063,7 @@
               </div>
            </div>
                             
-<style>
-#text-box-396711866 {
-  width: 60%;
-}
-#text-box-396711866 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-396711866 {
-    width: 60%;
-  }
-}
-</style>
+
     </div>
  
 
@@ -1648,30 +1071,14 @@
       </div>
 
             
-<style>
-#banner-2063084966 {
-  padding-top: 250px;
-}
-#banner-2063084966 .banner-bg img {
-  object-position: 100% 78%;
-}
-@media (min-width:550px) {
-  #banner-2063084966 {
-    padding-top: 600px;
-  }
-}
-</style>
+
   </div>
 
 
 
 		</div>
 				
-<style>
-#col-1959672875 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-</style>
+
 	</div>
 
 	
@@ -1681,19 +1088,7 @@
 		</div>
 
 		
-<style>
-#section_1525755046 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #fcf7e8;
-}
-@media (min-width:550px) {
-  #section_1525755046 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-</style>
+
 	</section>
 	
 			

@@ -1,4 +1,5 @@
 <div class="blog-header-wrapper">
+<link rel="stylesheet" id="duvin-blog-css" href="/assets/css/blog.css">
 	<section class="section" id="section_671957014">
 		<div class="section-bg fill">
 
@@ -38,12 +39,6 @@
 
 
 <h2>KHÁM PHÁ THẾ GIỚI RƯỢU VANG BẤT TẬN</h2>
-
-<style>
-#text-1612071350 {
-  font-size: 1.65rem;
-}
-</style>
 	</div>
 
 		<div class="p-zero-margin">
@@ -87,37 +82,9 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
                                 </div>
            </div>
        </div>
-<style>
-#text-box-1377958019 {
-  width: 60%;
-}
-#text-box-1377958019 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1377958019 {
-    width: 60%;
-  }
-}
-</style>
     </div>
          </div>
       </div>
-
-
-<style>
-#banner-1003381553 {
-  padding-top: 250px;
-}
-#banner-1003381553 .banner-bg img {
-  object-position: 70% 88%;
-}
-@media (min-width:550px) {
-  #banner-1003381553 {
-    padding-top: 550px;
-  }
-}
-</style>
   </div>
 
 
@@ -133,13 +100,6 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
 		</div>
 
 
-<style>
-#section_671957014 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #636146;
-}
-</style>
 	</section>
 
 
@@ -155,19 +115,7 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
 		<div class="section-content relative">
 
 
-	<div id="gap-402405711" class="gap-element clearfix" style="display:block; height:auto;">
-
-<style>
-#gap-402405711 {
-  padding-top: 28px;
-}
-@media (min-width:550px) {
-  #gap-402405711 {
-    padding-top: 24px;
-  }
-}
-</style>
-	</div>
+	<div id="gap-402405711" class="gap-element clearfix" style="display:block; height:auto;"></div>
 
 
 <div class="row" id="row-1593896295">
@@ -187,12 +135,6 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
 
 
 		</div>
-
-<style>
-#col-792221550 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-</style>
 	</div>
 
 
@@ -219,27 +161,9 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
 		</div>
 
 
-<style>
-#section_923242695 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-</style>
 	</section>
 
-	<div id="gap-1585682205" class="gap-element clearfix" style="display:block; height:auto;">
-
-<style>
-#gap-1585682205 {
-  padding-top: 30px;
-}
-@media (min-width:550px) {
-  #gap-1585682205 {
-    padding-top: 40px;
-  }
-}
-</style>
-	</div>
+	<div id="gap-1585682205" class="gap-element clearfix" style="display:block; height:auto;"></div>
 	</div>
 
 

@@ -1,4 +1,5 @@
     <!-- Products Section -->
+    <link rel="stylesheet" id="duvin-products-css" href="/assets/css/products.css">
     <div id="wrapper">
 
 
@@ -41,12 +42,6 @@
 
 
 <h2><?= htmlspecialchars($category['title'] ?? 'Danh Mục Sản Phẩm') ?></h2>
-
-<style>
-#text-3911793984 {
-  font-size: 1.65rem;
-}
-</style>
 	</div>
 
 		<div class="p-zero-margin">
@@ -90,38 +85,9 @@
                                 </div>
            </div>
        </div>
-<style>
-#text-box-1984286273 {
-  width: 60%;
-}
-#text-box-1984286273 .text-box-content {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1984286273 {
-    width: 60%;
-  }
-}
-</style>
     </div>
          </div>
       </div>
-
-
-<style>
-#banner-1863274727 {
-  padding-top: 250px;
-}
-#banner-1863274727 .banner-bg img {
-  object-position: 48% 47%;
-}
-@media (min-width:550px) {
-  #banner-1863274727 {
-    padding-top: 550px;
-  }
-}
-</style>
-  </div>
 
 
 
@@ -136,13 +102,6 @@
 		</div>
 
 
-<style>
-#section_352962375 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #636146;
-}
-</style>
 	</section>
 
 
@@ -158,19 +117,7 @@
 		<div class="section-content relative">
 
 
-	<div id="gap-1739643629" class="gap-element clearfix" style="display:block; height:auto;">
-
-<style>
-#gap-1739643629 {
-  padding-top: 28px;
-}
-@media (min-width:550px) {
-  #gap-1739643629 {
-    padding-top: 24px;
-  }
-}
-</style>
-	</div>
+	<div id="gap-1739643629" class="gap-element clearfix" style="display:block; height:auto;"></div>
 
 
 <div class="row" id="row-1285538373">
@@ -187,39 +134,6 @@
 
 
 		</div>
-
-<style>
-#col-1364682389 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-
-<style>
-#col-1364682389 > .col-inner {
-  margin: 0px 0px -30px 0px;
-}
-
-/* Ép danh mục nằm ngang và giãn khoảng cách */
-.product-categories {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    gap: 60px !important; /* Tăng giảm con số 30px này để chỉnh khoảng cách giữa các chữ */
-    align-items: center;
-    list-style: none;
-    padding-left: 0;
-}
-
-/* Làm to chữ và in đậm cho đẹp */
-.product-categories li a {
-    font-size: 16px !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.5px;
-    white-space: nowrap; /* Giúp chữ không bị rớt xuống dòng */
-    color: #333; /* Màu chữ mặc định, bạn có thể đổi */
-}
-</style>
-
-</style>
 	</div>
 
 
@@ -246,27 +160,9 @@
 		</div>
 
 
-<style>
-#section_369671748 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-</style>
 	</section>
 
-	<div id="gap-1918719898" class="gap-element clearfix" style="display:block; height:auto;">
-
-<style>
-#gap-1918719898 {
-  padding-top: 0px;
-}
-@media (min-width:550px) {
-  #gap-1918719898 {
-    padding-top: 40px;
-  }
-}
-</style>
-	</div>
+	<div id="gap-1918719898" class="gap-element clearfix" style="display:block; height:auto;"></div>
 	<div class="row row-filter-product">
   <div class="col large-3"></div>
   <div class="col large-9" data-animate="fadeInRight" data-animate-transform="true" data-animate-transition="true" data-animated="true">
