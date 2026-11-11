@@ -70,8 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(slider);
 });
 
-
-
 //Xử lý section choose a type of whisky trên Home
 document.addEventListener('DOMContentLoaded', function() {
     // Di chuyển phần tử .dtsubtitle vào vị trí trên cùng trong <ul class="nav">
@@ -104,8 +102,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-
-
 
 // Xử lý see more trong product description
 document.addEventListener('DOMContentLoaded', function() {
@@ -169,11 +165,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
-
-
-
-
 //Change the product order dropdown to selectbox-->
 document.addEventListener("DOMContentLoaded", function() {
     const select = document.querySelector('select[name="orderby"]');
@@ -204,128 +195,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-
-
-
-
-
-
-
-//Convert price slider to range selector-->
-document.addEventListener('DOMContentLoaded', function() {
-    // Xác định các khoảng giá
-    const priceRanges = [
-        { label: 'Dưới 5 triệu', min: 0, max: 5000000 },
-        { label: '5-10 triệu', min: 5000000, max: 10000000 },
-        { label: '10-20 triệu', min: 10000000, max: 20000000 },
-        { label: '20-50 triệu', min: 20000000, max: 50000000 },
-        { label: '50-100 triệu', min: 50000000, max: 100000000 },
-        { label: 'Trên 100 triệu', min: 100000000, max: Infinity },
-    ];
-
-    // Lấy giá trị min và max từ thuộc tính data-min và data-max
-    const minPriceInput = document.getElementById('min_price');
-    const maxPriceInput = document.getElementById('max_price');
-    const priceFilterWidget = document.getElementById('woocommerce_price_filter-3');
-    if (!minPriceInput || !maxPriceInput || !priceFilterWidget) {
-        return;
-    }
-
-    // Hàm để tạo danh sách các nút lọc giá
-    function createPriceFilterList(minPrice, maxPrice) {
-        const priceFilterList = document.createElement('ul');
-        priceFilterList.className = 'woocommerce-widget-layered-nav-list';
-
-        priceRanges.forEach(range => {
-            // Kiểm tra xem khoảng giá có nằm trong giới hạn hiện tại không
-            if (range.max >= minPrice && range.min <= maxPrice) {
-                const listItem = document.createElement('li');
-                listItem.className = 'woocommerce-widget-layered-nav-list__item wc-layered-nav-term';
-                
-                // Tạo liên kết cho mỗi khoảng giá
-                const link = document.createElement('a');
-                let url = new URL(window.location.href);
-                
-                // Thêm tham số min_price
-                url.searchParams.set('min_price', range.min);
-                
-                // Thêm tham số max_price nếu không phải là khoảng "Trên 100 triệu"
-                if (range.label !== 'Trên 100 triệu') {
-                    url.searchParams.set('max_price', range.max);
-                } else {
-                    url.searchParams.delete('max_price'); // Xóa max_price nếu là trên 100 triệu
-                }
-
-                // Tạo URL cho liên kết
-                link.href = url.toString();
-                link.rel = 'nofollow';
-                link.textContent = range.label;
-
-                // Thêm sự kiện click
-                link.addEventListener('click', function(event) {
-                    event.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
-                    const isChosen = listItem.classList.contains('chosen');
-
-                    // Nếu nút đã được chọn, xóa tham số khỏi URL
-                    if (isChosen) {
-                        url.searchParams.delete('min_price');
-                        url.searchParams.delete('max_price');
-                        window.location.href = url.toString(); // Tải lại trang mà không có tham số
-                    } else {
-                        // Cập nhật URL và tải lại trang
-                        window.location.href = link.href;
-                    }
-                });
-
-                listItem.appendChild(link);
-                priceFilterList.appendChild(listItem);
-            }
-        });
-
-        return priceFilterList;
-    }
-
-    // Hàm để cập nhật danh sách lọc giá
-    function updatePriceFilter() {
-        // Lấy giá trị min và max từ thuộc tính data-min và data-max
-        const minPrice = parseInt(minPriceInput.getAttribute('data-min'), 10) || 0;
-        const maxPrice = parseInt(maxPriceInput.getAttribute('data-max'), 10) || Infinity;
-
-        // Tạo danh sách lọc giá mới
-        const priceFilterList = createPriceFilterList(minPrice, maxPrice);
-
-        // Tìm phần tử form và thay thế nó
-        const formElement = priceFilterWidget.querySelector('form');
-
-        if (formElement) {
-            // Xóa form cũ trước khi thêm danh sách mới
-            priceFilterWidget.replaceChild(priceFilterList, formElement);
-        }
-
-        // Kiểm tra URL để xác định nút nào được chọn
-        const urlParams = new URLSearchParams(window.location.search);
-        const selectedMinPrice = parseInt(urlParams.get('min_price'), 10);
-        const selectedMaxPrice = parseInt(urlParams.get('max_price'), 10);
-
-        // Đánh dấu nút tương ứng
-        priceRanges.forEach(range => {
-            if (selectedMinPrice === range.min && (selectedMaxPrice === range.max || (range.label === 'Trên 100 triệu' && !urlParams.has('max_price')))) {
-                const listItem = Array.from(priceFilterList.children).find(li => li.textContent === range.label);
-                if (listItem) {
-                    listItem.classList.add('chosen'); // Thêm lớp .chosen cho thẻ li
-                }
-            }
-        });
-    }
-
-    // Gọi hàm cập nhật lần đầu tiên
-    updatePriceFilter();
-
-    // Thêm sự kiện để cập nhật danh sách khi giá thay đổi
-    minPriceInput.addEventListener('change', updatePriceFilter);
-    maxPriceInput.addEventListener('change', updatePriceFilter);
-});
-
 
 document.addEventListener('DOMContentLoaded', function() {
     // Hàm để cuộn đến phần tử .row-filter-product
@@ -359,10 +228,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Thiết lập sự kiện click cho các thẻ a trong .woocommerce-pagination .page-numbers li
     setupScrollOnClick('.woocommerce-pagination .page-numbers li a');
 });
-
-
-
-
 
 // Xử lý see more trong SEO content
 document.addEventListener('DOMContentLoaded', function() {
@@ -422,8 +287,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-
-
 //Replace stock status in product page
 document.addEventListener('DOMContentLoaded', function() {
     // Lấy phần tử có class .add-to-cart-container
@@ -442,9 +305,6 @@ document.addEventListener('DOMContentLoaded', function() {
         productStockElement.textContent = stockText;
     }
 });
-
-
-
 
 //Click URL when click on image on Logo Slider on Homepage home-brandlogo-slider
   document.addEventListener('DOMContentLoaded', function() {

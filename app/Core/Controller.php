@@ -24,7 +24,20 @@ class BaseController
         $content = ob_get_clean();
 
         // Render layout with injected content
-        $layoutData = array_merge($data, ['content' => $content]);
+        $defaults = [
+            'pageTitle' => 'Duvin - Fine Wine Collection',
+            'metaDescription' => 'Duvin - Bộ sưu tập rượu vang cao cấp từ khắp thế giới.',
+        ];
+        if (class_exists('SiteRepository')) {
+            try {
+                $siteRepo = new SiteRepository();
+                $defaults['site'] = $siteRepo->content();
+                $defaults['settings'] = $siteRepo->getSettings();
+            } catch (Throwable) {
+                // Ignore if repository dependencies not ready
+            }
+        }
+        $layoutData = array_merge($defaults, $data, ['content' => $content]);
         $this->renderTemplate($layoutFile, $layoutData);
     }
 

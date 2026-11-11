@@ -1,13 +1,30 @@
+<?php
+/**
+ * Pusher — Floating Contact Hub & Scroll-to-top
+ *
+ * Nút liên hệ cố định góc màn hình: Hotline, Zalo OA, Zalo Chuyên gia, Messenger.
+ * Dữ liệu liên hệ lấy động từ $settings (SiteRepository::getSettings()).
+ *
+ * Biến:
+ * @var array $settings Cấu hình từ SiteRepository::getSettings()['contact']
+ */
+$contact = $settings['contact'] ?? [
+    'hotline'      => '+84589598386',
+    'zalo_oa'      => 'https://zalo.me/0589598386',
+    'zalo_expert'  => 'https://zalo.me/0589598386',
+    'messenger'    => 'https://www.facebook.com/DuVinVN/',
+];
+?>
 <!-- Pusher: Nút liên hệ nhanh (độc lập) -->
 <div id="pusher-widget" class="pusher-widget" aria-label="Liên hệ nhanh">
 
     <!-- Các nút liên hệ (hiện khi mở) -->
     <div class="pusher-options" id="pusherOptions" aria-hidden="true">
 
-        <a href="tel:+84589598386"
+        <a href="tel:<?= htmlspecialchars($contact['hotline'], ENT_QUOTES) ?>"
            class="pusher-option pusher-option--phone"
            aria-label="Gọi điện"
-           title="Gọi: (+84) 58 959 8386">
+           title="Gọi: <?= htmlspecialchars($contact['hotline'], ENT_QUOTES) ?>">
             <span class="pusher-option__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
                     <path d="M6.62 10.79a15.53 15.53 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.55.57 1 1 0 011 1V21a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.55 1 1 0 01-.21 1.11z"/>
@@ -16,28 +33,39 @@
             <span class="pusher-option__label">Gọi điện</span>
         </a>
 
-        <a href="https://zalo.me/0589598386"
+        <a href="<?= htmlspecialchars($contact['zalo_oa'], ENT_QUOTES) ?>"
            class="pusher-option pusher-option--zalo"
            target="_blank" rel="noopener noreferrer"
-           aria-label="Zalo"
-           title="Nhắn Zalo">
+           aria-label="Zalo OA"
+           title="Nhắn Zalo OA">
             <span class="pusher-option__icon">
-                <img src="/assets/images/zalo1-icon.png" alt="Zalo" width="22" height="22" />
+                <img src="/assets/images/zalo1-icon.png" alt="Zalo OA" width="22" height="22" />
             </span>
-            <span class="pusher-option__label">Zalo</span>
+            <span class="pusher-option__label">Zalo OA</span>
         </a>
 
-        <a href="https://www.facebook.com/DuVinVN/"
+        <a href="<?= htmlspecialchars($contact['zalo_expert'], ENT_QUOTES) ?>"
+           class="pusher-option pusher-option--zalo-expert"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Zalo Chuyên gia"
+           title="Tư vấn bởi Chuyên gia">
+            <span class="pusher-option__icon">
+                <img src="/assets/images/zalo1-icon.png" alt="Zalo Chuyên gia" width="22" height="22" />
+            </span>
+            <span class="pusher-option__label">Zalo Chuyên gia</span>
+        </a>
+
+        <a href="<?= htmlspecialchars($contact['messenger'], ENT_QUOTES) ?>"
            class="pusher-option pusher-option--facebook"
            target="_blank" rel="noopener noreferrer"
-           aria-label="Facebook"
-           title="Nhắn Facebook">
+           aria-label="Messenger"
+           title="Nhắn Messenger">
             <span class="pusher-option__icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
                 </svg>
             </span>
-            <span class="pusher-option__label">Facebook</span>
+            <span class="pusher-option__label">Messenger</span>
         </a>
 
     </div>
