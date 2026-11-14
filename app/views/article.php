@@ -1,4 +1,3 @@
-<?php include __DIR__ . '/layouts/header.php'; ?>
 <main id="main" class="page-wrapper">
     <article class="container">
         <nav aria-label="breadcrumbs"><a href="/">Trang chủ</a> / <a href="/kien-thuc-whisky">Wine Knowledge</a></nav>
@@ -13,4 +12,3 @@
         </div>
     </article>
 </main>
-<?php include __DIR__ . '/layouts/footer.php'; ?>

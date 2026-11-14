@@ -1,0 +1,81 @@
+/* Duvin Product Listing & Category View Styles */
+#text-3911793984 {
+  font-size: 1.65rem;
+}
+
+#text-box-1984286273 {
+  width: 60%;
+}
+#text-box-1984286273 .text-box-content {
+  font-size: 100%;
+}
+@media (min-width: 550px) {
+  #text-box-1984286273 {
+    width: 60%;
+  }
+}
+
+#banner-1863274727 {
+  padding-top: 250px;
+}
+#banner-1863274727 .banner-bg img {
+  object-position: 48% 47%;
+}
+@media (min-width: 550px) {
+  #banner-1863274727 {
+    padding-top: 550px;
+  }
+}
+
+#section_352962375 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #636146;
+}
+
+#gap-1739643629 {
+  padding-top: 28px;
+}
+@media (min-width: 550px) {
+  #gap-1739643629 {
+    padding-top: 24px;
+  }
+}
+
+#col-1364682389 > .col-inner {
+  margin: 0px 0px -30px 0px;
+}
+
+/* Category Navigation Bar */
+.product-categories {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 60px !important;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.product-categories li a {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  color: #333;
+}
+
+#section_369671748 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#gap-1918719898 {
+  padding-top: 0px;
+}
+@media (min-width: 550px) {
+  #gap-1918719898 {
+    padding-top: 40px;
+  }
+}
+

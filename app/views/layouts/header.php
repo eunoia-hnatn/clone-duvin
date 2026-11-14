@@ -37,20 +37,21 @@
 <link rel='stylesheet' id='fs-tuned-animation-style-css' href="/assets/css/fs-tuned-animation.css" type='text/css' media='all' />
 <script type="text/javascript" src="/assets/js/jquery.min.js" id="jquery-core-js"></script>
 
-
-<!-- End Google Tag Manager -->
-
-
-<!-- End Meta Pixel Code -->
-	<link rel="icon" href="/assets/images/cropped-favicon.png" sizes="32x32" />
+<<link rel="icon" href="/assets/images/cropped-favicon.png" sizes="32x32" />
 <link rel="icon" href="/assets/images/cropped-favicon.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/images/cropped-favicon.png" />
-<meta name="msapplication-TileImage" content="/assets/images/cropped-favicon.png" />		
-	<!-- DangTau custom stylesheet -->
-	<link rel="stylesheet" href="/assets/css/home.css">
-	<link rel="stylesheet" href="/assets/css/legacy-flatsome.css" />
-	<link rel="stylesheet" href="/assets/css/duvin-light.css" />
-	<link rel="stylesheet" href="/assets/css/pdp.css" />
+<meta name="msapplication-TileImage" content="/assets/images/cropped-favicon.png" />
+
+  <!-- Duvin stylesheets -->
+  <link rel="stylesheet" href="/assets/css/home.css" />
+  <link rel="stylesheet" href="/assets/css/legacy-flatsome.css" />
+  <link rel="stylesheet" href="/assets/css/duvin-light.css" />
+  <link rel="stylesheet" href="/assets/css/age-gate.css" />
+  <link rel="stylesheet" href="/assets/css/pdp.css" />
+  <link rel="stylesheet" href="/assets/css/products.css" />
+  <link rel="stylesheet" href="/assets/css/about.css" />
+  <link rel="stylesheet" href="/assets/css/founder.css" />
+  <link rel="stylesheet" href="/assets/css/blog.css" />
 </head>
 <body class="<?= isset($body_class) ? htmlspecialchars($body_class) : 'home page-template page-template-page-blank page-template-page-blank-php page page-id-21' ?> theme-flatsome header-shadow lightbox nav-dropdown-has-shadow catalog-mode">
 

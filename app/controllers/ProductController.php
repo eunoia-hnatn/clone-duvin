@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 final class ProductController extends BaseController
 {
+    protected ?string $layout = 'layouts/master';
+
     public function __construct(
         private ProductRepository $products,
         private CategoryRepository $categories,
@@ -61,11 +63,5 @@ final class ProductController extends BaseController
             'priceNote' => $this->catalog->priceNote(),
             'site' => $this->site->content(),
         ]);
-    }
-
-    private function notFound(): void
-    {
-        http_response_code(404);
-        $this->render('errors/http', ['status' => 404]);
     }
 }

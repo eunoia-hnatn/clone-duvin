@@ -147,17 +147,15 @@
 
 	</div>
 
-<!-- <div class="ss-label"><a href="https://servisense.vn/vi/" target="_blank" rel="noopener"><img src="/assets/images/powered-by-servisense-dark.svg"></a></div> -->
+</div>
 
-		</div>
-
-	</div>
+    </div>
 
 </div>
 
-		</div>
+        </div>
 
-	</section>
+    </section>
 
   </div>
 </div>
@@ -168,30 +166,29 @@
 
 <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
 
-	<div class="sidebar-menu no-scrollbar ">
+    <div class="sidebar-menu no-scrollbar ">
 
-			<ul class="sidebar-menu-tabs flex nav nav-line-bottom nav-uppercase">
-				<li class="sidebar-menu-tabs__tab active">
-					<a class="sidebar-menu-tabs__tab-link" href="#">
-						<span class="sidebar-menu-tabs__tab-text">Giới thiệu</span>
-					</a>
-				</li>
-				<li class="sidebar-menu-tabs__tab">
-					<a class="sidebar-menu-tabs__tab-link" href="#">
-						<span class="sidebar-menu-tabs__tab-text">Sản phẩm</span>
-					</a>
-				</li>
-			</ul>
+            <ul class="sidebar-menu-tabs flex nav nav-line-bottom nav-uppercase">
+                <li class="sidebar-menu-tabs__tab active">
+                    <a class="sidebar-menu-tabs__tab-link" href="#">
+                        <span class="sidebar-menu-tabs__tab-text">Giới thiệu</span>
+                    </a>
+                </li>
+                <li class="sidebar-menu-tabs__tab">
+                    <a class="sidebar-menu-tabs__tab-link" href="#">
+                        <span class="sidebar-menu-tabs__tab-text">Sản phẩm</span>
+                    </a>
+                </li>
+            </ul>
 
-			<ul class="nav nav-sidebar nav-vertical nav-uppercase hidden" data-tab="2"><?php $menuItems = $site['menus']['footer_0']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
-			<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1"><?php $menuItems = $site['menus']['footer_1']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
+            <ul class="nav nav-sidebar nav-vertical nav-uppercase hidden" data-tab="2"><?php $menuItems = $site['menus']['footer_0']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
+            <ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1"><?php $menuItems = $site['menus']['footer_1']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
 
-	</div>
+    </div>
 
 </div>
-    
 
-<!-- Flatsome theme essential scripts (restored — required for sliders, menus, accordions) -->
+<!-- Flatsome theme essential scripts -->
 <script type="text/javascript" src="/assets/js/hoverIntent.min.js" id="hoverIntent-js"></script>
 <script type="text/javascript" id="flatsome-js-js-extra">
 /* <![CDATA[ */
@@ -202,10 +199,11 @@ var flatsomeVars = {"theme":{"version":"3.19.6"},"rtl":"","sticky_height":"80","
 <script type="text/javascript" src="/assets/js/flatsome-instant-page.js" id="flatsome-instant-page-js"></script>
 <script type="text/javascript" src="/assets/js/fs-tuned-animation.js" id="fs-tuned-animation-js-js"></script>
 <script type="text/javascript" src="/assets/js/engraving.js" id="engraving-js-js"></script>
+<script type="text/javascript" src="/assets/js/frontend-script.js" id="frontend-script-js"></script>
 
 <script type="text/javascript" src="/assets/js/frontend-script.js" id="frontend-script-js"></script>
 
-<!-- DangTau custom script -->
+<!-- Duvin script -->
 <script src="/assets/js/home.js" defer></script>
 
 <!-- Pusher Widget -->

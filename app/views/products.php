@@ -1,51 +1,51 @@
-<?php include __DIR__ . '/layouts/header.php'; ?>
+<<?php include __DIR__ . '/layouts/header.php'; ?>
 
     <!-- Products Section -->
+    <link rel="stylesheet" id="duvin-products-css" href="/assets/css/products.css">
     <div id="wrapper">
 
-	<section class="section" id="section_352962375">
-		<div class="section-bg fill">
+    <section class="section" id="section_352962375">
+        <div class="section-bg fill">
 
-		</div>
+        </div>
 
-		<div class="section-content relative">
+        <div class="section-content relative">
 
 <div class="row row-collapse row-full-width align-equal" id="row-1393798955">
 
-	<div id="col-1931717738" class="col full-50center-col medium-6 small-12 large-6">
-				<div class="col-inner dark" style="background-color:#B52025;">
+    <div id="col-1931717738" class="col full-50center-col medium-6 small-12 large-6">
+                <div class="col-inner dark" style="background-color:#B52025;">
 
 <div class="row row-collapse" id="row-2072426548">
 
-	<div id="col-677058388" class="col center-maxwidth-50 medium-12 small-12 large-12" data-animate="fadeInLeft" data-animate-transform="true" data-animate-transition="true" data-animated="true">
-				<div class="col-inner">
+    <div id="col-677058388" class="col center-maxwidth-50 medium-12 small-12 large-12" data-animate="fadeInLeft" data-animate-transform="true" data-animate-transition="true" data-animated="true">
+                <div class="col-inner">
 
-		<div class="dtsubtitle dtbreadcrumb">
+        <div class="dtsubtitle dtbreadcrumb">
 
 <nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="/">Trang chủ</a><span class="separator"> / </span><span class="last"><?= htmlspecialchars($category['title'] ?? 'Danh Mục Sản Phẩm') ?></span></p></nav>
-		</div>
+        </div>
 
-	<div id="text-3911793984" class="text dtile">
+    <div id="text-3911793984" class="text dtile">
 
 <h2><?= htmlspecialchars($category['title'] ?? 'Danh Mục Sản Phẩm') ?></h2>
+    </div>
 
-	</div>
-
-		<div class="p-zero-margin">
+        <div class="p-zero-margin">
 
 <?= htmlspecialchars($category['desc'] ?? 'Đang cập nhật mô tả...') ?>
-		</div>
+        </div>
 
-		</div>
-					</div>
+        </div>
+                    </div>
 
 </div>
 
-		</div>
-					</div>
+        </div>
+                    </div>
 
-	<div id="col-2036492714" class="col medium-6 small-12 large-6">
-				<div class="col-inner">
+    <div id="col-2036492714" class="col medium-6 small-12 large-6">
+                <div class="col-inner">
 
   <div class="banner has-hover" id="banner-1863274727">
           <div class="banner-inner fill">
@@ -67,73 +67,68 @@
 
   </div>
 
-		</div>
-					</div>
+        </div>
+                    </div>
 
 </div>
 
-		</div>
+        </div>
 
-	</section>
+    </section>
 
-	<section class="section section-productcatheader" id="section_369671748">
-		<div class="section-bg fill">
+    <section class="section section-productcatheader" id="section_369671748">
+        <div class="section-bg fill">
 
-		</div>
+        </div>
 
-		<div class="section-content relative">
+        <div class="section-content relative">
 
-	<div id="gap-1739643629" class="gap-element clearfix" style="display:block; height:auto;">
-
-	</div>
+    <div id="gap-1739643629" class="gap-element clearfix" style="display:block; height:auto;"></div>
 
 <div class="row" id="row-1285538373">
 
-	<div id="col-1364682389" class="col product-cat-colinner small-12 large-12" data-animate="fadeInRight" data-animate-transform="true" data-animate-transition="true" data-animated="true">
-				<div class="col-inner">
+    <div id="col-1364682389" class="col product-cat-colinner small-12 large-12" data-animate="fadeInRight" data-animate-transform="true" data-animate-transition="true" data-animated="true">
+                <div class="col-inner">
 
 <ul class="sidebar-wrapper ul-reset post-cat-widget"><div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories"><div class="widget-title-holder"><h3 class="widget-title">Danh mục</h3></div><ul class="product-categories" style="display:flex;flex-direction:row;flex-wrap:nowrap;gap:0 8px;align-items:center;overflow-x:auto;"><?php foreach ($categoryNavigation as $item): ?>
 <li class="cat-item"><a href="/danh-muc/<?= e($item['path']) ?>"><?= e($item['label']) ?></a></li>
 <?php endforeach; ?></ul></div></ul>
 
-		</div>
-
-</style>
-	</div>
+        </div>
+    </div>
 
 </div>
 <div class="row row-collapse row-full-width" id="row-758924834">
 
-	<div id="col-1416105921" class="col divider-on small-12 large-12">
-				<div class="col-inner">
+    <div id="col-1416105921" class="col divider-on small-12 large-12">
+                <div class="col-inner">
 
 <div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;background-color:rgba(99, 97, 70, 0.4);"></div>
 
-		</div>
-					</div>
+        </div>
+                    </div>
 
 </div>
 
-		</div>
+        </div>
 
-	</section>
+    </section>
 
-	<div id="gap-1918719898" class="gap-element clearfix" style="display:block; height:auto;">
+    <div id="gap-1918719898" class="gap-element clearfix" style="display:block; height:auto;"></div>
 
-	</div>
-	<div class="row row-filter-product">
+    <div class="row row-filter-product">
   <div class="col large-3"></div>
   <div class="col large-9" data-animate="fadeInRight" data-animate-transform="true" data-animate-transition="true" data-animated="true">
-	  <div class="category-filtering category-filter-row show-for-medium">
-		<a href="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" class="filter-button uppercase plain">
-			<i class="icon-equalizer"></i>
-			<strong>Lọc sản phẩm</strong>
-		</a>
-		<div class="inline-block">
-			</div>
-		</div>
+      <div class="category-filtering category-filter-row show-for-medium">
+        <a href="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" class="filter-button uppercase plain">
+            <i class="icon-equalizer"></i>
+            <strong>Lọc sản phẩm</strong>
+        </a>
+        <div class="inline-block">
+            </div>
+        </div>
 
-	<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 20px;">
     <!-- Phần bên trái: Đếm kết quả -->
     <?php if (!$isGiftCategory): ?>
     <p class="woocommerce-result-count hide-for-medium" style="margin: 0; color: #666;">
@@ -158,25 +153,25 @@
   </div>
 </div>
 
-	<main id="main" class="">
+    <main id="main" class="">
 
-	<!-- ═══ TRANG QUÀ TẶNG — Layout riêng, không có sidebar ═══ -->
-	<div class="row category-page-row">
-		<div class="col large-3 hide-for-medium " data-animate="fadeInUp" data-animate-transform="true" data-animate-transition="true" data-animated="true">
-						<?php include __DIR__ . '/components/catalog/sidebar.php'; ?>
-					</div>
+    <!-- ═══ TRANG QUÀ TẶNG — Layout riêng, không có sidebar ═══ -->
+    <div class="row category-page-row">
+        <div class="col large-3 hide-for-medium " data-animate="fadeInUp" data-animate-transform="true" data-animate-transition="true" data-animated="true">
+                        <?php include __DIR__ . '/components/catalog/sidebar.php'; ?>
+                    </div>
 
-		<div class="col large-9" data-animate="fadeInRight" data-animate-transform="true" data-animate-transition="true" data-animated="true">
-		<div class="shop-container">
+        <div class="col large-9" data-animate="fadeInRight" data-animate-transform="true" data-animate-transition="true" data-animated="true">
+        <div class="shop-container">
 <div class="woocommerce-notices-wrapper"></div><div class="products row row-small large-columns-3 medium-columns-3 small-columns-2">
 <?php foreach ($products as $index => $cardProduct): ?>
 <?php include __DIR__ . '/components/catalog/product-card.php'; ?>
 <?php endforeach; ?>
 </div><!-- row -->
 
-		</div><!-- shop container -->
+        </div><!-- shop container -->
 
-		</div>
+        </div>
 </div>
 
 </main>

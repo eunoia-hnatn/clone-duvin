@@ -1,4 +1,3 @@
-<?php include __DIR__ . '/layouts/header.php'; ?>
 <main id="main" class="page-wrapper">
     <section class="container">
         <h1>Khôi phục mật khẩu</h1>
@@ -7,4 +6,3 @@
         <a href="/" class="button primary">Về trang chủ</a>
     </section>
 </main>
-<?php include __DIR__ . '/layouts/footer.php'; ?>

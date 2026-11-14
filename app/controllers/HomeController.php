@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 final class HomeController extends BaseController
 {
+    protected ?string $layout = 'layouts/master';
+
     public function __construct(private HomeRepository $home, private BrandRepository $brands, private SiteRepository $site)
     {
     }
