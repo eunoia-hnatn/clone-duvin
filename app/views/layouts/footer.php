@@ -1,3 +1,12 @@
+<?php
+$footerContact = $settings['contact'];
+$footerFanpage = $footerContact['fanpage'];
+$footerZalo    = $footerContact['zalo_oa'];
+$footerEmail   = $footerContact['email'];
+$footerAddress = $footerContact['address'];
+$footerPhone   = $footerContact['hotline_display'];
+$footerTel     = $footerContact['hotline'];
+?>
 <footer id="footer" class="footer-wrapper">
 
 	<section class="section" id="section_645310097">
@@ -19,50 +28,35 @@
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_109026919">
 								<div class="img-inner dark" >
-			<img src="/assets/images/duvin-logo-white-transparent.png" class="attachment-original size-original"
-			style="max-height: 120px; width: auto; object-fit: contain; margin: 0 auto; display: block;" alt="DuVin Logo" decoding="async" loading="lazy" />
+			<img src="/assets/images/duvin-logo-white-transparent.png" class="attachment-original size-original footer-logo-img"
+			alt="DuVin Logo" decoding="async" loading="lazy" />
 					</div>
 
 	</div>
 
-	<div id="gap-278321616" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-278321616" class="gap-element clearfix">
 
 	</div>
 
 	<div id="stack-2092229133" class="stack home-stack-social stack-row justify-center items-stretch">
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1395129220">
-		<a class="" href="https://www.facebook.com/DuVinVN/" target="_blank" rel="noopener" >						<div class="img-inner dark" >
-			<img src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />
+		<a class="" href="<?= htmlspecialchars($footerFanpage, ENT_QUOTES, 'UTF-8') ?>" target="_blank" rel="noopener" >						<div class="img-inner dark" >
+			<img src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="Facebook DuVin" decoding="async" loading="lazy" />
 					</div>
-<style>
-#stack-2092229133 > * {
-  --stack-gap: 1rem;
-}
-</style>
 						</a>
 	</div>
 
-<style>
-#image_1395129220 {
-  width: 25%;
-}
-</style>
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
-		<a class="" href="https://zalo.me/0589598386" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">
+		<a class="" href="<?= htmlspecialchars($footerZalo, ENT_QUOTES, 'UTF-8') ?>" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+			<img decoding="async" src="/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="Zalo DuVin" title="Zalo DuVin">
 					</div>
 						</a>
 	</div>
 
 	</div>
 
-	<div id="gap-185281368" class="gap-element clearfix" style="display:block; height:auto;">
-<style>
-#image_1831423319 {
-  width: 25%;
-}
-</style>
+	<div id="gap-185281368" class="gap-element clearfix">
 
 	</div>
 
@@ -73,7 +67,7 @@
 
 	<div id="text-838481137" class="text">
 
-<p>dv@duvin.co.uk</p>
+<p><a href="mailto:<?= htmlspecialchars($footerEmail, ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($footerEmail, ENT_QUOTES, 'UTF-8') ?></a></p>
 
 	</div>
 
@@ -86,7 +80,7 @@
 
 	<div id="text-2465876687" class="text">
 
-<p>58B Võ Văn Dũng, Hoàng Cầu, Hà Nội</p>
+<p><?= htmlspecialchars($footerAddress, ENT_QUOTES, 'UTF-8') ?></p>
 
 	</div>
 
@@ -99,7 +93,7 @@
 
 	<div id="text-3657797876" class="text">
 
-<p>(+84) 58 959 8386</p>
+<p><a href="tel:<?= htmlspecialchars($footerTel, ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($footerPhone, ENT_QUOTES, 'UTF-8') ?></a></p>
 
 	</div>
 
@@ -137,8 +131,7 @@
 	<div id="col-790373404" class="col small-12 large-12"  data-animate="flipInX">
 				<div class="col-inner"  >
 
-	<div class="is-border"
-		style="border-color:rgba(0, 0, 0, 0.2);border-width:1px 0px 0px 0px;">
+	<div class="is-border footer-divider-border">
 	</div>
 
 	<div id="text-2404955144" class="text p-zero-margin dtsubtitle2">
@@ -200,6 +193,7 @@ var flatsomeVars = {"theme":{"version":"3.19.6"},"rtl":"","sticky_height":"80","
 <script type="text/javascript" src="/assets/js/fs-tuned-animation.js" id="fs-tuned-animation-js-js"></script>
 <script type="text/javascript" src="/assets/js/engraving.js" id="engraving-js-js"></script>
 
+<script type="text/javascript" src="/assets/js/index.js" id="contact-form-7-js"></script>
 <script type="text/javascript" src="/assets/js/frontend-script.js" id="frontend-script-js"></script>
 
 <!-- Duvin script -->

@@ -22,7 +22,7 @@
 
 
 	<div id="col-557646879" class="col full-50center-col medium-6 small-12 large-6">
-				<div class="col-inner" style="background-color:#fcf7e8;">
+				<div class="col-inner bg-cream">
 			
 			
 
@@ -76,7 +76,7 @@
   <div class="banner has-hover" id="banner-751263463">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img fetchpriority="high" decoding="async" width="1440" height="1800" src="/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="ve dang tau img | DangTau Whisky" title="ve dang tau img | DangTau Whisky">
+            <img fetchpriority="high" decoding="async" width="1440" height="1800" src="/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="ve dang tau img | DuVin" title="ve dang tau img | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -162,7 +162,7 @@
 	<div id="col-899201113" class="col small-12 large-12" data-animate="fadeInRight">
 				<div class="col-inner">
 			
-	<div class="is-border" style="border-color:rgb(255, 255, 255);border-width:1px 0px 1px 0px;">
+	<div class="is-border border-white-tb">
 	</div>
 			
 
@@ -330,7 +330,7 @@
   <div class="banner has-hover" id="banner-750386750">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img decoding="async" width="2048" height="1366" src="/assets/images/duvin5.jpg" class="bg attachment-original size-original" alt="Store01 | DangTau Whisky" title="Store01 | DangTau Whisky">
+            <img decoding="async" width="2048" height="1366" src="/assets/images/duvin5.jpg" class="bg attachment-original size-original" alt="Store01 | DuVin" title="Store01 | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -367,7 +367,7 @@
 	
 
 </div>
-	<div id="gap-1652109282" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1652109282" class="gap-element clearfix">
 		
 
 	</div>
@@ -433,7 +433,7 @@
   <div class="banner has-hover" id="banner-1295164011">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img decoding="async" width="877" height="700" src="/assets/images/duvin4.jpg" class="bg attachment-original size-original" alt="VDP 2594 1 | DangTau Whisky" title="VDP 2594 1 | DangTau Whisky">
+            <img decoding="async" width="877" height="700" src="/assets/images/duvin4.jpg" class="bg attachment-original size-original" alt="VDP 2594 1 | DuVin" title="VDP 2594 1 | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -465,7 +465,7 @@
   <div class="banner has-hover" id="banner-1593881690">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="404" height="605" src="/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="Patek | DangTau Whisky" title="Patek | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="404" height="605" src="/assets/images/duvin1.jpg" class="bg attachment-original size-original" alt="Patek | DuVin" title="Patek | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -497,7 +497,7 @@
   <div class="banner has-hover" id="banner-123807438">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1920" height="1281" src="/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="Landrover | DangTau Whisky" title="Landrover | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1920" height="1281" src="/assets/images/duvin2.jpg" class="bg attachment-original size-original" alt="Landrover | DuVin" title="Landrover | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -529,7 +529,7 @@
   <div class="banner has-hover" id="banner-1243308598">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1281" height="1920" src="/assets/images/duvin6.jpg" class="bg attachment-original size-original" alt="House of suntory | DangTau Whisky" title="House of suntory | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1281" height="1920" src="/assets/images/duvin6.jpg" class="bg attachment-original size-original" alt="House of suntory | DuVin" title="House of suntory | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -561,7 +561,7 @@
   <div class="banner has-hover" id="banner-1953597997">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1920" height="1280" src="/assets/images/duvin3.jpg" class="bg attachment-original size-original" alt="Workshop03 | DangTau Whisky" title="Workshop03 | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1920" height="1280" src="/assets/images/duvin3.jpg" class="bg attachment-original size-original" alt="Workshop03 | DuVin" title="Workshop03 | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -593,7 +593,7 @@
   <div class="banner has-hover" id="banner-2035071266">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1920" height="1281" src="/assets/images/duvin7.jpg" class="bg attachment-original size-original" alt="Yamazaki | DangTau Whisky" title="Yamazaki | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1920" height="1281" src="/assets/images/duvin7.jpg" class="bg attachment-original size-original" alt="Yamazaki | DuVin" title="Yamazaki | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -625,7 +625,7 @@
   <div class="banner has-hover" id="banner-1359961902">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="850" height="1275" src="/assets/images/duvin8.jpg" class="bg attachment-original size-original" alt="dt workshop 7 | DangTau Whisky" title="dt workshop 7 | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="850" height="1275" src="/assets/images/duvin8.jpg" class="bg attachment-original size-original" alt="dt workshop 7 | DuVin" title="dt workshop 7 | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -656,7 +656,7 @@
 
      </div>
 
-     <div class="loading-spin dark large centered" style="display: none;"></div>
+     <div class="loading-spin dark large centered"></div>
 
 	</div>
 
@@ -668,7 +668,7 @@
 	
 
 </div>
-	<div id="gap-1582483888" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1582483888" class="gap-element clearfix">
 		
 
 	</div>
@@ -715,7 +715,7 @@
   <div class="banner has-hover" id="banner-312496420">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1920" height="1081" src="/assets/images/duvin8.jpg" class="bg attachment-original size-original" alt="Knowledge 10 | DangTau Whisky" title="Knowledge 10 | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1920" height="1081" src="/assets/images/duvin8.jpg" class="bg attachment-original size-original" alt="Knowledge 10 | DuVin" title="Knowledge 10 | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -764,7 +764,7 @@
 
 	</div>
 	
-	<div id="gap-1985609363" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1985609363" class="gap-element clearfix">
 		
 
 	</div>
@@ -796,7 +796,7 @@
 
 	</div>
 	
-	<div id="gap-66238800" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-66238800" class="gap-element clearfix">
 		
 
 	</div>
@@ -820,7 +820,7 @@
   <div class="banner has-hover" id="banner-1834911861">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="2048" height="1366" src="/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="AboutFounder01 | DangTau Whisky" title="AboutFounder01 | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="2048" height="1366" src="/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="AboutFounder01 | DuVin" title="AboutFounder01 | DuVin">
                     </div>
 		
         <div class="banner-layers container">

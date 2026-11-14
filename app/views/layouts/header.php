@@ -94,8 +94,8 @@
           <div id="logo" class="flex-col logo">
 			<!-- Header logo -->
 <a href="/" title="Duvin" rel="home">
-		<img style="max-height: 95px; width: auto; object-fit: contain;" src="/assets/images/duvin-logo-red-transparent.png" class="header_logo header-logo"
-		alt="DuVin Logo"/><img  style="max-height: 95px; width: auto; object-fit: contain;" src="/assets/images/duvin-logo-red-transparent.png" class="header-logo-dark" alt="DuVin Logo"/></a>
+		<img src="/assets/images/duvin-logo-red-transparent.png" class="header_logo header-logo header-logo-img"
+		alt="DuVin Logo"/><img src="/assets/images/duvin-logo-red-transparent.png" class="header-logo-dark header-logo-img" alt="DuVin Logo"/></a>
           </div>
 
           <!-- Mobile Left Elements -->
@@ -146,7 +146,7 @@
               <li class="header-search header-search-lightbox has-icon">
 			<a href="#search-lightbox" aria-label="Tìm kiếm" data-open="#search-lightbox" data-focus="input.search-field"
 		class="is-small">
-		<i class="icon-search" style="font-size:16px;" ></i></a>
+		<i class="icon-search nav-icon-search"></i></a>
 
 	<div id="search-lightbox" class="mfp-hide dark text-center">
 		<div class="searchform-wrapper ux-search-box relative form-flat is-large"><form role="search" method="get" class="searchform" action="/san-pham">

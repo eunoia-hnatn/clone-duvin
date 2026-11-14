@@ -9,14 +9,7 @@
  * Biến:
  * @var array $settings Cấu hình từ SiteRepository::getSettings()
  */
-$ag = $settings['age_gate'] ?? [
-    'enabled'        => true,
-    'cookie_minutes' => 15,
-    'title'          => 'Xác minh độ tuổi',
-    'message'        => 'Duvin cung cấp thông tin về sản phẩm rượu vang dành cho người trên 18 tuổi. Vui lòng xác nhận bạn đủ 18 tuổi để tiếp tục.',
-    'confirm_label'  => 'Tôi đủ 18 tuổi',
-    'deny_label'     => 'Tôi chưa đủ 18 tuổi',
-];
+$ag = $settings['age_gate'];
 ?>
 <!-- Age Gate 18+ Modal -->
 <div id="age-gate-overlay" class="age-gate-overlay" role="dialog"
@@ -51,7 +44,7 @@ $ag = $settings['age_gate'] ?? [
         </div>
 
         <!-- Deny message (hidden by default) -->
-        <div id="age-gate-denied" class="age-gate-denied" style="display:none;">
+        <div id="age-gate-denied" class="age-gate-denied">
             <p>Bạn cần đủ 18 tuổi để truy cập website Duvin.</p>
             <p>Vui lòng quay lại khi bạn đủ tuổi.</p>
         </div>

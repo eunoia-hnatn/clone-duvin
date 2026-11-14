@@ -90,6 +90,7 @@
 }
 
 .age-gate-denied {
+    display: none;
     margin-top: 20px;
 }
 .age-gate-denied p {

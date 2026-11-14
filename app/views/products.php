@@ -20,7 +20,7 @@
 
 
 	<div id="col-1931717738" class="col full-50center-col medium-6 small-12 large-6">
-				<div class="col-inner dark" style="background-color:#B52025;">
+				<div class="col-inner dark bg-duvin-red">
 
 
 
@@ -117,7 +117,7 @@
 		<div class="section-content relative">
 
 
-	<div id="gap-1739643629" class="gap-element clearfix" style="display:block; height:auto;"></div>
+	<div id="gap-1739643629" class="gap-element clearfix"></div>
 
 
 <div class="row" id="row-1285538373">
@@ -128,7 +128,7 @@
 
 
 
-<ul class="sidebar-wrapper ul-reset post-cat-widget"><div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories"><div class="widget-title-holder"><h3 class="widget-title">Danh mục</h3></div><ul class="product-categories" style="display:flex;flex-direction:row;flex-wrap:nowrap;gap:0 8px;align-items:center;overflow-x:auto;"><?php foreach ($categoryNavigation as $item): ?>
+<ul class="sidebar-wrapper ul-reset post-cat-widget"><div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories"><div class="widget-title-holder"><h3 class="widget-title">Danh mục</h3></div><ul class="product-categories"><?php foreach ($categoryNavigation as $item): ?>
 <li class="cat-item"><a href="/danh-muc/<?= e($item['path']) ?>"><?= e($item['label']) ?></a></li>
 <?php endforeach; ?></ul></div></ul>
 
@@ -147,7 +147,7 @@
 
 
 
-<div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;background-color:rgba(99, 97, 70, 0.4);"></div>
+<div class="is-divider divider clearfix divider-olive"></div>
 
 
 		</div>
@@ -162,7 +162,7 @@
 
 	</section>
 
-	<div id="gap-1918719898" class="gap-element clearfix" style="display:block; height:auto;"></div>
+	<div id="gap-1918719898" class="gap-element clearfix"></div>
 	<div class="row row-filter-product">
   <div class="col large-3"></div>
   <div class="col large-9" data-animate="fadeInRight" data-animate-transform="true" data-animate-transition="true" data-animated="true">
@@ -175,22 +175,22 @@
 			</div>
 		</div>
 
-	<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 20px;">
+	<div class="products-toolbar">
     <!-- Phần bên trái: Đếm kết quả -->
     <?php if (!$isGiftCategory): ?>
-    <p class="woocommerce-result-count hide-for-medium" style="margin: 0; color: #666;">
+    <p class="woocommerce-result-count hide-for-medium products-result-count">
         Hiển thị <?= count($products) === 0 ? 0 : 1 ?>–<?= count($products) ?> của <?= count($products) ?> kết quả
     </p>
 <?php endif; ?>
 
     <!-- Phần bên phải: Sắp xếp (Chỉ 3 nút, không lặp) -->
-    <div class="woo-order-custom" style="display: flex; align-items: center; gap: 15px;">
-        <span style="font-size: 20px; text-transform: uppercase;">Sắp xếp theo</span>
-        <form class="woocommerce-ordering-box" method="get" style="margin: 0;">
-            <div id="order-options" style="display: flex; gap: 8px;">
-                <a href="?orderby=date" class="button is-outline is-small" style="margin: 0; padding: 0 15px;">Mới nhất</a>
-                <a href="?orderby=price" class="button is-outline is-small" style="margin: 0; padding: 0 15px;">Giá tăng dần</a>
-                <a href="?orderby=price-desc" class="button is-outline is-small" style="margin: 0; padding: 0 15px;">Giá giảm dần</a>
+    <div class="woo-order-custom products-order-wrapper">
+        <span class="products-order-title">Sắp xếp theo</span>
+        <form class="woocommerce-ordering-box products-order-form" method="get">
+            <div id="order-options" class="products-order-options">
+                <a href="?orderby=date" class="button is-outline is-small products-order-btn">Mới nhất</a>
+                <a href="?orderby=price" class="button is-outline is-small products-order-btn">Giá tăng dần</a>
+                <a href="?orderby=price-desc" class="button is-outline is-small products-order-btn">Giá giảm dần</a>
             </div>
             <input type="hidden" name="paged" value="1">
         </form>

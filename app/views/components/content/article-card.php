@@ -2,7 +2,7 @@
 			<div class="col-inner">
 				<div class="box box-text-bottom box-blog-post has-hover">
             					<div class="box-image">
-  						<div class="image-cover" style="padding-top:70%;">
+  						<div class="image-cover image-cover-70">
 							<a href="<?= e($article['url']) ?>" class="plain" aria-label="<?= e($article['title']) ?>">
 								<?php $image = $article['image']; include __DIR__ . '/../image.php'; ?>							</a>
   							  							  						</div>

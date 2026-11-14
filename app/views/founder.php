@@ -22,7 +22,7 @@
 
 
 	<div id="col-281101485" class="col full-50center-col medium-6 small-12 large-6">
-				<div class="col-inner dark" style="background-color:#B52025;">
+				<div class="col-inner dark bg-duvin-red">
 			
 			
 
@@ -76,7 +76,7 @@
   <div class="banner has-hover" id="banner-485490237">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img fetchpriority="high" decoding="async" width="1356" height="1600" src="/assets/images/duvin12.jpg" class="bg attachment-original size-original" alt="Homepage 05 | DangTau Whisky" title="Homepage 05 | DangTau Whisky">
+            <img fetchpriority="high" decoding="async" width="1356" height="1600" src="/assets/images/duvin12.jpg" class="bg attachment-original size-original" alt="Homepage 05 | DuVin" title="Homepage 05 | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -147,7 +147,7 @@
 
 	</div>
 	
-	<div id="gap-779797219" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-779797219" class="gap-element clearfix">
 		
 
 	</div>
@@ -172,7 +172,7 @@
 	<div id="col-912403675" class="col small-12 large-12" data-animate="fadeInUp">
 				<div class="col-inner">
 			
-	<div class="is-border" style="border-color:#832a1a;border-width:1px 0px 0px 0px;">
+	<div class="is-border border-wine-top">
 	</div>
 			
 
@@ -188,7 +188,7 @@
   <div class="banner has-hover" id="banner-1171849636">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img decoding="async" width="1200" height="1600" src="/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="Homepage 07 | DangTau Whisky" title="Homepage 07 | DangTau Whisky">
+            <img decoding="async" width="1200" height="1600" src="/assets/images/duvin11.jpg" class="bg attachment-original size-original" alt="Homepage 07 | DuVin" title="Homepage 07 | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -246,7 +246,7 @@
 
 	</div>
 	
-	<div id="gap-256303139" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-256303139" class="gap-element clearfix">
 		
 
 	</div>
@@ -357,7 +357,7 @@
   <div class="banner has-hover bg-overlay-add" id="banner-1744774418">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img decoding="async" width="1920" height="1440" src="/assets/images/12-plus-nha-chung-cat-img-1.webp" class="bg attachment-original size-original" alt="12 plus nha chung cat img 1 | DangTau Whisky" title="12 plus nha chung cat img 1 | DangTau Whisky">                        <div class="overlay"></div>
+            <img decoding="async" width="1920" height="1440" src="/assets/images/12-plus-nha-chung-cat-img-1.webp" class="bg attachment-original size-original" alt="12 plus nha chung cat img 1 | DuVin" title="12 plus nha chung cat img 1 | DuVin">                        <div class="overlay"></div>
                     </div>
 		
         <div class="banner-layers container">
@@ -369,7 +369,7 @@
               <div class="text-inner text-center">
                   
 
-<div class="video-button-wrapper"><a href="https://www.youtube.com/watch?v=RTAeOBsWlwc" class="button open-video icon circle is-outline is-xlarge" rel="nofollow noopener" target="_blank"><i class="icon-play" style="font-size:1.5em;"></i></a></div>
+<div class="video-button-wrapper"><a href="https://www.youtube.com/watch?v=RTAeOBsWlwc" class="button open-video icon circle is-outline is-xlarge" rel="nofollow noopener" target="_blank"><i class="icon-play icon-play-lg"></i></a></div>
 
 
               </div>
@@ -396,7 +396,7 @@
 	
 
 </div>
-	<div id="gap-354702134" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-354702134" class="gap-element clearfix">
 		
 
 	</div>
@@ -460,7 +460,7 @@
   <div class="banner has-hover" id="banner-944704205">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1253" height="704" src="/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="dangtau infuence banner | DangTau Whisky" title="dangtau infuence banner | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1253" height="704" src="/assets/images/duvin9.jpg" class="bg attachment-original size-original" alt="duvin influence banner | DuVin" title="duvin influence banner | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -509,7 +509,7 @@
 
 	</div>
 	
-	<div id="gap-835187223" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-835187223" class="gap-element clearfix">
 		
 
 	</div>
@@ -519,8 +519,8 @@
 		
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1236761539">
-		<a class="" href="https://facebook.com/dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
-			<img decoding="async" src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | DangTau Whisky">
+		<a class="" href="<?= e($settings['contact']['fanpage'] ?? 'https://www.facebook.com/DuVinVN') ?>" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
+			<img decoding="async" src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DuVin" title="fb icon | DuVin">
 					</div>
 						</a>		
 
@@ -528,8 +528,8 @@
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1607656373">
-		<a class="" href="https://instagram.com/dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
-			<img decoding="async" src="/assets/images/insta-icon.svg" class="attachment-large size-large" alt="insta icon | DangTau Whisky" title="insta icon | DangTau Whisky">
+		<a class="" href="<?= e($settings['contact']['fanpage'] ?? 'https://www.facebook.com/DuVinVN') ?>" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
+			<img decoding="async" src="/assets/images/insta-icon.svg" class="attachment-large size-large" alt="insta icon | DuVin" title="insta icon | DuVin">
 					</div>
 						</a>		
 
@@ -538,7 +538,7 @@
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_383462243">
 		<a class="" href="/" target="_blank" rel="noopener">						<div class="img-inner dark">
-			<img decoding="async" src="/assets/images/tiktok-icon.svg" class="attachment-large size-large" alt="tiktok icon | DangTau Whisky" title="tiktok icon | DangTau Whisky">
+			<img decoding="async" src="/assets/images/tiktok-icon.svg" class="attachment-large size-large" alt="tiktok icon | DuVin" title="tiktok icon | DuVin">
 					</div>
 						</a>		
 
@@ -546,8 +546,8 @@
 	
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1651767606">
-		<a class="" href="https://youtube.com/@dangtauwhisky" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
-			<img decoding="async" src="/assets/images/ytb-icon.svg" class="attachment-large size-large" alt="ytb icon | DangTau Whisky" title="ytb icon | DangTau Whisky">
+		<a class="" href="<?= e($settings['contact']['zalo_oa'] ?? 'https://zalo.me/0589598386') ?>" target="_blank" rel="noopener nofollow">						<div class="img-inner dark">
+			<img decoding="async" src="/assets/images/ytb-icon.svg" class="attachment-large size-large" alt="ytb icon | DuVin" title="ytb icon | DuVin">
 					</div>
 						</a>		
 
@@ -561,15 +561,15 @@
 	
 
 
-	<div id="gap-97718709" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-97718709" class="gap-element clearfix">
 		
 
 	</div>
 	
 
-<div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;background-color:rgba(99, 97, 70, 0.6);"></div>
+<div class="is-divider divider clearfix divider-olive"></div>
 
-	<div id="gap-1399250581" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1399250581" class="gap-element clearfix">
 		
 
 	</div>
@@ -647,7 +647,7 @@
 
 </div>
 
-	<div id="gap-1325971333" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1325971333" class="gap-element clearfix">
 		
 
 	</div>
@@ -711,7 +711,7 @@
 
 
 	<div id="col-2110482522" class="col medium-6 small-10 large-6">
-				<div class="col-inner dark" style="background-color:#B52025;">
+				<div class="col-inner dark bg-duvin-red">
 			
 			
 
@@ -719,7 +719,7 @@
   <div class="banner has-hover" id="banner-88679332">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1920" height="1536" src="/assets/images/duvin13.jpg" class="bg attachment-large size-large" alt="Lakes | DangTau Whisky" title="Lakes | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1920" height="1536" src="/assets/images/duvin13.jpg" class="bg attachment-large size-large" alt="Lakes | DuVin" title="Lakes | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -771,7 +771,7 @@
 
 	</div>
 	
-	<div id="gap-1245217779" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1245217779" class="gap-element clearfix">
 		
 
 	</div>
@@ -798,7 +798,7 @@
 	
 
 	<div id="col-225949798" class="col medium-6 small-10 large-6">
-				<div class="col-inner dark" style="background-color:#B52025;">
+				<div class="col-inner dark bg-duvin-red">
 			
 			
 
@@ -806,7 +806,7 @@
   <div class="banner has-hover" id="banner-115609560">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1919" height="1279" src="/assets/images/duvin7.jpg" class="bg attachment-large size-large" alt="SMWS | DangTau Whisky" title="SMWS | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1919" height="1279" src="/assets/images/duvin7.jpg" class="bg attachment-large size-large" alt="SMWS | DuVin" title="SMWS | DuVin">
                     </div>
 		
         <div class="banner-layers container">
@@ -858,7 +858,7 @@
 
 	</div>
 	
-	<div id="gap-2106016434" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-2106016434" class="gap-element clearfix">
 		
 
 	</div>
@@ -904,7 +904,7 @@
 
 	<section class="section dark" id="section_2074843298">
 		<div class="section-bg fill">
-			<img loading="lazy" decoding="async" width="1920" height="1280" src="/assets/images/duvin5.jpg" class="bg attachment-original size-original" alt="dt whisky club banner | DangTau Whisky" title="dt whisky club banner | DangTau Whisky">						<div class="section-bg-overlay absolute fill"></div>
+			<img loading="lazy" decoding="async" width="1920" height="1280" src="/assets/images/duvin5.jpg" class="bg attachment-original size-original" alt="dt whisky club banner | DuVin" title="dt whisky club banner | DuVin">						<div class="section-bg-overlay absolute fill"></div>
 			
 
 		</div>
@@ -937,13 +937,13 @@
 	</div>
 	
 <p>Tham gia cùng chúng tôi để chia sẻ kiến thức, trải nghiệm và cùng nhau thưởng thức những ly vang tuyệt hảo trong một không gian thân thiện, cởi mở.</p>
-	<div id="gap-1025840375" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1025840375" class="gap-element clearfix">
 		
 
 	</div>
 	
 
-<a href="https://www.facebook.com/groups/dangtauwhiskyclub" class="button white is-outline" rel="nofollow noopener" target="_blank">
+<a href="<?= e($settings['contact']['fanpage'] ?? 'https://www.facebook.com/DuVinVN') ?>" class="button white is-outline" rel="nofollow noopener" target="_blank">
 		<span>Tham gia ngay</span>
 	</a>
 
@@ -1000,7 +1000,7 @@
 
 	</div>
 	
-	<div id="gap-886494020" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-886494020" class="gap-element clearfix">
 		
 
 	</div>
@@ -1047,7 +1047,7 @@
   <div class="banner has-hover" id="banner-2063084966">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img loading="lazy" decoding="async" width="1599" height="899" src="/assets/images/duvin10.jpg" class="bg attachment-original size-original" alt="Homepage 02 | DangTau Whisky" title="Homepage 02 | DangTau Whisky">
+            <img loading="lazy" decoding="async" width="1599" height="899" src="/assets/images/duvin10.jpg" class="bg attachment-original size-original" alt="Homepage 02 | DuVin" title="Homepage 02 | DuVin">
                     </div>
 		
         <div class="banner-layers container">
