@@ -349,39 +349,10 @@ final class HomeRepository extends BaseRepository
                 ['ids' => ['banner-308182967', 'text-box-1517724225', 'text-3184614620', 'text-box-1748247065'], 'background' => '#3f170f'],
                 ['ids' => ['banner-2063084966', 'text-box-1718059530', 'text-1891963955', 'text-box-1533276686'], 'background' => '#3f170f']
             ],
-            'tabs' => [
-                [
-                    'tab_id' => 'tab-vang-phap',
-                    'panel_id' => 'tab_vang-phap',
-                    'ids' => ['banner-154442658', 'text-box-1262973491'],
-                    'background' => '#3f170f'
-                ],
-                [
-                    'tab_id' => 'tab-vang-y',
-                    'panel_id' => 'tab_vang-y',
-                    'ids' => ['banner-2131976074', 'text-box-2114704381'],
-                    'background' => '#3f170f'
-                ],
-                [
-                    'tab_id' => 'tab-vang-chile',
-                    'panel_id' => 'tab_vang-chile',
-                    'ids' => ['banner-1090547792', 'text-box-812061266'],
-                    'background' => '#3f170f'
-                ]
-            ],
-            'statistics' => [
-                [
-                    'row-1404662968',
-                    'col-589037030',
-                    'text-2916360142',
-                    'text-4230103372'
-                ],
-                [
-                    'row-385751197',
-                    'col-646669310',
-                    'text-2186524649',
-                    'text-1670527859'
-                ]
+            'category_tabs' => [
+                ['ids' => ['banner-154442658', 'text-box-1262973491'], 'background' => '#000000'],
+                ['ids' => ['banner-2131976074', 'text-box-2114704381'], 'background' => '#000000'],
+                ['ids' => ['banner-1090547792', 'text-box-812061266'], 'background' => '#000000']
             ],
             'brand_image_defaults' => [
                 'decoding' => 'async',
