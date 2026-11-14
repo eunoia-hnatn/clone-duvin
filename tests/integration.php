@@ -92,4 +92,26 @@ verify(!str_contains($html, '<script>alert'), 'Detail output does not contain un
 $listingHtml = capture(static fn () => $controller->index());
 verify(str_contains($listingHtml, 'Vang Đỏ Château Margaux Grand Cru'), 'Listing page renders database products');
 
+// 11. Home and static pages render without any notice or fatal error
+$homeController = new HomeController($home, $brands, $site);
+$homeHtml = capture(static fn () => $homeController->index());
+verify(str_contains($homeHtml, 'Duvin') && strlen($homeHtml) > 1000, 'Home page renders successfully');
+
+$pagesController = new PageController($site, $articles);
+$aboutHtml = capture(static fn () => $pagesController->about());
+verify(str_contains($aboutHtml, 'Duvin') && strlen($aboutHtml) > 500, 'About page renders');
+
+$founderHtml = capture(static fn () => $pagesController->founder());
+verify(str_contains($founderHtml, 'Duvin') && strlen($founderHtml) > 500, 'Founder page renders');
+
+$blogHtml = capture(static fn () => $pagesController->blog());
+verify(str_contains($blogHtml, 'Duvin') && strlen($blogHtml) > 500, 'Blog page renders');
+
+$firstArticle = $articles->all()[0];
+$articleHtml = capture(static fn () => $pagesController->article($firstArticle['slug']));
+verify(str_contains($articleHtml, 'Duvin') && strlen($articleHtml) > 500, 'Article page renders');
+
+$lostPwdHtml = capture(static fn () => $pagesController->lostPassword());
+verify(str_contains($lostPwdHtml, 'Duvin') && strlen($lostPwdHtml) > 500, 'Lost password page renders');
+
 echo "PASS: {$count} database integration and MVC checks\n";

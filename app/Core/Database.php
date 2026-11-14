@@ -23,7 +23,7 @@ class Database
             $username = Config::get('DB_USER', '');
             $password = Config::get('DB_PASS', '');
 
-            // 1. Thử kết nối MySQL nếu có cấu hình host & database
+            // 1. Kết nối MySQL khi có cấu hình (luôn ưu tiên cho Production & staging)
             if ($host !== '' && $database !== '' && $host !== 'sqlite') {
                 try {
                     $dsn = sprintf('mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4', $host, $port, $database);
@@ -31,24 +31,36 @@ class Database
                         PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
                         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
                         PDO::ATTR_EMULATE_PREPARES   => false,
-                        PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci",
-                        PDO::ATTR_TIMEOUT            => 3,
+                        PDO::ATTR_TIMEOUT            => 10,
                     ];
-                    self::$instance = new PDO($dsn, $username, $password, $options);
+                    $pdo = new PDO($dsn, $username, $password, $options);
+                    $pdo->exec("SET NAMES utf8mb4");
+                    self::$instance = $pdo;
                     return self::$instance;
                 } catch (Throwable $e) {
-                    // Nếu MySQL không kết nối được (máy local chưa bật service MySQL), tự động fallback sang SQLite local
-                    error_log('[Database Notice] MySQL unavailable (' . $e->getMessage() . '), switching to SQLite local.');
+                    // Trên môi trường production, ném thẳng exception lỗi kết nối MySQL để xử lý, không fallback bừa bãi
+                    if (Config::get('APP_ENV') === 'production') {
+                        throw new RuntimeException('MySQL connection failed on production: ' . $e->getMessage(), (int)$e->getCode(), $e);
+                    }
+                    error_log('[Database Notice] MySQL unavailable on local (' . $e->getMessage() . '), switching to SQLite local.');
                 }
             }
 
-            // 2. Kết nối SQLite Database (database/duvin.sqlite)
-            $sqlitePath = dirname(__DIR__, 2) . '/database/duvin.sqlite';
-            self::$instance = new PDO('sqlite:' . $sqlitePath, null, null, [
-                PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-                PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-                PDO::ATTR_EMULATE_PREPARES   => false,
-            ]);
+            // 2. Kết nối SQLite Database cho môi trường local dev (nếu không có MySQL)
+            try {
+                $sqlitePath = dirname(__DIR__, 2) . '/database/duvin.sqlite';
+                $sqliteDir = dirname($sqlitePath);
+                if (!is_dir($sqliteDir)) {
+                    @mkdir($sqliteDir, 0777, true);
+                }
+                self::$instance = new PDO('sqlite:' . $sqlitePath, null, null, [
+                    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+                    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                    PDO::ATTR_EMULATE_PREPARES   => false,
+                ]);
+            } catch (Throwable $sqliteErr) {
+                throw new RuntimeException('Database connection failed: ' . $sqliteErr->getMessage(), (int)$sqliteErr->getCode(), $sqliteErr);
+            }
         }
 
         return self::$instance;
