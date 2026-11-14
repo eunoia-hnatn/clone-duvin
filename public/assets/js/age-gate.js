@@ -1,22 +1,36 @@
 /**
  * Age Gate 18+ — Cookie & Display Logic
  *
- * - Kiểm tra cookie `duvin_age_verified` khi tải trang.
- * - Chưa có cookie → hiển thị modal, làm mờ nội dung trang.
- * - "Tôi đủ 18 tuổi" → set cookie (15 phút), ẩn modal, khôi phục nội dung.
- * - "Tôi chưa đủ 18 tuổi" → hiện thông báo chặn, giữ nội dung bị mờ.
+ * - Trang /under-18: tự động chuyển về '/' khi hết thời gian chờ (30 phút).
+ * - Trang nội dung: kiểm tra cookie `duvin_age_verified`.
+ *   + Chưa có cookie → hiển thị modal overlay ngay trên URL hiện tại, làm mờ nền.
+ *   + "Tôi đủ 18 tuổi" → set cookie 7 ngày (10080 phút), ẩn modal, giữ nguyên trang.
+ *   + "Tôi chưa đủ 18 tuổi" → submit POST /age-verify để server set cookie chặn 30 phút và chuyển /under-18.
  */
 (function () {
     'use strict';
 
     var COOKIE_NAME = 'duvin_age_verified';
+
+    // 1. Xử lý trang /under-18: tự động đưa về URL gốc sau khi hết 30 phút
+    var under18Body = document.querySelector('body[data-under18-remaining]');
+    if (under18Body) {
+        var remainingSeconds = parseInt(under18Body.getAttribute('data-under18-remaining'), 10);
+        if (remainingSeconds > 0) {
+            window.setTimeout(function () {
+                window.location.href = '/';
+            }, remainingSeconds * 1000);
+        }
+        return;
+    }
+
     var overlay = document.getElementById('age-gate-overlay');
 
     // Không có overlay hoặc age gate bị tắt → thoát
     if (!overlay) return;
 
-    // Đọc số phút lưu cookie từ data attribute (default 15)
-    var cookieMinutes = parseInt(overlay.getAttribute('data-cookie-minutes'), 10) || 15;
+    // Đọc số phút lưu cookie từ data attribute (default 7 ngày = 10080 phút)
+    var cookieMinutes = parseInt(overlay.getAttribute('data-cookie-minutes'), 10) || 10080;
 
     /**
      * Đọc giá trị cookie theo tên.
@@ -64,21 +78,6 @@
         }
     }
 
-    /**
-     * Hiện thông báo "chưa đủ tuổi" và ẩn các nút.
-     */
-    function showDenied() {
-        var denied = document.getElementById('age-gate-denied');
-        var buttons = document.querySelector('.age-gate-buttons');
-        var message = document.querySelector('.age-gate-message');
-        var title = document.querySelector('.age-gate-title');
-
-        if (denied) denied.style.display = 'block';
-        if (buttons) buttons.style.display = 'none';
-        if (message) message.style.display = 'none';
-        if (title) title.textContent = 'Truy cập bị từ chối';
-    }
-
     // Khởi tạo khi DOM sẵn sàng
     document.addEventListener('DOMContentLoaded', function () {
         // Đã xác nhận → thoát luôn
@@ -95,14 +94,6 @@
             confirmBtn.addEventListener('click', function () {
                 setCookie(COOKIE_NAME, '1', cookieMinutes);
                 hideModal();
-            });
-        }
-
-        // Nút "Chưa đủ 18 tuổi"
-        var denyBtn = document.getElementById('age-gate-deny');
-        if (denyBtn) {
-            denyBtn.addEventListener('click', function () {
-                showDenied();
             });
         }
     });

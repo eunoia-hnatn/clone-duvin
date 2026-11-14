@@ -25,6 +25,7 @@ $ag = $settings['age_gate'];
 
         <!-- Title -->
         <h2 id="age-gate-title" class="age-gate-title"><?= htmlspecialchars($ag['title'], ENT_QUOTES, 'UTF-8') ?></h2>
+        <hr class="age-gate-divider" />
 
         <!-- Message -->
         <p class="age-gate-message"><?= htmlspecialchars($ag['message'], ENT_QUOTES, 'UTF-8') ?></p>
@@ -36,18 +37,20 @@ $ag = $settings['age_gate'];
                     class="age-gate-btn age-gate-btn--confirm">
                 <?= htmlspecialchars($ag['confirm_label'], ENT_QUOTES, 'UTF-8') ?>
             </button>
-            <button type="button"
-                    id="age-gate-deny"
-                    class="age-gate-btn age-gate-btn--deny">
-                <?= htmlspecialchars($ag['deny_label'], ENT_QUOTES, 'UTF-8') ?>
-            </button>
+            <form method="POST" action="/age-verify" class="age-gate-deny-form">
+                <input type="hidden" name="action" value="deny" />
+                <button type="submit"
+                        id="age-gate-deny"
+                        class="age-gate-btn age-gate-btn--deny">
+                    <?= htmlspecialchars($ag['deny_label'], ENT_QUOTES, 'UTF-8') ?>
+                </button>
+            </form>
         </div>
 
-        <!-- Deny message (hidden by default) -->
-        <div id="age-gate-denied" class="age-gate-denied">
-            <p>Bạn cần đủ 18 tuổi để truy cập website Duvin.</p>
-            <p>Vui lòng quay lại khi bạn đủ tuổi.</p>
-        </div>
+        <p class="age-gate-legal">
+            Chấp hành Nghị định số 105/2017/NĐ-CP về kinh doanh rượu.<br />
+            Duvin không bán sản phẩm có cồn cho người dưới 18 tuổi.
+        </p>
     </div>
 </div>
 

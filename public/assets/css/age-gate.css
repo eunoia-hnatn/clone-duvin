@@ -100,9 +100,122 @@
     margin: 4px 0;
 }
 
+.age-gate-deny-form {
+    margin: 0;
+    width: 100%;
+}
+.age-gate-deny-form .age-gate-btn {
+    width: 100%;
+}
+.age-gate-divider {
+    width: 40px;
+    height: 2px;
+    background: #B62025;
+    border: none;
+    margin: 0 auto 20px;
+}
+.age-gate-legal {
+    margin-top: 24px;
+    font-size: 0.75rem;
+    color: #aaa;
+    line-height: 1.5;
+}
+
 @media (max-width: 480px) {
     .age-gate-card { padding: 36px 24px 32px; }
     .age-gate-title { font-size: 1.35rem; }
     .age-gate-message { font-size: 0.88rem; }
 }
+
+/* ============================================================================
+   Under-18 Denied Page (/under-18)
+   ============================================================================ */
+
+body.under18-page {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    background-image:
+        radial-gradient(ellipse at 30% 20%, rgba(182, 32, 37, 0.14) 0%, transparent 60%),
+        radial-gradient(ellipse at 75% 80%, rgba(99, 97, 70, 0.12) 0%, transparent 55%);
+    font-family: "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
+}
+
+.under18-card {
+    background: #fff;
+    width: 90%;
+    max-width: 440px;
+    padding: 48px 40px 40px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.under18-logo {
+    margin-bottom: 24px;
+}
+.under18-logo img {
+    max-height: 70px;
+    width: auto;
+}
+
+.under18-icon {
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: rgba(182, 32, 37, 0.09);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B62025;
+}
+
+.under18-title {
+    font-family: "Baskerville Old Face", "Baskerville", Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #161616;
+    margin: 0 0 14px;
+}
+
+.under18-divider {
+    width: 40px;
+    height: 2px;
+    background: #B62025;
+    border: none;
+    margin: 0 auto 20px;
+}
+
+.under18-message {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #777;
+    margin-bottom: 28px;
+}
+.under18-message strong {
+    display: block;
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.under18-legal {
+    font-size: 0.75rem;
+    color: #aaa;
+    line-height: 1.5;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 18px;
+    margin: 18px 0 0;
+}
+
+@media (max-width: 480px) {
+    .under18-card { padding: 36px 24px 32px; }
+    .under18-title { font-size: 1.3rem; }
+}
+
 

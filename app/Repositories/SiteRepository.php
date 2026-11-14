@@ -193,7 +193,7 @@ final class SiteRepository extends BaseRepository
 
     /**
      * @return array{
-     *   age_gate: array{enabled: bool, cookie_minutes: int, title: string, message: string, confirm_label: string, deny_label: string},
+     *   age_gate: array{enabled: bool, cookie_minutes: int, deny_minutes: int, title: string, message: string, confirm_label: string, deny_label: string},
      *   contact: array{hotline: string, hotline_display: string, zalo_oa: string, zalo_expert: string, messenger: string, fanpage: string, email: string, address: string, working_hours: string},
      *   catalog: array{price_note: string}
      * }
@@ -219,7 +219,8 @@ final class SiteRepository extends BaseRepository
         $this->settingsCache = [
             'age_gate' => [
                 'enabled'        => ($kv['age_gate_enabled'] ?? '1') === '1',
-                'cookie_minutes' => max(1, (int) ($kv['age_gate_cookie_min'] ?? 15)),
+                'cookie_minutes' => max(1, (int) ($kv['age_gate_cookie_min'] ?? 10080)),
+                'deny_minutes'   => max(1, (int) ($kv['age_gate_deny_min'] ?? 30)),
                 'title'          => (string) ($kv['age_gate_title'] ?? 'Xác minh độ tuổi'),
                 'message'        => (string) ($kv['age_gate_message'] ?? 'Duvin cung cấp thông tin về sản phẩm rượu vang dành cho người trên 18 tuổi. Vui lòng xác nhận bạn đủ 18 tuổi để tiếp tục.'),
                 'confirm_label'  => 'Tôi đủ 18 tuổi',

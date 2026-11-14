@@ -120,4 +120,26 @@ verify(str_contains($articleHtml, 'Duvin') && strlen($articleHtml) > 500, 'Artic
 $lostPwdHtml = capture(static fn () => $pagesController->lostPassword());
 verify(str_contains($lostPwdHtml, 'Duvin') && strlen($lostPwdHtml) > 500, 'Lost password page renders');
 
+// 12. Age Gate 18+ flow: modal overlay + 30-min server-side deny block
+$agSettings = $site->getSettings()['age_gate'];
+verify($agSettings['cookie_minutes'] > 0, 'Age gate confirm cookie minutes is positive');
+verify($agSettings['deny_minutes'] === 30, 'Age gate deny cookie defaults to 30 minutes');
+verify(str_contains($homeHtml, 'id="age-gate-overlay"') && str_contains($homeHtml, 'data-cookie-minutes="' . $agSettings['cookie_minutes'] . '"'), 'Home page renders 18+ modal overlay with configured cookie duration');
+verify(str_contains($homeHtml, 'action="/age-verify"'), 'Modal includes POST /age-verify form for deny action');
+
+$middleware = new AgeGateMiddleware();
+unset($_COOKIE['duvin_age_denied']);
+$_SERVER['REQUEST_URI'] = '/';
+verify($middleware->handle() === true, 'AgeGateMiddleware allows normal access without denied cookie');
+
+$_COOKIE['duvin_age_denied'] = '1';
+verify($middleware->handle() === false, 'AgeGateMiddleware blocks root access when denied cookie is active');
+$_SERVER['REQUEST_URI'] = '/under-18';
+verify($middleware->handle() === true, 'AgeGateMiddleware allows /under-18 bypass');
+
+$ageGateController = new AgeGateController();
+$under18Html = capture(static fn () => $ageGateController->showUnder18());
+verify(str_contains($under18Html, 'data-under18-remaining="') && !str_contains($under18Html, '<style>'), 'Under-18 page renders with auto-redirect timer and external CSS');
+unset($_COOKIE['duvin_age_denied']);
+
 echo "PASS: {$count} database integration and MVC checks\n";
