@@ -17,13 +17,41 @@ class Database
     public static function connection(): PDO
     {
         if (self::$instance === null) {
-            $host = Config::get('DB_HOST', '127.0.0.1');
-            $port = Config::get('DB_PORT', '3306');
-            $database = Config::get('DB_NAME', '');
-            $username = Config::get('DB_USER', '');
-            $password = Config::get('DB_PASS', '');
+            $host = (string) Config::get('DB_HOST', '');
+            $port = (string) Config::get('DB_PORT', '3306');
+            $database = (string) Config::get('DB_NAME', '');
+            $username = (string) Config::get('DB_USER', '');
+            $password = (string) Config::get('DB_PASS', '');
 
-            // 1. Kết nối MySQL khi có cấu hình (luôn ưu tiên cho Production & staging)
+            $isProduction = Config::get('APP_ENV') === 'production'
+                || (isset($_SERVER['HTTP_HOST']) && str_contains($_SERVER['HTTP_HOST'], 'gt.tc'))
+                || str_contains(__DIR__, 'infinityfree');
+
+            // 1. Môi trường Production: Bắt buộc dùng MySQL, tuyệt đối không dùng SQLite
+            if ($isProduction) {
+                if ($host === '' || $database === '') {
+                    throw new RuntimeException("Thiếu file .env hoặc cấu hình MySQL trên Production (DB_HOST='{$host}', DB_NAME='{$database}'). Hãy kiểm tra file .env trên hosting.");
+                }
+
+                $dsn = sprintf('mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4', $host, $port, $database);
+                $options = [
+                    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+                    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                    PDO::ATTR_EMULATE_PREPARES   => false,
+                    PDO::ATTR_TIMEOUT            => 10,
+                ];
+
+                try {
+                    $pdo = new PDO($dsn, $username, $password, $options);
+                    $pdo->exec("SET NAMES utf8mb4");
+                    self::$instance = $pdo;
+                    return self::$instance;
+                } catch (Throwable $e) {
+                    throw new RuntimeException("Lỗi kết nối MySQL trên hosting [host={$host}, db={$database}]: " . $e->getMessage(), (int)$e->getCode(), $e);
+                }
+            }
+
+            // 2. Môi trường Local dev: Ưu tiên MySQL nếu có config
             if ($host !== '' && $database !== '' && $host !== 'sqlite') {
                 try {
                     $dsn = sprintf('mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4', $host, $port, $database);
@@ -38,15 +66,11 @@ class Database
                     self::$instance = $pdo;
                     return self::$instance;
                 } catch (Throwable $e) {
-                    // Trên môi trường production, ném thẳng exception lỗi kết nối MySQL để xử lý, không fallback bừa bãi
-                    if (Config::get('APP_ENV') === 'production') {
-                        throw new RuntimeException('MySQL connection failed on production: ' . $e->getMessage(), (int)$e->getCode(), $e);
-                    }
                     error_log('[Database Notice] MySQL unavailable on local (' . $e->getMessage() . '), switching to SQLite local.');
                 }
             }
 
-            // 2. Kết nối SQLite Database cho môi trường local dev (nếu không có MySQL)
+            // 3. Kết nối SQLite Database CHỈ dành cho môi trường Local dev khi máy cá nhân chưa bật MySQL
             try {
                 $sqlitePath = dirname(__DIR__, 2) . '/database/duvin.sqlite';
                 $sqliteDir = dirname($sqlitePath);
