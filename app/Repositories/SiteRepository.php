@@ -38,15 +38,15 @@ final class SiteRepository extends BaseRepository
         ");
 
         $wineChildren = array_map(static fn (array $t): array => [
-            'attributes' => ['class' => ''],
+            'attributes' => ['class' => 'menu-item menu-item-type-taxonomy'],
             'link_attributes' => ['class' => '', 'href' => '/danh-muc/' . $t['slug']],
             'label' => (string) $t['name'],
             'children' => [],
         ], $wineTypes);
 
         $producerChildren = array_map(static fn (array $p): array => [
-            'attributes' => ['class' => ''],
-            'link_attributes' => ['class' => '', 'href' => '/nha-san-xuat/' . $p['slug']],
+            'attributes' => ['class' => 'menu-item menu-item-type-taxonomy'],
+            'link_attributes' => ['class' => '', 'href' => '/danh-muc/' . $p['slug']],
             'label' => (string) $p['name'],
             'children' => [],
         ], $producers);
@@ -117,15 +117,21 @@ final class SiteRepository extends BaseRepository
                 ],
                 'header_3' => [
                     [
-                        'attributes' => ['class' => 'menu-item menu-item-has-children'],
-                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/danh-muc/wine'],
+                        'attributes' => ['class' => 'menu-item menu-item-has-children has-dropdown'],
+                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/danh-muc/wine', 'aria-expanded' => 'false', 'aria-haspopup' => 'menu'],
                         'label' => 'Bộ Sưu Tập Rượu Vang',
+                        'icon_attributes' => ['class' => 'icon-angle-down'],
+                        'icon_before' => false,
+                        'children_attributes' => ['class' => 'sub-menu nav-dropdown nav-dropdown-default'],
                         'children' => $wineChildren,
                     ],
                     [
-                        'attributes' => ['class' => 'menu-item menu-item-has-children'],
-                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/danh-muc/nha-san-xuat'],
+                        'attributes' => ['class' => 'menu-item menu-item-has-children has-dropdown'],
+                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/san-pham', 'aria-expanded' => 'false', 'aria-haspopup' => 'menu'],
                         'label' => 'Nhà Sản Xuất',
+                        'icon_attributes' => ['class' => 'icon-angle-down'],
+                        'icon_before' => false,
+                        'children_attributes' => ['class' => 'sub-menu nav-dropdown nav-dropdown-default'],
                         'children' => $producerChildren,
                     ],
                     [
