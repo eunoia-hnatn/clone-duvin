@@ -36,13 +36,13 @@ final class ProductRepository extends BaseRepository
             LEFT JOIN taxonomies t_country ON p.country_id = t_country.id
             LEFT JOIN taxonomies t_region ON p.region_id = t_region.id
             LEFT JOIN taxonomies t_class ON p.classification_id = t_class.id
-            LEFT JOIN (
-                SELECT * FROM product_vintages
-                WHERE is_active = 1
-                ORDER BY is_default DESC, vintage_year DESC
-            ) v ON v.product_id = p.id
+            LEFT JOIN product_vintages v ON v.id = (
+                SELECT pv.id FROM product_vintages pv
+                WHERE pv.product_id = p.id AND pv.is_active = 1
+                ORDER BY pv.vintage_year DESC, pv.id ASC
+                LIMIT 1
+            )
             WHERE p.is_active = 1
-            GROUP BY p.id
             ORDER BY p.display_order ASC, p.id ASC
         ";
 
@@ -79,13 +79,13 @@ final class ProductRepository extends BaseRepository
             LEFT JOIN taxonomies t_country ON p.country_id = t_country.id
             LEFT JOIN taxonomies t_region ON p.region_id = t_region.id
             LEFT JOIN taxonomies t_class ON p.classification_id = t_class.id
-            LEFT JOIN (
-                SELECT * FROM product_vintages
-                WHERE is_active = 1
-                ORDER BY is_default DESC, vintage_year DESC
-            ) v ON v.product_id = p.id
+            LEFT JOIN product_vintages v ON v.id = (
+                SELECT pv.id FROM product_vintages pv
+                WHERE pv.product_id = p.id AND pv.is_active = 1
+                ORDER BY pv.vintage_year DESC, pv.id ASC
+                LIMIT 1
+            )
             WHERE p.is_active = 1 AND p.slug = :slug
-            GROUP BY p.id
             LIMIT 1
         ";
 
@@ -147,14 +147,14 @@ final class ProductRepository extends BaseRepository
             LEFT JOIN taxonomies t_country ON p.country_id = t_country.id
             LEFT JOIN taxonomies t_region ON p.region_id = t_region.id
             LEFT JOIN taxonomies t_class ON p.classification_id = t_class.id
-            LEFT JOIN (
-                SELECT * FROM product_vintages
-                WHERE is_active = 1
-                ORDER BY is_default DESC, vintage_year DESC
-            ) v ON v.product_id = p.id
+            LEFT JOIN product_vintages v ON v.id = (
+                SELECT pv.id FROM product_vintages pv
+                WHERE pv.product_id = p.id AND pv.is_active = 1
+                ORDER BY pv.vintage_year DESC, pv.id ASC
+                LIMIT 1
+            )
             WHERE p.is_active = 1
               AND (t_type.slug = :slug OR t_country.slug = :slug OR t_prod.slug = :slug OR t_region.slug = :slug)
-            GROUP BY p.id
             ORDER BY p.display_order ASC, p.id ASC
         ";
 

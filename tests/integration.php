@@ -92,6 +92,12 @@ verify(!str_contains($html, '<script>alert'), 'Detail output does not contain un
 $listingHtml = capture(static fn () => $controller->index());
 verify(str_contains($listingHtml, 'Vang Đỏ Château Margaux Grand Cru'), 'Listing page renders database products');
 
+$wineCategoryHtml = capture(static fn () => $controller->category('wine'));
+verify(str_contains($wineCategoryHtml, 'Duvin') && strlen($wineCategoryHtml) > 500, 'Wine overview category renders');
+
+$redWineCategoryHtml = capture(static fn () => $controller->category('vang-do'));
+verify(str_contains($redWineCategoryHtml, 'Duvin') && strlen($redWineCategoryHtml) > 500, 'Red wine category renders');
+
 // 11. Home and static pages render without any notice or fatal error
 $homeController = new HomeController($home, $brands, $site);
 $homeHtml = capture(static fn () => $homeController->index());
