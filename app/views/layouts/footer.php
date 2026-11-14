@@ -211,9 +211,5 @@ var flatsomeVars = {"theme":{"version":"3.19.6"},"rtl":"","sticky_height":"80","
 <?php include __DIR__ . '/../pusher.php'; ?>
 <script src="/assets/js/pusher.js" defer></script>
 
-<!-- Age Gate 18+ Modal -->
-<?php include __DIR__ . '/../components/age-gate-modal.php'; ?>
-<script src="/assets/js/age-gate.js" defer></script>
-
 </body>
 </html>
