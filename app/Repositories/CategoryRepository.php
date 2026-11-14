@@ -10,7 +10,7 @@ final class CategoryRepository extends BaseRepository
     public function all(): array
     {
         $rows = $this->fetchAll("
-            SELECT t.id, t.name AS title, t.slug, t.description AS desc, t.type,
+            SELECT t.id, t.name AS title, t.slug, t.description, t.type,
                    t.image_url, t.display_order, t.is_active
             FROM taxonomies t
             WHERE t.is_active = 1 AND t.type IN ('wine_type', 'country')
@@ -32,7 +32,7 @@ final class CategoryRepository extends BaseRepository
         $lastSlug = end($segments);
 
         $row = $this->fetch("
-            SELECT t.id, t.name AS title, t.slug, t.description AS desc, t.type,
+            SELECT t.id, t.name AS title, t.slug, t.description, t.type,
                    t.image_url, t.display_order, t.is_active
             FROM taxonomies t
             WHERE t.is_active = 1 AND (t.slug = :slug OR t.slug = :lastSlug)
@@ -96,7 +96,7 @@ final class CategoryRepository extends BaseRepository
             'id'            => (int) $row['id'],
             'title'         => (string) $row['title'],
             'slug'          => $slug,
-            'desc'          => (string) ($row['desc'] ?? ''),
+            'desc'          => (string) ($row['description'] ?? $row['desc'] ?? ''),
             'type'          => (string) $row['type'],
             'product_slugs' => $productSlugs,
         ];

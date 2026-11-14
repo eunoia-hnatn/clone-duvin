@@ -89,7 +89,7 @@ final class CatalogRepository extends BaseRepository
 
     public function priceNote(): string
     {
-        $row = $this->fetch("SELECT value FROM settings WHERE key = 'price_note' LIMIT 1");
+        $row = $this->fetch("SELECT value FROM settings WHERE `key` = 'price_note' LIMIT 1");
         return $row !== null ? (string) $row['value'] : 'Giá đã bao gồm thuế VAT · Liên hệ Duvin để nhận tư vấn chính xác.';
     }
 
