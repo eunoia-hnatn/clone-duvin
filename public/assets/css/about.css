@@ -1,10 +1,10 @@
 /* Extracted styles for about */
 #text-3523276544 {
   font-size: 1.65rem;
-  color: rgb(152, 125, 79);
+  color: var(--duvin-red, #B62025);
 }
 #text-3523276544 > * {
-  color: rgb(152, 125, 79);
+  color: var(--duvin-red, #B62025);
 }
 
 #text-box-1903545701 {
@@ -58,7 +58,7 @@
 #section_1598000781 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: rgb(152, 125, 79);
+  background-color: var(--duvin-red, #B62025);
 }
 @media (min-width:550px) {
   #section_1598000781 {
@@ -76,10 +76,11 @@
 
 #text-861154820 {
   font-size: 1.65rem;
-  color: rgb(130, 42, 26);
+  color: var(--duvin-red, #B62025);
 }
-#text-861154820 > * {
-  color: rgb(130, 42, 26);
+#text-861154820 > *,
+#text-861154820 h2 {
+  color: var(--duvin-red, #B62025);
 }
 
 #col-894932503 > .col-inner {
@@ -159,7 +160,7 @@
 
 #banner-1295164011 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-1295164011 .banner-bg img {
   object-position: 55% 51%;
@@ -179,7 +180,7 @@
 
 #banner-1593881690 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-1593881690 .banner-bg img {
   object-position: 51% 100%;
@@ -199,7 +200,7 @@
 
 #banner-123807438 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-123807438 .banner-bg img {
   object-position: 49% 43%;
@@ -219,7 +220,7 @@
 
 #banner-1243308598 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-1243308598 .banner-bg img {
   object-position: 57% 7%;
@@ -239,7 +240,7 @@
 
 #banner-1953597997 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-1953597997 .banner-bg img {
   object-position: 70% 51%;
@@ -259,7 +260,7 @@
 
 #banner-2035071266 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-2035071266 .banner-bg img {
   object-position: 56% 99%;
@@ -324,7 +325,7 @@
 
 #banner-312496420 {
   padding-top: 230px;
-  background-color: #636146;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-312496420 .banner-bg img {
   object-position: 30% 62%;
@@ -414,7 +415,7 @@
 
 #banner-1834911861 {
   padding-top: 230px;
-  background-color: #636146;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-1834911861 .banner-bg img {
   object-position: 69% 85%;
@@ -441,7 +442,7 @@
 #section_559669973 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fcf7e8;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 @media (min-width:550px) {
   #section_559669973 {

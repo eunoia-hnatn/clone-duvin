@@ -1,45 +1,23 @@
 /* ============================================================================
-   DangTau Whisky - Homepage Styles
-   Clean, semantic CSS with responsive design
+   Duvin - Homepage Styles
+   Clean, semantic CSS with responsive design & Brand Guideline Light Mode
    ============================================================================ */
-
-/* Font Imports */
-@font-face {
-	font-family: 'DangTau';
-	font-weight: bold;
-	src: url('/assets/fonts/DANGTAU.woff') format('woff');
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'SaaSeriesVN';
-	font-weight: 400;
-	src: url('/assets/fonts/SaaSeriesVN-Regular.woff2') format('woff2');
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'SVNNeueMontreal';
-	font-weight: 400;
-	src: url('/assets/fonts/SVN-Neue-Montreal-Regular.woff') format('woff');
-	font-display: swap;
-}
 
 /* ============================================================================
    CSS Variables & Root Styles
    ============================================================================ */
 :root {
-	--primary-color: #822a1a;
-	--secondary-color: #636146;
-	--accent-color: #fcf7e8;
-	--dark-color: #161616;
-	--light-color: #f9f9f9;
-	--border-color: #ececec;
-	--border-color-light: rgba(99, 97, 70, 0.3);
+	--primary-color: var(--duvin-red, #B62025);
+	--secondary-color: var(--duvin-text, #161616);
+	--accent-color: var(--duvin-bg-soft, #FAF8F5);
+	--dark-color: var(--duvin-text, #161616);
+	--light-color: var(--duvin-bg, #FFFFFF);
+	--border-color: var(--duvin-border, #E8E4DC);
+	--border-color-light: var(--duvin-border-light, #ECECEC);
 
-	--font-heading: 'DangTau', 'Lato', sans-serif;
-	--font-body: 'SVNNeueMontreal', 'Lato', sans-serif;
-	--font-nav: 'SaaSeriesVN', 'Lato', sans-serif;
+	--font-heading: var(--duvin-font-heading);
+	--font-body: var(--duvin-font-body);
+	--font-nav: var(--duvin-font-body);
 
 	--spacing-xs: 8px;
 	--spacing-sm: 16px;
@@ -81,11 +59,10 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-heading);
+	font-family: var(--duvin-font-heading);
 	font-weight: 700;
-	text-transform: uppercase;
 	line-height: 1.3;
-	color: var(--secondary-color);
+	color: var(--duvin-text, #161616);
 }
 
 h1 {
@@ -1433,8 +1410,10 @@ a:hover {
    Price Slide, Brand & Layout Clean CSS
    ============================================================================ */
 .price-slide-banner {
-	padding-top: 550px;
-	background-color: #3f170f;
+	min-height: 520px;
+	height: 520px;
+	padding-top: 0;
+	background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 .slider-whisky-pricerange-title {
@@ -1458,7 +1437,7 @@ a:hover {
 }
 
 .brand-box-image {
-	width: 80%;
+	width: 100%;
 }
 
 .brand-overlay-clear {
@@ -1479,5 +1458,36 @@ a:hover {
 	margin-bottom: 0px;
 	max-width: 100%;
 	height: 1px;
-	background-color: rgba(99, 97, 70, 0.6);
+	background-color: var(--duvin-border, #E8E4DC);
+}
+
+/* Hero Banner Viewport Optimization for 1366x768 & Laptops */
+@media (max-width: 1440px) {
+  .home-mainslider .banner.has-hover {
+    padding-top: max(530px, 72vh) !important;
+  }
+  .home-mainslider .full-50center-col > .col-inner,
+  .home-mainslider .center-maxwidth-50 > .col-inner {
+    padding-top: 15px !important;
+    padding-bottom: 95px !important;
+  }
+  .home-mainslider h2,
+  .home-mainslider .hero-slide-heading h2 {
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 10px !important;
+  }
+  .home-mainslider p {
+    font-size: 0.95rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 12px !important;
+  }
+  .home-mainslider .button {
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+    padding: 10px 24px !important;
+  }
+  .home-mainslider .flickity-page-dots {
+    bottom: 20px !important;
+  }
 }

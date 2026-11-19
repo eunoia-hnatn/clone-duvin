@@ -1,19 +1,19 @@
 /* Duvin Product Detail Page (PDP) Clean Styles */
 :root {
-  --pdp-red: #b52025;
-  --pdp-ink: #272520;
-  --pdp-muted: #77746d;
-  --pdp-line: #e8e4de;
-  --pdp-cream: #f7f5f0;
+  --pdp-red: var(--duvin-red, #B62025);
+  --pdp-ink: var(--duvin-text, #161616);
+  --pdp-muted: var(--duvin-text-muted, #888888);
+  --pdp-line: var(--duvin-border, #E8E4DC);
+  --pdp-cream: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #product-detail-view {
-  font-family: inherit;
+  font-family: var(--duvin-font-body);
   color: var(--pdp-ink);
 }
 
 #product-detail-view .serif {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: var(--duvin-font-heading);
 }
 
 #product-detail-view .hero {
@@ -113,6 +113,15 @@
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s;
+  white-space: nowrap;
+}
+
+#product-detail-view .share svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #product-detail-view .share:hover {
@@ -224,8 +233,13 @@
 }
 
 #product-detail-view .commitment svg {
+  width: 36px;
+  height: 36px;
+  max-width: 36px;
+  max-height: 36px;
+  stroke-width: 1.5;
   color: var(--pdp-red);
-  margin: 0 auto 6px;
+  margin: 0 auto 8px;
   display: block;
 }
 

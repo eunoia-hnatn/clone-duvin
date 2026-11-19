@@ -30,7 +30,7 @@
 #section_671957014 {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #636146;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #gap-402405711 {
@@ -58,5 +58,30 @@
   #gap-1585682205 {
     padding-top: 40px;
   }
+}
+
+/* Blog Hero Left Column — Brand Red Luxury Theme */
+#col-1785037370 > .col-inner {
+  background-color: var(--duvin-red, #B62025) !important;
+  color: #FFFFFF !important;
+}
+
+#col-1785037370 h2,
+#col-1785037370 .dtile h2,
+#col-1785037370 p,
+#col-1785037370 .p-zero-margin,
+#col-1785037370 .rank-math-breadcrumb,
+#col-1785037370 .rank-math-breadcrumb a,
+#col-1785037370 .rank-math-breadcrumb .separator,
+#col-1785037370 .rank-math-breadcrumb .last {
+  color: #FFFFFF !important;
+}
+
+#col-1785037370 .rank-math-breadcrumb a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+#col-1785037370 .p-zero-margin {
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 

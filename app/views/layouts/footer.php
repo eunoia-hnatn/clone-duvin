@@ -126,7 +126,7 @@ $footerTel     = $footerContact['hotline'];
 	</div>
 
 </div>
-<div class="row row-collapse row-full-width"  id="row-256155669">
+<div class="row align-center text-center" id="row-256155669">
 
 	<div id="col-790373404" class="col small-12 large-12"  data-animate="flipInX">
 				<div class="col-inner"  >

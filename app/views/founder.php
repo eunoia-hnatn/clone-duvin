@@ -357,7 +357,7 @@
   <div class="banner has-hover bg-overlay-add" id="banner-1744774418">
           <div class="banner-inner fill">
         <div class="banner-bg fill">
-            <img decoding="async" width="1920" height="1440" src="/assets/images/12-plus-nha-chung-cat-img-1.webp" class="bg attachment-original size-original" alt="12 plus nha chung cat img 1 | DuVin" title="12 plus nha chung cat img 1 | DuVin">                        <div class="overlay"></div>
+            <img decoding="async" width="2048" height="1365" src="/assets/images/duvin7.jpg" class="bg attachment-original size-original" alt="Château và nhà làm vang đối tác | DuVin" title="Château và nhà làm vang đối tác | DuVin">                        <div class="overlay"></div>
                     </div>
 		
         <div class="banner-layers container">

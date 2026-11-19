@@ -40,17 +40,17 @@
 }
 
 .age-gate-title {
-    font-family: "Baskerville Old Face", Georgia, serif;
+    font-family: var(--duvin-font-heading);
     font-size: 1.6rem;
-    color: #161616;
+    color: var(--duvin-text, #161616);
     margin: 0 0 16px;
 }
 
 .age-gate-message {
-    font-family: "Futura", "Century Gothic", sans-serif;
+    font-family: var(--duvin-font-body);
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #555;
+    color: var(--duvin-text-body, #555555);
     margin: 0 0 32px;
 }
 
@@ -58,10 +58,20 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .age-gate-btn {
-    font-family: "Futura", "Century Gothic", sans-serif;
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    text-align: center;
+    font-family: var(--duvin-font-body);
     font-size: 1rem;
     padding: 14px 32px;
     border-radius: 4px;
@@ -71,22 +81,23 @@
     outline: none;
 }
 .age-gate-btn--confirm {
-    background: #B62025;
+    background: var(--duvin-red, #B62025);
     color: #fff;
 }
 .age-gate-btn--confirm:hover {
-    background: #9c1a1f;
+    background: var(--duvin-red-hover, #9c1a1f);
     transform: translateY(-1px);
     box-shadow: 0 4px 14px rgba(182, 32, 37, 0.35);
 }
 .age-gate-btn--deny {
     background: transparent;
-    color: #888;
-    border: 1px solid #ddd;
+    color: var(--duvin-text-muted, #888888);
+    border: 1px solid var(--duvin-border, #E8E4DC);
 }
 .age-gate-btn--deny:hover {
-    border-color: #aaa;
-    color: #555;
+    border-color: var(--duvin-red, #B62025);
+    color: var(--duvin-red, #B62025);
+    background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 .age-gate-denied {
@@ -94,18 +105,22 @@
     margin-top: 20px;
 }
 .age-gate-denied p {
-    font-family: "Futura", "Century Gothic", sans-serif;
+    font-family: var(--duvin-font-body);
     font-size: 0.9rem;
-    color: #999;
+    color: var(--duvin-text-muted, #888888);
     margin: 4px 0;
 }
 
 .age-gate-deny-form {
-    margin: 0;
-    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    display: block !important;
 }
 .age-gate-deny-form .age-gate-btn {
-    width: 100%;
+    width: 100% !important;
+    margin: 0 !important;
 }
 .age-gate-divider {
     width: 40px;
@@ -137,11 +152,8 @@ body.under18-page {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #111;
-    background-image:
-        radial-gradient(ellipse at 30% 20%, rgba(182, 32, 37, 0.14) 0%, transparent 60%),
-        radial-gradient(ellipse at 75% 80%, rgba(99, 97, 70, 0.12) 0%, transparent 55%);
-    font-family: "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
+    background-color: var(--duvin-bg, #FFFFFF);
+    font-family: var(--duvin-font-body);
 }
 
 .under18-card {
@@ -151,7 +163,8 @@ body.under18-page {
     padding: 48px 40px 40px;
     border-radius: 6px;
     text-align: center;
-    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 12px 60px rgba(0, 0, 0, 0.12);
+    border: 1px solid var(--duvin-border, #E8E4DC);
     box-sizing: border-box;
 }
 
@@ -172,21 +185,21 @@ body.under18-page {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #B62025;
+    color: var(--duvin-red, #B62025);
 }
 
 .under18-title {
-    font-family: "Baskerville Old Face", "Baskerville", Georgia, serif;
+    font-family: var(--duvin-font-heading);
     font-size: 1.5rem;
-    font-weight: normal;
-    color: #161616;
+    font-weight: 700;
+    color: var(--duvin-text, #161616);
     margin: 0 0 14px;
 }
 
 .under18-divider {
     width: 40px;
     height: 2px;
-    background: #B62025;
+    background: var(--duvin-red, #B62025);
     border: none;
     margin: 0 auto 20px;
 }

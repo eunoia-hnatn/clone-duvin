@@ -26,14 +26,11 @@
 <meta name="twitter:image" content="/assets/images/duvin-logo-red-transparent.png" />
 <meta name="google-site-verification" content="3LookEWzoGNdmAyJfGf5uUmwLLe9gjD2dlEETCcZdkY" />
 
-<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
-
 <link rel='stylesheet' id='contact-form-7-css' href="/assets/css/styles.css" type='text/css' media='all' />
 <link rel='stylesheet' id='flatsome-main-css' href="/assets/css/flatsome.css" type='text/css' media='all' />
 <link rel='stylesheet' id='flatsome-shop-css' href="/assets/css/flatsome-shop.css" type='text/css' media='all' />
 <link rel='stylesheet' id='flatsome-style-css' href="/assets/css/style.css" type='text/css' media='all' />
 <link rel='stylesheet' id='dashicons-css' href="/assets/css/dashicons.min.css" type='text/css' media='all' />
-<link rel='stylesheet' id='flatsome-googlefonts-css' href='https://fonts.googleapis.com/css?family=Lato%3Aregular%2C700%2Cregular%2C700%7CDancing+Script%3Aregular%2Cregular&amp;display=block&amp;ver=3.9' type='text/css' media='all' />
 <link rel='stylesheet' id='fs-tuned-animation-style-css' href="/assets/css/fs-tuned-animation.css" type='text/css' media='all' />
 <script type="text/javascript" src="/assets/js/jquery.min.js" id="jquery-core-js"></script>
 
@@ -43,9 +40,9 @@
 <meta name="msapplication-TileImage" content="/assets/images/cropped-favicon.png" />
 
 	<!-- Duvin stylesheets -->
+	<link rel="stylesheet" href="/assets/css/duvin-light.css" />
 	<link rel="stylesheet" href="/assets/css/home.css" />
 	<link rel="stylesheet" href="/assets/css/legacy-flatsome.css" />
-	<link rel="stylesheet" href="/assets/css/duvin-light.css" />
 	<link rel="stylesheet" href="/assets/css/age-gate.css" />
 	<link rel="stylesheet" href="/assets/css/pdp.css" />
 	<link rel="stylesheet" href="/assets/css/products.css" />

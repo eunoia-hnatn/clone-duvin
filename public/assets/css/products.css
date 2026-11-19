@@ -30,7 +30,7 @@
 #section_352962375 {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #636146;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #gap-1739643629 {
@@ -58,11 +58,12 @@
 }
 
 .product-categories li a {
+  font-family: var(--duvin-font-body);
   font-size: 16px !important;
   font-weight: 600 !important;
   letter-spacing: 0.5px;
   white-space: nowrap;
-  color: #333;
+  color: var(--duvin-text, #161616);
 }
 
 #section_369671748 {
@@ -117,13 +118,13 @@
   padding: 0 15px !important;
 }
 .bg-duvin-red {
-  background-color: #B52025 !important;
+  background-color: var(--duvin-red, #B62025) !important;
 }
 .divider-olive {
   margin-top: 0px;
   margin-bottom: 0px;
   max-width: 100%;
   height: 1px;
-  background-color: rgba(99, 97, 70, 0.4);
+  background-color: var(--duvin-border, #E8E4DC);
 }
 

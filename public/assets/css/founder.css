@@ -67,7 +67,7 @@
 
 #banner-1171849636 {
   padding-top: 230px;
-  background-color: #636146;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 #banner-1171849636 .banner-bg img {
   object-position: 52% 84%;
@@ -112,10 +112,10 @@
 }
 
 #text-1331900365 {
-  color: #B52025;
+  color: var(--duvin-text-body, #555555);
 }
 #text-1331900365 > * {
-  color: #B52025;
+  color: var(--duvin-text-body, #555555);
 }
 
 #col-1629617993 > .col-inner {
@@ -141,7 +141,7 @@
 #section_1243584448 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fcf7e8;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 @media (min-width:550px) {
   #section_1243584448 {
@@ -501,7 +501,7 @@
 #section_879914255 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fcf7e8;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 @media (min-width:550px) {
   #section_879914255 {
@@ -527,7 +527,7 @@
   padding-bottom: 60px;
 }
 #section_2074843298 .section-bg-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(90deg, rgba(22, 22, 22, 0.75) 0%, rgba(22, 22, 22, 0.68) 55%, rgba(22, 22, 22, 0.35) 100%) !important;
 }
 #section_2074843298 .section-bg img {
   object-position: 11% 47%;
@@ -545,6 +545,32 @@
 
 #gap-886494020 {
   padding-top: 5px;
+}
+
+#col-1244240362 .button {
+  background-color: var(--duvin-red, #B62025) !important;
+  color: #FFFFFF !important;
+  border: 1px solid var(--duvin-red, #B62025) !important;
+  font-family: var(--duvin-font-body) !important;
+  font-weight: 600 !important;
+  border-radius: 4px !important;
+  padding: 10px 28px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 12px rgba(182, 32, 37, 0.25) !important;
+}
+
+#col-1244240362 .button span {
+  color: #FFFFFF !important;
+}
+
+#col-1244240362 .button:hover {
+  background-color: var(--duvin-red-hover, #9C1A1F) !important;
+  border-color: var(--duvin-red-hover, #9C1A1F) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(182, 32, 37, 0.35) !important;
 }
 
 #col-1244240362 > .col-inner {
@@ -596,7 +622,7 @@
 #section_1525755046 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fcf7e8;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 @media (min-width:550px) {
   #section_1525755046 {
