@@ -41,7 +41,10 @@
     }
 
     // Vintage selector event handler
-    const formatPrice = value => new Intl.NumberFormat('vi-VN').format(value) + '₫';
+    const showPrice = root?.dataset.showPrice === '1';
+    const formatPrice = value => (!showPrice || !value || Number(value) <= 0)
+        ? 'Liên hệ tư vấn'
+        : new Intl.NumberFormat('vi-VN').format(value) + '₫';
     if (root && select) {
         select.addEventListener('change', () => {
             const vintage = vintages.find(item => item.year === select.value);

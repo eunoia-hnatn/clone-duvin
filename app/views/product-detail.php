@@ -22,6 +22,7 @@ $commitments    = $commitments ?? [];
 $reviews        = $reviews ?? [];
 $faqs           = $faqs ?? [];
 $contact        = $settings['contact'] ?? [];
+$showPrice      = (bool) ($detail['show_price'] ?? $settings['catalog']['show_price'] ?? false);
 $priceNote      = $priceNote ?? ($settings['catalog']['price_note'] ?? '');
 
 $iconPaths = [
@@ -39,7 +40,7 @@ $renderIcon = static function (string $key) use ($iconPaths): string {
     return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' . e($path) . '"/></svg>';
 };
 ?>
-<main id="product-detail-view" class="main page-wrapper">
+<main id="product-detail-view" class="main page-wrapper" data-show-price="<?= $showPrice ? '1' : '0' ?>">
     <div class="container">
         <!-- Breadcrumbs -->
         <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -71,7 +72,7 @@ $renderIcon = static function (string $key) use ($iconPaths): string {
                 <p class="intro"><?= e($product['short_description'] ?? 'Tuyển chọn vang cao cấp tại Duvin.') ?></p>
 
                 <div class="price-line">
-                    <strong class="price" data-vintage="price"><?= !empty($product['price']) ? e(money($product['price'])) . '₫' : 'Liên hệ' ?></strong>
+                    <strong class="price" data-vintage="price"><?= e(formatPriceLabel((int) ($currentVintage['price'] ?? $product['price'] ?? 0), $showPrice)) ?></strong>
                     <button class="share" type="button" id="share-product" aria-label="Chia sẻ liên kết sản phẩm">
                         <?= $renderIcon('share') ?> Chia sẻ sản phẩm
                     </button>

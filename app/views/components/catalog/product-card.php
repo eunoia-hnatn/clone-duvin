@@ -20,8 +20,14 @@
                     <p class="name product-title woocommerce-loop-product__title"><a href="/san-pham/<?= e($cardProduct['slug']) ?>/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><?= e($cardProduct['name']) ?></a></p>
                 </div>
                 <div class="price-wrapper">
-                    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><?= e(money($cardProduct['price'])) ?><span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+                    <?php
+                    $cardShowPrice = (bool) ($showPrice ?? $detail['show_price'] ?? $settings['catalog']['show_price'] ?? false);
+                    $cardPrice = (int) ($cardProduct['price'] ?? 0);
+                    ?>
+                    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><?= e(formatPriceLabel($cardPrice, $cardShowPrice)) ?></bdi></span></span>
+                    <?php if ($cardShowPrice && $cardPrice > 0 && !empty($priceNote)): ?>
                     <div class="price-note"><?= e($priceNote) ?></div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

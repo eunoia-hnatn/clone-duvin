@@ -93,6 +93,7 @@ final class CatalogRepository extends BaseRepository
     public function detail(): array
     {
         return [
+            'show_price' => $this->fetchSetting('catalog_show_price', '0') === '1',
             'price_note' => $this->priceNote(),
         ];
     }

@@ -170,4 +170,11 @@ verify(!in_array($currentWine['slug'], $recSlugs, true), 'Recommendation exclude
 verify(count(array_filter($recommended, static fn (array $p): bool => (bool) $p['in_stock'])) === count($recommended), 'Recommendation excludes out-of-stock products');
 verify(str_contains($html, 'id="related-grid"') && str_contains($html, 'data-flickity-options'), 'PDP related products section renders as slider');
 
+// 15. Price hiding & Nghị định 105/2017 compliance
+verify(formatPriceLabel(0, true) === 'Liên hệ tư vấn', 'Zero price renders Liên hệ tư vấn');
+verify(formatPriceLabel(1500000, false) === 'Liên hệ tư vấn', 'Hidden price mode renders Liên hệ tư vấn');
+verify(formatPriceLabel(1500000, true) === '1.500.000₫', 'Visible price mode formats VND');
+verify(str_contains($listingHtml, 'Liên hệ tư vấn') && !str_contains($listingHtml, '0₫'), 'Listing hides prices and never renders 0₫');
+verify(str_contains($html, 'data-show-price="0"') && str_contains($html, 'Liên hệ tư vấn'), 'PDP hides price by default');
+
 echo "PASS: {$count} database integration and MVC checks\n";

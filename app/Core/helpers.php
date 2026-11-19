@@ -13,6 +13,14 @@ function money(int $amount): string
     return number_format($amount, 0, ',', '.');
 }
 
+function formatPriceLabel(int $price, bool $showPrice = true): string
+{
+    if (!$showPrice || $price <= 0) {
+        return 'Liên hệ tư vấn';
+    }
+    return money($price) . '₫';
+}
+
 
 /** Format HTML attribute arrays safely. */
 function htmlAttributes(array $attributes): string

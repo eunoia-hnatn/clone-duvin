@@ -171,7 +171,8 @@ final class SiteRepository extends BaseRepository
                 'working_hours'   => (string) ($kv['working_hours'] ?? 'Thứ 2 - Chủ Nhật: 9h00 - 22h00'),
             ],
             'catalog' => [
-                'price_note' => (string) ($kv['price_note'] ?? 'Giá đã bao gồm thuế VAT · Liên hệ Duvin để nhận tư vấn chính xác.'),
+                'show_price' => ($kv['catalog_show_price'] ?? '0') === '1',
+                'price_note' => (string) ($kv['price_note'] ?? 'Liên hệ Duvin để nhận tư vấn và báo giá chi tiết.'),
             ],
         ];
 

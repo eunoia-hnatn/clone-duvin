@@ -39,6 +39,7 @@ final class ProductController extends BaseController
             'products' => $this->products->forCategory($category),
             'categoryNavigation' => $this->categories->navigation(),
             'filters' => $this->catalog->filters(),
+            'detail' => $this->catalog->detail(),
             'priceNote' => $this->catalog->priceNote(),
             'site' => $this->site->content(),
         ]);
