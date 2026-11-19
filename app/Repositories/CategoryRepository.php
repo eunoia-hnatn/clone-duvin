@@ -52,11 +52,12 @@ final class CategoryRepository extends BaseRepository
 
     public function overview(): array
     {
+        $overview = $this->fetchJsonSetting('catalog_overview', []);
         return [
-            'title' => 'Tất Cả Sản Phẩm',
-            'slug'  => 'san-pham',
-            'desc'  => 'Khám phá bộ sưu tập rượu vang và quà tặng cao cấp tại Duvin.',
-            'product_slugs' => [],
+            'title'         => (string) ($overview['title'] ?? ''),
+            'slug'          => (string) ($overview['slug'] ?? 'san-pham'),
+            'desc'          => (string) ($overview['desc'] ?? ''),
+            'product_slugs' => is_array($overview['product_slugs'] ?? null) ? $overview['product_slugs'] : [],
         ];
     }
 

@@ -20,6 +20,7 @@ final class ProductRepository extends BaseRepository
                    t_country.name AS country,
                    t_region.name AS region,
                    t_class.name AS classification,
+                   v.id AS vintage_id,
                    COALESCE(v.price, 0) AS price,
                    v.original_price,
                    v.vintage_year AS vintage,
@@ -63,6 +64,7 @@ final class ProductRepository extends BaseRepository
                    t_country.name AS country,
                    t_region.name AS region,
                    t_class.name AS classification,
+                   v.id AS vintage_id,
                    COALESCE(v.price, 0) AS price,
                    v.original_price,
                    v.vintage_year AS vintage,
@@ -131,6 +133,7 @@ final class ProductRepository extends BaseRepository
                    t_country.name AS country,
                    t_region.name AS region,
                    t_class.name AS classification,
+                   v.id AS vintage_id,
                    COALESCE(v.price, 0) AS price,
                    v.original_price,
                    v.vintage_year AS vintage,
@@ -236,14 +239,30 @@ final class ProductRepository extends BaseRepository
      */
     public function commitments(): array
     {
-        return [
-            ['truck', 'Giao hàng an toàn', 'Đóng gói chỉn chu, giao nhanh tận nơi.'],
-            ['glass', 'Tư vấn chuyên nghiệp', 'Chọn chai vang đúng gu và mục đích.'],
-            ['shield', 'Cam kết chính hãng', 'Nguồn gốc minh bạch, đầy đủ chứng nhận.'],
-            ['tag', 'Giá trị xứng đáng', 'Mức giá cạnh tranh, ưu đãi thành viên.'],
-            ['gift', 'Quà tặng tinh tế', 'Hộp quà sang trọng gửi trao lời chúc.'],
-            ['headset', 'Đồng hành tận tâm', 'Hỗ trợ khách hàng trước và sau mua hàng.'],
-        ];
+        return $this->fetchJsonSetting('pdp_commitments', []);
+    }
+
+    private function grapesForVintage(int $vintageId): string
+    {
+        if ($vintageId <= 0) {
+            return '';
+        }
+        $rows = $this->fetchAll(
+            'SELECT t.name, pvg.percentage
+             FROM product_vintage_grapes pvg
+             INNER JOIN taxonomies t ON t.id = pvg.grape_id
+             WHERE pvg.vintage_id = :vid
+             ORDER BY pvg.percentage DESC, t.display_order ASC',
+            ['vid' => $vintageId]
+        );
+        if ($rows === []) {
+            return '';
+        }
+        $parts = array_map(static function (array $r): string {
+            $pct = $r['percentage'] !== null ? ' (' . rtrim(rtrim((string) $r['percentage'], '0'), '.') . '%)' : '';
+            return (string) $r['name'] . $pct;
+        }, $rows);
+        return implode(', ', $parts);
     }
 
     private function formatProduct(array $row): array
@@ -252,6 +271,7 @@ final class ProductRepository extends BaseRepository
         $alcoholStr = isset($row['abv']) && $row['abv'] !== null
             ? str_replace('.', ',', (string) $row['abv']) . '%'
             : '';
+        $vintageId = isset($row['vintage_id']) ? (int) $row['vintage_id'] : 0;
 
         return [
             'id'                => (int) $row['id'],
@@ -270,7 +290,7 @@ final class ProductRepository extends BaseRepository
             'region'            => (string) ($row['region'] ?? ''),
             'origin'            => $origin,
             'classification'    => (string) ($row['classification'] ?? ''),
-            'grape'             => '',
+            'grape'             => $this->grapesForVintage($vintageId),
             'vintage'           => (string) ($row['vintage'] ?? 'NV'),
             'abv'               => $alcoholStr,
             'volume'            => (string) ($row['volume'] ?? '750ml'),

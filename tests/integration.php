@@ -142,4 +142,12 @@ $under18Html = capture(static fn () => $ageGateController->showUnder18());
 verify(str_contains($under18Html, 'data-under18-remaining="') && !str_contains($under18Html, '<style>'), 'Under-18 page renders with auto-redirect timer and external CSS');
 unset($_COOKIE['duvin_age_denied']);
 
+// 13. Dynamic DB migration checks (zero hardcoded fallback arrays in Repositories)
+$homePres = $home->presentation();
+verify(count($homePres['hero'] ?? []) === 5 && count($homePres['tabs'] ?? []) === 3, 'Home presentation loaded dynamically from home_sections');
+verify(count($products->commitments()) === 6, 'Product commitments loaded dynamically from settings');
+$catFilters = $catalog->filters();
+verify(count($catFilters) === 3 && count($catFilters[2]['options'] ?? []) === 5, 'Catalog price ranges loaded dynamically from settings');
+verify($categories->overview()['title'] === 'Tất Cả Sản Phẩm', 'Category overview loaded dynamically from settings');
+
 echo "PASS: {$count} database integration and MVC checks\n";

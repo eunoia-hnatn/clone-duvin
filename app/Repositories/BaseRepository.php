@@ -27,5 +27,28 @@ abstract class BaseRepository
     {
         return Database::fetchAll($sql, $params);
     }
+
+    protected function fetchSetting(string $key, string $default = ''): string
+    {
+        $row = $this->fetch('SELECT `value` FROM `settings` WHERE `key` = :key LIMIT 1', ['key' => $key]);
+        if ($row === null || $row['value'] === null) {
+            return $default;
+        }
+        return (string) $row['value'];
+    }
+
+    /**
+     * @param array<mixed> $default
+     * @return array<mixed>
+     */
+    protected function fetchJsonSetting(string $key, array $default = []): array
+    {
+        $raw = $this->fetchSetting($key);
+        if ($raw === '') {
+            return $default;
+        }
+        $decoded = json_decode($raw, true);
+        return is_array($decoded) ? $decoded : $default;
+    }
 }
 

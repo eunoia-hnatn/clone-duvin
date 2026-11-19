@@ -42,31 +42,26 @@ final class CatalogRepository extends BaseRepository
         ], $countries);
 
         // 3. Price ranges
-        $priceOptions = [
-            ['label' => 'Dưới 1 triệu', 'url' => '/san-pham?max_price=1000000', 'count' => null],
-            ['label' => '1 - 3 triệu', 'url' => '/san-pham?min_price=1000000&max_price=3000000', 'count' => null],
-            ['label' => '3 - 5 triệu', 'url' => '/san-pham?min_price=3000000&max_price=5000000', 'count' => null],
-            ['label' => '5 - 10 triệu', 'url' => '/san-pham?min_price=5000000&max_price=10000000', 'count' => null],
-            ['label' => 'Trên 10 triệu', 'url' => '/san-pham?min_price=10000000', 'count' => null],
-        ];
+        $priceOptions = $this->fetchJsonSetting('catalog_price_ranges', []);
+        $titles = $this->fetchJsonSetting('catalog_filter_titles', []);
 
         return [
             [
                 'id'      => 'woocommerce_layered_nav-3',
                 'class'   => 'widget woocommerce widget_layered_nav woocommerce-widget-layered-nav',
-                'title'   => 'Thương hiệu & Nhà sản xuất',
+                'title'   => (string) ($titles['producer'] ?? ''),
                 'options' => $producerOptions,
             ],
             [
                 'id'      => 'woocommerce_layered_nav-4',
                 'class'   => 'widget woocommerce widget_layered_nav woocommerce-widget-layered-nav',
-                'title'   => 'Quốc gia xuất xứ',
+                'title'   => (string) ($titles['country'] ?? ''),
                 'options' => $countryOptions,
             ],
             [
                 'id'      => 'woocommerce_price_filter-3',
                 'class'   => 'widget woocommerce widget_price_filter',
-                'title'   => 'Khoảng giá',
+                'title'   => (string) ($titles['price'] ?? ''),
                 'options' => $priceOptions,
             ],
         ];
@@ -89,8 +84,7 @@ final class CatalogRepository extends BaseRepository
 
     public function priceNote(): string
     {
-        $row = $this->fetch("SELECT value FROM settings WHERE `key` = 'price_note' LIMIT 1");
-        return $row !== null ? (string) $row['value'] : 'Giá đã bao gồm thuế VAT · Liên hệ Duvin để nhận tư vấn chính xác.';
+        return $this->fetchSetting('price_note');
     }
 
     /**
