@@ -128,8 +128,15 @@ final class ProductRepository extends BaseRepository
 
         $whereExtra = $slug === 'old-rare'
             ? 'p.is_rare = 1'
-            : '(t_type.slug = :slug OR t_country.slug = :slug OR t_prod.slug = :slug OR t_region.slug = :slug)';
-        $params = $slug === 'old-rare' ? [] : ['slug' => $slug];
+            : '(t_type.slug = :slug_type OR t_country.slug = :slug_country OR t_prod.slug = :slug_prod OR t_region.slug = :slug_region)';
+        $params = $slug === 'old-rare'
+            ? []
+            : [
+                'slug_type'    => $slug,
+                'slug_country' => $slug,
+                'slug_prod'    => $slug,
+                'slug_region'  => $slug,
+            ];
 
         $sql = "
             SELECT p.id, p.sku, p.name, p.slug, p.primary_image AS image,

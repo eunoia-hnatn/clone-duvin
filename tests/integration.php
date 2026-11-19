@@ -158,4 +158,7 @@ verify(str_contains($html, '<link rel="canonical" href="/san-pham/vang-do-chatea
 $oldRareHtml = capture(static fn () => $controller->category('old-rare'));
 verify(str_contains($oldRareHtml, 'Old &amp; Rare') && strlen($oldRareHtml) > 500, 'Old & Rare category route renders');
 
+$producerCatHtml = capture(static fn () => $controller->category('chateau-margaux'));
+verify(str_contains($producerCatHtml, 'Château Margaux') && strlen($producerCatHtml) > 500, 'Producer category route renders');
+
 echo "PASS: {$count} database integration and MVC checks\n";
