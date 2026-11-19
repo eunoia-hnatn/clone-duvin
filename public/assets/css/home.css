@@ -1492,6 +1492,10 @@ a:hover {
 		min-height: 580px;
 	}
 }
+.home-mainslider .slider:not(.flickity-enabled) > .row:first-child {
+	display: flex !important;
+	width: 100% !important;
+}
 .slider:not(.flickity-enabled) > *:not(:first-child) {
-	display: none;
+	display: none !important;
 }
