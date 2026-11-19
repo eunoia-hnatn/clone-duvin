@@ -21,7 +21,7 @@
                 </div>
                 <div class="price-wrapper">
                     <span class="price"><span class="woocommerce-Price-amount amount"><bdi><?= e(money($cardProduct['price'])) ?><span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
-                    <div class="price-note" style="font-size:12px;color:#777;margin-top:4px;"><?= e($priceNote) ?></div>
+                    <div class="price-note"><?= e($priceNote) ?></div>
                 </div>
             </div>
         </div>

@@ -34,6 +34,21 @@ if ($isHead) {
 }
 try {
     $router->dispatch($_SERVER['REQUEST_METHOD'] ?? 'GET', $_SERVER['REQUEST_URI'] ?? '/');
+} catch (Throwable $e) {
+    if ($isHead) {
+        ob_end_clean();
+    }
+    http_response_code(500);
+    $debug = Config::get('APP_DEBUG') === 'true' || Config::get('APP_DEBUG') === true || isset($_GET['debug']);
+    if ($debug) {
+        echo '<h1>Application Error (500)</h1>';
+        echo '<p><strong>Message:</strong> ' . htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8') . '</p>';
+        echo '<p><strong>File:</strong> ' . htmlspecialchars($e->getFile(), ENT_QUOTES, 'UTF-8') . ':' . $e->getLine() . '</p>';
+        echo '<pre>' . htmlspecialchars($e->getTraceAsString(), ENT_QUOTES, 'UTF-8') . '</pre>';
+    } else {
+        echo '<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><title>500 | Duvin</title><style>body{font-family:sans-serif;text-align:center;padding:60px 20px;background:#fcf7e8;color:#333;}h1{color:#822a1a;margin-bottom:12px;}p{font-size:16px;color:#666;}code{background:#eee;padding:2px 6px;border-radius:4px;}</style></head><body><h1>Hệ thống đang bảo trì hoặc gặp lỗi kết nối</h1><p>Vui lòng thử lại sau ít phút hoặc thêm <code>?debug=1</code> vào URL để xem thông tin chi tiết.</p></body></html>';
+    }
+    exit;
 } finally {
     if ($isHead) {
         ob_end_clean();

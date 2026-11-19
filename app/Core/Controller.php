@@ -11,19 +11,6 @@ class BaseController
         $viewFile = $this->resolveViewFile($view);
         $activeLayout = func_num_args() >= 3 ? $layout : $this->layout;
 
-        if ($activeLayout === null) {
-            $this->renderTemplate($viewFile, $data);
-            return;
-        }
-
-        $layoutFile = $this->resolveViewFile($activeLayout);
-
-        // Render view content into buffer
-        ob_start();
-        $this->renderTemplate($viewFile, $data);
-        $content = ob_get_clean();
-
-        // Render layout with injected content
         $defaults = [
             'pageTitle' => 'Duvin - Fine Wine Collection',
             'metaDescription' => 'Duvin - Bộ sưu tập rượu vang cao cấp từ khắp thế giới.',
@@ -37,7 +24,22 @@ class BaseController
                 // Ignore if repository dependencies not ready
             }
         }
-        $layoutData = array_merge($defaults, $data, ['content' => $content]);
+        $viewData = array_merge($defaults, $data);
+
+        if ($activeLayout === null) {
+            $this->renderTemplate($viewFile, $viewData);
+            return;
+        }
+
+        $layoutFile = $this->resolveViewFile($activeLayout);
+
+        // Render view content into buffer
+        ob_start();
+        $this->renderTemplate($viewFile, $viewData);
+        $content = ob_get_clean();
+
+        // Render layout with injected content
+        $layoutData = array_merge($viewData, ['content' => $content]);
         $this->renderTemplate($layoutFile, $layoutData);
     }
 

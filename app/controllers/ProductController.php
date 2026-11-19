@@ -55,13 +55,17 @@ final class ProductController extends BaseController
             static fn (array $candidate): bool => $candidate['slug'] !== $product['slug']
         ));
         $this->render('product-detail', [
-            'pageTitle' => $product['name'] . ' | Duvin',
-            'body_class' => 'single-product woocommerce woocommerce-page',
-            'product' => $product,
-            'detail' => $this->catalog->detail(),
+            'pageTitle'       => $product['name'] . ' | Duvin',
+            'body_class'      => 'single-product woocommerce woocommerce-page',
+            'product'         => $product,
+            'vintages'        => $this->products->vintagesForProduct($product),
+            'reviews'         => $this->products->reviewsForProduct($product),
+            'faqs'            => $this->products->faqs(),
+            'commitments'     => $this->products->commitments(),
+            'detail'          => $this->catalog->detail(),
             'relatedProducts' => $relatedProducts,
-            'priceNote' => $this->catalog->priceNote(),
-            'site' => $this->site->content(),
+            'priceNote'       => $this->catalog->priceNote(),
+            'site'            => $this->site->content(),
         ]);
     }
 }

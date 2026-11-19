@@ -36,18 +36,18 @@
 	--light-color: #f9f9f9;
 	--border-color: #ececec;
 	--border-color-light: rgba(99, 97, 70, 0.3);
-	
+
 	--font-heading: 'DangTau', 'Lato', sans-serif;
 	--font-body: 'SVNNeueMontreal', 'Lato', sans-serif;
 	--font-nav: 'SaaSeriesVN', 'Lato', sans-serif;
-	
+
 	--spacing-xs: 8px;
 	--spacing-sm: 16px;
 	--spacing-md: 24px;
 	--spacing-lg: 32px;
 	--spacing-xl: 48px;
 	--spacing-xxl: 64px;
-	
+
 	--transition-fast: 0.2s ease;
 	--transition-normal: 0.4s ease;
 	--transition-slow: 0.7s ease;
@@ -75,7 +75,12 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: var(--font-heading);
 	font-weight: 700;
 	text-transform: uppercase;
@@ -83,12 +88,29 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--secondary-color);
 }
 
-h1 { font-size: 3.3rem; }
-h2 { font-size: 2.87rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.35rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1.1rem; }
+h1 {
+	font-size: 3.3rem;
+}
+
+h2 {
+	font-size: 2.87rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.35rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1.1rem;
+}
 
 p {
 	margin-bottom: 1rem;
@@ -299,7 +321,7 @@ a:hover {
 	flex: auto;
 }
 
-.nav-item > a {
+.nav-item>a {
 	display: block;
 	padding: 12px 20px;
 	color: var(--secondary-color);
@@ -311,7 +333,7 @@ a:hover {
 	border-bottom: 2px solid transparent;
 }
 
-.nav-item > a:hover {
+.nav-item>a:hover {
 	color: var(--primary-color);
 	border-bottom-color: var(--primary-color);
 }
@@ -649,8 +671,13 @@ a:hover {
 }
 
 @keyframes fadeIn {
-	from { opacity: 0; }
-	to { opacity: 1; }
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
 
 .category-banner {
@@ -1042,9 +1069,17 @@ a:hover {
    Responsive Design - Tablet (max-width: 1024px)
    ============================================================================ */
 @media (max-width: 1024px) {
-	h1 { font-size: 2.5rem; }
-	h2 { font-size: 2.2rem; }
-	h3 { font-size: 1.4rem; }
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 2.2rem;
+	}
+
+	h3 {
+		font-size: 1.4rem;
+	}
 
 	.container {
 		padding: 0 var(--spacing-md);
@@ -1090,9 +1125,17 @@ a:hover {
 		font-size: 14px;
 	}
 
-	h1 { font-size: 1.8rem; }
-	h2 { font-size: 1.6rem; }
-	h3 { font-size: 1.2rem; }
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	h2 {
+		font-size: 1.6rem;
+	}
+
+	h3 {
+		font-size: 1.2rem;
+	}
 
 	.header-main {
 		padding: var(--spacing-md) 0;
@@ -1121,7 +1164,7 @@ a:hover {
 		-webkit-overflow-scrolling: touch;
 	}
 
-	.nav-item > a {
+	.nav-item>a {
 		padding: 10px 14px;
 		font-size: 0.85rem;
 		white-space: nowrap;
@@ -1233,9 +1276,17 @@ a:hover {
 		font-size: 13px;
 	}
 
-	h1 { font-size: 1.4rem; }
-	h2 { font-size: 1.3rem; }
-	h3 { font-size: 1.05rem; }
+	h1 {
+		font-size: 1.4rem;
+	}
+
+	h2 {
+		font-size: 1.3rem;
+	}
+
+	h3 {
+		font-size: 1.05rem;
+	}
 
 	.container {
 		padding: 0 var(--spacing-md);
@@ -1273,7 +1324,7 @@ a:hover {
 		margin-bottom: var(--spacing-md);
 	}
 
-	.nav-item > a {
+	.nav-item>a {
 		padding: 12px var(--spacing-md);
 		font-size: 0.9rem;
 	}
@@ -1341,6 +1392,7 @@ a:hover {
 }
 
 @media print {
+
 	.header-top,
 	.header-main,
 	.header-bottom,
@@ -1375,4 +1427,57 @@ a:hover {
 	::-webkit-scrollbar-thumb:hover {
 		background: var(--primary-color);
 	}
+}
+
+/* ============================================================================
+   Price Slide, Brand & Layout Clean CSS
+   ============================================================================ */
+.price-slide-banner {
+	padding-top: 550px;
+	background-color: #3f170f;
+}
+
+.slider-whisky-pricerange-title {
+	width: 60%;
+}
+
+.slider-whisky-pricerange-title .text-box-content {
+	font-size: 100%;
+}
+
+.slider-whisky-pricerange-title .dtile h2 {
+	font-size: 1.65rem;
+}
+
+.slider-whisky-pricerange-btn {
+	width: 60%;
+}
+
+.slider-whisky-pricerange-btn .text-box-content {
+	font-size: 100%;
+}
+
+.brand-box-image {
+	width: 80%;
+}
+
+.brand-overlay-clear {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.row-max-1500 {
+	max-width: 1500px;
+}
+
+.gap-element {
+	display: block;
+	height: auto;
+}
+
+.divider-olive {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	max-width: 100%;
+	height: 1px;
+	background-color: rgba(99, 97, 70, 0.6);
 }

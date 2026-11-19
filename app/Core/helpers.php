@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-/** Escape plain fixture values at the HTML output boundary. */
+/** Escape dynamic database values at the HTML output boundary. */
 function e($value): string
 {
     return htmlspecialchars((string) $value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
@@ -14,7 +14,7 @@ function money(int $amount): string
 }
 
 
-/** Attributes originate from trusted local presentation fixtures. */
+/** Format HTML attribute arrays safely. */
 function htmlAttributes(array $attributes): string
 {
     $html = [];

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 /**
  * Database Core Wrapper
- * Quản lý kết nối PDO MySQL chuẩn hóa Singleton, hỗ trợ Prepared Statements,
- * bảo mật chống SQL Injection, Transaction và tối ưu cho Shared Hosting.
+ * Quản lý kết nối PDO chuẩn hóa Singleton (MySQL trên Production / SQLite trên Local).
+ * Hỗ trợ Prepared Statements, Transaction và tối ưu cho Shared Hosting.
  */
 class Database
 {
@@ -17,31 +17,85 @@ class Database
     public static function connection(): PDO
     {
         if (self::$instance === null) {
-            $host = Config::get('DB_HOST', '127.0.0.1');
-            $port = Config::get('DB_PORT', '3306');
-            $database = Config::get('DB_NAME', '');
-            $username = Config::get('DB_USER', '');
-            $password = Config::get('DB_PASS', '');
+            $host = (string) Config::get('DB_HOST', '');
+            $port = (string) Config::get('DB_PORT', '3306');
+            $database = (string) Config::get('DB_NAME', '');
+            $username = (string) Config::get('DB_USER', '');
+            $password = (string) Config::get('DB_PASS', '');
 
-            $dsn = sprintf('mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4', $host, $port, $database);
+            $isProduction = Config::get('APP_ENV') === 'production'
+                || (isset($_SERVER['HTTP_HOST']) && str_contains($_SERVER['HTTP_HOST'], 'gt.tc'))
+                || str_contains(__DIR__, 'infinityfree');
 
-            $options = [
-                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-                PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-                PDO::ATTR_EMULATE_PREPARES => false,
-                PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci",
-                PDO::ATTR_TIMEOUT => 5,
-            ];
+            // 1. Môi trường Production: Bắt buộc dùng MySQL, tuyệt đối không dùng SQLite
+            if ($isProduction) {
+                if ($host === '' || $database === '') {
+                    throw new RuntimeException("Thiếu file .env hoặc cấu hình MySQL trên Production (DB_HOST='{$host}', DB_NAME='{$database}'). Hãy kiểm tra file .env trên hosting.");
+                }
 
+                $dsn = sprintf('mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4', $host, $port, $database);
+                $options = [
+                    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+                    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                    PDO::ATTR_EMULATE_PREPARES   => false,
+                    PDO::ATTR_TIMEOUT            => 10,
+                ];
+
+                try {
+                    $pdo = new PDO($dsn, $username, $password, $options);
+                    $pdo->exec("SET NAMES utf8mb4");
+                    self::$instance = $pdo;
+                    return self::$instance;
+                } catch (Throwable $e) {
+                    throw new RuntimeException("Lỗi kết nối MySQL trên hosting [host={$host}, db={$database}]: " . $e->getMessage(), (int)$e->getCode(), $e);
+                }
+            }
+
+            // 2. Môi trường Local dev: Ưu tiên MySQL nếu có config
+            if ($host !== '' && $database !== '' && $host !== 'sqlite') {
+                try {
+                    $dsn = sprintf('mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4', $host, $port, $database);
+                    $options = [
+                        PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+                        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                        PDO::ATTR_EMULATE_PREPARES   => false,
+                        PDO::ATTR_TIMEOUT            => 10,
+                    ];
+                    $pdo = new PDO($dsn, $username, $password, $options);
+                    $pdo->exec("SET NAMES utf8mb4");
+                    self::$instance = $pdo;
+                    return self::$instance;
+                } catch (Throwable $e) {
+                    error_log('[Database Notice] MySQL unavailable on local (' . $e->getMessage() . '), switching to SQLite local.');
+                }
+            }
+
+            // 3. Kết nối SQLite Database CHỈ dành cho môi trường Local dev khi máy cá nhân chưa bật MySQL
             try {
-                self::$instance = new PDO($dsn, $username, $password, $options);
-            } catch (PDOException $e) {
-                error_log('[Database Error] ' . $e->getMessage());
-                throw new RuntimeException('Không thể kết nối cơ sở dữ liệu: ' . $e->getMessage(), (int) $e->getCode(), $e);
+                $sqlitePath = dirname(__DIR__, 2) . '/database/duvin.sqlite';
+                $sqliteDir = dirname($sqlitePath);
+                if (!is_dir($sqliteDir)) {
+                    @mkdir($sqliteDir, 0777, true);
+                }
+                self::$instance = new PDO('sqlite:' . $sqlitePath, null, null, [
+                    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+                    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                    PDO::ATTR_EMULATE_PREPARES   => false,
+                ]);
+            } catch (Throwable $sqliteErr) {
+                throw new RuntimeException('Database connection failed: ' . $sqliteErr->getMessage(), (int)$sqliteErr->getCode(), $sqliteErr);
             }
         }
 
         return self::$instance;
+    }
+
+    /**
+     * Alias cho connection() để tương thích code cũ
+     */
+    public static function getInstance(): PDO
+    {
+        return self::connection();
     }
 
     /**
@@ -105,7 +159,7 @@ class Database
      */
     public static function lastInsertId(): string
     {
-        return self::connection()->lastInsertId();
+        return (string) self::connection()->lastInsertId();
     }
 
     /**
@@ -132,4 +186,3 @@ class Database
         return self::connection()->rollBack();
     }
 }
-

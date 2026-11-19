@@ -23,7 +23,8 @@ declare(strict_types=1);
  */
 final class AgeGateMiddleware
 {
-    private const COOKIE_NAME = 'duvin_age_verified';
+    private const COOKIE_NAME   = 'duvin_age_verified';
+    private const COOKIE_DENIED = 'duvin_age_denied';
 
     /** Danh sách đường dẫn không áp dụng middleware. */
     private const BYPASS_PATHS = [
@@ -45,15 +46,15 @@ final class AgeGateMiddleware
             return true;
         }
 
-        // Đã xác minh → cho qua
-        if ($this->isVerified()) {
-            return true;
-        }
-
         // Đã từ chối (cookie block còn hiệu lực) → redirect /under-18, không render gì
         if ($this->isDenied()) {
             $this->redirectTo('/under-18');
             return false;
+        }
+
+        // Đã xác minh → cho qua
+        if ($this->isVerified()) {
+            return true;
         }
 
         // Chưa xác minh → redirect server-side, không render HTML
@@ -84,7 +85,7 @@ final class AgeGateMiddleware
 
     private function isDenied(): bool
     {
-        return isset($_COOKIE['duvin_age_denied']) && $_COOKIE['duvin_age_denied'] === '1';
+        return isset($_COOKIE[self::COOKIE_DENIED]) && $_COOKIE[self::COOKIE_DENIED] === '1';
     }
 
     private function redirectTo(string $url): void
@@ -101,6 +102,5 @@ final class AgeGateMiddleware
 
         http_response_code(302);
         header('Location: ' . $redirectTo, true, 302);
-        // Không exit() — Router kiểm soát flow qua return false
     }
 }

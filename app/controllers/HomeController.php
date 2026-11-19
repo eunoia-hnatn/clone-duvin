@@ -13,7 +13,7 @@ final class HomeController extends BaseController
     public function index(): void
     {
         $this->render('home', [
-            'pageTitle' => 'World Class Whisky & Spirit | DangTau Whisky',
+            'pageTitle' => 'Duvin — Bộ Sưu Tập Rượu Vang Cao Cấp',
             'home' => $this->home->content(),
             'presentation' => $this->home->presentation(),
             'brands' => $this->brands->all(),

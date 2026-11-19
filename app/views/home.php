@@ -1,4 +1,4 @@
-﻿
+
 	<main id="main" class="">
 
 <div id="content" role="main" class="content-area">
@@ -53,7 +53,7 @@
 
 		<div class="section-content relative">
 
-<div class="row" style="max-width:1500px" id="row-1830793009">
+<div class="row row-max-1500" id="row-1830793009">
 
 	<div id="col-133004022" class="col small-12 large-12"  data-animate="fadeInLeft">
 				<div class="col-inner"  >
@@ -164,35 +164,35 @@
 
 	</div>
 
-	<div id="gap-560321887" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-560321887" class="gap-element clearfix">
 
 	</div>
 
 	<div id="stack-3701893570" class="stack home-stack-social stack-row justify-start items-stretch">
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1927864184">
-		<a class="" href="https://www.facebook.com/DuVinVN/" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="fb icon | DangTau Whisky" title="fb icon | Duvin">
+		<a class="" href="<?= e($settings['contact']['fanpage']) ?>" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+			<img decoding="async" src="/assets/images/fb-icon.svg" class="attachment-large size-large" alt="Facebook DuVin" title="Facebook DuVin">
 					</div>
 						</a>
 	</div>
 
 	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1831423319">
-		<a class="" href="https://zalo.me/0589598386" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
-			<img decoding="async" src="/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="zalo icon | DangTau Whisky" title="zalo icon | Duvin">
+		<a class="" href="<?= e($settings['contact']['zalo_oa']) ?>" target="_blank" rel="noopener nofollow">						<div class="img-inner dark" >
+			<img decoding="async" src="/assets/images/zalo1-icon.png" class="attachment-large size-large" alt="Zalo DuVin" title="Zalo DuVin">
 					</div>
 						</a>
 	</div>
 
 	</div>
 
-	<div id="gap-1112070631" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1112070631" class="gap-element clearfix">
 
 	</div>
 
-<div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;background-color:rgba(99, 97, 70, 0.6);"></div>
+<div class="is-divider divider clearfix divider-olive"></div>
 
-	<div id="gap-1982491605" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1982491605" class="gap-element clearfix">
 
 	</div>
 
@@ -365,7 +365,7 @@
 
 	</div>
 
-	<div id="gap-399557335" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-399557335" class="gap-element clearfix">
 
 	</div>
 
@@ -414,7 +414,7 @@
 
 	</div>
 
-	<div id="gap-13144486" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-13144486" class="gap-element clearfix">
 
 	</div>
 

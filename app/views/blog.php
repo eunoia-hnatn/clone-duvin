@@ -17,7 +17,7 @@
 
 
 	<div id="col-1785037370" class="col full-50center-col medium-6 small-12 large-6">
-				<div class="col-inner dark" style="background-color:#636146;">
+				<div class="col-inner dark bg-olive">
 
 
 
@@ -115,7 +115,7 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
 		<div class="section-content relative">
 
 
-	<div id="gap-402405711" class="gap-element clearfix" style="display:block; height:auto;"></div>
+	<div id="gap-402405711" class="gap-element clearfix"></div>
 
 
 <div class="row" id="row-1593896295">
@@ -148,7 +148,7 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
 
 
 
-<div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;background-color:rgba(99, 97, 70, 0.4);"></div>
+<div class="is-divider divider clearfix divider-olive"></div>
 
 
 		</div>
@@ -163,7 +163,7 @@ Nơi chia sẻ những kiến thức sâu sắc về các dòng rượu vang, qu
 
 	</section>
 
-	<div id="gap-1585682205" class="gap-element clearfix" style="display:block; height:auto;"></div>
+	<div id="gap-1585682205" class="gap-element clearfix"></div>
 	</div>
 
 
