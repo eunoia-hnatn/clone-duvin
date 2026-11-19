@@ -51,6 +51,8 @@ final class SiteRepository extends BaseRepository
             'children' => [],
         ], $producers);
 
+        $menusConfig = $this->fetchJsonSetting('site_menus', []);
+
         return [
             'menus' => [
                 'header_contact' => [
@@ -95,27 +97,8 @@ final class SiteRepository extends BaseRepository
                         'children' => [],
                     ],
                 ],
-                'header_2' => [
-                    [
-                        'attributes' => ['class' => 'menu-item menu-item-type-post_type menu-item-object-page'],
-                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/ve-duvin'],
-                        'label' => 'Về Duvin',
-                        'children' => [],
-                    ],
-                    [
-                        'attributes' => ['class' => 'menu-item menu-item-type-post_type menu-item-object-page'],
-                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/ve-nha-sang-lap'],
-                        'label' => 'Nhà Sáng Lập',
-                        'children' => [],
-                    ],
-                    [
-                        'attributes' => ['class' => 'menu-item menu-item-type-post_type menu-item-object-page'],
-                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/kien-thuc-whisky'],
-                        'label' => 'Kiến Thức Rượu Vang',
-                        'children' => [],
-                    ],
-                ],
-                'header_3' => [
+                'header_2' => is_array($menusConfig['header_2'] ?? null) ? $menusConfig['header_2'] : [],
+                'header_3' => array_merge([
                     [
                         'attributes' => ['class' => 'menu-item menu-item-has-children has-dropdown'],
                         'link_attributes' => ['class' => 'nav-top-link', 'href' => '/danh-muc/wine', 'aria-expanded' => 'false', 'aria-haspopup' => 'menu'],
@@ -134,59 +117,9 @@ final class SiteRepository extends BaseRepository
                         'children_attributes' => ['class' => 'sub-menu nav-dropdown nav-dropdown-default'],
                         'children' => $producerChildren,
                     ],
-                    [
-                        'attributes' => ['class' => 'menu-item'],
-                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/danh-muc/bo-qua-tang'],
-                        'label' => 'Hộp Quà Doanh Nghiệp',
-                        'children' => [],
-                    ],
-                    [
-                        'attributes' => ['class' => 'menu-item'],
-                        'link_attributes' => ['class' => 'nav-top-link', 'href' => '/san-pham'],
-                        'label' => 'Tất Cả Sản Phẩm',
-                        'children' => [],
-                    ],
-                ],
-                'footer_0' => [
-                    [
-                        'attributes' => ['class' => ''],
-                        'link_attributes' => ['class' => '', 'href' => '/ve-duvin'],
-                        'label' => 'Về chúng tôi',
-                        'children' => [],
-                    ],
-                    [
-                        'attributes' => ['class' => ''],
-                        'link_attributes' => ['class' => '', 'href' => '/ve-nha-sang-lap'],
-                        'label' => 'Về nhà sáng lập',
-                        'children' => [],
-                    ],
-                    [
-                        'attributes' => ['class' => ''],
-                        'link_attributes' => ['class' => '', 'href' => '/kien-thuc-whisky'],
-                        'label' => 'Kiến thức rượu vang',
-                        'children' => [],
-                    ],
-                ],
-                'footer_1' => [
-                    [
-                        'attributes' => ['class' => ''],
-                        'link_attributes' => ['class' => '', 'href' => '/danh-muc/wine'],
-                        'label' => 'Rượu vang cao cấp',
-                        'children' => [],
-                    ],
-                    [
-                        'attributes' => ['class' => ''],
-                        'link_attributes' => ['class' => '', 'href' => '/danh-muc/bo-qua-tang'],
-                        'label' => 'Hộp quà tặng Tết',
-                        'children' => [],
-                    ],
-                    [
-                        'attributes' => ['class' => ''],
-                        'link_attributes' => ['class' => '', 'href' => '/san-pham'],
-                        'label' => 'Danh mục sản phẩm',
-                        'children' => [],
-                    ],
-                ],
+                ], is_array($menusConfig['header_3_static'] ?? null) ? $menusConfig['header_3_static'] : []),
+                'footer_0' => is_array($menusConfig['footer_0'] ?? null) ? $menusConfig['footer_0'] : [],
+                'footer_1' => is_array($menusConfig['footer_1'] ?? null) ? $menusConfig['footer_1'] : [],
             ],
         ];
     }

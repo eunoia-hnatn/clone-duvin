@@ -262,7 +262,7 @@ $renderIcon = static function (string $key) use ($iconPaths): string {
                         <div>
                             <h3><?= e($review['name']) ?></h3>
                             <blockquote>“<?= e($review['quote']) ?>”</blockquote>
-                            <span class="mock-label">Hội đồng nếm thử độc lập</span>
+                            <span class="review-source-label">Hội đồng nếm thử độc lập</span>
                         </div>
                     </article>
                 <?php endforeach; ?>

@@ -147,7 +147,7 @@
 
 	</div>
 	
-	<div id="gap-779797219" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-779797219" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -246,7 +246,7 @@
 
 	</div>
 	
-	<div id="gap-256303139" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-256303139" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -396,7 +396,7 @@
 	
 
 </div>
-	<div id="gap-354702134" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-354702134" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -509,7 +509,7 @@
 
 	</div>
 	
-	<div id="gap-835187223" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-835187223" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -561,15 +561,15 @@
 	
 
 
-	<div id="gap-97718709" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-97718709" class="gap-element clearfix gap-auto">
 		
 
 	</div>
 	
 
-<div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;background-color:rgba(99, 97, 70, 0.6);"></div>
+<div class="is-divider divider clearfix divider-olive-strong"></div>
 
-	<div id="gap-1399250581" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1399250581" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -647,7 +647,7 @@
 
 </div>
 
-	<div id="gap-1325971333" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1325971333" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -771,7 +771,7 @@
 
 	</div>
 	
-	<div id="gap-1245217779" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1245217779" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -858,7 +858,7 @@
 
 	</div>
 	
-	<div id="gap-2106016434" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-2106016434" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -937,7 +937,7 @@
 	</div>
 	
 <p>Tham gia cùng chúng tôi để chia sẻ kiến thức, trải nghiệm và cùng nhau thưởng thức những ly vang tuyệt hảo trong một không gian thân thiện, cởi mở.</p>
-	<div id="gap-1025840375" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1025840375" class="gap-element clearfix gap-auto">
 		
 
 	</div>
@@ -1000,7 +1000,7 @@
 
 	</div>
 	
-	<div id="gap-886494020" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-886494020" class="gap-element clearfix gap-auto">
 		
 
 	</div>
