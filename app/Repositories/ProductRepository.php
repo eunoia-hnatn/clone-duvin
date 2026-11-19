@@ -48,7 +48,7 @@ final class ProductRepository extends BaseRepository
         ";
 
         $rows = $this->fetchAll($sql);
-        return array_map([$this, 'formatProduct'], $rows);
+        return $this->formatProducts($rows);
     }
 
     public function findBySlug(string $slug): ?array
@@ -92,7 +92,11 @@ final class ProductRepository extends BaseRepository
         ";
 
         $row = $this->fetch($sql, ['slug' => $slug]);
-        return $row !== null ? $this->formatProduct($row) : null;
+        if ($row === null) {
+            return null;
+        }
+        $formatted = $this->formatProducts([$row]);
+        return $formatted[0];
     }
 
     public function findMany(array $slugs): array
@@ -162,7 +166,7 @@ final class ProductRepository extends BaseRepository
         ";
 
         $rows = $this->fetchAll($sql, ['slug' => $slug]);
-        return array_map([$this, 'formatProduct'], $rows);
+        return $this->formatProducts($rows);
     }
 
     /**
@@ -242,36 +246,68 @@ final class ProductRepository extends BaseRepository
         return $this->fetchJsonSetting('pdp_commitments', []);
     }
 
-    private function grapesForVintage(int $vintageId): string
+    /**
+     * @param array<int, array<string, mixed>> $rows
+     * @return array<int, array<string, mixed>>
+     */
+    private function formatProducts(array $rows): array
     {
-        if ($vintageId <= 0) {
-            return '';
-        }
-        $rows = $this->fetchAll(
-            'SELECT t.name, pvg.percentage
-             FROM product_vintage_grapes pvg
-             INNER JOIN taxonomies t ON t.id = pvg.grape_id
-             WHERE pvg.vintage_id = :vid
-             ORDER BY pvg.percentage DESC, t.display_order ASC',
-            ['vid' => $vintageId]
-        );
         if ($rows === []) {
-            return '';
+            return [];
         }
-        $parts = array_map(static function (array $r): string {
-            $pct = $r['percentage'] !== null ? ' (' . rtrim(rtrim((string) $r['percentage'], '0'), '.') . '%)' : '';
-            return (string) $r['name'] . $pct;
-        }, $rows);
-        return implode(', ', $parts);
+
+        $vintageIds = array_values(array_unique(array_filter(
+            array_map(static fn (array $r): int => (int) ($r['vintage_id'] ?? 0), $rows),
+            static fn (int $id): bool => $id > 0
+        )));
+        $grapesMap = $this->grapesMapForVintages($vintageIds);
+
+        return array_map(
+            fn (array $row): array => $this->formatProduct($row, $grapesMap[(int) ($row['vintage_id'] ?? 0)] ?? ''),
+            $rows
+        );
     }
 
-    private function formatProduct(array $row): array
+    /**
+     * @param array<int, int> $vintageIds
+     * @return array<int, string>
+     */
+    private function grapesMapForVintages(array $vintageIds): array
+    {
+        if ($vintageIds === []) {
+            return [];
+        }
+
+        $placeholders = implode(', ', array_fill(0, count($vintageIds), '?'));
+        $rows = $this->fetchAll(
+            "SELECT pvg.vintage_id, t.name, pvg.percentage
+             FROM product_vintage_grapes pvg
+             INNER JOIN taxonomies t ON t.id = pvg.grape_id
+             WHERE pvg.vintage_id IN ({$placeholders})
+             ORDER BY pvg.percentage DESC, t.display_order ASC",
+            $vintageIds
+        );
+
+        $grouped = [];
+        foreach ($rows as $r) {
+            $vid = (int) $r['vintage_id'];
+            $pct = $r['percentage'] !== null ? ' (' . rtrim(rtrim((string) $r['percentage'], '0'), '.') . '%)' : '';
+            $grouped[$vid][] = (string) $r['name'] . $pct;
+        }
+
+        $map = [];
+        foreach ($grouped as $vid => $parts) {
+            $map[$vid] = implode(', ', $parts);
+        }
+        return $map;
+    }
+
+    private function formatProduct(array $row, string $grape = ''): array
     {
         $origin = implode(', ', array_filter([$row['region'] ?? '', $row['country'] ?? '']));
         $alcoholStr = isset($row['abv']) && $row['abv'] !== null
             ? str_replace('.', ',', (string) $row['abv']) . '%'
             : '';
-        $vintageId = isset($row['vintage_id']) ? (int) $row['vintage_id'] : 0;
 
         return [
             'id'                => (int) $row['id'],
@@ -290,7 +326,7 @@ final class ProductRepository extends BaseRepository
             'region'            => (string) ($row['region'] ?? ''),
             'origin'            => $origin,
             'classification'    => (string) ($row['classification'] ?? ''),
-            'grape'             => $this->grapesForVintage($vintageId),
+            'grape'             => $grape,
             'vintage'           => (string) ($row['vintage'] ?? 'NV'),
             'abv'               => $alcoholStr,
             'volume'            => (string) ($row['volume'] ?? '750ml'),

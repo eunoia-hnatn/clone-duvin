@@ -17,7 +17,11 @@ class PageController extends BaseController
     public function about(): void
     {
         $pageTitle = 'Về DuVin | DuVin';
-        $this->render('about', ['pageTitle' => $pageTitle, 'site' => $this->site->content()]);
+        $this->render('about', [
+            'pageTitle'  => $pageTitle,
+            'pageStyles' => ['/assets/css/about.css'],
+            'site'       => $this->site->content(),
+        ]);
     }
 
     /**
@@ -26,7 +30,11 @@ class PageController extends BaseController
     public function founder(): void
     {
         $pageTitle = 'Về Nhà Sáng Lập | DuVin';
-        $this->render('founder', ['pageTitle' => $pageTitle, 'site' => $this->site->content()]);
+        $this->render('founder', [
+            'pageTitle'  => $pageTitle,
+            'pageStyles' => ['/assets/css/founder.css'],
+            'site'       => $this->site->content(),
+        ]);
     }
 
     /**
@@ -40,11 +48,12 @@ class PageController extends BaseController
             return;
         }
         $this->render('blog', [
-            'pageTitle' => 'Wine Knowledge | Duvin',
-            'site' => $this->site->content(),
-            'articles' => $pagination['items'],
+            'pageTitle'         => 'Wine Knowledge | Duvin',
+            'pageStyles'        => ['/assets/css/blog.css'],
+            'site'              => $this->site->content(),
+            'articles'          => $pagination['items'],
             'articleCategories' => $this->articles->categories(),
-            'pagination' => $pagination,
+            'pagination'        => $pagination,
         ]);
     }
 
@@ -56,9 +65,10 @@ class PageController extends BaseController
             return;
         }
         $this->render('article', [
-            'pageTitle' => $article['title'] . ' | Duvin',
-            'article' => $article,
-            'site' => $this->site->content(),
+            'pageTitle'  => $article['title'] . ' | Duvin',
+            'pageStyles' => ['/assets/css/blog.css'],
+            'article'    => $article,
+            'site'       => $this->site->content(),
         ]);
     }
 

@@ -1481,3 +1481,17 @@ a:hover {
 	height: 1px;
 	background-color: rgba(99, 97, 70, 0.6);
 }
+
+/* Prevent Hero / Slider FOUC before Flickity JS initializes */
+.home-mainslider {
+	overflow: hidden;
+	min-height: 460px;
+}
+@media (min-width: 850px) {
+	.home-mainslider {
+		min-height: 580px;
+	}
+}
+.slider:not(.flickity-enabled) > *:not(:first-child) {
+	display: none;
+}

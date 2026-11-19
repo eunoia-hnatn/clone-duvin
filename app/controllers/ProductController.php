@@ -32,8 +32,9 @@ final class ProductController extends BaseController
     private function listing(array $category): void
     {
         $this->render('products', [
-            'pageTitle' => $category['title'] . ' | Duvin',
-            'category' => $category,
+            'pageTitle'          => $category['title'] . ' | Duvin',
+            'pageStyles'         => ['/assets/css/products.css'],
+            'category'           => $category,
             'isGiftCategory' => $category['slug'] === 'bo-qua-tang',
             'products' => $this->products->forCategory($category),
             'categoryNavigation' => $this->categories->navigation(),
@@ -56,6 +57,7 @@ final class ProductController extends BaseController
         ));
         $this->render('product-detail', [
             'pageTitle'       => $product['name'] . ' | Duvin',
+            'pageStyles'      => ['/assets/css/pdp.css'],
             'body_class'      => 'single-product woocommerce woocommerce-page',
             'product'         => $product,
             'vintages'        => $this->products->vintagesForProduct($product),

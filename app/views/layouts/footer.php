@@ -182,25 +182,23 @@ $footerTel     = $footerContact['hotline'];
 </div>
 
 <!-- Flatsome theme essential scripts -->
-<script type="text/javascript" src="/assets/js/hoverIntent.min.js" id="hoverIntent-js"></script>
+<script type="text/javascript" src="/assets/js/hoverIntent.min.js" id="hoverIntent-js" defer></script>
 <script type="text/javascript" id="flatsome-js-js-extra">
 /* <![CDATA[ */
 var flatsomeVars = {"theme":{"version":"3.19.6"},"rtl":"","sticky_height":"80","stickyHeaderHeight":"0","scrollPaddingTop":"0","assets_url":"\/assets\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Menu ch\u00ednh","toggleButton":"Chuy\u1ec3n \u0111\u1ed5i"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_disable_deselect":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_limited":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"500"},"is_mini_cart_reveal":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/assets/js/flatsome.js" id="flatsome-js-js"></script>
-<script type="text/javascript" src="/assets/js/flatsome-instant-page.js" id="flatsome-instant-page-js"></script>
-<script type="text/javascript" src="/assets/js/fs-tuned-animation.js" id="fs-tuned-animation-js-js"></script>
-<script type="text/javascript" src="/assets/js/engraving.js" id="engraving-js-js"></script>
+<script type="text/javascript" src="/assets/js/flatsome.js" id="flatsome-js-js" defer></script>
+<script type="text/javascript" src="/assets/js/flatsome-instant-page.js" id="flatsome-instant-page-js" defer></script>
+<script type="text/javascript" src="/assets/js/fs-tuned-animation.js" id="fs-tuned-animation-js-js" defer></script>
 
-<script type="text/javascript" src="/assets/js/index.js" id="contact-form-7-js"></script>
-<script type="text/javascript" src="/assets/js/frontend-script.js" id="frontend-script-js"></script>
+<script type="text/javascript" src="/assets/js/index.js" id="contact-form-7-js" defer></script>
+<script type="text/javascript" src="/assets/js/frontend-script.js" id="frontend-script-js" defer></script>
 
 <!-- Duvin script -->
 <script src="/assets/js/home.js" defer></script>
 
 <!-- Pusher Widget -->
-<link rel="stylesheet" href="/assets/css/pusher.css" />
 <?php include __DIR__ . '/../pusher.php'; ?>
 <script src="/assets/js/pusher.js" defer></script>
 

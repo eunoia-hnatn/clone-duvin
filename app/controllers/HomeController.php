@@ -12,12 +12,15 @@ final class HomeController extends BaseController
 
     public function index(): void
     {
+        $home = $this->home->content();
         $this->render('home', [
-            'pageTitle' => 'Duvin — Bộ Sưu Tập Rượu Vang Cao Cấp',
-            'home' => $this->home->content(),
+            'pageTitle'    => 'Duvin — Bộ Sưu Tập Rượu Vang Cao Cấp',
+            'pageStyles'   => ['/assets/css/home.css'],
+            'preloadImage' => $home['hero_slides'][0]['image']['src'] ?? null,
+            'home'         => $home,
             'presentation' => $this->home->presentation(),
-            'brands' => $this->brands->all(),
-            'site' => $this->site->content(),
+            'brands'       => $this->brands->all(),
+            'site'         => $this->site->content(),
         ]);
     }
 }
