@@ -1432,9 +1432,16 @@ a:hover {
 /* ============================================================================
    Price Slide, Brand & Layout Clean CSS
    ============================================================================ */
-.price-slide-banner {
-	padding-top: 550px;
+.homeslider-whisky-range .flickity-slider > .price-slide-banner,
+.homeslider-whisky-range .price-slide-banner {
+	padding-top: 400px !important;
 	background-color: #3f170f;
+}
+@media (min-width: 1001px) {
+	.homeslider-whisky-range .flickity-slider > .price-slide-banner,
+	.homeslider-whisky-range .price-slide-banner {
+		padding-top: 550px !important;
+	}
 }
 
 .slider-whisky-pricerange-title {
