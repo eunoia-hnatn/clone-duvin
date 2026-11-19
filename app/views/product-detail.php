@@ -301,7 +301,8 @@ $renderIcon = static function (string $key) use ($iconPaths): string {
                     <p>Tuyển chọn những sản phẩm cùng bộ sưu tập hoặc phân hạng.</p>
                 </div>
 
-                <div id="related-grid" class="row large-columns-4 medium-columns-3 small-columns-2 row-small">
+                <div id="related-grid" class="row large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside"
+                     data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold": 5, "cellAlign": "left", "wrapAround": false, "prevNextButtons": true, "percentPosition": true, "pageDots": true, "rightToLeft": false}'>
                     <?php foreach ($relatedProducts as $index => $cardProduct): ?>
                         <?php include __DIR__ . '/components/catalog/product-card.php'; ?>
                     <?php endforeach; ?>

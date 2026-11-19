@@ -51,10 +51,7 @@ final class ProductController extends BaseController
             $this->notFound();
             return;
         }
-        $relatedProducts = array_values(array_filter(
-            $this->products->findMany($this->catalog->relatedSlugs()),
-            static fn (array $candidate): bool => $candidate['slug'] !== $product['slug']
-        ));
+        $relatedProducts = (new RecommendationService())->forProduct($product, $this->products, 8);
         $this->render('product-detail', [
             'pageTitle'       => $product['name'] . ' | Duvin',
             'pageStyles'      => ['/assets/css/pdp.css'],

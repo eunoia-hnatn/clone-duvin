@@ -161,4 +161,13 @@ verify(str_contains($oldRareHtml, 'Old &amp; Rare') && strlen($oldRareHtml) > 50
 $producerCatHtml = capture(static fn () => $controller->category('chateau-margaux'));
 verify(str_contains($producerCatHtml, 'Château Margaux') && strlen($producerCatHtml) > 500, 'Producer category route renders');
 
+// 14. Rule-based RecommendationService (FR-07)
+$currentWine = $products->findBySlug('vang-do-chateau-margaux-grand-cru-2018');
+$recommended = (new RecommendationService())->forProduct($currentWine, $products, 8);
+verify(count($recommended) >= 4 && count($recommended) <= 8, 'Recommendation returns 4 to 8 products');
+$recSlugs = array_column($recommended, 'slug');
+verify(!in_array($currentWine['slug'], $recSlugs, true), 'Recommendation excludes current product');
+verify(count(array_filter($recommended, static fn (array $p): bool => (bool) $p['in_stock'])) === count($recommended), 'Recommendation excludes out-of-stock products');
+verify(str_contains($html, 'id="related-grid"') && str_contains($html, 'data-flickity-options'), 'PDP related products section renders as slider');
+
 echo "PASS: {$count} database integration and MVC checks\n";
