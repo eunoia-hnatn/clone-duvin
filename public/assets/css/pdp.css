@@ -105,6 +105,7 @@
   display: inline-flex;
   gap: 8px;
   align-items: center;
+  white-space: nowrap;
   background: transparent;
   border: 1px solid var(--pdp-line);
   color: var(--pdp-muted);
@@ -113,6 +114,12 @@
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s;
+}
+
+#product-detail-view .share svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
 }
 
 #product-detail-view .share:hover {
@@ -224,6 +231,8 @@
 }
 
 #product-detail-view .commitment svg {
+  width: 24px;
+  height: 24px;
   color: var(--pdp-red);
   margin: 0 auto 6px;
   display: block;
