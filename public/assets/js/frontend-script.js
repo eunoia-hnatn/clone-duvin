@@ -1,73 +1,56 @@
 //lấy content trong subtitle của slider tại home và hiện trong dot, đồng thời cho dots sang bên trái chung với col ở trên
 document.addEventListener('DOMContentLoaded', function() {
-    const slider = document.querySelector('.home-mainslider');
-    if (!slider || typeof IntersectionObserver === 'undefined') {
+    const mainSlider = document.querySelector('.home-mainslider');
+    if (!mainSlider) {
         return;
     }
 
-    // Hàm để xử lý nội dung khi phần tử trong viewport
-    const handleSliderContent = (entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting && entry.target) {
-                // Lấy phần tử .home-mainslider
-                const mainSlider = entry.target;
+    function updateDotsPosition() {
+        const colInner = mainSlider.querySelector('.center-maxwidth-50 .col-inner');
+        const dotsContainer = mainSlider.querySelector('.flickity-page-dots');
 
-                // Lấy tất cả các thẻ p trong .dtsubtitle bên trong .home-mainslider
-                const subtitles = mainSlider.querySelectorAll('.dtsubtitle p');
-                const dots = mainSlider.querySelectorAll('.flickity-page-dots .dot');
+        if (colInner && dotsContainer) {
+            const marginLeft = window.getComputedStyle(colInner).marginLeft;
+            dotsContainer.style.left = marginLeft;
+        }
+    }
 
-                // Duyệt qua từng dot và gán nội dung từ subtitles
-                dots.forEach((dot, index) => {
-                    if (subtitles[index]) {
-                        dot.textContent = subtitles[index].textContent; // Chèn nội dung vào li
-                        dot.setAttribute('aria-label', `Page dot ${index + 1}`); // Cập nhật aria-label
-                        
-                        // Tạo thẻ span
-                        const span = document.createElement('span');
-                        span.textContent = ``; // Nội dung cho span, có thể tùy chỉnh
-                        
-                        // Thêm span sau thẻ li
-                        dot.insertAdjacentElement('afterend', span);
-                    }
-                });
+    function enhanceSliderDots() {
+        const dotsContainer = mainSlider.querySelector('.flickity-page-dots');
+        const dots = mainSlider.querySelectorAll('.flickity-page-dots .dot');
+        if (!dotsContainer || dots.length === 0) {
+            return false;
+        }
+        if (dotsContainer.dataset.duvinEnhanced === '1') {
+            return true;
+        }
+        dotsContainer.dataset.duvinEnhanced = '1';
 
-                // Hàm để cập nhật left của .flickity-page-dots
-                function updateDotsPosition() {
-                    const colInner = mainSlider.querySelector('.center-maxwidth-50 .col-inner');
-                    const dotsContainer = mainSlider.querySelector('.flickity-page-dots');
+        const subtitles = mainSlider.querySelectorAll('.dtsubtitle p');
+        dots.forEach((dot, index) => {
+            if (subtitles[index]) {
+                dot.textContent = subtitles[index].textContent;
+                dot.setAttribute('aria-label', `Page dot ${index + 1}`);
 
-                    if (colInner && dotsContainer) {
-                        const marginLeft = window.getComputedStyle(colInner).marginLeft; // Lấy giá trị margin-left
-                        dotsContainer.style.left = marginLeft; // Đặt giá trị vào left của .flickity-page-dots
-                    }
-                }
-
-                // Gọi hàm để thiết lập vị trí ban đầu
-                updateDotsPosition();
-
-                // Thêm class 'active' vào .flickity-page-dots
-                const dotsContainer = mainSlider.querySelector('.flickity-page-dots');
-                if (dotsContainer) {
-                    dotsContainer.classList.add('active');
-                }
-
-                // Lắng nghe sự kiện resize
-                window.addEventListener('resize', updateDotsPosition);
-
-                // Ngừng theo dõi sau khi đã chạy
-                observer.unobserve(mainSlider);
+                const span = document.createElement('span');
+                dot.insertAdjacentElement('afterend', span);
             }
         });
-    };
 
-    // Khởi tạo Intersection Observer
-    const observer = new IntersectionObserver(handleSliderContent, {
-        root: null, // Theo dõi trong viewport
-        threshold: 0.5 // Tỷ lệ phần tử trong viewport để kích hoạt
-    });
+        updateDotsPosition();
+        dotsContainer.classList.add('active');
+        window.addEventListener('resize', updateDotsPosition);
+        return true;
+    }
 
-    // Lấy phần tử .home-mainslider và bắt đầu theo dõi
-    observer.observe(slider);
+    if (!enhanceSliderDots() && typeof MutationObserver !== 'undefined') {
+        const mo = new MutationObserver(() => {
+            if (enhanceSliderDots()) {
+                mo.disconnect();
+            }
+        });
+        mo.observe(mainSlider, { childList: true, subtree: true });
+    }
 });
 
 //Xử lý section choose a type of whisky trên Home
