@@ -27,6 +27,10 @@ $router->group('/', function (Router $router) use ($home, $products, $pages, $sl
     $router->get('/danh-muc/{slug}', [$products, 'category'], ['slug' => $categoryPath]);
     $router->get('/ve-duvin', [$pages, 'about']);
     $router->get('/ve-nha-sang-lap', [$pages, 'founder']);
+    $router->get('/kien-thuc-ruou-vang', [$pages, 'blog']);
+    $router->get('/kien-thuc-ruou-vang/page/{page}', static function (string $page) use ($pages): void {
+        $pages->blog((int) $page);
+    }, ['page' => '[1-9][0-9]*']);
     $router->get('/kien-thuc-whisky', [$pages, 'blog']);
     $router->get('/kien-thuc-whisky/page/{page}', static function (string $page) use ($pages): void {
         $pages->blog((int) $page);

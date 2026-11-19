@@ -43,6 +43,15 @@ final class CategoryRepository extends BaseRepository
             return $this->formatCategory($row);
         }
 
+        if ($slug === 'old-rare') {
+            return [
+                'title'         => 'Old & Rare',
+                'slug'          => 'old-rare',
+                'desc'          => 'Tuyển chọn những chai rượu vang cổ điển và phiên bản giới hạn quý hiếm tại Duvin.',
+                'product_slugs' => [],
+            ];
+        }
+
         if ($slug === 'all' || $slug === 'san-pham' || $slug === 'wine') {
             return $this->overview();
         }

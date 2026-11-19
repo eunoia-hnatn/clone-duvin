@@ -126,6 +126,11 @@ final class ProductRepository extends BaseRepository
             return $this->all();
         }
 
+        $whereExtra = $slug === 'old-rare'
+            ? 'p.is_rare = 1'
+            : '(t_type.slug = :slug OR t_country.slug = :slug OR t_prod.slug = :slug OR t_region.slug = :slug)';
+        $params = $slug === 'old-rare' ? [] : ['slug' => $slug];
+
         $sql = "
             SELECT p.id, p.sku, p.name, p.slug, p.primary_image AS image,
                    p.short_description, p.full_description, p.storage_advice, p.target_audience,
@@ -161,11 +166,11 @@ final class ProductRepository extends BaseRepository
                 LIMIT 1
             )
             WHERE p.is_active = 1
-              AND (t_type.slug = :slug OR t_country.slug = :slug OR t_prod.slug = :slug OR t_region.slug = :slug)
+              AND {$whereExtra}
             ORDER BY p.display_order ASC, p.id ASC
         ";
 
-        $rows = $this->fetchAll($sql, ['slug' => $slug]);
+        $rows = $this->fetchAll($sql, $params);
         return $this->formatProducts($rows);
     }
 

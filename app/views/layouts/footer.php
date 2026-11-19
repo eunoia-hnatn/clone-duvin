@@ -174,8 +174,8 @@ $footerTel     = $footerContact['hotline'];
 				</li>
 			</ul>
 
-			<ul class="nav nav-sidebar nav-vertical nav-uppercase hidden" data-tab="2"><?php $menuItems = $site['menus']['footer_0']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
-			<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1"><?php $menuItems = $site['menus']['footer_1']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
+			<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1"><?php $menuItems = $site['menus']['footer_0']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
+			<ul class="nav nav-sidebar nav-vertical nav-uppercase hidden" data-tab="2"><?php $menuItems = $site['menus']['footer_1']; include __DIR__ . '/../components/menu-items.php'; ?></ul>
 
 	</div>
 

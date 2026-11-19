@@ -152,5 +152,10 @@ verify($categories->overview()['title'] === 'Tất Cả Sản Phẩm', 'Category
 verify(str_contains($homeHtml, '/assets/css/home.css?v=') && !str_contains($homeHtml, '/assets/css/pdp.css'), 'Home loads page-specific CSS with cache-busting only');
 verify(str_contains($homeHtml, 'rel="preload" as="image"'), 'Home preloads first hero image');
 verify(str_contains($html, '/assets/css/pdp.css?v=') && !str_contains($html, '/assets/css/home.css'), 'PDP loads page-specific CSS with cache-busting only');
+verify(str_contains($homeHtml, 'https://amis.duvin.vn') && str_contains($homeHtml, 'Về chúng tôi') && str_contains($homeHtml, 'Wine Knowledge') && str_contains($homeHtml, '/danh-muc/old-rare'), 'Header menus match Duvin sitemap structure');
+verify(str_contains($html, '<link rel="canonical" href="/san-pham/vang-do-chateau-margaux-grand-cru-2018'), 'PDP sets dynamic canonical URL');
+
+$oldRareHtml = capture(static fn () => $controller->category('old-rare'));
+verify(str_contains($oldRareHtml, 'Old &amp; Rare') && strlen($oldRareHtml) > 500, 'Old & Rare category route renders');
 
 echo "PASS: {$count} database integration and MVC checks\n";

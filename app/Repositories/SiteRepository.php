@@ -18,7 +18,7 @@ final class SiteRepository extends BaseRepository
         $wineTypes = $this->fetchAll("
             SELECT name, slug
             FROM taxonomies
-            WHERE type = 'wine_type' AND is_active = 1
+            WHERE type = 'wine_type' AND is_active = 1 AND slug != 'bo-qua-tang'
             ORDER BY display_order ASC, id ASC
         ");
 
@@ -100,9 +100,9 @@ final class SiteRepository extends BaseRepository
                 'header_2' => is_array($menusConfig['header_2'] ?? null) ? $menusConfig['header_2'] : [],
                 'header_3' => array_merge([
                     [
-                        'attributes' => ['class' => 'menu-item menu-item-has-children has-dropdown'],
+                        'attributes' => ['id' => 'menu-item-wine', 'class' => 'menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children has-dropdown'],
                         'link_attributes' => ['class' => 'nav-top-link', 'href' => '/danh-muc/wine', 'aria-expanded' => 'false', 'aria-haspopup' => 'menu'],
-                        'label' => 'Bộ Sưu Tập Rượu Vang',
+                        'label' => 'Wine',
                         'icon_attributes' => ['class' => 'icon-angle-down'],
                         'icon_before' => false,
                         'children_attributes' => ['class' => 'sub-menu nav-dropdown nav-dropdown-default'],

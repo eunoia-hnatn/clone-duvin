@@ -6,15 +6,16 @@
 
 	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<?php $canonicalUrl = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/'; ?>
 <title><?= htmlspecialchars($pageTitle ?? 'Duvin', ENT_QUOTES, 'UTF-8') ?></title>
 <meta name="description" content="<?= htmlspecialchars($metaDescription ?? "Duvin - Bộ sưu tập rượu vang cao cấp từ khắp thế giới.", ENT_QUOTES) ?>"/>
 <meta name="robots" content="follow, index"/>
-<link rel="canonical" href="/" />
+<link rel="canonical" href="<?= e($canonicalUrl) ?>" />
 <meta property="og:locale" content="vi_VN" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="<?= htmlspecialchars($pageTitle ?? "Duvin - Fine Wine Collection", ENT_QUOTES) ?>" />
 <meta property="og:description" content="<?= htmlspecialchars($metaDescription ?? "Duvin - Bộ sưu tập rượu vang cao cấp từ khắp thế giới.", ENT_QUOTES) ?>" />
-<meta property="og:url" content="/" />
+<meta property="og:url" content="<?= e($canonicalUrl) ?>" />
 <meta property="og:site_name" content="Duvin" />
 <meta property="og:image" content="/assets/images/duvin-logo-red-transparent.png" />
 <meta property="og:image:secure_url" content="/assets/images/duvin-logo-red-transparent.png" />
