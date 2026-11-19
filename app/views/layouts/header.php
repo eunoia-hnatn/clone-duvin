@@ -30,12 +30,12 @@
 <link rel="preload" as="image" href="<?= htmlspecialchars((string) $preloadImage, ENT_QUOTES, 'UTF-8') ?>" />
 <?php endif; ?>
 
-<link rel='stylesheet' id='flatsome-main-css' href="/assets/css/flatsome.css" type='text/css' media='all' />
-<link rel='stylesheet' id='flatsome-shop-css' href="/assets/css/flatsome-shop.css" type='text/css' media='all' />
-<link rel='stylesheet' id='flatsome-style-css' href="/assets/css/style.css" type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css' href="/assets/css/dashicons.min.css" type='text/css' media='all' />
-<link rel='stylesheet' id='fs-tuned-animation-style-css' href="/assets/css/fs-tuned-animation.css" type='text/css' media='all' />
-<script type="text/javascript" src="/assets/js/jquery.min.js" id="jquery-core-js" defer></script>
+<link rel='stylesheet' id='flatsome-main-css' href="<?= e(asset('/assets/css/flatsome.css')) ?>" type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-shop-css' href="<?= e(asset('/assets/css/flatsome-shop.css')) ?>" type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-style-css' href="<?= e(asset('/assets/css/style.css')) ?>" type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href="<?= e(asset('/assets/css/dashicons.min.css')) ?>" type='text/css' media='all' />
+<link rel='stylesheet' id='fs-tuned-animation-style-css' href="<?= e(asset('/assets/css/fs-tuned-animation.css')) ?>" type='text/css' media='all' />
+<script type="text/javascript" src="<?= e(asset('/assets/js/jquery.min.js')) ?>" id="jquery-core-js" defer></script>
 
 <link rel="icon" href="/assets/images/cropped-favicon.png" sizes="32x32" />
 <link rel="icon" href="/assets/images/cropped-favicon.png" sizes="192x192" />
@@ -43,12 +43,12 @@
 <meta name="msapplication-TileImage" content="/assets/images/cropped-favicon.png" />
 
 	<!-- Duvin stylesheets -->
-	<link rel="stylesheet" href="/assets/css/legacy-flatsome.css" />
-	<link rel="stylesheet" href="/assets/css/duvin-light.css" />
-	<link rel="stylesheet" href="/assets/css/age-gate.css" />
-	<link rel="stylesheet" href="/assets/css/pusher.css" />
+	<link rel="stylesheet" href="<?= e(asset('/assets/css/legacy-flatsome.css')) ?>" />
+	<link rel="stylesheet" href="<?= e(asset('/assets/css/duvin-light.css')) ?>" />
+	<link rel="stylesheet" href="<?= e(asset('/assets/css/age-gate.css')) ?>" />
+	<link rel="stylesheet" href="<?= e(asset('/assets/css/pusher.css')) ?>" />
 <?php foreach ($pageStyles ?? [] as $styleHref): ?>
-	<link rel="stylesheet" href="<?= htmlspecialchars((string) $styleHref, ENT_QUOTES, 'UTF-8') ?>" />
+	<link rel="stylesheet" href="<?= e(asset((string) $styleHref)) ?>" />
 <?php endforeach; ?>
 </head>
 <body class="<?= isset($body_class) ? htmlspecialchars($body_class) : 'home page-template page-template-page-blank page-template-page-blank-php page page-id-21' ?> theme-flatsome header-shadow lightbox nav-dropdown-has-shadow catalog-mode">

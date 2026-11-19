@@ -26,3 +26,20 @@ function htmlAttributes(array $attributes): string
     }
     return implode(' ', $html);
 }
+
+/** Append ?v=<filemtime> cache-busting query string for local public assets. */
+function asset(string $path): string
+{
+    $clean = '/' . ltrim($path, '/');
+    $basePath = defined('ROOT_PATH') ? ROOT_PATH . '/public' : dirname(__DIR__, 2) . '/public';
+    $fileOnly = strtok($clean, '?');
+    $fullPath = $basePath . ($fileOnly !== false ? $fileOnly : $clean);
+    if (is_file($fullPath)) {
+        $mtime = filemtime($fullPath);
+        if ($mtime !== false) {
+            $sep = str_contains($clean, '?') ? '&' : '?';
+            return $clean . $sep . 'v=' . $mtime;
+        }
+    }
+    return $clean;
+}

@@ -14,7 +14,7 @@ $remaining = max(1, (int) ($remainingSeconds ?? 1800));
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
     <title>Truy cập bị từ chối — Duvin</title>
-    <link rel="stylesheet" href="/assets/css/age-gate.css" />
+    <link rel="stylesheet" href="<?= e(asset('/assets/css/age-gate.css')) ?>" />
 </head>
 <body class="under18-page" data-under18-remaining="<?= $remaining ?>">
 
@@ -48,7 +48,7 @@ $remaining = max(1, (int) ($remainingSeconds ?? 1800));
 
     </div>
 
-    <script src="/assets/js/age-gate.js" defer></script>
+    <script src="<?= e(asset('/assets/js/age-gate.js')) ?>" defer></script>
 </body>
 </html>
 

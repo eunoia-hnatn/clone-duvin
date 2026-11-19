@@ -47,7 +47,7 @@ foreach ($all as $article) {
     verifyLink($repository->findBySlug($slug) === $article, 'Existing article lookup');
     [$status, $html] = pageResponse($router, $article['url']);
     verifyLink($status === 200 && str_contains($html, '<h1>' . e($article['title']) . '</h1>'), 'Detail routes use the matching article data');
-    verifyLink(substr_count($html, 'src="/assets/js/index.js"') === 1, 'Global index.js must be enqueued once');
+    verifyLink(substr_count($html, 'src="/assets/js/index.js?v=') === 1, 'Global index.js must be enqueued once with cache-busting');
 }
 verifyLink($repository->findBySlug('not-a-real-article') === null, 'Unknown article lookup');
 verifyLink(pageResponse($router, '/blog/not-a-real-article')[0] === 404, 'Unknown article route remains 404');

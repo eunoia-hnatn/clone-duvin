@@ -149,8 +149,8 @@ verify(count($products->commitments()) === 6, 'Product commitments loaded dynami
 $catFilters = $catalog->filters();
 verify(count($catFilters) === 3 && count($catFilters[2]['options'] ?? []) === 5, 'Catalog price ranges loaded dynamically from settings');
 verify($categories->overview()['title'] === 'Tất Cả Sản Phẩm', 'Category overview loaded dynamically from settings');
-verify(str_contains($homeHtml, '/assets/css/home.css') && !str_contains($homeHtml, '/assets/css/pdp.css'), 'Home loads page-specific CSS only');
+verify(str_contains($homeHtml, '/assets/css/home.css?v=') && !str_contains($homeHtml, '/assets/css/pdp.css'), 'Home loads page-specific CSS with cache-busting only');
 verify(str_contains($homeHtml, 'rel="preload" as="image"'), 'Home preloads first hero image');
-verify(str_contains($html, '/assets/css/pdp.css') && !str_contains($html, '/assets/css/home.css'), 'PDP loads page-specific CSS only');
+verify(str_contains($html, '/assets/css/pdp.css?v=') && !str_contains($html, '/assets/css/home.css'), 'PDP loads page-specific CSS with cache-busting only');
 
 echo "PASS: {$count} database integration and MVC checks\n";

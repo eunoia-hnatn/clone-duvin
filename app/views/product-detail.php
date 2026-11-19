@@ -315,4 +315,4 @@ $renderIcon = static function (string $key) use ($iconPaths): string {
 <p id="vintage-announcement" class="sr-only" role="status" aria-live="polite"></p>
 
 <script id="vintages-data" type="application/json"><?= json_encode($vintages, JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_THROW_ON_ERROR) ?></script>
-<script src="/assets/js/pdp.js" defer></script>
+<script src="<?= e(asset('/assets/js/pdp.js')) ?>" defer></script>
