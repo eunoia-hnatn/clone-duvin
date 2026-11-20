@@ -20,3 +20,7 @@ database.sql
 # File hệ điều hành
 .DS_Store
 Thumbs.db
+
+# Ảnh sản phẩm đồng bộ trực tiếp trên hosting (tránh FTP deploy ghi đè)
+public/uploads/products/*
+!public/uploads/products/.gitkeep

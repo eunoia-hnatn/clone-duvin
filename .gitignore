@@ -30,4 +30,6 @@ Desktop.ini
 /vendor/
 /node_modules/
 database/
+/public/uploads/products/*
+!/public/uploads/products/.gitkeep
 database/

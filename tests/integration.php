@@ -177,4 +177,109 @@ verify(formatPriceLabel(1500000, true) === '1.500.000₫', 'Visible price mode f
 verify(str_contains($listingHtml, 'Liên hệ tư vấn') && !str_contains($listingHtml, '0₫'), 'Listing hides prices and never renders 0₫');
 verify(str_contains($html, 'data-show-price="0"') && str_contains($html, 'Liên hệ tư vấn'), 'PDP hides price by default');
 
+// 16. Google Sheet 1-way Sync API ([Duvin_v1] 19-column format + ImageUploadService)
+$apiController = new ApiController();
+$secretKey = (string) Config::get('GATEWAY_SECRET_KEY', 'duvin_sync_secret_key_2026');
+
+$unauthRes = $apiController->processSheetSync([], 'wrong_secret_key');
+verify($unauthRes['status'] === 401 && ($unauthRes['body']['ok'] ?? true) === false, 'Sheet sync rejects invalid X-Gateway-Key with 401');
+
+$badHeaderRes = $apiController->processSheetSync([
+    'batch_id' => 'test_bad_header',
+    'headers' => ['Mã sản phẩm', 'Sai tên cột'],
+    'products' => [],
+], $secretKey);
+verify($badHeaderRes['status'] === 422 && ($badHeaderRes['body']['code'] ?? '') === 'VR-01', 'Sheet sync enforces VR-01 19-column header validation');
+
+$expectedHeaders = [
+    'Mã sản phẩm',
+    'Tên sản phẩm',
+    'Niên vụ',
+    'Loại rượu',
+    'Giống nho',
+    'Xuất xứ',
+    'Nhà sản xuất',
+    'Nồng độ (% ABV)',
+    'Đẳng cấp',
+    'Giới thiệu tổng quan',
+    'Tasting notes: Màu sắc',
+    'Tasting notes: Mùi hương',
+    'Tasting notes: Hương vị',
+    'Tasting notes: Hậu vị',
+    'Thông tin chi tiết sản phẩm',
+    'Bảo quản & Cách thưởng thức',
+    'Sản phẩm dành cho ai?',
+    'Ảnh chính',
+    'Thứ tự hiển thị',
+];
+
+$onePixelPngBase64 = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=';
+$testUploadFile = ROOT_PATH . '/public/uploads/products/dv-test-sync.webp';
+$pdo = Database::connection();
+
+try {
+    $syncRes = $apiController->processSheetSync([
+        'batch_id' => 'test_batch_sync',
+        'batch_index' => 1,
+        'total_batches' => 1,
+        'headers' => $expectedHeaders,
+        'products' => [
+            [
+                'row_number' => 2,
+                'sku' => 'DV-TEST-SYNC',
+                'name' => 'Vang Đỏ Test Sync Grand Cru',
+                'vintages' => '2018; 2019',
+                'wine_type' => 'Vang Đỏ',
+                'grapes' => 'Cabernet Sauvignon, Merlot; Merlot',
+                'origin' => 'Bordeaux, Pháp',
+                'producer' => 'Château Margaux',
+                'abv' => '14,5%; 14,0%',
+                'classification' => 'Grand Cru Classé; Premier Cru',
+                'short_desc' => 'Chai vang test đồng bộ từ Google Sheet Duvin_v1.',
+                'tasting_color' => 'Đỏ ruby ánh tím',
+                'tasting_aroma' => 'Hương quả lý chua đen, gỗ sồi Pháp',
+                'tasting_palate' => 'Cấu trúc tannin mượt mà, tròn vị',
+                'tasting_finish' => 'Hậu vị kéo dài, sâu lắng',
+                'description' => 'Thông tin chi tiết sản phẩm test sync.',
+                'serving_guide' => 'Ủ thở 45 phút ở 16-18 độ C.',
+                'audience' => 'Doanh nhân và nhà sưu tầm rượu vang.',
+                'image_base64' => $onePixelPngBase64,
+                'image_hash' => md5($onePixelPngBase64),
+                'sort_order' => 999,
+            ],
+        ],
+    ], $secretKey);
+
+    verify($syncRes['status'] === 200 && ($syncRes['body']['success_rows'] ?? 0) === 1, 'Sheet sync imports 19-column multi-vintage product successfully');
+    verify(is_file($testUploadFile), 'ImageUploadService saves product image to public/uploads/products/{sku}.webp');
+
+    $syncedWine = $products->findBySlug('vang-do-test-sync-grand-cru');
+    verify($syncedWine !== null && $syncedWine['image'] === '/uploads/products/dv-test-sync.webp', 'Synced product stores clean /uploads/products/{sku}.webp path');
+    $syncedVintages = $products->vintagesForProduct($syncedWine);
+    verify(count($syncedVintages) === 2, 'Multi-vintage row creates 2 product_vintages records');
+    verify(
+        ($syncedVintages[0]['year'] ?? '') === '2019'
+        && ($syncedVintages[0]['grape'] ?? '') === 'Merlot'
+        && ($syncedVintages[0]['classification'] ?? '') === 'Premier Cru'
+        && ($syncedVintages[1]['year'] ?? '') === '2018'
+        && ($syncedVintages[1]['grape'] ?? '') === 'Cabernet Sauvignon, Merlot'
+        && ($syncedVintages[1]['classification'] ?? '') === 'Grand Cru Classé',
+        'Per-vintage grape and classification map accurately across semicolon-delimited vintages'
+    );
+} finally {
+    $cleanupStmt = $pdo->prepare('SELECT id FROM products WHERE sku = ?');
+    $cleanupStmt->execute(['DV-TEST-SYNC']);
+    $testProdId = $cleanupStmt->fetchColumn();
+    if ($testProdId !== false) {
+        $pdo->prepare('DELETE FROM product_vintage_grapes WHERE vintage_id IN (SELECT id FROM product_vintages WHERE product_id = ?)')->execute([(int) $testProdId]);
+        $pdo->prepare('DELETE FROM product_vintages WHERE product_id = ?')->execute([(int) $testProdId]);
+        $pdo->prepare('DELETE FROM products WHERE id = ?')->execute([(int) $testProdId]);
+    }
+    $pdo->prepare('DELETE FROM taxonomies WHERE slug = ?')->execute(['premier-cru']);
+    $pdo->prepare('DELETE FROM import_logs WHERE batch_id = ?')->execute(['test_batch_sync']);
+    if (is_file($testUploadFile)) {
+        @unlink($testUploadFile);
+    }
+}
+
 echo "PASS: {$count} database integration and MVC checks\n";

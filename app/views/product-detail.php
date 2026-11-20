@@ -9,6 +9,7 @@ $vintages       = !empty($vintages) ? $vintages : [[
     'year'           => (string) ($product['vintage'] ?? 'NV'),
     'alcohol'        => (string) ($product['abv'] ?? '—'),
     'classification' => (string) ($product['classification'] ?? '—'),
+    'grape'          => (string) (($product['grape'] ?? '') !== '' ? $product['grape'] : '—'),
     'price'          => (int) ($product['price'] ?? 0),
     'volume'         => (string) ($product['volume'] ?? '750 ml'),
     'description'    => (string) ($product['description'] ?? ''),
@@ -111,7 +112,7 @@ $renderIcon = static function (string $key) use ($iconPaths): string {
                     </div>
                     <div class="attribute">
                         <dt>Giống nho</dt>
-                        <dd><?= e($product['grape'] ?? '—') ?></dd>
+                        <dd data-vintage="grape"><?= e(($currentVintage['grape'] ?? '') !== '' ? $currentVintage['grape'] : (($product['grape'] ?? '') !== '' ? $product['grape'] : '—')) ?></dd>
                     </div>
                     <div class="attribute">
                         <dt>Phân hạng</dt>

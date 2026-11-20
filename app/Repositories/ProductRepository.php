@@ -191,24 +191,36 @@ final class ProductRepository extends BaseRepository
         }
 
         $sql = "
-            SELECT id, product_id, vintage_year AS year, alcohol_abv AS abv, price,
-                   volume, color, aroma, palate, finish, in_stock
-            FROM product_vintages
-            WHERE product_id = :pid AND is_active = 1
-            ORDER BY vintage_year DESC
+            SELECT pv.id, pv.product_id, pv.vintage_year AS year, pv.alcohol_abv AS abv, pv.price,
+                   pv.volume, pv.color, pv.aroma, pv.palate, pv.finish, pv.in_stock,
+                   t_class.name AS vintage_classification
+            FROM product_vintages pv
+            LEFT JOIN taxonomies t_class ON pv.classification_id = t_class.id
+            WHERE pv.product_id = :pid AND pv.is_active = 1
+            ORDER BY pv.vintage_year DESC
         ";
         $rows = $this->fetchAll($sql, ['pid' => (int) $product['id']]);
         $defaultClassification = (string) ($product['classification'] ?? '');
+        $defaultGrape = (string) ($product['grape'] ?? '');
+        $vintageIds = array_map(static fn (array $r): int => (int) $r['id'], $rows);
+        $grapesMap = $this->grapesMapForVintages($vintageIds);
 
-        return array_map(static function (array $row) use ($defaultClassification): array {
+        return array_map(static function (array $row) use ($defaultClassification, $defaultGrape, $grapesMap): array {
             $alcoholStr = isset($row['abv']) && $row['abv'] !== null
                 ? str_replace('.', ',', (string) $row['abv']) . '%'
                 : '';
+            $vid = (int) $row['id'];
+            $vintageClass = !empty($row['vintage_classification'])
+                ? (string) $row['vintage_classification']
+                : $defaultClassification;
+            $vintageGrape = $grapesMap[$vid] ?? $defaultGrape;
+
             return [
-                'id'             => (int) $row['id'],
+                'id'             => $vid,
                 'year'           => (string) $row['year'],
                 'alcohol'        => $alcoholStr,
-                'classification' => $defaultClassification,
+                'classification' => $vintageClass !== '' ? $vintageClass : '—',
+                'grape'          => $vintageGrape !== '' ? $vintageGrape : '—',
                 'price'          => (int) ($row['price'] ?? 0),
                 'volume'         => (string) ($row['volume'] ?? '750 ml'),
                 'color'          => (string) ($row['color'] ?? ''),

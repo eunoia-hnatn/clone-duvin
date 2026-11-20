@@ -2,15 +2,17 @@
 
 /** @var Router $router */
 $ageGate  = new AgeGateController();
+$api      = new ApiController();
 $home     = new HomeController(new HomeRepository(), new BrandRepository(), new SiteRepository());
 $products = new ProductController(new ProductRepository(), new CategoryRepository(), new CatalogRepository(), new SiteRepository());
 $pages    = new PageController(new SiteRepository(), new ArticleRepository());
 $slug = '[a-z0-9-]+';
 $categoryPath = '[a-z0-9-]+(?:/[a-z0-9-]+)*';
 
-// Age Gate endpoints (không qua AgeGateMiddleware)
+// Age Gate & API Sync endpoints (không qua AgeGateMiddleware)
 $router->post('/age-verify', [$ageGate, 'handleVerify']);
 $router->get('/under-18', [$ageGate, 'showUnder18']);
+$router->post('/api/admin/sheet-sync', [$api, 'sheetSync']);
 
 // Các route nội dung: chặn khi có cookie `duvin_age_denied=1` (30 phút), còn bình thường render HTML + Modal 18+
 $router->group('/', function (Router $router) use ($home, $products, $pages, $slug, $categoryPath): void {
