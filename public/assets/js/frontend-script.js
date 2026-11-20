@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const dotsContainer = mainSlider.querySelector('.flickity-page-dots');
 
         if (colInner && dotsContainer) {
+            if (window.innerWidth <= 849) {
+                dotsContainer.style.left = '';
+                return;
+            }
             const marginLeft = window.getComputedStyle(colInner).marginLeft;
             dotsContainer.style.left = marginLeft;
         }

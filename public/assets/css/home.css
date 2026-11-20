@@ -7,13 +7,13 @@
    CSS Variables & Root Styles
    ============================================================================ */
 :root {
-	--primary-color: var(--duvin-red, #B62025);
-	--secondary-color: var(--duvin-text, #161616);
-	--accent-color: var(--duvin-bg-soft, #FAF8F5);
-	--dark-color: var(--duvin-text, #161616);
-	--light-color: var(--duvin-bg, #FFFFFF);
-	--border-color: var(--duvin-border, #E8E4DC);
-	--border-color-light: var(--duvin-border-light, #ECECEC);
+	--primary-color: var(--brand-primary, #B62025);
+	--secondary-color: var(--text-primary, #2B2622);
+	--accent-color: var(--surface, #F4F1EA);
+	--dark-color: var(--text-primary, #2B2622);
+	--light-color: var(--background, #FBFAF7);
+	--border-color: var(--border, #D9D2C3);
+	--border-color-light: var(--surface-elevated, #EBE6DB);
 
 	--font-heading: var(--duvin-font-heading);
 	--font-body: var(--duvin-font-body);
@@ -43,13 +43,19 @@
 html {
 	scroll-behavior: smooth;
 	font-size: 16px;
+	overflow-x: hidden;
+	overflow-x: clip;
 }
 
 body {
 	font-family: var(--font-body);
-	color: var(--dark-color);
+	color: var(--text-secondary, #5B5349);
 	line-height: 1.6;
-	background-color: #fff;
+	background-color: var(--background, #FBFAF7);
+	overflow-x: hidden;
+	overflow-x: clip;
+	width: 100%;
+	max-width: 100vw;
 }
 
 /* Typography */
@@ -1411,18 +1417,90 @@ a:hover {
    ============================================================================ */
 .homeslider-whisky-range .flickity-slider > .price-slide-banner,
 .homeslider-whisky-range .price-slide-banner {
-	padding-top: 400px !important;
-	background-color: var(--duvin-bg-soft, #FAF8F5);
+	padding-top: 0 !important;
+	height: 520px !important;
+	min-height: 520px !important;
+	background-color: var(--surface, #F4F1EA);
 }
-@media (min-width: 1001px) {
+
+@media (max-width: 1000px) {
 	.homeslider-whisky-range .flickity-slider > .price-slide-banner,
 	.homeslider-whisky-range .price-slide-banner {
-		padding-top: 550px !important;
+		height: 440px !important;
+		min-height: 440px !important;
 	}
 }
 
+@media (max-width: 849px) {
+	.homeslider-whisky-range {
+		height: auto !important;
+		min-height: 440px !important;
+		padding-bottom: 44px !important;
+		position: relative !important;
+	}
+	.homeslider-whisky-range .slider {
+		padding-bottom: 44px !important;
+		position: relative !important;
+	}
+	.homeslider-whisky-range .flickity-viewport,
+	.homeslider-whisky-range .flickity-slider > .price-slide-banner,
+	.homeslider-whisky-range .price-slide-banner {
+		height: 400px !important;
+		min-height: 400px !important;
+	}
+	.homeslider-whisky-range .flickity-page-dots {
+		position: absolute !important;
+		top: 414px !important;
+		bottom: auto !important;
+		display: flex !important;
+		justify-content: center !important;
+		align-items: center !important;
+		visibility: visible !important;
+		opacity: 1 !important;
+		z-index: 6 !important;
+		left: 0 !important;
+		right: 0 !important;
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.homeslider-whisky-range .flickity-page-dots .dot {
+		background: var(--border-strong, #C2B9A6) !important;
+		opacity: 0.6 !important;
+		margin: 0 4px !important;
+		width: 8px !important;
+		height: 8px !important;
+		transition: all 0.2s ease !important;
+	}
+	.homeslider-whisky-range .flickity-page-dots .dot.is-selected {
+		background: var(--brand-primary, #B62025) !important;
+		opacity: 1 !important;
+		transform: scale(1.25) !important;
+	}
+}
+
+@media (max-width: 549px) {
+	.homeslider-whisky-range .flickity-slider > .price-slide-banner,
+	.homeslider-whisky-range .price-slide-banner {
+		height: 400px !important;
+		min-height: 400px !important;
+	}
+}
+
+.homeslider-whisky-range .banner-bg {
+	left: 44% !important;
+	width: 56% !important;
+}
+
+.homeslider-whisky-range .banner-bg img {
+	object-fit: contain !important;
+	object-position: center center !important;
+	padding: 35px 25px 35px 5px !important;
+}
+
 .slider-whisky-pricerange-title {
-	width: 60%;
+	width: auto !important;
+	max-width: 44% !important;
 }
 
 .slider-whisky-pricerange-title .text-box-content {
@@ -1430,11 +1508,12 @@ a:hover {
 }
 
 .slider-whisky-pricerange-title .dtile h2 {
-	font-size: 1.65rem;
+	font-size: 1.75rem;
 }
 
 .slider-whisky-pricerange-btn {
-	width: 60%;
+	width: auto !important;
+	max-width: 44% !important;
 }
 
 .slider-whisky-pricerange-btn .text-box-content {
@@ -1450,7 +1529,9 @@ a:hover {
 }
 
 .row-max-1500 {
-	max-width: 1500px;
+	max-width: 1220px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .gap-element {
@@ -1513,4 +1594,300 @@ a:hover {
   .home-mainslider .flickity-page-dots {
     bottom: 20px !important;
   }
+}
+
+/* Header Logo Absolute Centering & Nav Symmetry */
+.header-main,
+#masthead.header-main {
+	min-height: 115px !important;
+	height: auto !important;
+}
+
+.header-main .header-inner.logo-center,
+.header-inner {
+	min-height: 115px !important;
+	height: 115px !important;
+	position: relative !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: space-between !important;
+}
+
+#logo,
+.header-main #logo,
+.header-inner #logo,
+.header-main .header-inner.logo-center > #logo,
+.medium-logo-center .logo {
+	position: absolute !important;
+	left: 50% !important;
+	top: 50% !important;
+	transform: translate(-50%, -50%) !important;
+	margin: 0 !important;
+	width: auto !important;
+	max-width: none !important;
+	min-width: 0 !important;
+	z-index: 10 !important;
+	text-align: center !important;
+	pointer-events: auto !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+#logo a,
+.header-main #logo a,
+.header-inner #logo a,
+.header-main .header-inner.logo-center > #logo a {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	text-align: center !important;
+	width: auto !important;
+	max-width: none !important;
+	height: auto !important;
+	line-height: 1 !important;
+}
+
+/* Strictly hide the dark logo across all conditions */
+.header-logo-dark,
+.nav-dark .header-logo-dark,
+.stuck .header-logo-dark,
+.dark .header-logo-dark,
+#masthead .header-logo-dark,
+#logo .header-logo-dark,
+.header-main #logo .header-logo-dark,
+.header-inner #logo .header-logo-dark {
+	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+	height: 0 !important;
+	width: 0 !important;
+	max-height: 0 !important;
+	max-width: 0 !important;
+	position: absolute !important;
+	pointer-events: none !important;
+}
+
+/* Single logo image sizing — strictly 1 logo, height 86px desktop, 64px mobile */
+#logo .header_logo,
+#logo .header-logo,
+.header-main #logo .header_logo,
+.header-main #logo .header-logo,
+.header-logo-img:not(.header-logo-dark),
+.header_logo.header-logo,
+.header-main .header-inner.logo-center > #logo .header-logo-img:not(.header-logo-dark) {
+	display: block !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+	margin: 0 auto !important;
+	height: 86px !important;
+	max-height: 86px !important;
+	width: auto !important;
+	max-width: none !important;
+	object-fit: contain !important;
+}
+
+@media (min-width: 850px) {
+	.header-main,
+	#masthead.header-main {
+		min-height: 115px !important;
+		height: auto !important;
+	}
+
+	.header-main .header-inner.logo-center,
+	.header-inner {
+		min-height: 115px !important;
+		height: 115px !important;
+	}
+
+	.header-main .header-inner.logo-center > .flex-left.hide-for-medium {
+		flex: 1 1 0 !important;
+		min-width: 0 !important;
+		max-width: calc(50% - 80px) !important;
+		order: 1 !important;
+		display: flex !important;
+		align-items: center !important;
+		justify-content: flex-start !important;
+	}
+
+	.header-main .header-inner.logo-center > .flex-right.hide-for-medium {
+		flex: 1 1 0 !important;
+		min-width: 0 !important;
+		max-width: calc(50% - 80px) !important;
+		order: 3 !important;
+		display: flex !important;
+		align-items: center !important;
+		justify-content: flex-end !important;
+	}
+
+	#logo,
+	.header-main #logo,
+	.header-inner #logo,
+	.header-main .header-inner.logo-center > #logo {
+		width: auto !important;
+		max-width: none !important;
+	}
+
+	#logo a,
+	.header-main #logo a,
+	.header-inner #logo a,
+	.header-main .header-inner.logo-center > #logo a {
+		width: auto !important;
+		max-width: none !important;
+	}
+
+	#logo .header_logo,
+	#logo .header-logo,
+	.header-main #logo .header_logo,
+	.header-main #logo .header-logo,
+	.header-main .header-inner.logo-center > #logo .header-logo-img:not(.header-logo-dark) {
+		height: 86px !important;
+		max-height: 86px !important;
+		width: auto !important;
+		max-width: none !important;
+	}
+}
+
+@media (max-width: 849px) {
+	.header-main,
+	#masthead.header-main {
+		min-height: 84px !important;
+		height: 84px !important;
+	}
+
+	.header-main .header-inner.logo-center,
+	.header-inner {
+		min-height: 84px !important;
+		height: 84px !important;
+	}
+
+	#logo,
+	.header-main #logo,
+	.header-inner #logo,
+	.header-main .header-inner.logo-center > #logo,
+	.medium-logo-center .logo {
+		position: absolute !important;
+		left: 50% !important;
+		top: 50% !important;
+		transform: translate(-50%, -50%) !important;
+		margin: 0 !important;
+		width: auto !important;
+		max-width: none !important;
+	}
+
+	#logo a,
+	.header-main #logo a,
+	.header-inner #logo a,
+	.header-main .header-inner.logo-center > #logo a {
+		width: auto !important;
+		max-width: none !important;
+	}
+
+	#logo .header_logo,
+	#logo .header-logo,
+	.header-main #logo .header_logo,
+	.header-main #logo .header-logo,
+	.header-main .header-inner.logo-center > #logo .header-logo-img:not(.header-logo-dark) {
+		height: 64px !important;
+		max-height: 64px !important;
+		width: auto !important;
+		max-width: none !important;
+	}
+
+	#section_1194579430 .home-mainslider .flickity-page-dots,
+	.home-mainslider .flickity-page-dots {
+		position: relative !important;
+		left: 0 !important;
+		right: 0 !important;
+		bottom: 0 !important;
+		top: auto !important;
+		display: flex !important;
+		flex-wrap: wrap !important;
+		justify-content: center !important;
+		align-items: center !important;
+		gap: 6px !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		box-sizing: border-box !important;
+		padding: 10px 12px !important;
+		margin: 14px auto 0 !important;
+		overflow-x: visible !important;
+		overflow-y: visible !important;
+		pointer-events: auto !important;
+		z-index: 10 !important;
+	}
+
+	#section_1194579430 .home-mainslider .flickity-page-dots .dot,
+	.home-mainslider .flickity-page-dots .dot {
+		width: auto !important;
+		max-width: 100% !important;
+		flex: 0 1 auto !important;
+		display: inline-flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+		text-align: center !important;
+		font-size: 0.7rem !important;
+		line-height: 1.2 !important;
+		padding: 6px 10px !important;
+		margin: 0 !important;
+		border: 1px solid rgba(255, 255, 255, 0.8) !important;
+		border-radius: 4px !important;
+		white-space: nowrap !important;
+		box-sizing: border-box !important;
+	}
+
+	#section_1194579430 .home-mainslider .flickity-page-dots span,
+	.home-mainslider .flickity-page-dots span {
+		display: none !important;
+		width: 0 !important;
+		height: 0 !important;
+		margin: 0 !important;
+	}
+}
+
+/* Header Right Navigation: prevent wrapping and optimize spacing on narrower desktop (850px-1150px) */
+.header-nav.nav-right,
+.header-main .header-nav-main.nav-right {
+	display: flex !important;
+	flex-flow: row nowrap !important;
+	flex-wrap: nowrap !important;
+	justify-content: flex-end !important;
+	align-items: center !important;
+}
+
+.header-nav.nav-right > li,
+.header-main .header-nav-main.nav-right > li {
+	display: inline-block !important;
+	white-space: nowrap !important;
+	flex-shrink: 0 !important;
+}
+
+.header-nav.nav-right > li > a,
+.header-main .header-nav-main.nav-right > li > a {
+	white-space: nowrap !important;
+	display: inline-flex !important;
+	align-items: center !important;
+}
+
+@media (min-width: 850px) and (max-width: 1150px) {
+	.header-main .searchform-wrapper {
+		max-width: 180px;
+	}
+
+	.header-main .search-field {
+		font-size: 0.85rem !important;
+		padding-left: 10px !important;
+	}
+
+	.header-nav.nav-right > li,
+	.header-main .header-nav-main.nav-right > li {
+		margin: 0 4px !important;
+	}
+
+	.header-nav.nav-right > li > a,
+	.header-main .header-nav-main.nav-right > li > a {
+		font-size: 0.78rem !important;
+		padding: 6px 2px !important;
+		letter-spacing: 0.01em !important;
+	}
 }
