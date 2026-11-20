@@ -1,25 +1,184 @@
-/* ==========================================
- * DUVIN LIGHT MODE — Brand Standards
- * Phase 2 Refactor
- * ==========================================
- * Typography:
- *   - Headings: "Baskerville Old Face" (serif, luxury)
- *   - Body: "Futura" (sans-serif, modern)
- *
- * Brand Colors:
- *   --duvin-red: #B62025  (primary accent)
- *
- * Rules:
- *   - No Dark Mode. Light background only.
- *   - Red (#B62025) used as accent, not dominant.
- *   - Spacing: generous, luxury feel.
- * ========================================== */
+/* ============================================================================
+   DUVIN LIGHT MODE — BRAND GUIDELINE & WEBFONTS
+   Unified Cross-Platform Typography for macOS, Windows, iOS & Android
+   Heading (Serif): Playfair Display (400, 600, 700)
+   Body (Sans-serif): Plus Jakarta Sans (400, 500, 600, 700)
+   ============================================================================ */
 
-:root {
-  --duvin-red: #B62025;
+/* --- Centralized @font-face declarations (Vietnamese & Latin Subsets) --- */
+/* Playfair Display 400 */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/PlayfairDisplay-Regular-vietnamese.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/PlayfairDisplay-Regular-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* Brand Typography */
+/* Playfair Display 600 */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/PlayfairDisplay-SemiBold-vietnamese.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/PlayfairDisplay-SemiBold-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Playfair Display 700 */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/PlayfairDisplay-Bold-vietnamese.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/PlayfairDisplay-Bold-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Plus Jakarta Sans 400 */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/PlusJakartaSans-Regular-vietnamese.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/PlusJakartaSans-Regular-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Plus Jakarta Sans 500 */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/PlusJakartaSans-Medium-vietnamese.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/PlusJakartaSans-Medium-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Plus Jakarta Sans 600 */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/PlusJakartaSans-SemiBold-vietnamese.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/PlusJakartaSans-SemiBold-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Plus Jakarta Sans 700 */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/PlusJakartaSans-Bold-vietnamese.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/PlusJakartaSans-Bold-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* --- Brand Variables Locked in :root --- */
+:root {
+  /* Typography */
+  --duvin-font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
+  --duvin-font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Aliases for legacy stylesheet inheritance */
+  --font-heading: var(--duvin-font-heading);
+  --font-body: var(--duvin-font-body);
+  --font-nav: var(--duvin-font-body);
+
+  /* Brand Colors Light Mode */
+  --duvin-bg: #FFFFFF;
+  --duvin-bg-soft: #FAF8F5;
+  --duvin-bg-alt: #F7F5F0;
+
+  --duvin-text: #161616;
+  --duvin-text-body: #555555;
+  --duvin-text-muted: #888888;
+
+  --duvin-red: #B62025;
+  --duvin-red-hover: #9C1A1F;
+
+  --duvin-border: #E8E4DC;
+  --duvin-border-light: #ECECEC;
+
+  /* Compatibility Aliases for Legacy Flatsome & Home */
+  --primary-color: var(--duvin-red);
+  --fs-color-primary: var(--duvin-red);
+  --fs-color-secondary: var(--duvin-red);
+  --fs-color-success: var(--duvin-bg-soft);
+  --dark-color: var(--duvin-text);
+  --light-color: var(--duvin-bg);
+  --border-color: var(--duvin-border);
+}
+
+/* Global Reset & Base Typography */
+body {
+  font-family: var(--duvin-font-body);
+  color: var(--duvin-text-body);
+  background-color: var(--duvin-bg);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 h1,
 h2,
 h3,
@@ -27,22 +186,116 @@ h4,
 h5,
 h6,
 .heading-font {
-  font-family: "Baskerville Old Face", "Baskerville", Georgia, serif;
+  font-family: var(--duvin-font-heading);
+  color: var(--duvin-text);
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
-body {
-  font-family: "Futura", "Century Gothic", sans-serif;
-  color: #161616;
-  background-color: #ffffff;
+/* Luxury scale for Headings H1–H4 */
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+}
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
 }
 
-/* Brand color utility */
+@media (max-width: 549px) {
+  h1 { font-size: 1.85rem; line-height: 1.25; }
+  h2 { font-size: 1.5rem; line-height: 1.3; }
+  h3 { font-size: 1.25rem; line-height: 1.35; }
+  h4 { font-size: 1.1rem; line-height: 1.4; }
+}
+
+/* Brand utilities */
 .text-duvin-red {
-  color: var(--duvin-red);
+  color: var(--duvin-red) !important;
 }
 
 .bg-duvin-red {
-  background-color: var(--duvin-red);
+  background-color: var(--duvin-red) !important;
+}
+
+.text-duvin-muted {
+  color: var(--duvin-text-muted) !important;
+}
+
+.bg-duvin-soft {
+  background-color: var(--duvin-bg-soft) !important;
+}
+
+.bg-duvin-alt {
+  background-color: var(--duvin-bg-alt) !important;
+}
+
+/* Standardized Button System */
+.btn-duvin-primary,
+.button.primary,
+button.primary,
+input[type="submit"].primary,
+.button.is-primary,
+.ux-search-submit,
+.btn-primary {
+  background-color: var(--duvin-red) !important;
+  color: #FFFFFF !important;
+  border: 1px solid var(--duvin-red) !important;
+  font-family: var(--duvin-font-body);
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+}
+
+.btn-duvin-primary:hover,
+.button.primary:hover,
+button.primary:hover,
+input[type="submit"].primary:hover,
+.button.is-primary:hover,
+.ux-search-submit:hover,
+.btn-primary:hover {
+  background-color: var(--duvin-red-hover) !important;
+  border-color: var(--duvin-red-hover) !important;
+  color: #FFFFFF !important;
+}
+
+.btn-duvin-secondary,
+.button.secondary,
+button.secondary,
+.button.is-outline,
+.btn-secondary,
+.btn-duvin-outline {
+  background-color: transparent !important;
+  color: var(--duvin-text) !important;
+  border: 1px solid var(--duvin-border) !important;
+  font-family: var(--duvin-font-body);
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+}
+
+.btn-duvin-secondary:hover,
+.button.secondary:hover,
+button.secondary:hover,
+.button.is-outline:hover,
+.btn-secondary:hover,
+.btn-duvin-secondary:hover,
+.btn-duvin-outline:hover {
+  background-color: var(--duvin-bg-soft) !important;
+  border-color: var(--duvin-red) !important;
+  color: var(--duvin-red) !important;
 }
 
 
@@ -51,7 +304,7 @@ body {
 #section_1194579430 {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #81291d;
+  background-color: var(--duvin-red);
 }
 
 #text-1062957703 {
@@ -232,7 +485,7 @@ body {
 #section_165136154 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: rgb(252, 247, 232);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 @media (min-width:550px) {
@@ -245,7 +498,7 @@ body {
 #section_1632202293 {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #b52025;
+  background-color: var(--duvin-red, #B62025);
 }
 
 #col-2023850650>.col-inner {
@@ -267,7 +520,9 @@ body {
 #section_1899544034 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: rgb(252, 247, 232);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
+  overflow: hidden;
+  max-width: 100%;
 }
 
 @media (min-width:550px) {
@@ -439,11 +694,11 @@ body {
 
 #text-3523276544 {
   font-size: 1.65rem;
-  color: rgb(152, 125, 79);
+  color: var(--duvin-red, #B62025);
 }
 
 #text-3523276544>* {
-  color: rgb(152, 125, 79);
+  color: var(--duvin-red, #B62025);
 }
 
 #text-box-1903545701 {
@@ -501,7 +756,7 @@ body {
 #section_1598000781 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: rgb(152, 125, 79);
+  background-color: var(--duvin-red, #B62025);
 }
 
 @media (min-width:550px) {
@@ -521,11 +776,12 @@ body {
 
 #text-861154820 {
   font-size: 1.65rem;
-  color: rgb(130, 42, 26);
+  color: var(--duvin-red, #B62025);
 }
 
-#text-861154820>* {
-  color: rgb(130, 42, 26);
+#text-861154820>*,
+#text-861154820 h2 {
+  color: var(--duvin-red, #B62025);
 }
 
 #col-894932503>.col-inner {
@@ -615,7 +871,7 @@ body {
 
 #banner-1295164011 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #banner-1295164011 .banner-bg img {
@@ -638,7 +894,7 @@ body {
 
 #banner-1593881690 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #banner-1593881690 .banner-bg img {
@@ -661,7 +917,7 @@ body {
 
 #banner-123807438 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #banner-123807438 .banner-bg img {
@@ -684,7 +940,7 @@ body {
 
 #banner-1243308598 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #banner-1243308598 .banner-bg img {
@@ -707,7 +963,7 @@ body {
 
 #banner-1953597997 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #banner-1953597997 .banner-bg img {
@@ -730,7 +986,7 @@ body {
 
 #banner-2035071266 {
   padding-top: 500px;
-  background-color: rgba(130, 42, 26, 0.15);
+  background-color: var(--duvin-bg-soft, #FAF8F5);
 }
 
 #banner-2035071266 .banner-bg img {
@@ -804,7 +1060,7 @@ body {
 
 #banner-312496420 {
   padding-top: 230px;
-  background-color: #636146;
+  background-color: var(--duvin-bg-soft);
 }
 
 #banner-312496420 .banner-bg img {
@@ -905,7 +1161,7 @@ body {
 
 #banner-1834911861 {
   padding-top: 230px;
-  background-color: #636146;
+  background-color: var(--duvin-bg-soft);
 }
 
 #banner-1834911861 .banner-bg img {
@@ -935,7 +1191,7 @@ body {
 #section_559669973 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fcf7e8;
+  background-color: var(--duvin-bg-soft);
 }
 
 @media (min-width:550px) {
@@ -1024,7 +1280,7 @@ body {
 
 #banner-1171849636 {
   padding-top: 230px;
-  background-color: #636146;
+  background-color: var(--duvin-bg-soft);
 }
 
 #banner-1171849636 .banner-bg img {
@@ -1075,11 +1331,11 @@ body {
 }
 
 #text-1331900365 {
-  color: #B52025;
+  color: var(--duvin-text-body, #555555);
 }
 
 #text-1331900365>* {
-  color: #B52025;
+  color: var(--duvin-text-body, #555555);
 }
 
 #col-1629617993>.col-inner {
@@ -1107,7 +1363,7 @@ body {
 #section_1243584448 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fcf7e8;
+  background-color: var(--duvin-bg-soft);
 }
 
 @media (min-width:550px) {
@@ -1506,7 +1762,7 @@ body {
 #section_879914255 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fcf7e8;
+  background-color: var(--duvin-bg-soft);
 }
 
 @media (min-width:550px) {
@@ -1534,7 +1790,7 @@ body {
 }
 
 #section_2074843298 .section-bg-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(90deg, rgba(22, 22, 22, 0.75) 0%, rgba(22, 22, 22, 0.68) 55%, rgba(22, 22, 22, 0.35) 100%) !important;
 }
 
 #section_2074843298 .section-bg img {
@@ -1554,6 +1810,32 @@ body {
 
 #gap-886494020 {
   padding-top: 5px;
+}
+
+#col-1244240362 .button {
+  background-color: var(--duvin-red, #B62025) !important;
+  color: #FFFFFF !important;
+  border: 1px solid var(--duvin-red, #B62025) !important;
+  font-family: var(--duvin-font-body) !important;
+  font-weight: 600 !important;
+  border-radius: 4px !important;
+  padding: 10px 28px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 12px rgba(182, 32, 37, 0.25) !important;
+}
+
+#col-1244240362 .button span {
+  color: #FFFFFF !important;
+}
+
+#col-1244240362 .button:hover {
+  background-color: var(--duvin-red-hover, #9C1A1F) !important;
+  border-color: var(--duvin-red-hover, #9C1A1F) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(182, 32, 37, 0.35) !important;
 }
 
 #col-1244240362>.col-inner {
@@ -1611,7 +1893,7 @@ body {
 #section_1525755046 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #fcf7e8;
+  background-color: var(--duvin-bg-soft);
 }
 
 @media (min-width:550px) {
@@ -1650,7 +1932,7 @@ body {
 }
 
 .spec-icon-inner {
-  color: #636146;
+  color: var(--duvin-red);
 }
 
 .header-logo-img {
@@ -1668,11 +1950,12 @@ body {
 }
 
 .bg-cream {
-  background-color: #fcf7e8 !important;
+  background-color: var(--duvin-bg-soft) !important;
 }
 
 .bg-olive {
-  background-color: #636146 !important;
+  background-color: var(--duvin-bg-alt) !important;
+  color: var(--duvin-text) !important;
 }
 
 .bg-duvin-red {
@@ -1685,7 +1968,7 @@ body {
 }
 
 .border-wine-top {
-  border-color: #832a1a;
+  border-color: var(--duvin-red, #B62025);
   border-width: 1px 0px 0px 0px;
 }
 
@@ -1703,7 +1986,7 @@ body {
   margin-bottom: 0px;
   max-width: 100%;
   height: 1px;
-  background-color: rgba(99, 97, 70, 0.4);
+  background-color: var(--duvin-border, #E8E4DC);
 }
 
 .divider-olive-strong {
@@ -1711,7 +1994,7 @@ body {
   margin-bottom: 0px;
   max-width: 100%;
   height: 1px;
-  background-color: rgba(99, 97, 70, 0.6);
+  background-color: var(--duvin-border, #E8E4DC);
 }
 
 .loading-spin {
@@ -1720,4 +2003,345 @@ body {
 
 .image-cover-70 {
   padding-top: 70%;
+}
+
+/* ============================================================================
+   DUVIN CORE BUG FIXES & VISUAL HARMONIZATION
+   ============================================================================ */
+
+/* 1. Global Overflow Protection */
+html {
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
+  width: 100%;
+  max-width: 100vw;
+}
+
+#wrapper {
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+/* 2. Hero Banner Button vs Bottom Dots/Tabs */
+.home-mainslider .center-maxwidth-50 > .col-inner,
+.home-mainslider .full-50center-col > .col-inner {
+  padding-bottom: 140px !important;
+}
+
+.home-mainslider .full-50center-col > .col-inner {
+  background-color: var(--duvin-red, #B62025) !important;
+}
+
+.home-mainslider .flickity-page-dots .dot.is-selected {
+  color: var(--duvin-red, #B62025) !important;
+  background-color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25) !important;
+}
+
+.home-mainslider .button {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 5;
+}
+
+.home-mainslider .flickity-page-dots {
+  bottom: 30px !important;
+  z-index: 10;
+}
+
+@media (max-width: 1440px) {
+  .home-mainslider .banner.has-hover {
+    padding-top: max(530px, 72vh) !important;
+  }
+  .home-mainslider .full-50center-col > .col-inner,
+  .home-mainslider .center-maxwidth-50 > .col-inner {
+    padding-top: 15px !important;
+    padding-bottom: 95px !important;
+  }
+  .home-mainslider h2,
+  .home-mainslider .hero-slide-heading h2 {
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 10px !important;
+  }
+  .home-mainslider p {
+    font-size: 0.95rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 12px !important;
+  }
+  .home-mainslider .button {
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+    padding: 10px 24px !important;
+  }
+  .home-mainslider .flickity-page-dots {
+    bottom: 20px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-mainslider .center-maxwidth-50 > .col-inner,
+  .home-mainslider .full-50center-col > .col-inner {
+    padding-bottom: 130px !important;
+  }
+  .home-mainslider .flickity-page-dots {
+    bottom: 25px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-mainslider .center-maxwidth-50 > .col-inner {
+    padding-bottom: 80px !important;
+  }
+  .home-mainslider .flickity-page-dots {
+    bottom: 15px !important;
+  }
+}
+
+/* 3. Price Slider Cards & Proportions */
+.homeslider-whisky-range {
+  min-height: 520px;
+}
+
+.homeslider-whisky-range .flickity-viewport {
+  min-height: 520px !important;
+  overflow: hidden !important;
+}
+
+.homeslider-whisky-range .banner.has-hover,
+.price-slide-banner {
+  min-height: 520px !important;
+  height: 520px !important;
+  padding-top: 0 !important;
+  display: block !important;
+  background-color: var(--duvin-bg-soft, #FAF8F5);
+  border: 1px solid var(--duvin-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.homeslider-whisky-range .banner-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.homeslider-whisky-range .banner-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.homeslider-whisky-range .slider-whisky-pricerange-title {
+  position: absolute;
+  top: 30px !important;
+  left: 30px !important;
+  z-index: 5;
+}
+
+.homeslider-whisky-range .slider-whisky-pricerange-title h2 {
+  font-family: var(--duvin-font-heading);
+  font-size: 1.65rem;
+  color: var(--duvin-text);
+  margin-bottom: 0;
+}
+
+.homeslider-whisky-range .slider-whisky-pricerange-btn {
+  position: absolute;
+  bottom: 30px !important;
+  top: auto !important;
+  left: 30px !important;
+  z-index: 5;
+}
+
+.homeslider-whisky-range .slider-whisky-pricerange-btn .button {
+  background: var(--duvin-red) !important;
+  color: #FFFFFF !important;
+  border: 1px solid var(--duvin-red) !important;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.homeslider-whisky-range .slider-whisky-pricerange-btn .button:hover {
+  background: var(--duvin-red-hover) !important;
+  border-color: var(--duvin-red-hover) !important;
+}
+
+@media (max-width: 1000px) {
+  .homeslider-whisky-range,
+  .homeslider-whisky-range .flickity-viewport,
+  .homeslider-whisky-range .banner.has-hover,
+  .price-slide-banner {
+    min-height: 450px !important;
+    height: 450px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .homeslider-whisky-range,
+  .homeslider-whisky-range .flickity-viewport,
+  .homeslider-whisky-range .banner.has-hover,
+  .price-slide-banner {
+    min-height: 400px !important;
+    height: 400px !important;
+  }
+}
+
+/* 4. Wine Regions Section (#section_1632202293) */
+.home-section-choosewhisky {
+  background-color: var(--duvin-red, #B62025) !important;
+}
+
+.home-tab-choosewhisky ul.nav li {
+  opacity: 0.75;
+  transition: 0.3s ease all;
+}
+
+.home-tab-choosewhisky ul.nav li a {
+  font-family: var(--duvin-font-heading);
+  font-size: 3.5em;
+  line-height: 1.1em;
+  color: #FFFFFF !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.home-tab-choosewhisky ul.nav li.active,
+.home-tab-choosewhisky ul.nav li:hover {
+  opacity: 1;
+}
+
+.home-tab-choosewhisky ul.nav li.active a {
+  color: #FFFFFF !important;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Category Tab Banner Gradient Overlay */
+.home-tab-choosewhisky .category-tab-banner .banner-bg::after,
+.home-section-choosewhisky .category-tab-banner .banner-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(22, 22, 22, 0.78) 0%, rgba(22, 22, 22, 0.45) 55%, rgba(22, 22, 22, 0.1) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.home-section-choosewhisky .dtsubtitle p {
+  color: #FFFFFF !important;
+  opacity: 0.9;
+  letter-spacing: 0.1em;
+}
+
+.home-section-choosewhisky .choosetype-seemore,
+.home-tab-choosewhisky .choosetype-seemore,
+a.choosetype-seemore {
+  background-color: var(--duvin-red, #B62025) !important;
+  color: #FFFFFF !important;
+  border: 1px solid var(--duvin-red, #B62025) !important;
+  font-family: var(--duvin-font-body) !important;
+  font-weight: 600 !important;
+  border-radius: 4px !important;
+  padding: 12px 28px !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 12px rgba(182, 32, 37, 0.25) !important;
+}
+
+.home-section-choosewhisky .choosetype-seemore span,
+.home-tab-choosewhisky .choosetype-seemore span,
+a.choosetype-seemore span {
+  color: #FFFFFF !important;
+}
+
+.home-section-choosewhisky .choosetype-seemore:hover,
+.home-tab-choosewhisky .choosetype-seemore:hover,
+a.choosetype-seemore:hover {
+  background-color: var(--duvin-red-hover, #9C1A1F) !important;
+  border-color: var(--duvin-red-hover, #9C1A1F) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(182, 32, 37, 0.35) !important;
+}
+
+/* 5. Brand Logo Slider Cards */
+.home-brandlogo-slider .gallery-col {
+  width: 20% !important;
+  max-width: 20% !important;
+  flex: 0 0 20% !important;
+  padding: 10px;
+}
+
+@media (max-width: 849px) and (min-width: 550px) {
+  .home-brandlogo-slider .gallery-col {
+    width: 33.333% !important;
+    max-width: 33.333% !important;
+    flex: 0 0 33.333% !important;
+  }
+}
+
+@media (max-width: 549px) {
+  .home-brandlogo-slider .gallery-col {
+    width: 50% !important;
+    max-width: 50% !important;
+    flex: 0 0 50% !important;
+  }
+}
+
+.home-brandlogo-slider .brand-box-image {
+  background-color: var(--duvin-bg);
+  border: 1px solid var(--duvin-border);
+  border-radius: 6px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  min-height: 85px;
+  transition: all 0.3s ease;
+}
+
+.home-brandlogo-slider .brand-box-image:hover {
+  border-color: var(--duvin-red);
+  box-shadow: 0 4px 16px rgba(182, 32, 37, 0.12);
+  transform: translateY(-2px);
+}
+
+.home-brandlogo-slider .brand-box-image img {
+  max-height: 65px;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* 6. Footer Copyright Center Alignment */
+#row-256155669 {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text-2404955144 {
+  text-align: center;
+  padding: 12px 20px;
+}
+
+#text-2404955144 p {
+  margin: 0 auto;
+  text-align: center;
+  color: var(--duvin-text-muted);
+  font-size: 0.9rem;
 }

@@ -44,8 +44,8 @@
 <meta name="msapplication-TileImage" content="/assets/images/cropped-favicon.png" />
 
 	<!-- Duvin stylesheets -->
-	<link rel="stylesheet" href="<?= e(asset('/assets/css/legacy-flatsome.css')) ?>" />
 	<link rel="stylesheet" href="<?= e(asset('/assets/css/duvin-light.css')) ?>" />
+	<link rel="stylesheet" href="<?= e(asset('/assets/css/legacy-flatsome.css')) ?>" />
 	<link rel="stylesheet" href="<?= e(asset('/assets/css/age-gate.css')) ?>" />
 	<link rel="stylesheet" href="<?= e(asset('/assets/css/pusher.css')) ?>" />
 <?php foreach ($pageStyles ?? [] as $styleHref): ?>
