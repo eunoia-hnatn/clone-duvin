@@ -1,16 +1,5 @@
-/**
- * =============================================================================
- * DUVIN GOOGLE SHEETS 1-WAY SYNC SCRIPT (BẢN CHỐT [Duvin_v1] — 19 CỘT)
- * =============================================================================
- * Hướng dẫn cài đặt trên Google Sheet:
- *   1. Mở file Google Sheet -> Extensions (Tiện ích mở rộng) -> Apps Script.
- *   2. Dán toàn bộ nội dung file này vào `Code.gs` và bấm Save (Ctrl+S).
- *   3. F5 lại trang Google Sheet -> Trên thanh menu sẽ xuất hiện mục "🍷 Duvin Sync".
- *   4. Bấm "🍷 Duvin Sync -> ⚙️ Cài đặt API URL & Secret Key" để nhập:
- *      - API URL: https://duvin.gt.tc/api/admin/sheet-sync
- *      - Secret Key: trùng khớp với GATEWAY_SECRET_KEY trong file .env trên hosting.
- * =============================================================================
- */
+// DUVIN GOOGLE SHEETS 1-WAY SYNC SCRIPT (Duvin_v1 - 19 cot)
+// Huong dan: Ctrl+A xoa sach Ma.gs cu -> Dan toan bo file nay -> Ctrl+S -> F5 lai Google Sheet -> Menu "🍷 Duvin Sync"
 
 var DUVIN_CONFIG = {
   EXPECTED_HEADERS: [
