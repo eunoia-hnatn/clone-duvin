@@ -18,11 +18,12 @@
 }
 
 .age-gate-card {
-    background: #fff;
+    background: var(--surface, #F4F1EA);
     width: 90%;
     max-width: 460px;
     padding: 48px 40px 40px;
     border-radius: 8px;
+    border: 1px solid var(--border, #D9D2C3);
     text-align: center;
     box-shadow: 0 12px 60px rgba(0, 0, 0, 0.35);
     animation: ageGateFadeIn 0.4s ease;
@@ -72,7 +73,10 @@
     box-sizing: border-box !important;
     text-align: center;
     font-family: var(--duvin-font-body);
-    font-size: 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
     padding: 14px 32px;
     border-radius: 4px;
     border: none;

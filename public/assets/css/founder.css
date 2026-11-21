@@ -287,20 +287,34 @@
   }
 }
 
-#image_1236761539 {
-  width: 100%;
-}
-
-#image_1607656373 {
-  width: 100%;
-}
-
-#image_383462243 {
-  width: 100%;
-}
-
+#image_1236761539,
+#image_1607656373,
+#image_383462243,
 #image_1651767606 {
-  width: 100%;
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  flex: 0 0 32px !important;
+}
+
+#image_1236761539 img,
+#image_1607656373 img,
+#image_383462243 img,
+#image_1651767606 img {
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+#stack-148051312 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 16px !important;
 }
 
 #stack-148051312 > * {
@@ -629,5 +643,33 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
+}
+
+/* Breadcrumbs on dark red banner for Founder page */
+#col-1971996350 .rank-math-breadcrumb,
+#col-1971996350 .rank-math-breadcrumb p,
+#col-1971996350 .rank-math-breadcrumb a,
+#col-1971996350 .rank-math-breadcrumb .separator,
+#col-1971996350 .rank-math-breadcrumb .last,
+.bg-duvin-red .rank-math-breadcrumb,
+.bg-duvin-red .rank-math-breadcrumb p,
+.bg-duvin-red .rank-math-breadcrumb a,
+.bg-duvin-red .rank-math-breadcrumb .separator,
+.bg-duvin-red .rank-math-breadcrumb .last,
+.dark .rank-math-breadcrumb,
+.dark .rank-math-breadcrumb p,
+.dark .rank-math-breadcrumb a,
+.dark .rank-math-breadcrumb .separator,
+.dark .rank-math-breadcrumb .last {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-family: var(--duvin-font-body) !important;
+  font-size: 0.88rem !important;
+  text-decoration: none !important;
+}
+
+#col-1971996350 .rank-math-breadcrumb a:hover,
+.bg-duvin-red .rank-math-breadcrumb a:hover,
+.dark .rank-math-breadcrumb a:hover {
+  color: #ffffff !important;
 }
 

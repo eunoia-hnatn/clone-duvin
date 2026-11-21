@@ -85,3 +85,59 @@
   color: rgba(255, 255, 255, 0.9) !important;
 }
 
+/* Blog Divider & Container Alignment */
+#row-698219946 {
+  max-width: 1220px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 15px !important;
+}
+
+#row-698219946 .col-inner {
+  padding: 0 !important;
+}
+
+#row-698219946 .divider-olive {
+  max-width: 100%;
+  margin: 15px auto;
+  background-color: var(--border, #D9D2C3);
+}
+
+/* Post Item "Đọc tiếp" Button Styling */
+.post-item .box-text .box-text-inner .button,
+.box-blog-post .button.is-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 6px 14px !important;
+  border: 1px solid var(--border-strong, #C2B9A6) !important;
+  border-radius: 4px !important;
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: var(--text-primary, #2B2622) !important;
+  background: transparent !important;
+  line-height: 1.4 !important;
+  min-height: auto !important;
+  margin: 10px 0 0 0 !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+}
+
+.post-item .box-text .box-text-inner .button:hover,
+.box-blog-post .button.is-link:hover {
+  background: var(--brand-primary, #B62025) !important;
+  border-color: var(--brand-primary, #B62025) !important;
+  color: #ffffff !important;
+}
+
+@media (max-width: 600px) {
+  .post-item .box-text .box-text-inner .button,
+  .box-blog-post .button.is-link {
+    margin-top: 6px !important;
+  }
+}
+
+
+

@@ -1,171 +1,158 @@
 /* ============================================================================
    DUVIN LIGHT MODE — BRAND GUIDELINE & WEBFONTS
-   Unified Cross-Platform Typography for macOS, Windows, iOS & Android
-   Heading (Serif): Playfair Display (400, 600, 700)
-   Body (Sans-serif): Plus Jakarta Sans (400, 500, 600, 700)
+   Baskerville Old Face (Heading/Serif) & Futura Md BT (Body/Sans-serif)
+   Self-hosted Vietnamese Unicode Webfonts (.woff2)
    ============================================================================ */
 
-/* --- Centralized @font-face declarations (Vietnamese & Latin Subsets) --- */
-/* Playfair Display 400 */
+/* --- Centralized @font-face declarations (Vietnamese & Latin Unicode) --- */
+
+/* Baskerville Old Face 400 (Regular) */
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'Baskerville Old Face';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/assets/fonts/PlayfairDisplay-Regular-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/assets/fonts/PlayfairDisplay-Regular-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('/assets/fonts/SFUBaskervilleBook-Regular.woff2') format('woff2');
 }
 
-/* Playfair Display 600 */
+/* Baskerville Old Face 600 (Medium) */
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'Baskerville Old Face';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('/assets/fonts/PlayfairDisplay-SemiBold-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('/assets/fonts/PlayfairDisplay-SemiBold-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('/assets/fonts/SFUBaskervilleBook-Medium.woff2') format('woff2');
 }
 
-/* Playfair Display 700 */
+/* Baskerville Old Face 700 (Medium mapped to Bold) */
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'Baskerville Old Face';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/assets/fonts/PlayfairDisplay-Bold-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('/assets/fonts/PlayfairDisplay-Bold-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('/assets/fonts/SFUBaskervilleBook-Medium.woff2') format('woff2');
 }
 
-/* Plus Jakarta Sans 400 */
+/* Futura Md BT 400 (Book) */
 @font-face {
-  font-family: 'Plus Jakarta Sans';
+  font-family: 'Futura Md BT';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/assets/fonts/PlusJakartaSans-Regular-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Plus Jakarta Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/assets/fonts/PlusJakartaSans-Regular-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('/assets/fonts/SFUFutura-Book.woff2') format('woff2');
 }
 
-/* Plus Jakarta Sans 500 */
+/* Futura Md BT 500 (Regular) */
 @font-face {
-  font-family: 'Plus Jakarta Sans';
+  font-family: 'Futura Md BT';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('/assets/fonts/PlusJakartaSans-Medium-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Plus Jakarta Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('/assets/fonts/PlusJakartaSans-Medium-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('/assets/fonts/SFUFutura-Regular.woff2') format('woff2');
 }
 
-/* Plus Jakarta Sans 600 */
+/* Futura Md BT 600 (Heavy) */
 @font-face {
-  font-family: 'Plus Jakarta Sans';
+  font-family: 'Futura Md BT';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('/assets/fonts/PlusJakartaSans-SemiBold-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Plus Jakarta Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('/assets/fonts/PlusJakartaSans-SemiBold-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('/assets/fonts/SFUFutura-Heavy.woff2') format('woff2');
 }
 
-/* Plus Jakarta Sans 700 */
+/* Futura Md BT 700 (Bold) */
 @font-face {
-  font-family: 'Plus Jakarta Sans';
+  font-family: 'Futura Md BT';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/assets/fonts/PlusJakartaSans-Bold-vietnamese.woff2') format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Plus Jakarta Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('/assets/fonts/PlusJakartaSans-Bold-latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('/assets/fonts/SFUFutura-Bold.woff2') format('woff2');
 }
 
 /* --- Brand Variables Locked in :root --- */
 :root {
+  /* ==========================================================================
+     DUVIN 2026 DESIGN TOKENS (Brand Guidelines & BA Confirmed Brass Group)
+     ========================================================================== */
+
+  /* Brand Colors - Red */
+  --duvin-red-900: #5C0F13;
+  --duvin-red-700: #96191E;
+  --duvin-red-600: #B62025;
+  --duvin-red-500: #C73A3F;
+  --duvin-red-100: #F5DEDD;
+  --duvin-red-50: #FBF1F0;
+
+  /* Brand Colors - Brass (Đã chốt chính thức) */
+  --duvin-brass-700: #7A5F2D;
+  --duvin-brass-600: #9C7A3C;
+  --duvin-brass-100: #EFE6D2;
+
+  /* Neutral Colors */
+  --duvin-cream-50: #FBFAF7;
+  --duvin-cream-100: #F4F1EA;
+  --duvin-cream-200: #EBE6DB;
+  --duvin-sand-300: #D9D2C3;
+  --duvin-sand-400: #C2B9A6;
+  --duvin-charcoal-900: #2B2622;
+  --duvin-charcoal-600: #5B5349;
+  --duvin-charcoal-400: #8C8375;
+
+  /* Semantic Colors */
+  --duvin-green-600: #3F6B4F;
+  --duvin-amber-600: #A8752B;
+  --duvin-red-error-600: #C14343;
+  --duvin-blue-600: #4A6B7C;
+
+  /* Semantic Aliases */
+  --brand-primary: var(--duvin-red-600);
+  --brand-primary-hover: var(--duvin-red-700);
+  --brand-primary-active: var(--duvin-red-900);
+  --brand-accent: var(--duvin-brass-600);
+  --background: var(--duvin-cream-50);
+  --surface: var(--duvin-cream-100);
+  --surface-elevated: var(--duvin-cream-200);
+  --border: var(--duvin-sand-300);
+  --border-strong: var(--duvin-sand-400);
+  --text-primary: var(--duvin-charcoal-900);
+  --text-secondary: var(--duvin-charcoal-600);
+  --text-muted: var(--duvin-charcoal-400);
+  --success: var(--duvin-green-600);
+  --warning: var(--duvin-amber-600);
+  --error: var(--duvin-red-error-600);
+  --info: var(--duvin-blue-600);
+
   /* Typography */
-  --duvin-font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
-  --duvin-font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --duvin-font-heading: "Baskerville Old Face", "Playfair Display", "Baskerville", Georgia, "Times New Roman", serif;
+  --duvin-font-body: "Futura Md BT", "Plus Jakarta Sans", "Futura", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Legacy DuVin Aliases mapped to new 2026 Semantic Tokens */
+  --duvin-bg: var(--background);
+  --duvin-bg-soft: var(--surface);
+  --duvin-bg-alt: var(--surface-elevated);
+  --duvin-text: var(--text-primary);
+  --duvin-text-body: var(--text-secondary);
+  --duvin-text-muted: var(--text-muted);
+  --duvin-red: var(--brand-primary);
+  --duvin-red-hover: var(--brand-primary-hover);
+  --duvin-red-active: var(--brand-primary-active);
+  --duvin-border: var(--border);
+  --duvin-border-light: var(--surface-elevated);
+  --duvin-border-strong: var(--border-strong);
 
   /* Aliases for legacy stylesheet inheritance */
   --font-heading: var(--duvin-font-heading);
   --font-body: var(--duvin-font-body);
   --font-nav: var(--duvin-font-body);
 
-  /* Brand Colors Light Mode */
-  --duvin-bg: #FFFFFF;
-  --duvin-bg-soft: #FAF8F5;
-  --duvin-bg-alt: #F7F5F0;
-
-  --duvin-text: #161616;
-  --duvin-text-body: #555555;
-  --duvin-text-muted: #888888;
-
-  --duvin-red: #B62025;
-  --duvin-red-hover: #9C1A1F;
-
-  --duvin-border: #E8E4DC;
-  --duvin-border-light: #ECECEC;
-
   /* Compatibility Aliases for Legacy Flatsome & Home */
-  --primary-color: var(--duvin-red);
-  --fs-color-primary: var(--duvin-red);
-  --fs-color-secondary: var(--duvin-red);
-  --fs-color-success: var(--duvin-bg-soft);
-  --dark-color: var(--duvin-text);
-  --light-color: var(--duvin-bg);
-  --border-color: var(--duvin-border);
+  --primary-color: var(--brand-primary);
+  --fs-color-primary: var(--brand-primary);
+  --fs-color-secondary: var(--brand-primary);
+  --fs-color-success: var(--success);
+  --dark-color: var(--text-primary);
+  --light-color: var(--background);
+  --border-color: var(--border);
 }
 
 /* Global Reset & Base Typography */
@@ -242,7 +229,55 @@ h4 {
   background-color: var(--duvin-bg-alt) !important;
 }
 
+/* Brass Accent Utilities (Subtle Luxury Details) */
+.badge-brass,
+.badge-selection {
+  background-color: var(--duvin-brass-100) !important;
+  border: 1px solid var(--duvin-brass-600) !important;
+  color: var(--duvin-brass-700) !important;
+  font-family: var(--duvin-font-body) !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  padding: 4px 10px !important;
+  border-radius: 4px !important;
+  display: inline-block !important;
+}
+
+.text-duvin-brass {
+  color: var(--duvin-brass-600) !important;
+}
+
+.border-duvin-brass {
+  border-color: var(--duvin-brass-600) !important;
+}
+
+.accent-line-brass {
+  width: 40px;
+  height: 2px;
+  background-color: var(--duvin-brass-600);
+  margin: 12px 0;
+  display: inline-block;
+}
+
 /* Standardized Button System */
+.button,
+.btn,
+a.button,
+button.button,
+input[type="submit"],
+.button.is-outline,
+.choosetype-seemore,
+.products-order-btn,
+.age-gate-btn {
+  font-family: var(--duvin-font-body) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  transition: all 0.25s ease;
+}
+
 .btn-duvin-primary,
 .button.primary,
 button.primary,
@@ -333,14 +368,14 @@ button.secondary:hover,
 }
 
 #section_733328052 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 44px;
+  padding-bottom: 44px;
 }
 
 @media (min-width:550px) {
   #section_733328052 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 68px;
+    padding-bottom: 68px;
   }
 }
 
@@ -518,17 +553,19 @@ button.secondary:hover,
 }
 
 #section_1899544034 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--duvin-bg-soft, #FAF8F5);
+  padding-top: 44px;
+  padding-bottom: 52px;
+  background-color: var(--surface, #F4F1EA);
   overflow: hidden;
   max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-@media (min-width:550px) {
+@media (min-width: 550px) {
   #section_1899544034 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 68px;
+    padding-bottom: 68px;
   }
 }
 
@@ -677,14 +714,14 @@ button.secondary:hover,
 }
 
 #section_451098536 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 44px;
+  padding-bottom: 44px;
 }
 
 @media (min-width:550px) {
   #section_451098536 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 68px;
+    padding-bottom: 68px;
   }
 }
 
@@ -1527,20 +1564,34 @@ button.secondary:hover,
   }
 }
 
-#image_1236761539 {
-  width: 100%;
-}
-
-#image_1607656373 {
-  width: 100%;
-}
-
-#image_383462243 {
-  width: 100%;
-}
-
+#image_1236761539,
+#image_1607656373,
+#image_383462243,
 #image_1651767606 {
-  width: 100%;
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  flex: 0 0 32px !important;
+}
+
+#image_1236761539 img,
+#image_1607656373 img,
+#image_383462243 img,
+#image_1651767606 img {
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+#stack-148051312 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 16px !important;
 }
 
 #stack-148051312>* {
@@ -1904,13 +1955,34 @@ button.secondary:hover,
 }
 
 /* ===== FOOTER SOCIAL STACK (extracted from footer.php) ===== */
+#stack-2092229133 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 16px !important;
+}
+
 #stack-2092229133>* {
   --stack-gap: 1rem;
 }
 
 #image_1395129220,
 #image_1831423319 {
-  width: 25%;
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  flex: 0 0 32px !important;
+}
+
+#image_1395129220 img,
+#image_1831423319 img {
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  object-fit: contain !important;
+  display: block !important;
 }
 
 .footer-logo-img {
@@ -1919,6 +1991,32 @@ button.secondary:hover,
   object-fit: contain;
   margin: 0 auto;
   display: block;
+}
+
+/* Footer Contact Links Unified Styling */
+.footer-contact,
+.footer-contact p,
+#row-1772542579,
+#row-1772542579 p {
+  color: var(--text-primary, #2B2622);
+}
+
+.footer-contact a,
+#row-1772542579 a,
+#text-838481137 a,
+#text-3657797876 a,
+.footer-wrapper .footer-contact a {
+  color: var(--text-primary, #2B2622) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.footer-contact a:hover,
+#row-1772542579 a:hover,
+#text-838481137 a:hover,
+#text-3657797876 a:hover,
+.footer-wrapper .footer-contact a:hover {
+  color: var(--brand-primary, #B62025) !important;
 }
 
 .footer-divider-border {
@@ -1936,9 +2034,255 @@ button.secondary:hover,
 }
 
 .header-logo-img {
-  max-height: 95px;
+  max-height: 56px;
   width: auto;
   object-fit: contain;
+}
+
+/* Header Logo Absolute Centering & Nav Symmetry */
+.header-main,
+#masthead.header-main {
+  min-height: 115px !important;
+  height: auto !important;
+}
+
+.header-main .header-inner.logo-center,
+.header-inner {
+  min-height: 115px !important;
+  height: 115px !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+#logo,
+.header-main #logo,
+.header-inner #logo,
+.header-main .header-inner.logo-center > #logo,
+.medium-logo-center .logo {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  z-index: 10 !important;
+  text-align: center !important;
+  pointer-events: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#logo a,
+.header-main #logo a,
+.header-inner #logo a,
+.header-main .header-inner.logo-center > #logo a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: auto !important;
+  max-width: none !important;
+  height: auto !important;
+  line-height: 1 !important;
+}
+
+/* Strictly hide the dark logo across all conditions */
+.header-logo-dark,
+.nav-dark .header-logo-dark,
+.stuck .header-logo-dark,
+.dark .header-logo-dark,
+#masthead .header-logo-dark,
+#logo .header-logo-dark,
+.header-main #logo .header-logo-dark,
+.header-inner #logo .header-logo-dark {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  max-height: 0 !important;
+  max-width: 0 !important;
+  position: absolute !important;
+  pointer-events: none !important;
+}
+
+/* Single logo image sizing — strictly 1 logo, height 86px desktop, 64px mobile */
+#logo .header_logo,
+#logo .header-logo,
+.header-main #logo .header_logo,
+.header-main #logo .header-logo,
+.header-logo-img:not(.header-logo-dark),
+.header_logo.header-logo,
+.header-main .header-inner.logo-center > #logo .header-logo-img:not(.header-logo-dark) {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin: 0 auto !important;
+  height: 86px !important;
+  max-height: 86px !important;
+  width: auto !important;
+  max-width: none !important;
+  object-fit: contain !important;
+}
+
+@media (min-width: 850px) {
+  .header-main,
+  #masthead.header-main {
+    min-height: 115px !important;
+    height: auto !important;
+  }
+
+  .header-main .header-inner.logo-center,
+  .header-inner {
+    min-height: 115px !important;
+    height: 115px !important;
+  }
+
+  .header-main .header-inner.logo-center > .flex-left.hide-for-medium {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    max-width: calc(50% - 80px) !important;
+    order: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .header-main .header-inner.logo-center > .flex-right.hide-for-medium {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    max-width: calc(50% - 80px) !important;
+    order: 3 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+  }
+
+  #logo,
+  .header-main #logo,
+  .header-inner #logo,
+  .header-main .header-inner.logo-center > #logo {
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  #logo a,
+  .header-main #logo a,
+  .header-inner #logo a,
+  .header-main .header-inner.logo-center > #logo a {
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  #logo .header_logo,
+  #logo .header-logo,
+  .header-main #logo .header_logo,
+  .header-main #logo .header-logo,
+  .header-main .header-inner.logo-center > #logo .header-logo-img:not(.header-logo-dark) {
+    height: 86px !important;
+    max-height: 86px !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+}
+
+@media (max-width: 849px) {
+  .header-main,
+  #masthead.header-main {
+    min-height: 84px !important;
+    height: 84px !important;
+  }
+
+  .header-main .header-inner.logo-center,
+  .header-inner {
+    min-height: 84px !important;
+    height: 84px !important;
+  }
+
+  #logo,
+  .header-main #logo,
+  .header-inner #logo,
+  .header-main .header-inner.logo-center > #logo,
+  .medium-logo-center .logo {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  #logo a,
+  .header-main #logo a,
+  .header-inner #logo a,
+  .header-main .header-inner.logo-center > #logo a {
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  #logo .header_logo,
+  #logo .header-logo,
+  .header-main #logo .header_logo,
+  .header-main #logo .header-logo,
+  .header-main .header-inner.logo-center > #logo .header-logo-img:not(.header-logo-dark) {
+    height: 64px !important;
+    max-height: 64px !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+}
+
+/* Header Right Navigation: prevent wrapping and optimize spacing on narrower desktop (850px-1150px) */
+.header-nav.nav-right,
+.header-main .header-nav-main.nav-right {
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  flex-wrap: nowrap !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
+.header-nav.nav-right > li,
+.header-main .header-nav-main.nav-right > li {
+  display: inline-block !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+.header-nav.nav-right > li > a,
+.header-main .header-nav-main.nav-right > li > a {
+  white-space: nowrap !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+@media (min-width: 850px) and (max-width: 1150px) {
+  .header-main .searchform-wrapper {
+    max-width: 180px;
+  }
+
+  .header-main .search-field {
+    font-size: 0.85rem !important;
+    padding-left: 10px !important;
+  }
+
+  .header-nav.nav-right > li,
+  .header-main .header-nav-main.nav-right > li {
+    margin: 0 4px !important;
+  }
+
+  .header-nav.nav-right > li > a,
+  .header-main .header-nav-main.nav-right > li > a {
+    font-size: 0.78rem !important;
+    padding: 6px 2px !important;
+    letter-spacing: 0.01em !important;
+  }
 }
 
 .nav-icon-search {
@@ -2011,16 +2355,19 @@ button.secondary:hover,
 
 /* 1. Global Overflow Protection */
 html {
+  overflow-x: hidden;
   overflow-x: clip;
 }
 
 body {
+  overflow-x: hidden;
   overflow-x: clip;
   width: 100%;
   max-width: 100vw;
 }
 
 #wrapper {
+  overflow-x: hidden;
   overflow-x: clip;
   max-width: 100%;
 }
@@ -2088,19 +2435,63 @@ body {
 @media (max-width: 1024px) {
   .home-mainslider .center-maxwidth-50 > .col-inner,
   .home-mainslider .full-50center-col > .col-inner {
-    padding-bottom: 130px !important;
-  }
-  .home-mainslider .flickity-page-dots {
-    bottom: 25px !important;
+    padding-bottom: 90px !important;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 849px) {
   .home-mainslider .center-maxwidth-50 > .col-inner {
-    padding-bottom: 80px !important;
+    padding-bottom: 24px !important;
   }
+
+  #section_1194579430 .home-mainslider .flickity-page-dots,
   .home-mainslider .flickity-page-dots {
-    bottom: 15px !important;
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    top: auto !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 6px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 10px 12px !important;
+    margin: 14px auto 0 !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    pointer-events: auto !important;
+    z-index: 10 !important;
+  }
+
+  #section_1194579430 .home-mainslider .flickity-page-dots .dot,
+  .home-mainslider .flickity-page-dots .dot {
+    width: auto !important;
+    max-width: 100% !important;
+    flex: 0 1 auto !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 0.7rem !important;
+    line-height: 1.2 !important;
+    padding: 6px 10px !important;
+    margin: 0 !important;
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
+    border-radius: 4px !important;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
+  }
+
+  #section_1194579430 .home-mainslider .flickity-page-dots span,
+  .home-mainslider .flickity-page-dots span {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
   }
 }
 
@@ -2111,7 +2502,14 @@ body {
 
 .homeslider-whisky-range .flickity-viewport {
   min-height: 520px !important;
+  height: 520px !important;
   overflow: hidden !important;
+}
+
+.homeslider-whisky-range .flickity-slider > * {
+  max-width: 580px !important;
+  width: 580px !important;
+  margin-right: 24px;
 }
 
 .homeslider-whisky-range .banner.has-hover,
@@ -2120,10 +2518,18 @@ body {
   height: 520px !important;
   padding-top: 0 !important;
   display: block !important;
-  background-color: var(--duvin-bg-soft, #FAF8F5);
-  border: 1px solid var(--duvin-border);
-  border-radius: 6px;
+  background-color: var(--surface, #F4F1EA);
+  border: 1px solid var(--border, #D9D2C3);
+  border-radius: 12px;
   overflow: hidden;
+  box-shadow: 0 4px 16px rgba(43, 38, 34, 0.04);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.homeslider-whisky-range .banner.has-hover:hover,
+.price-slide-banner:hover {
+  box-shadow: 0 8px 24px rgba(43, 38, 34, 0.08);
+  border-color: var(--border-strong, #C2B9A6);
 }
 
 .homeslider-whisky-range .banner-inner {
@@ -2134,46 +2540,96 @@ body {
   height: 100%;
 }
 
+/* Right half: neatly positioned wine bottle */
+.homeslider-whisky-range .banner-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 44% !important;
+  right: 0 !important;
+  width: 56% !important;
+  height: 100% !important;
+  pointer-events: none;
+}
+
 .homeslider-whisky-range .banner-bg img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  padding: 35px 25px 35px 5px !important;
+  display: block !important;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.homeslider-whisky-range .banner.has-hover:hover .banner-bg img {
+  transform: scale(1.04) translateY(-2px);
+}
+
+/* Left half: price title & CTA button */
+.homeslider-whisky-range .text-box {
+  width: auto !important;
+  max-width: 44% !important;
 }
 
 .homeslider-whisky-range .slider-whisky-pricerange-title {
   position: absolute;
-  top: 30px !important;
-  left: 30px !important;
+  top: 40px !important;
+  left: 36px !important;
+  right: auto !important;
+  bottom: auto !important;
+  width: auto !important;
+  max-width: 44% !important;
   z-index: 5;
+  pointer-events: auto;
 }
 
 .homeslider-whisky-range .slider-whisky-pricerange-title h2 {
-  font-family: var(--duvin-font-heading);
-  font-size: 1.65rem;
-  color: var(--duvin-text);
-  margin-bottom: 0;
+  font-family: var(--duvin-font-heading, "Baskerville Old Face", serif) !important;
+  font-size: 1.75rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  color: var(--text-primary, #2B2622) !important;
+  letter-spacing: -0.01em;
+  margin-bottom: 0 !important;
 }
 
 .homeslider-whisky-range .slider-whisky-pricerange-btn {
   position: absolute;
-  bottom: 30px !important;
+  bottom: 40px !important;
   top: auto !important;
-  left: 30px !important;
+  left: 36px !important;
+  right: auto !important;
+  width: auto !important;
+  max-width: 44% !important;
   z-index: 5;
+  pointer-events: auto;
 }
 
 .homeslider-whisky-range .slider-whisky-pricerange-btn .button {
-  background: var(--duvin-red) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: var(--brand-primary, #B62025) !important;
   color: #FFFFFF !important;
-  border: 1px solid var(--duvin-red) !important;
-  font-weight: 600;
-  border-radius: 4px;
+  border: 1px solid var(--brand-primary, #B62025) !important;
+  font-family: var(--duvin-font-body, "Futura Md BT", sans-serif) !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  padding: 10px 22px !important;
+  border-radius: 4px !important;
+  transition: all 0.25s ease !important;
+  box-shadow: 0 2px 6px rgba(182, 32, 37, 0.2) !important;
 }
 
 .homeslider-whisky-range .slider-whisky-pricerange-btn .button:hover {
-  background: var(--duvin-red-hover) !important;
-  border-color: var(--duvin-red-hover) !important;
+  background: var(--brand-primary-hover, #96191E) !important;
+  border-color: var(--brand-primary-hover, #96191E) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 10px rgba(150, 25, 30, 0.3) !important;
 }
 
 @media (max-width: 1000px) {
@@ -2181,18 +2637,187 @@ body {
   .homeslider-whisky-range .flickity-viewport,
   .homeslider-whisky-range .banner.has-hover,
   .price-slide-banner {
-    min-height: 450px !important;
-    height: 450px !important;
+    min-height: 440px !important;
+    height: 440px !important;
+  }
+
+  .homeslider-whisky-range .flickity-slider > * {
+    max-width: 500px !important;
+    width: 500px !important;
+    margin-right: 18px;
+  }
+
+  .homeslider-whisky-range .banner-bg {
+    left: 44% !important;
+    width: 56% !important;
+  }
+
+  .homeslider-whisky-range .banner-bg img {
+    padding: 25px 20px 25px 0 !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-title {
+    top: 30px !important;
+    left: 28px !important;
+    max-width: 44% !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-title h2 {
+    font-size: 1.45rem !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-btn {
+    bottom: 30px !important;
+    left: 28px !important;
+    max-width: 44% !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-btn .button {
+    padding: 8px 18px !important;
+    font-size: 0.8rem !important;
   }
 }
 
-@media (max-width: 600px) {
-  .homeslider-whisky-range,
+@media (max-width: 849px) {
+  #section_1899544034 {
+    padding-top: 36px !important;
+    padding-bottom: 56px !important;
+    overflow: hidden !important;
+    max-width: 100vw !important;
+    width: 100% !important;
+  }
+
+  #col-2023850650 > .col-inner {
+    padding-left: 15px !important;
+    padding-right: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .homeslider-whisky-range {
+    min-height: 440px !important;
+    height: auto !important;
+    padding-bottom: 44px !important;
+    position: relative !important;
+  }
+
+  .homeslider-whisky-range .slider {
+    padding-bottom: 44px !important;
+    position: relative !important;
+  }
+
   .homeslider-whisky-range .flickity-viewport,
   .homeslider-whisky-range .banner.has-hover,
   .price-slide-banner {
     min-height: 400px !important;
     height: 400px !important;
+  }
+
+  .homeslider-whisky-range .flickity-slider > * {
+    max-width: 85% !important;
+    width: 85% !important;
+    margin-right: 14px !important;
+    transform: none !important;
+  }
+
+  .homeslider-whisky-range .banner-bg {
+    left: 44% !important;
+    width: 56% !important;
+    height: 100% !important;
+  }
+
+  .homeslider-whisky-range .banner-bg img {
+    padding: 22px 14px 22px 0 !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-title {
+    top: 24px !important;
+    left: 20px !important;
+    max-width: 44% !important;
+    z-index: 5 !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-title h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-btn {
+    bottom: 24px !important;
+    top: auto !important;
+    left: 20px !important;
+    max-width: 44% !important;
+    z-index: 5 !important;
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-btn .button {
+    padding: 8px 16px !important;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.03em !important;
+    white-space: nowrap !important;
+  }
+
+  .homeslider-whisky-range .flickity-page-dots {
+    position: absolute !important;
+    top: 414px !important;
+    bottom: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 6 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .homeslider-whisky-range .flickity-page-dots .dot {
+    background: var(--border-strong, #C2B9A6) !important;
+    opacity: 0.6 !important;
+    margin: 0 4px !important;
+    width: 8px !important;
+    height: 8px !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .homeslider-whisky-range .flickity-page-dots .dot.is-selected {
+    background: var(--brand-primary, #B62025) !important;
+    opacity: 1 !important;
+    transform: scale(1.25) !important;
+  }
+}
+
+@media (max-width: 549px) {
+  #section_1899544034 {
+    padding-top: 32px !important;
+    padding-bottom: 56px !important;
+  }
+
+  .homeslider-whisky-range .flickity-slider > * {
+    margin-right: 12px !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-title {
+    top: 22px !important;
+    left: 18px !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-title h2 {
+    font-size: 1.2rem !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-btn {
+    bottom: 22px !important;
+    left: 18px !important;
+  }
+
+  .homeslider-whisky-range .slider-whisky-pricerange-btn .button {
+    padding: 8px 14px !important;
+    font-size: 0.75rem !important;
   }
 }
 
@@ -2299,10 +2924,10 @@ a.choosetype-seemore:hover {
 }
 
 .home-brandlogo-slider .brand-box-image {
-  background-color: var(--duvin-bg);
-  border: 1px solid var(--duvin-border);
-  border-radius: 6px;
-  padding: 12px 16px;
+  background-color: var(--surface, #F4F1EA);
+  border: 1px solid var(--border, #D9D2C3);
+  border-radius: 8px;
+  padding: 14px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2312,7 +2937,7 @@ a.choosetype-seemore:hover {
 }
 
 .home-brandlogo-slider .brand-box-image:hover {
-  border-color: var(--duvin-red);
+  border-color: var(--brand-primary, #B62025);
   box-shadow: 0 4px 16px rgba(182, 32, 37, 0.12);
   transform: translateY(-2px);
 }
@@ -2345,3 +2970,311 @@ a.choosetype-seemore:hover {
   color: var(--duvin-text-muted);
   font-size: 0.9rem;
 }
+
+/* 7. Luxury Gift Banners (#banner-1158509399 & #banner-1939053351) */
+#banner-1158509399,
+#banner-1939053351 {
+  border-radius: 8px !important;
+  border: 1px solid var(--border, #D9D2C3) !important;
+  overflow: hidden !important;
+}
+
+#banner-1158509399 .banner-bg img,
+#banner-1939053351 .banner-bg img {
+  border-radius: 8px !important;
+  object-fit: cover !important;
+}
+
+/* 8. About Page Partners Section Container & Workshop Slider */
+#row-1112239965 {
+  max-width: 1220px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 25px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  box-sizing: border-box !important;
+}
+
+/* Breadcrumbs - Harmonized typography & neutral palette for About page (/ve-duvin) */
+#col-793170825 .rank-math-breadcrumb,
+#col-793170825 .rank-math-breadcrumb p,
+#col-793170825 .rank-math-breadcrumb a,
+#col-793170825 .rank-math-breadcrumb .separator,
+#col-793170825 .rank-math-breadcrumb .last,
+#col-793170825 .dtbreadcrumb,
+#col-793170825 .dtbreadcrumb a,
+#col-793170825 .dtbreadcrumb span {
+  color: var(--text-secondary, #5B5349) !important;
+  font-family: var(--duvin-font-body) !important;
+  font-size: 0.88rem !important;
+  text-decoration: none !important;
+}
+
+#col-793170825 .rank-math-breadcrumb a:hover,
+#col-793170825 .dtbreadcrumb a:hover {
+  color: var(--brand-primary, #B62025) !important;
+}
+
+/* Breadcrumbs on dark/red banners (/ve-nha-sang-lap, blog, etc.) */
+.dark .rank-math-breadcrumb,
+.dark .rank-math-breadcrumb p,
+.dark .rank-math-breadcrumb a,
+.dark .rank-math-breadcrumb .separator,
+.dark .rank-math-breadcrumb .last,
+.bg-duvin-red .rank-math-breadcrumb,
+.bg-duvin-red .rank-math-breadcrumb p,
+.bg-duvin-red .rank-math-breadcrumb a,
+.bg-duvin-red .rank-math-breadcrumb .separator,
+.bg-duvin-red .rank-math-breadcrumb .last,
+#col-1971996350 .rank-math-breadcrumb,
+#col-1971996350 .rank-math-breadcrumb p,
+#col-1971996350 .rank-math-breadcrumb a,
+#col-1971996350 .rank-math-breadcrumb .separator,
+#col-1971996350 .rank-math-breadcrumb .last {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-family: var(--duvin-font-body) !important;
+  font-size: 0.88rem !important;
+  text-decoration: none !important;
+}
+
+.dark .rank-math-breadcrumb a:hover,
+.bg-duvin-red .rank-math-breadcrumb a:hover,
+#col-1971996350 .rank-math-breadcrumb a:hover {
+  color: #ffffff !important;
+}
+
+.slider-workshop {
+  padding-bottom: 28px !important;
+  position: relative !important;
+}
+
+.slider-workshop .slider {
+  padding-bottom: 0 !important;
+  position: relative !important;
+}
+
+.slider-workshop .flickity-slider > * {
+  max-width: 32% !important;
+  margin-right: 16px !important;
+  transform: none !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.slider-workshop .banner {
+  height: 380px !important;
+  min-height: 380px !important;
+  border-radius: 8px !important;
+}
+
+.slider-workshop .banner-bg img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  border-radius: 8px !important;
+}
+
+.slider-workshop .flickity-page-dots {
+  position: static !important;
+  margin-top: 18px !important;
+  margin-bottom: 0 !important;
+  bottom: auto !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 5 !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.slider-workshop .flickity-page-dots .dot {
+  background: var(--border-strong, #C2B9A6) !important;
+  opacity: 0.6 !important;
+  margin: 0 5px !important;
+  width: 8px !important;
+  height: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.slider-workshop .flickity-page-dots .dot.is-selected {
+  background: var(--brand-primary, #B62025) !important;
+  opacity: 1 !important;
+  transform: scale(1.25) !important;
+}
+
+@media (max-width: 849px) {
+  .slider-workshop .flickity-slider > * {
+    max-width: 75% !important;
+    margin-right: 12px !important;
+  }
+  .slider-workshop .banner {
+    height: 320px !important;
+    min-height: 320px !important;
+  }
+  .slider-workshop .flickity-page-dots {
+    position: static !important;
+    margin-top: 16px !important;
+    bottom: auto !important;
+    top: auto !important;
+  }
+}
+
+/* 9. Blog Archive "Đọc tiếp" Button Styling */
+.post-item .box-text .box-text-inner .button,
+.box-blog-post .button.is-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 6px 14px !important;
+  border: 1px solid var(--border-strong, #C2B9A6) !important;
+  border-radius: 4px !important;
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  color: var(--text-primary, #2B2622) !important;
+  background: transparent !important;
+  line-height: 1.4 !important;
+  min-height: auto !important;
+  margin: 10px 0 0 0 !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+}
+
+.post-item .box-text .box-text-inner .button:hover,
+.box-blog-post .button.is-link:hover {
+  background: var(--brand-primary, #B62025) !important;
+  border-color: var(--brand-primary, #B62025) !important;
+  color: #ffffff !important;
+}
+
+@media (max-width: 600px) {
+  .post-item .box-text .box-text-inner .button,
+  .box-blog-post .button.is-link {
+    margin-top: 6px !important;
+  }
+}
+
+/* Mobile Category, Filter & Sorting Refinements (<= 767px) */
+@media (max-width: 767px) {
+  /* Category links compact flex-wrap */
+  .product-categories {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    row-gap: 10px !important;
+    column-gap: 16px !important;
+    gap: 10px 16px !important;
+    line-height: 1.4 !important;
+    padding-left: 0 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .product-categories li {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.4 !important;
+  }
+
+  .product-categories li a {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+
+  #col-1364682389 > .col-inner {
+    margin: 0px 0px 0px 0px !important;
+  }
+
+  /* Filter bar & Sorting layout stack cleanly */
+  .row-filter-product {
+    margin-top: 10px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .row-filter-product .col.large-9 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+    width: 100% !important;
+    float: none !important;
+  }
+
+  .category-filtering.category-filter-row,
+  .category-filter-row {
+    display: block !important;
+    float: none !important;
+    position: static !important;
+    width: 100% !important;
+    margin: 0 0 12px 0 !important;
+    padding: 0 !important;
+  }
+
+  .category-filtering .filter-button {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    float: none !important;
+    position: static !important;
+    margin: 0 !important;
+    font-size: 0.95rem !important;
+  }
+
+  .products-toolbar {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+    width: 100% !important;
+    float: none !important;
+    position: static !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .woo-order-custom,
+  .products-order-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .products-order-title {
+    font-size: 0.8rem !important;
+    margin-bottom: 2px !important;
+  }
+
+  .products-order-form {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .products-order-options {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    overflow: visible !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .products-order-btn {
+    font-size: 0.72rem !important;
+    padding: 6px 10px !important;
+    white-space: nowrap !important;
+    flex: 0 1 auto !important;
+  }
+}
+
+

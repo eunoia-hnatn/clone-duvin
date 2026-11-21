@@ -1,10 +1,10 @@
 /* Duvin Product Detail Page (PDP) Clean Styles */
 :root {
-  --pdp-red: var(--duvin-red, #B62025);
-  --pdp-ink: var(--duvin-text, #161616);
-  --pdp-muted: var(--duvin-text-muted, #888888);
-  --pdp-line: var(--duvin-border, #E8E4DC);
-  --pdp-cream: var(--duvin-bg-soft, #FAF8F5);
+  --pdp-red: var(--brand-primary, #B62025);
+  --pdp-ink: var(--text-primary, #2B2622);
+  --pdp-muted: var(--text-muted, #8C8375);
+  --pdp-line: var(--border, #D9D2C3);
+  --pdp-cream: var(--surface, #F4F1EA);
 }
 
 #product-detail-view {
@@ -48,12 +48,14 @@
   position: absolute;
   top: 20px;
   left: 20px;
-  background: #fff;
+  background: var(--duvin-brass-100, #EFE6D2);
+  border: 1px solid var(--duvin-brass-600, #9C7A3C);
+  color: var(--duvin-brass-700, #7A5F2D);
   padding: 5px 13px;
   font-size: 11px;
   letter-spacing: 1.8px;
   font-weight: 600;
-  color: var(--pdp-red);
+  border-radius: 4px;
 }
 
 #product-detail-view .image-caption {
@@ -240,14 +242,14 @@
 }
 
 #product-detail-view .commitment svg {
-  width: 32px;
-  height: 32px;
-  max-width: 32px;
-  max-height: 32px;
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
   stroke-width: 1.5;
   color: var(--pdp-red);
-  margin: 0 auto 8px;
-  display: block;
+  margin: 0 auto 8px !important;
+  display: block !important;
 }
 
 #product-detail-view .commitment strong {
